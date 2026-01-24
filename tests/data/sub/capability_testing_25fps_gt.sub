@@ -1,0 +1,19 @@
+{1}{1}25
+{20}{50}This is|in two lines.
+{70}{90}{Y:i}This is italic.
+{90}{100}{Y:i}This is italic|in two lines.
+{100}{110}{y:b}This is bold|but this is not.
+{110}{120}This is not underline|{y:u}but this is.
+{120}{130}The same goes|{y:u}if it's anywhere in the line.
+{130}{140}{Y:b,i}What about bold and italic!
+{140}{150}{Y:i,u}Or what about ...|italic and underline!
+{150}{160}{Y:b,u}Global|style|in|more|lines.
+{170}{180}{c:$0000ff}- But why?|{c:$00ffff}- Because this movie|has naughty language!
+{180}{190}This next line|{f:Arial}should be in Arial font.
+{190}{200}{S:10}We can also set the size.
+{210}{220}{P:0}This should be|above the movie.
+{220}{229}This should be|below the movie.
+{229}{240}{P:0}What about if|someone makes a mistake?
+{250}{260}Apparently we can also|displace just one line.
+{260}{270}{Y:b,i,u}And now we test|different control code separators.
+{280}{300}And finally...|üñíç§d€čžšćđæ

@@ -1,0 +1,47 @@
+{
+    "autodetect_charset.srt": {
+        "encoding": "utf_16",
+        "units": 606,
+        "ground_truth": "autodetect_charset_gt.srt"
+    },
+    "encoding_detection.srt": {
+        "encoding": "cp1256",
+        "units": 442,
+        "ground_truth": "encoding_detection_gt.srt"
+    },
+    "encoding_error.srt": {
+        "encoding": "gb18030",
+        "units": 988,
+        "ground_truth": "encoding_error_gt.srt"
+    },
+    "high_mem.srt": {
+        "encoding": "ascii",
+        "units": 1356,
+        "ground_truth": "high_mem_gt.srt"
+    },
+    "lookup_error.srt": {
+        "encoding": "cp1250",
+        "units": 1754,
+        "ground_truth": "lookup_error_gt.srt"
+    },
+    "bug_testing_1.srt": {
+        "encoding": "utf_8",
+        "units": 7,
+        "ground_truth": "bug_testing_1_gt.srt"
+    },
+    "bug_testing_2.srt": {
+        "encoding": "utf_8",
+        "units": 1,
+        "ground_truth": "bug_testing_2_gt.srt"
+    },
+    "capability_testing.srt": {
+        "encoding": "utf_8",
+        "units": 37,
+        "ground_truth": "capability_testing_gt.srt"
+    },
+    "commas_tester.srt": {
+        "encoding": "ascii",
+        "units": 3,
+        "ground_truth": "commas_tester_gt.srt"
+    }
+}

@@ -1,0 +1,2326 @@
+capability_testing_25fps.sub
+{1}{1}25
+{20}{50}This is|in two lines.
+{70}{90}{Y:i}This is italic.
+{90}{100}{Y:i}This is italic|in two lines.
+{100}{110}{y:b}This is bold|but this is not.
+{110}{120}This is not underline|{y:u}but this is.
+{120}{130}The same goes|{y:u}if it's anywhere in the line.
+{130}{140}{Y:b,i}What about bold and italic!
+{140}{150}{Y:i,u}Or what about ...|italic and underline!
+{150}{160}{Y:b,u}Global|style|in|more|lines.
+{170}{180}{c:$0000ff}- But why?|{c:$00ffff}- Because this movie|has naughty language!
+{180}{190}This next line|{f:Arial}should be in Arial font.
+{190}{200}{S:10}We can also set the size.
+{210}{220}{P:0}This should be|above the movie.
+{220}{229}This should be|below the movie.
+{229}{240}{P:0}What about if|someone makes a mistake?
+{250}{260}Apparently we can also|displace just one line.
+{260}{270}{Y:b,i,u}And now we test|different control code separators.
+{280}{300}And finally...|üñíç§d€čžšćđæ
+default.sub
+{1}{1}25
+{1}{20}{P:0}{Y:b,i}{S:18}{F:arial}Just a test.
+{20}{40}{P:0}{Y:b,i}{S:18}{F:arial}Should be|the same format.
+{40}{50}{P:0}{Y:b,i,u}{S:18}{F:arial}But this should also be underline.
+missing_times.sub
+{1}{1}25
+{6027}{6101}Can I have five tickets to Terrance|and Phillip's Asses of Fire, please?
+{6125}{6175}No.
+{6175}{6211}What do you mean, "no"?
+{6211}{6263}Asses of Fire|has been rated "R"...
+{6263}{6314}by the Motion Picture|Association of America.
+{6314}{6361}You have to be accompanied|by a parent or guardian.
+{6361}{6420}- But why?|- Because this movie|has naughty language!
+{6420}{6620}- Next, please.|- [ Cash Register Rings ]
+test_1.sub
+{1}{1}25
+{250}{280}Subtitle first line,|subtitle second line,
+{375}{405}position is bottom middle,|center justified.
+{500}{530}This line is italic,|this should be blue.
+{625}{655}Now there is no Bold,|and subtitles are on top of the screen.
+{750}{780}THE END|is in tne middle and boxed.
+test_2.sub
+{1}{1}25
+{80}{136}Forever.
+{120}{250}To the Butcher!
+{409}{466}Why don't you get out of here, Johnny?
+{532}{568}Go on. Go!
+{980}{1070}Is there anyone in the Five Points|you haven't fucked?
+{1034}{1052}Yes!
+{1062}{1072}You!
+{1346}{1392}Belt down!
+{1666}{1720}Try it and I'll bite ya.
+{1723}{1778}You were gonna bite me.
+{1776}{1830}I dont think you want me.
+{1802}{1854}Find out.
+{2628}{2662}Oh, Jenny!
+{3722}{3772}I can't sleep.
+{3911}{4098}I hope you don't mind us|laying here, sir?
+{4029}{4138}Whatever takes your fancy,|young friend.
+{4356}{4432}Is your shoulder keeping you up?
+{4414}{4504}I don't sleep too much.
+{4494}{4618}I sleep with one eye open. I only|got one eye.
+{4706}{4784}How old are you Amsterdam?
+{4888}{5072}Not too sure. Never did|figure it.
+{5024}{5114}I'm 47.
+{5122}{5186}47 years old.
+{5268}{5436}You know how I stayed alive|this long? All these years.
+{5418}{5458}Fear!
+{5504}{5610}The spectacle of fearsome acts.
+{5606}{5746}Somebody steals from me, I cut|off his hands.
+{5676}{5816}He offends me, I cut out his tongue.
+{5760}{5970}He rises against me, I cut off his|head, stick it on a pike!
+{5896}{6044}Raise it high up, so all in the|streets can see.
+{6022}{6122}That's what preserves the order|of things.
+{6186}{6220}Fear.
+{6292}{6436}That one tonight. Who was he?
+{6426}{6608}A nobody. A coward.
+{6588}{6734}What an end that|would have been.
+{6706}{6873}I killed the last honourable man|15 years ago.
+{6831}{6880}Since then....
+{6936}{7008}You've seen his portrait downstairs?
+{7092}{7172}Has your mouth been glued up with juice?
+{7131}{7198}I asked you a question!
+{7164}{7236}I said I've seen it, sir.
+{7350}{7486}You got a murderous rage in you.|I like it.
+{7431}{7581}So much life boiling up in you.|That's good!
+{7614}{7773}The priest and me lived by the|same principles.
+{7773}{7876}Only faith divided us.
+{7909}{7981}He gave me this you know?
+{8090}{8200}That was the finest beating I|ever took.
+{8184}{8408}My face was pulp. My guts pierced.|My ribs all messed up.
+{8424}{8504}When he came to finish me...
+{8590}{8668}...I couldn't look him in the eye.
+{8798}{8874}He spared me because...
+{8874}{8964}....he wanted me to live in shame.
+{8920}{8988}This was a great man.
+{9040}{9092}A great man.
+{9162}{9264}So I cut out the eye that|looked away.
+{9306}{9404}Sent it to him wrapped in|blue paper.
+{9392}{9514}I would've cut them both out if I|could afford being blind.
+{9522}{9622}I rose up again with a full heart...
+{9600}{9694}...and buried him in his own blood.
+{9888}{9920}Well done!
+{10004}{10126}He was the only man I killed|worth remembering.
+{10370}{10442}I never had a son.
+{10628}{10722}Civilisation is crumbling.
+{11136}{11188}God bless you!
+{11928}{12000}If you've got anything to say...
+{12010}{12082}...now is the time to say it.
+{12084}{12140}Who is he to you, Jenny?
+{12282}{12352}I was 12 years old.
+{12350}{12474}My mother was dead. I was living|in a doorway.
+{12494}{12802}He took me in. Took care of me in|his own way.
+{12792}{12872}After they cut out the baby...
+{12922}{13041}He doesn't fancy girls that|scarred up.
+{13168}{13330}You should know, in your own mind...
+{13306}{13450}...that he never laid a hand on me|till I asked him too.
+{13941}{14002}Who are you?
+{14018}{14086}Who are you?
+{15916}{16262}Gentlemen, you are most welcome to|this palace of enchantment...
+{16102}{16498}...with visions to rival the tales of|Sheherazade and the Arabian Nights!
+{16880}{16978}Flex your head to the teutonic beauty!
+{16944}{17068}Feast you eyes on the magnificent blue...
+{17034}{17098}...of these creatures.
+{17082}{17236}Gentlemen, you see our caged birds well!
+{17176}{17302}How would you like to make them sing?
+{17252}{17496}They could be singing for you.
+{17546}{17720}May God put the spirit of the|holy steel in my spine...
+{17666}{17804}...and the love of the blessed|Virgin in my heart.
+{17818}{17860}Amen.
+{17954}{18104}Easy now. What did you say?
+{18050}{18134}He's not who he says he is.
+{18138}{18212}He's not who he says he is?
+{18292}{18398}Count you blessings he considers|you a friend!
+{18398}{18598}The only thing he considers every day|and night is how to kill you!
+{18566}{18690}Those eyes want me to take|them out for you!
+{18668}{18776}I'll bury it up you fundunem where|it belongs!
+{18740}{18852}I can read right through them!|They're empty...
+{18796}{18846}His name is Vallon.
+{18888}{18940}Don't do it Bill!
+{18928}{18978}His name is Vallon!
+{19742}{19838}Curious people these celestials.
+{19842}{19918}You know why they use short|sleeves?
+{19894}{19992}So everyone can see he's got|nothing stashed.
+{19958}{20052}I hope it doesn't become a fashion.
+{20184}{20208}Johnny?
+{21122}{21154}Get up!
+{21524}{21766}Ladies and gentlemen, if I may have|your kind attention.
+{21644}{21760}As some of you have surely|noticed...
+{21714}{21890}...our friend and benifactor, Mr Cutting...
+{21812}{22094}..is tonight wearing a waistcoat|of certain distinction!
+{22068}{22238}May we appeal to him, to favour us...
+{22154}{22270}...with another exciting exhibition.
+{22224}{22520}Of skill. Courage. Daring and drama!
+{22854}{22896}What's gonna happen?
+{23566}{23620}The spider's kiss!
+{23680}{23726}The wheel of death!
+{23718}{23768}William Tell!
+{23756}{23782}The butterfly!
+{23804}{23848}The spider's kiss!
+{23840}{23914}The Butcher's apprentice!
+{23896}{23948}The Butcher's apprentice!
+{23928}{24036}A command performance!
+{24036}{24080}Where have you been?
+{24066}{24174}A command performance indeed.
+{24132}{24178}I want you to get out of here!
+{24170}{24320}And for this, I must beg the|indulgence...
+{24244}{24288}...of my former...
+{24266}{24376}... assistent in matters of impailment...
+{24352}{24462}...the Butcher's original apprentice.
+{24454}{24512}What do you say, Jen?
+{24492}{24600}One more time for the|sweet souvenir.
+{24580}{24602}Come on!
+{24846}{24914}Don't do it!
+{25180}{25232}She'll be alright.
+{25296}{25338}Remember this?
+{25322}{25344}Of course!
+{25580}{25768}You may feel more comfortable without|that garment, Miss Everdeane!
+{25727}{25824}You'll have to filch me a|new one, Bill!
+{26124}{26218}Anything in your pockets tonight?
+{26188}{26277}I ain't started working yet.
+{26320}{26424}What about that locket I| gave you?
+{26756}{26868}Apologies my dear. Pick it up.
+{26950}{27020}Whoopsie daisy!
+{27048}{27122}Now its good and broke!
+{27124}{27224}I can't seem to get anything|right tonight.
+{27372}{27510}You got the sand to give 'm a|grand finale?
+{27664}{27768}Maybe when you're aiming a|little straighter.
+{27976}{28052}Enough of this heathen music.
+{28038}{28132}Get rid of these goddamn monkeys.
+{28089}{28133}Strike up boys!
+{28152}{28280}This is a night for Americans!
+{28420}{28444}Jenny!
+{29798}{29844}Hats off!
+{30000}{30188}We hold in our hearts the memory|of our fallen brothers...
+{30122}{30236}...whose blood stains the very streets...
+{30180}{30242}...we walk today.
+{30250}{30500}Also on this night, we pay tribute|to the leader of our enemies.
+{30426}{30508}An honourable man...
+{30492}{30682}...who crossed over bravely.|Fighting for what he believed in.
+{30764}{30944}To defeat my enemy, I extinguish|his life...
+{30876}{31004}... and consume him as I consume|these flames.
+{31004}{31094}In honour of Priest Vallon.
+{31108}{31154}In honour of Priest Vallon!
+{31262}{31333}That's a wound !
+{31532}{31706}I want you all to meet the son of|Priest Vallon.
+{31648}{31730}I took him under my wing...
+{31716}{31792}...and see how I'm repaid.
+{31772}{31910}He saved my life one day so he|could kill me the next...
+{31839}{31910}...like a sneak thief.
+{31886}{31960}Instead of fighting like a man.
+{31968}{32156}A base defiler. Unworthy of|a noble name.
+{32386}{32477}That'll do Mcgloin.|Spread him out.
+{32489}{32652}I hate blackies. You..you get to watch.
+{32732}{32806}This is fresh meat!
+{32830}{32928}We need to tenderise this meat|a bit.
+{32914}{33066}Alright, lets kiss goodnight to|that pretty face of yours!
+{33252}{33300}No.......!
+{33332}{33532}What'll it be then. Rib or chop.|Loin or shank.
+{33432}{33454}The liver!
+{33442}{33466}The spleen!
+{33486}{33512}The kidney!
+{33670}{33694}The lung!
+{33690}{33716}The liver!
+{33726}{33748}The tongue!
+{33796}{33862}The heart! The heart!
+{33830}{33886}The heart?
+{33866}{33942}This boy has no heart.
+{33904}{34022}Then kill him!
+{34094}{34174}He ain't earned the death!
+{34144}{34256}He ain't earned the death of|my hands!
+{34248}{34390}He'll walk amongst you marked|with shame.
+{34318}{34544}A freak. Worthy of Barnum's|museum of wonders.
+{34456}{34632}God's only man, speared by|the Butcher.
+{35488}{35632}Here. Here. This way.
+{35560}{35600}Come on.
+{36704}{36780}I want to show you something.
+{36884}{36970}My mother's bones share this|grave.
+{37000}{37144}I've saved 20 cents out of every|dollar I've ever earned since ....
+{37072}{37122}...I was thirteen.
+{37166}{37248}That's 215 dollars.
+{37236}{37316}For bludgeoning and the rest.
+{37394}{37508}This is what I wanted to show you.
+{37498}{37626}This is where we're going to go,|as soon as you get better....
+{37574}{37744}...San Fransisco, California.
+{37724}{37816}You can have anything you want|out there.
+{37812}{37964}These men are pulling gold right|out of the river.
+{37900}{37956}With their own hands.
+{37984}{38156}We're here and need to get there.
+{38118}{38170}Start here.
+{38170}{38296}Go down 'round here.
+{38302}{38364}Up to San Francisco.
+{38400}{38460}The shortest way to go.
+{38474}{38530}Will you go with me?
+{39118}{39246}No need to fire that, miss.|Or even aim it.
+{39222}{39332}An audience with yor mangled|friend is all I want.
+{39684}{39762}I've 44 notches on my club.
+{39776}{39836}Do you know what they are for?
+{39876}{39962}To remind me of what I owe God|when I die.
+{40114}{40200}My father was killed in battle too.
+{40198}{40282}In Ireland, in the streets.
+{40312}{40404}Fighting those who were taking|their privilege.
+{40378}{40452}What only could be got and held...
+{40416}{40502}...by the decimation of a race.
+{40500}{40606}That war is a thousand years old|and more.
+{40600}{40684}We never expected it to follow|us here.
+{40712}{40742}It didn't.
+{40764}{40836}It was waiting for us when|we landed.
+{40916}{41072}Your father tried to carve out a|corner in this country for his tribe.
+{41066}{41142}That was him. That was his Dead Rabbits.
+{41204}{41312}I often wondered, if he'd lived a|bit longer...
+{41310}{41392}...would he have wanted it to|be more.
+{41644}{41748}Why did you rifle through his|pockets then?
+{42134}{42194}For safekeeping.
+{42264}{42326}I thought maybe you could do|with it.
+{42848}{42928}Blood stays on the blade.
+{44748}{44836}That's a sorry looking pelt.
+{44912}{45066}And it's been so nice and quiet|for the last three months.
+{45060}{45204}Tell me, this charge. Does it sit|on easy with you?
+{45176}{45392}No. Not uneasy , Bill.
+{45324}{45402}I wouldn't say that.
+{45432}{45640}But.....my allegiance is|to the law.
+{45584}{45680}I'm paid to uphold the law.
+{46026}{46140}What in heaven's name are you|talking about?
+{46210}{46422}You may have misgivings, but don't go believing|that, Jack. That way lies damnation.
+{46420}{46508}I'm in no danger of|damnation, Bill.
+{46762}{46818}Here's the thing.
+{46844}{46998}I don't give a fuck about your moral conflicts...
+{46922}{46992}..you meatheaded shit sack.
+{47020}{47094}That's more or less the thing.
+{47118}{47248}I want you to go out there. You|and nobody else.
+{47200}{47254}None of your little minions.
+{47226}{47304}I want you to go out there...
+{47308}{47366}...and I want you...
+{47380}{47542}...to punish, the person...
+{47478}{47564}...who's responsible...
+{47592}{47766}...for murdering this poor|little rabbit.
+{47846}{47906}Is that understood?
+{47990}{48026}Right!
+{48062}{48192}Help yourself to some decent meat|on the way out.
+{49040}{49064}Damn it!
+{49120}{49174}Is that you, boy?
+{49202}{49308}I didn't mean nothing by that shot|you know?
+{49294}{49360}You scared me is all.
+{49412}{49516}You know I'd never do you harm.
+{49502}{49568}Come out now, lad.
+{49612}{49694}Remember your father and me?
+{49752}{49884}Are you to young to remember your Uncle Jack?
+{49882}{49968}The times we had.
+{50086}{50152}You know I won't hurt you.
+{50914}{50974}This is bad for everybody.
+{50944}{51028}What's next, dead politicians?
+{51042}{51146}I could spare half a dozen|of you...
+{51110}{51178}...easier than I can spare him.
+{51184}{51328}Still, I think it shows dash.
+{51279}{51417}Give the boy some time, we'll|settle with a good dust up.
+{52129}{52176}The lads!
+{52415}{52550}There are more of us coming off|the ships each day.
+{52512}{52614}I heard 15,000 Irish a week.
+{52626}{52702}And we're afraid of the Natives!
+{52734}{52790}Get all of us together...
+{52762}{52826}....we ain't got a gang..
+{52804}{52852}...we got an army.
+{52841}{53050}And all we need is a spark. One|spark, to wake us all up.
+{53379}{53444}It was me who played you false.
+{53478}{53544}I'd take it back if I could.
+{53510}{53567}Take it back?
+{53650}{53722}Johnny, I ought to kill you!
+{54041}{54144}Get out of the Points and|don't come back.
+{54304}{54354}Where are you going, boil?
+{54382}{54414}Come along.
+{54426}{54454}Come on.
+{54524}{54610}Tell us John, what's the trouble?
+{54616}{54672}No trouble, Bill.
+{54729}{54810}Still hiding out with| your friends?
+{54866}{55041}No, I'm not with them, Bill.
+{54984}{55096}I'm with you, with the Natives.
+{55167}{55324}You always were a Native, as far|as I'm interested, John.
+{55322}{55414}Till you became a stag.
+{55479}{55562}You tell me you're a Native?
+{55520}{55582}Do you want to know what|a Native is?
+{55614}{55876}A Native is a man, who's|willing to give his life...
+{55772}{55838}...for his country.
+{55855}{55940}Like my father done.
+{55990}{56116}Are you willing to do that,| my young friend?
+{56294}{56374}John? Johnny?
+{56555}{56588}Johnny?
+{56822}{56855}I'll get you off.
+{57174}{57246}It hurts too much.
+{57384}{57434}Just kill me.
+{57546}{57608}Just kill me.
+{57641}{57738}Please. Please.
+{57854}{57966}Please. Please.
+{58008}{58038}Please.
+{58154}{58210}I'm sorry, Johnny.
+{58594}{58696}Oh, Mary mother of God, pray|for us sinners...
+{58646}{58740}...on the day of our death...amen.
+{58744}{58808}Rest in peace, Ma.
+{58864}{58920}What are you doing here, boil?
+{59076}{59179}What's that nigger doing in| this church?
+{59255}{59358}What's a Dead Rabbit doing with|the Natives,huh?
+{59308}{59388}No niggers among the Natives.
+{59348}{59420}Niggers as robbers is|one thing...
+{59384}{59502}...but niggers in a church,|that's something else!
+{59460}{59526}You run with the Natives, you go|pray with the Natives!
+{59494}{59616}You're going to wind up on a stake|like your man did!
+{59574}{59602}McGloin?
+{59620}{59782}Father! Jezus, do you know there's|a nigger in your church?
+{60160}{60217}Jezus!
+{60760}{60816}The earth turns...
+{60836}{60920}...but we don't feel it move.
+{60964}{61044}And one night you look up...
+{61055}{61272}...one spark and the skie's on fire.
+{61454}{61534}It's a touching spectacle.
+{61558}{61666}We'll come back when you're|ready for us.
+{61790}{61905}The past is the torch that|lights our way.
+{61886}{61978}Where our fathers have shown|us the path.
+{61960}{62020}We shall follow.
+{62058}{62210}Our faith is the weapon most|feared by our enemies...
+{62164}{62266}...for thereby shall we lift our|people up...
+{62214}{62314}...against those who will|destroy us.
+{62290}{62500}Our name is called the Dead Rabbits,|to remind all of our suffering...
+{62410}{62522}...and as a call to those who|suffer still...
+{62466}{62534}...to join our ranks.
+{62512}{62740}However so far they may have strayed|from our common home across the sea.
+{62626}{62817}For with great numbers, must come|great strength.
+{62741}{62828}For the salvation of our people.
+{62828}{62872}We don't want your business.
+{62850}{62890}How many other men live here?
+{62882}{62924}You all have to register.
+{62902}{62988}You can't force me to join|no army.
+{62954}{62996}Have you got 300 dollars?
+{62976}{63002}Of course not!
+{62988}{63055}Who the hell's got 300 dollars?
+{63022}{63166}If you are drafted, release from militairy| service can only be secured...
+{63104}{63224}...for 300 dollars, according to|the conscription act.
+{63164}{63191}300 Dollars?
+{63178}{63238}Otherwise you have to serve!
+{63208}{63278}Who the hell's got 300 dollars?
+{63241}{63278}You have to serve, sir!
+{63260}{63290}You tell me!
+{63322}{63350}Boys!
+{63386}{63494}I was born here, sir. You|immigrated here!
+{63484}{63605}Sweet jezus. War does terrible|things to men.
+{63562}{63638}Get back up town, where you|belong!
+{63600}{63734}300 dollars. It's another rich|man's war!
+{63710}{63808}Sir, I request an audience|with this man.
+{63824}{63910}Don't they speak English in|New York anymore!
+{63879}{63938}Don't understand.
+{63908}{63958}You do speak English!
+{63976}{64191}I wonder if miss Everdeane can angle| her rifle in another direction?
+{64210}{64391}I wonder Mr. Vallon, if you understand|the value of this sort of publicity?
+{64376}{64578}The Archbishop himself, shoulder to shoulder|with half the Irish in the Five Points.
+{64526}{64646}I'm offering my boy, to form an|alliance with you...
+{64586}{64716}...against Bill Cutting and his|slate of Native candidates.
+{64676}{64812}I'll negotiate a handsome fee, for|every Irish vote...
+{64744}{64867}...you send Tammany's way, in the|coming elections.
+{64866}{64962}I need a new friend in the Five|Points, son.
+{65017}{65084}I'd like that friend to| be you.
+{65155}{65238}Now just a moment, Mr. Tweed.
+{65222}{65314}Suppose we do get you those votes.
+{65354}{65472}Would you back an Irish candidate|of my chosing..
+{65412}{65446}I don't think so.
+{65429}{65510}What if we get you all the|Irish votes?
+{65470}{65644}Mr. Vallon, that will only happen|in the reign of Queen Dick!
+{65628}{65668}Beg your pardon?
+{65648}{65712}That means it will never happen.
+{65680}{65810}Now I might be persuaded to back|an Irish candidate...
+{65744}{65798}...for, let's say alderman.
+{65772}{65790}Alderman?
+{65792}{65888}We've already got an Irish|alderman.
+{65840}{65884}So we have, that's why....
+{65862}{65928}What's bigger than an alderman?
+{65960}{65994}Sheriff!
+{65998}{66034}Sheriff!
+{66024}{66176}Alright, Mr Tweed, you back an|Irishman for sheriff...
+{66100}{66186}...of the city and county of|New York...
+{66144}{66240}...and we'll get him elected.
+{66192}{66248}I love the Irish, son...
+{66220}{66328}..but higher than alderman you|shall never climb.
+{66274}{66312}Why not?
+{66308}{66444}For one thing, no man living can|consolidate the Irish vote.
+{66376}{66398}I can!
+{66386}{66464}And for another, I mean no|offence...
+{66442}{66514}...no one's yet found an Irish|candidate...
+{66478}{66552}...for sheriff worth voting for.
+{66602}{66626}Monk!
+{66658}{66678}Here.
+{66800}{66916}Got me looking as sober as me own|grandfather!
+{66858}{66924}He was a great man, I'm sure.
+{66902}{66984}He was a drunken bastard.
+{67018}{67074}Can I say what I want?
+{67088}{67150}That's why I wanted you.
+{67148}{67288}Our elected representatives are a|gang of thieves!
+{67218}{67298}Who swear to better our lot...
+{67270}{67360}...while dipping their hands deep|into our pockets.
+{67328}{67554}I stand shoulder to shoulder with|community leaders like Bill Cutting...
+{67440}{67636}....against any, an all in roads in|our democracy.
+{67538}{67622}I'll see to it, that no one|takes away...
+{67590}{67694}... what you earned by pluck and application.
+{67642}{67754}To invading hordes of Hibernians.
+{67696}{67784}Go to the polls and put|your mark...
+{67748}{67846}... next to the name Walter McGinn.
+{67798}{67926}Against the potatoes weeders, like|them over there...
+{67876}{67944}...thieving our jobs.
+{67910}{68038}Why should so many Irish die down|south...
+{67974}{68028}...when the first war to win...
+{68000}{68102}...is not down in Dixie, but|right here...
+{68052}{68102}...in these streets!
+{68142}{68240} Who's the finest streetfighter in|the Five Points?
+{68200}{68246}Monk!
+{68232}{68372}That's right and let the whole|damn city hear it!
+{68362}{68446}That man was right born for this.
+{68404}{68552}He's killed 44 men and laid low a|couple of hundred more.
+{68484}{68542}Is that right?
+{68512}{68532}Right.
+{68530}{68596}I should have run him for mayor!
+{68628}{68678}Alright, line 'm up.
+{68666}{68734}It's election day!
+{68946}{69012}Come on, you bastard. We need|your vote.
+{68988}{69080}Bastard? I fought for you|nigger...
+{69042}{69098}...I lost an arm for you!
+{69070}{69154}Well, that's a start. Come on.
+{69112}{69202}Rise and shine, rise and shine.
+{69170}{69322}This great country of ours, even|hop fiends get their vote.
+{69276}{69368}Less heart and more haste,|darling.
+{69322}{69370}Where are you going ?
+{69346}{69414}I already voted today.
+{69388}{69494}Cast for Monk and Tammany, by god!
+{69448}{69478}Twice.
+{69462}{69494}Twice?
+{69486}{69580}Only twice? You call that doing|your civic duty?
+{69538}{69574}Come with me.
+{69564}{69672}Oh no, you don't. Get back and|sit down.
+{69626}{69690}Here's another one!
+{69662}{69696}Clean him up good.
+{69678}{69818}Shave the beards off boys and send|them back to vote again.
+{69748}{69836}Okay boys, vote Tammany.
+{69798}{69854}Tammany!
+{69826}{69976}What our great city needs is a new|court house.
+{69900}{70036}Now I propose it should be a|modest, economical structure.
+{69968}{70020}Excuse me one moment.
+{69994}{70014}What is it?
+{70018}{70202}Monk's already won by 3,000 more|votes, then there are voters.
+{70110}{70186}Only 3? Make it 20, 30.
+{70148}{70248}We don't need a victory, we need a|Roman triumph.
+{70198}{70292}We don't have anymore ballots.
+{70258}{70348}Remember the first rule of|politics...
+{70302}{70374}...ballots don't make the results...
+{70338}{70480}..the counters do. Keep counting.
+{71182}{71230}It's from Bill.
+{71310}{71334}Monk?
+{71820}{71916}Citizens of the Five Points!
+{71904}{72022}Mr. Cutting is attempting to|draw me...
+{71964}{72018}...into an argument...
+{72002}{72080}...that would no doubt end in|bloodshed...
+{72042}{72140}...and the compromising of my|office.
+{72128}{72180}What do you think?
+{72196}{72358}Shall I engage in silence, this|relic of the ancient law...
+{72288}{72438}...or, shall I be your chosen|voice...
+{72364}{72512}...in a new testament, in a new|world?
+{72586}{72632}There you are, Bill.
+{72668}{72726}The people have spoken.
+{72754}{72894}The very notion of violent|reprisal benumbs them.
+{72904}{72930}Come on up.
+{72958}{73002}Let's see if we can resolve our...
+{72980}{73046}...grievances the democratic way.
+{73598}{73776}That my friends, is the minority|vote.
+{73736}{73866}Now you tasted my mutton, how do|you like it?
+{73840}{73974}Look, I want you to see this.
+{74004}{74090}This is you, right here!
+{74058}{74230}Notch 45, you Irish bug bastard.
+{74424}{74476}Why don't you burn him?
+{74450}{74538}See if his ashes turn green.
+{74638}{74732}Fortune favours them all!
+{75002}{75076}You killed an elected official?
+{75066}{75120}Who elected him?
+{75094}{75174}You don't know what you've done|to yourself.
+{75304}{75366}I know your works.
+{75378}{75462}You're neither cold nor hot.
+{75434}{75530}So because you are luke warm...
+{75482}{75582}...I will spew you out of my|mouth.
+{75578}{75702}You can build your filthy world|without me.
+{75640}{75768}I took the father, now I'll take|the son.
+{75704}{75828}You tell young Vallon, I'm going|to paint...
+{75766}{75854}...Paradise square with his blood.
+{75822}{75886}Two coats!
+{75882}{75998}I'll festoon my sleeping|chamber with his guts.
+{75940}{76056}As for you Mr. Tammany|fucking hall...
+{75998}{76116}...you come down to the Points|once more...
+{76056}{76196}...and you'll be dispatched by my|own hand!
+{76190}{76248}Now get back to your|celebration...
+{76218}{76296}...and let me eat in peace.
+{76258}{76312}I paid you fair.
+{76892}{76916}Down!
+{76952}{76972}Raise!
+{78022}{78070}You son of a bitch!
+{78168}{78196}Challenge.
+{78248}{78298}Challenge accepted.
+{79544}{79600}And then it came...
+{79596}{79674}...the first day of the draft.
+{79634}{79670}Thomas O'neill.
+{79682}{79722}Andrew Lewis.
+{79738}{79788}Joseph Flynn.
+{79762}{79924}They read out the draftees names|as if they were dead already.
+{79892}{79956}J.B. Gleeson.
+{79958}{79994}The O'Conell Guard.
+{80000}{80034}The Plug Uglies.
+{80026}{80042}As for us.
+{80034}{80074}The Forty Thieves.
+{80058}{80106}The tribes were gathered.
+{80108}{80148}The Chichesters.
+{80128}{80192}The drums were beating.
+{80174}{80210}The Dead Rabbits.
+{80210}{80256}The American guard.
+{80252}{80300}The Atlantic Guard.
+{80284}{80336}The Slaughterhouses.
+{80310}{80372}The Bowery Boys.
+{80352}{80438}Confederation of American Natives.
+{80444}{80488}James Mooney.
+{80476}{80536}But all we could see...
+{80526}{80600}...was the hand in front of us.
+{80562}{80604}Shaun O'Connell.
+{80626}{80702}C.W. Morris.
+{80722}{80748}When?
+{80746}{80802}Whenever you like.
+{80784}{80832}Daybreak tomorrow.
+{80820}{80842}Ground?
+{80854}{80884}Paradise square.
+{80902}{80928}Weapons?
+{80944}{81006}That I leave up to you.
+{80992}{81082}Bricks, bats, axes, knives.
+{81078}{81116}Pistols?
+{81154}{81202}No pistols.
+{81208}{81258}Good boy.
+{81322}{81374}Terms are resolved.
+{81348}{81400}Counsel is concluded.
+{81546}{81614}To hell with your damned draft.
+{81588}{81644}Get 'm boys.
+{81616}{81668}Rip 'm apart.
+{81830}{81900}Kill the rich bastards.
+{82040}{82084}Hotel!
+{82116}{82202}They're not getting my son!
+{82294}{82386}Uptown town at the draft office...
+{82356}{82454}...the cops broke a few skulls.
+{82420}{82494}And everybody ran away.
+{82502}{82580}But the word was spreading...
+{82566}{82630}...in the dark.
+{82638}{82800}Up on fifth avenue, the Schermerhorns|and their mob...
+{82720}{82806}...breathed a little easy.
+{82762}{82912}Just a brief blist of anger, over|Mr. Lincoln's draft.
+{82838}{82926}Entirely justifiable in my view.
+{82894}{82964}There are two sides to that|question.
+{82928}{83052}Ther are several sides to that|question, Mr. Schermerhorn.
+{82990}{83068}But only one right side.
+{83030}{83136}As with any question, it|holds the abuse...
+{83082}{83132}...of any executive power.
+{83108}{83200}In any case, Mr. Greely...
+{83154}{83296}...we can all be thankful, it|wasn't any worse.
+{83238}{83318}It may be worse yet, sir.
+{83278}{83360}I saw them. I don't know|what to think...
+{83318}{83454}What is it you are so fond of|saying, Mr. Tweed?
+{83386}{83472}Mr. Greely, you won't like this...
+{83430}{83482}...but what is it?
+{83456}{83508}I don't remember.
+{83482}{83608}You can always hire one half| of the poor...
+{83544}{83618}...to kill the other half.
+{83848}{83912}I've come to say goodbye.
+{83912}{84002}I've booked passage for|California.
+{84042}{84144}Jenny, give me one more day and|I'll go with you.
+{84112}{84174}You'll be dead by then.
+{84182}{84242}What would you have me do?
+{84212}{84252}I don't know.
+{84328}{84400}This will all be finished|tomorrow.
+{84376}{84426}No it won't.
+{84508}{84608}This whole place is going to|burn anyway.
+{84776}{84938}I've heard of the poor are going|from door to door...
+{84858}{85072}...in the Five Points, asking those|supporters for further riots...
+{84978}{85082}...to place a candle in the|window.
+{85064}{85150}Irish, Poles, Germans.
+{85134}{85274}Ah, Mr. Greely, the city is not mad...
+{85218}{85332}...I prophesise a dark night.
+{85820}{85886}Nobody goes to work today.
+{85862}{85952}We're shutting the factories down!
+{85906}{85996}When the sun rose next...
+{85962}{86052}...the city had split in half.
+{86022}{86116}From all over New York|they came...
+{86068}{86198}...ironworkers, factory boys,|street cleaners!
+{86134}{86224}Irish, Polish, German...
+{86178}{86312}...anyone who never cared about|slavery in the Union.
+{86258}{86334}Anyone who couldn't buy his way out.
+{86322}{86376}Let the sons of the rich...
+{86348}{86420}....go and die they cried.
+{86396}{86460}Let the sons of the poor...
+{86428}{86486}...stay home.
+{86496}{86578}The earth was shaking now.
+{86562}{86668}But I was about my father's business.
+{86976}{87046}Oh, mighty Lord...
+{87032}{87136}...you are the dagger in|my hand.
+{87110}{87224}Guide my hand on this day of|vengeance.
+{87168}{87268}We give thanks to the Lord....
+{87228}{87302}...for He is good.
+{87278}{87388}With you, the swift cannot flee.
+{87334}{87426}Nor the strong escape.
+{87380}{87582}Let my sword devour, till its thirst|is quenched with blood....
+{87480}{87570}...and my enemy sleeps forever.
+{87538}{87648}For you and the God of|retribution.
+{87592}{87712}For the Lord crushes the wicked.
+{87652}{87740}The Lord is merciful.
+{87738}{87888}And his love endures forever.
+{87838}{87872}Amen.
+{87856}{87890}Amen.
+{87872}{87910}Amen.
+{88212}{88260}Get the women upstairs!
+{88462}{88564}From 18th precinct. The mob is|ransacking houses...
+{88514}{88596}....in 27th street and 7th|avenue.
+{88554}{88636}We have no force to send.
+{88596}{88648}From 15th precinct.
+{88622}{88726}All the stores are closing on|8th avenue.
+{88674}{88770}From fear of the mob in 17th|street.
+{88838}{88862}From 4th.
+{88850}{88962}The rioters are attacking|coloured boarding houses...
+{88906}{88990}...robbing them and setting them|on fire.
+{88948}{88988}From 21st.
+{88968}{89062}The mob have just broken open|a gun store...
+{89014}{89110}...on 3rd avenue and are arming.
+{89254}{89348}Marshall's office on 3rd avenue|is burning down.
+{89300}{89366}The police is of no avail.
+{89334}{89396}Show yourself, please!
+{89364}{89456}Two coloured men brought in|almost dead.
+{89410}{89486}There are 50 more outside.
+{89448}{89490}They need help.
+{89470}{89554}The blacks are being attacked|all over the city.
+{89512}{89606}There's the 300 dollar man!
+{89564}{89586}Get him!
+{89596}{89668}Did your daddy buy you out of|the army!
+{89638}{89706}Can he buy me out of the|army too?
+{89690}{89784}There is danger of mob|attacking armoury...
+{89736}{89836}...corner 21st street, 2nd|avenue.
+{89798}{89888}There's about 500 stand of arms|in it.
+{90004}{90076}The line is dead. They're trying|to cut all the wires!
+{90142}{90166}From 1st.
+{90160}{90234}Riot at Pier 4, North River.
+{90198}{90264}They have killed negros there.
+{90230}{90338}A crowd is here and are going to|destroy the station.
+{90378}{90418}Get her bag!
+{90408}{90434}Get her bag!
+{90476}{90516}From 18th precinct.
+{90508}{90566}The mob have attacked the|armoury.
+{90536}{90602}...on 2nd avenue an 21st street.
+{90570}{90668}There is danger of fire in the|building.
+{90626}{90744}All 300 police wounded or|unaccounted for.
+{90732}{90752}From 20th.
+{90748}{90832}Send 100 men to disperse mob....
+{90838}{90920}Building corner 33rd street, 2nd|avenue...
+{90888}{90948}...set on fire by the mob.
+{90952}{91036}Barnum's American museum on|fire!
+{91002}{91048}Animals are escaping.
+{91050}{91106}Let go!
+{91456}{91640}Gunboat Liberty! An ironclad berth now|lying on the foot of Wall street.
+{91548}{91636}They're ready to open fire on|the mob!
+{91592}{91672}The mob are now going to 5th|avenue...
+{91632}{91704}....to attack the Tribune office.
+{91686}{91718}From 16th.
+{91702}{91782}The mob is coming down to|station house.
+{91742}{91784}We have no men!
+{91798}{91882}From 16th. The seventh regiment|has arrived....
+{91840}{91900}...on the foot of Canal street.
+{91870}{91926}They're on their way to|Bog Wade.
+{91936}{92014}The mob is about 4500 strong.
+{91986}{92048}They are going to burn down|Harlem Bridge.
+{92030}{92094}Harlem Bridge is to be torched!
+{92080}{92152}The rats have taken over|the city!
+{92230}{92374}From 21st. There's an attack on|the coloured people in 2nd avenue.
+{92302}{92402}There's a mob headed for the|coloured orphan's asylum.
+{92352}{92424}Send troops to protect the|children.
+{92408}{92546}7th Avenue, 28th street. They|have just killed a negro.
+{92478}{92510}There's a negro!
+{92494}{92534}Get him!
+{92514}{92600}Sir, the major general wants to|know what to do....
+{92556}{92582}...with the prisoners captured.
+{92570}{92614}Prisoners? Don't take any.
+{92592}{92664}The mob isn't taking any|prisoners!
+{92638}{92684}Put the mob down!
+{92662}{92800}Don't take a prisoner till|you've put the mob down!
+{92910}{92976}Soldiers now on 38th street.
+{92954}{93022}The mob will not disperse!
+{93004}{93050}What are your orders?
+{93036}{93094}What are your orders?
+{93632}{93648}Here the come!
+{93710}{93752}Let's stick together!
+{93838}{93912}Troop. Halt!
+{93902}{93994}Present arms!
+{94100}{94168}On your order, Vallon!
+{94238}{94356}I order you to disperse.
+{94386}{94446}Fire!
+{95280}{95350}Fire!
+{95694}{95736}Fire!
+{96218}{96282}Drive them into the square.
+{96326}{96374}Bill!
+{96660}{96708}Bill!
+{99130}{99172}Bastards!
+{99150}{99204}Shang!Hold on!
+{99992}{100080}Thank God.
+{100064}{100130}I die a true American.
+{103064}{103102}Tomorrow morning...
+{103081}{103159}...get our people down to|the docks.
+{103138}{103244}I want every man and woman|coming off the boats...
+{103198}{103274}...given hot soup and bread.
+{103359}{103481}We're burying a lot of votes|here tonight.
+{103868}{103920}In the end....
+{103894}{103983}...they put candles on the|bodies...
+{103938}{104074}...so their friends, if they|had any...
+{104031}{104107}...could know them in the dark.
+{104111}{104230}The city did this free|of charge.
+{104222}{104478}Shang, Jimmy Spoils, Hellcat.|McGloin and more.
+{104406}{104480}Friend or foe...
+{104457}{104544}...it didn't make no difference|now.
+{104983}{105061}It was four days and nights...
+{105022}{105172}..before the worst of the mob|was finally put down.
+{105148}{105266}We never knew how many New|Yorkers died...
+{105206}{105340}...that week, before the city|was finally delivered.
+{105320}{105508}My father told me we was all|born of blood and tribulation.
+{105464}{105635}And so then too, was our|great city.
+{105638}{105702}But for those of us who...
+{105670}{105792}...lived and died in them|furious days...
+{105756}{105844}...it was like everything we|knew...
+{105811}{105908}...was mildly swept away.
+{105904}{106068}And no matter what they did to|build this city up again...
+{106032}{106108}...for the rest of time...
+{106124}{106264}...would be like no one ever|knew we were here.
+test_4.sub
+{1}{1}25
+{0}{150}PIRATES OF THE CARIBBEAN|English subtitlez by tHe.b0dY
+{424}{524}Drink up me 'earties yo ho!
+{529}{629}We kidnap and ravage and don't give a hoot.
+{644}{744}Drink up me 'earties yo ho!
+{762}{862}Yo ho yo ho a pirate's life for me.
+{922}{1022}We extort, we pilfer, we filch and sack.|Drink up
+{1057}{1157}Quiet, missy,|cursed pirates sail these waters.
+{1160}{1197}You dont want to bring them|down on us now, do ya?
+{1197}{1297}Mr. Gibbs that will do!|- She was singing about pirates.
+{1317}{1459}Bad luck to be singing about pirates with us|mired in this unnatural fog. Mark my words.
+{1459}{1507}Consider them marked.
+{1544}{1579}On your way.
+{1579}{1599}Aye, Lieutenant.
+{1604}{1659}Its bad luck to have a woman on board, too,
+{1662}{1710}even a miniature one.
+{1730}{1820}I think itd be rather exciting|to meet a pirate.
+{1827}{1872}Think again, Miss Swann.
+{1897}{1972}Vile and dissolute creatures,|the lot of them.
+{1972}{2047}I intend to see to that any man who sails|under a pirate flag or...
+{2047}{2117}...wears a pirate brand|gets what he deserves.
+{2129}{2202}A short drop and a sudden stop.
+{2282}{2369}Lieutenant Norrington,|I appreciate your fervor.
+{2369}{2467}But Im…Im concerned about the effect|this subject will have upon my daughter.
+{2467}{2522}My apologies, Governor Swann.
+{2522}{2622}- Actually, I find it all fascinating.|- Yes, thats what concerns me.
+{3332}{3380}Look, a boy!|Theres a boy in the water!
+{3447}{3495}Man overboard!
+{3602}{3627}Haul him aboard!
+{3857}{3904}Hes still breathing.
+{3904}{3952}Mary, Mother of God!
+{4129}{4157}What happened here?
+{4170}{4255}Its most likely the powder magazine.|Merchant vessels run heavily armed.
+{4350}{4385}A lot of good it did them.
+{4397}{4470}Everyones thinking it.|Im just saying it...
+{4470}{4567}Piratas!|- Theres no proof of that.
+{4567}{4602}It was probably an accident.
+{4662}{4697}Rouse the Captain immediately! .|- Hay, sir.
+{4709}{4759}Heave to and take in sail,|launch the boats.
+{4842}{4942}Elizabeth I want you to accompany the boy.|Hell be in your charge.
+{4977}{5015}Take care of him.
+{5504}{5527}Its ok.
+{5547}{5587}My names Elizabeth Swann.
+{5612}{5672}Will Turner.
+{5682}{5732}Im watching over you, Will.
+{6057}{6130}- Youre a pirate!|- Has he said anything?
+{6145}{6225}His name is William Turner,|thats all I found out.
+{6259}{6297}Take him below.
+{8062}{8112}Elizabeth!
+{8137}{8174}Are you alright?
+{8209}{8307}Are you decent?|- Yes, yes!
+{8332}{8432}Still abed at this hour?|Its a beautiful day.
+{8522}{8570}I have a gift for you.
+{8667}{8715}- Oh, its beautiful!|- Isnt it?.
+{8762}{8797}May I inquire as to the occasion?.
+{8797}{8897}Does a father need an occasion|to dote upon his daughter?
+{8929}{8952}Go on.
+{9039}{9087}Actually, I, uh...
+{9112}{9172}I had hoped you might wear|it for the ceremony today.
+{9172}{9197}The ceremony?
+{9197}{9272}Captain Norringtons|promotion ceremony.
+{9280}{9317}I knew it!
+{9325}{9405}Commodore Norrington|hes about to become.
+{9405}{9497}Fine gentleman, dont you think.|He fancies you?
+{9532}{9582}Elizabeth?|Hows it coming?
+{9617}{9664}Its difficult to say.
+{9664}{9732}Im told its the latest|fashion in London.
+{9732}{9797}Well, women in London mustve|learned not to breathe.
+{9857}{9904}My lord, you have a visitor.
+{10362}{10422}Ah, Mr. Turner,|good to see you again.
+{10434}{10459}Good day, sir.
+{10494}{10532}I have your order.
+{10697}{10797}The blade is folded steel, thats gold|filigree laid into the handle.
+{10829}{10882}If I may?
+{10915}{11015}Perfectly balanced. The tang is|nearly the full width of the blade.
+{11095}{11145}Impressive, very impressive.
+{11205}{11289}Ah, now, Commodore Norrington is|going to be very pleased with this.
+{11302}{11372}Do pass my compliments|on to your Master.
+{11432}{11469}I shall.
+{11479}{11577}A craftsman is always pleased|to hear his work is appreciated.
+{11624}{11722}- Ah, Elizabeth, you look absolutely stunning.|- Will.
+{11747}{11795}So good to see you!
+{11805}{11902}- I had a dream about you last night.|- About me?
+{11902}{11962}Elizabeth, is that entirely|proper for you to...?
+{11962}{12005}About the day we met,|do you remember?
+{12005}{12055}How could I forget, Miss Swann?
+{12055}{12129}Will, how many times must|I ask you to call me Elizabeth?
+{12129}{12214}At least once more,|Miss Swann, as always.
+{12214}{12297}There, see.
+{12297}{12312}At least the boy has|a sense of propriety.
+{12312}{12372}Now, we really must be going.|Farewell.
+{12404}{12467}Good day, Mr. Turner.
+{12477}{12515}Come along.
+{12587}{12622}Good day...
+{12682}{12707}...Elizabeth.
+{14967}{14989}What?
+{14992}{15055}Hold up there, you.
+{15075}{15162}Its a shilling to tie up your|boat at the dock.
+{15220}{15270}And I shall need to|know your name.
+{15317}{15415}What dye say to three shillings|and we forget the name?
+{15509}{15557}Welcome to Port Royal, Mr. Smith.
+{16474}{16527}Two paces front!
+{16579}{16642}Right about turn!
+{16700}{16740}Present...
+{16740}{16775}...arms!
+{17362}{17432}This dock is off limits to civilians.
+{17432}{17505}Im terribly sorry, I didnt know.|If I see one...
+{17505}{17555}...I shall inform you immediately.
+{17625}{17722}Apparently theres some sort of a high toned|and fancy to do up at the fort, eh?
+{17722}{17867}How could it be that two upstanding gentlemen|such as yourselves did not merit an invitation?
+{17867}{17952}Someone has to make sure this|dock stays off limits to civilians.
+{17952}{18052}Its a fine goal to be sure but|it seems to me that a...
+{18059}{18159}a ship like that makes this one|here a bit superfluous, really.
+{18179}{18274}Ah, the Dauntless is the power in these waters,|true enough, but theres no ship...
+{18274}{18347}...that can match the|Interceptor for speed.
+{18347}{18447}Ive heard of one, supposed to be|very fast, nigh un-catchable...
+{18470}{18517}"The Black Pearl"
+{18565}{18650}Well…theres no real ship that|can match the Interceptor.
+{18687}{18782}- The Black Pearl is a real ship.|- No, no its not.
+{18782}{18849}- Yes, it is, Ive seen it.|- Youve seen it?
+{18849}{18929}- Yes.|- You havent seen it.
+{18929}{18954}Yes, I have.
+{18954}{19054}Youve seen a ship with black sails...
+{19054}{19147}...thats crewed by the damned and|captained by a man so evil...
+{19147}{19247}...that Hell itself spat him back?|- Ne.
+{19272}{19307}Ne.
+{19307}{19392}But I have seen a ship|with black sails.
+{19392}{19492}Oh, and no ship thats not crewed by|the damned and captained by a man so evil...
+{19500}{19550}...that Hell itself spat him|back out could possibly...
+{19550}{19597}...have black sails therefore couldnt|possibly be any other ...
+{19597}{19679}...ship than the Black Pearl.|Is that what you're saying?
+{19704}{19747}Ne.
+{19747}{19847}Like I said… theres no real ship|that can match the Interceptor
+{19917}{19954}Hey!
+{19972}{20030}You!
+{20030}{20122}Get away from there!|You dont have permission to be aboard there, mate.
+{20122}{20197}Im sorry, its just its such|a pretty boat  ship!
+{20197}{20290}- Whats your name?|- Smith or...Smithy, if you like.
+{20290}{20380}Whats your purpose in|Port Royal, Mr. Smith?
+{20380}{20422}Yeah, and no lies!
+{20422}{20562}Well, then, I confess, it is my intention|to commandeer one of these ships.
+{20562}{20662}Pick up a crew in Tortuga,  raid, pillage, plunder|and otherwise pilfer my weasely black guts out.
+{20679}{20727}I said no lies.
+{20727}{20757}I think hes telling the truth.
+{20757}{20847}If he were telling the truth,|he wouldnt have told us.
+{20847}{20947}Unless, of course, he knew you wouldnt|believe the truth even if he told it to you.
+{21205}{21230}May I have a moment?
+{21469}{21569}You look lovely, Elizabeth.|- Yes?
+{21572}{21780}I apologize if I seem forward but I...|must speak my mind
+{21782}{21882}This promotion throws into sharp|relief that which I have...
+{21912}{22037}...not yet achieved.|A marriage to a fine woman.
+{22072}{22154}You have become a fine|woman, Elizabeth.
+{22154}{22197}I cant breathe.
+{22197}{22277}Yes, Im a bit nervous myself.
+{22347}{22412}...and then they made me their chief.
+{22454}{22497}Elizabeth?
+{22555}{22597}Elizabeth!
+{22647}{22697}The rocks!|Sir, its a miracle she missed them!
+{22772}{22832}- Will you be saving her then?|- I cant swim.
+{22882}{22944}Pearl of the Kings Navy you are.
+{22944}{22982}Do not lose these.
+{23347}{23395}What was that?
+{24447}{24472}I got her.
+{24482}{24557}- Not breathing.|- Move!
+{24719}{24757}Never would have thought of that.
+{24757}{24844}Clearly youve never been to Singapore.
+{24969}{25020}Where did you get that?
+{25057}{25082}On your feet.
+{25157}{25195}Elizabeth.
+{25207}{25295}- Are you alright?|- Yes, Im fine.
+{25395}{25432}- Shoot him!|- Father!
+{25447}{25544}Commodore, do you really|intend to kill my rescuer?
+{25697}{25769}I believe thanks are in order.
+{25857}{25920}Had a brush with the East India|Trading company, did we?
+{25920}{25970}Pirate?
+{25987}{26020}- Hang him.
+{26020}{26120}Keep your guns on him, men.|Gillette, fetch some irons.
+{26145}{26245}- Well, well... Jack Sparrow, isnt it?|- Captain Jack Sparrow, if you please, sir.
+{26294}{26394}- Well, I dont see your ship...Captain.|- Im in the market as it were.
+{26444}{26532}- He said hed come to commandeer one.|- Told ya he was telling the truth.
+{26532}{26594}These are his, sir.
+{26644}{26732}No additional shots nor powder...
+{26757}{26832}A compass that doesnt point north...
+{26932}{27007}And I half expected it|to be made of wood.
+{27057}{27144}You are, without doubt, the worst|pirate Ive ever heard of.
+{27154}{27219}But you have heard of me.
+{27269}{27319}Commodore, I really must protest.
+{27349}{27374}Carefully Lieutenant.
+{27374}{27432}Pirate or not this man saved my life.
+{27432}{27527}One good deed is not enough to redeem|a man of a lifetime of wickedness.
+{27527}{27590}Though it seems enough|to condemn him.
+{27590}{27632}Indeed.
+{27645}{27682}Finally.
+{27720}{27745}No, dont shoot!
+{27745}{27845}I knew youd warm up to me.|Commodore Norrington, my effects, please...
+{27845}{27890}...and my hat.
+{27919}{27939}Commodore!
+{28007}{28107}- Elizabeth, it is Elizabeth isnt it?|- Its Miss Swann.
+{28107}{28207}Miss Swann, if youd be so kind.|Come, come, dear, we dont have all day.
+{28269}{28319}Now if youd be very kind..
+{28707}{28782}Easy on the goods, darling.
+{28782}{28844}Youre despicable.
+{28844}{28944}Sticks and stones, love. I saved your|life, you saved mine, were square.
+{28979}{29044}Gentlemen, mlady.
+{29044}{29124}you will always remember this as|the day that you almost caught...
+{29124}{29182}...Capitan Jack Sparrow.
+{29657}{29739}- Now, will you shoot him?|- Open fire!
+{29914}{29949}On his heels!
+{30419}{30519}Gillette, Mr. Sparrow has a dawn|appointment with the gallows...
+{30519}{30574}...I would hate for him to miss it.
+{33107}{33207}Right where I left you.
+{33332}{33357}Not where I left you.
+{33620}{33670}You're the one they're hunting.
+{33695}{33732}The pirate.
+{33932}{33994}Ah. Well, then it would be a shame to|put a black mark on your record.
+{33994}{34032}So, if you'll excuse me...
+{34129}{34187}Do you think this wise, boy...
+{34187}{34245}...crossing blades with a pirate?
+{34280}{34320}You threatened Miss Swann.
+{34400}{34457}Only a little.
+{34757}{34844}You know what youre doing,|Ill give you that. Excellent form...
+{34857}{34919}...but hows your footwork?
+{34919}{35020}If I step here...|Very good.
+{35037}{35080}Now I step again.
+{35207}{35240}Ta.
+{35732}{35784}That is a wonderful trick.
+{35794}{35895}Except once again you are|between me and my way out.
+{35897}{35980}And now you have no weapon.
+{36532}{36569}Who makes all these?
+{36614}{36695}I do!|And I practice with them...
+{36707}{36745}...three hours a day!
+{36777}{36837}You need to find yourself a girl, mate.
+{37027}{37122}Or, perhaps the reason you practice three|hours a day is that you already found one ...
+{37122}{37222}...and are otherwise incapable|of wooing said strumpet.
+{37234}{37279}You're not a eunuch, are you?
+{37294}{37369}I practice three hours a day,|so that when I meet a pirate...
+{37369}{37407}...I can kill it.
+{39327}{39355}You cheated.
+{39372}{39392}Pirate.
+{39470}{39520}- Move away.|- No.
+{39532}{39594}- Please, move.|- No!
+{39594}{39644}I cannot just step aside|and let you escape.
+{39719}{39779}This shot is not meant for you.
+{40032}{40070}Move in!
+{40145}{40282}Excellent work, Mr. Brown . Youve assisted|in the capture of a dangerous fugitive.
+{40282}{40347}Just doing my civic duty, sir.
+{40357}{40437}Well, I trust youll always remember|this as the day that Captain...
+{40439}{40519}...Jack Sparrow almost escaped.
+{40519}{40569}Take him away!
+{40744}{40787}- Can you smell it.
+{40789}{40890}- Nice juicy bone.|- Come here, boy.
+{40900}{41000}You can keep doing that forever,|the dog is never going to move.
+{41007}{41107}Oh, excuse us if we haven't resigned|ourselves to the gallows just yet.
+{42094}{42194}- Has my daughter given you an answer yet?|- No, she hasnt.
+{42237}{42289}Well, she has had a very trying day.
+{42332}{42372}Ghastly weather, dont you think?
+{42392}{42427}Bleak, very bleak.
+{42474}{42494}Whats that?
+{42532}{42552}Cannon fire!
+{42612}{42652}Return fire!
+{42657}{42757}I know those guns.
+{42867}{42942}- Its the Pearl.|- Black Pearl?
+{43014}{43114}Ive heard stories. Shes been preying on|ships and settlements for near ten years.
+{43127}{43227}- Never leaves any survivors.|- No survivors?
+{43249}{43314}Then where do the stories|come from, I wonder?
+{45792}{45824}Goveror.
+{45824}{45892}Barricade yourself in my office.
+{45940}{45975}Thats an order!
+{46442}{46462}Don`t...
+{46472}{46507}Hello, chump.
+{46619}{46639}Girl.
+{46897}{46947}SMiss Swann, theyve come to kidnap you.
+{46965}{47015}- What?|- Youre the Governors daughter.
+{47109}{47184}They havent seen you. Hide and the|first chance you get, run to the fort.
+{47444}{47469}Gotcha!
+{47657}{47720}- Its hot! Its on me!|-Come on.
+{48809}{48877}We know youre here, Poppet.
+{48892}{48934}Poppet.
+{48934}{48954}Come out.
+{48987}{49037}We promise we wont hurt you.
+{49119}{49157}We will find you, Poppet.
+{49197}{49285}Youve got something of|ours and it calls to us.
+{49447}{49497}The Gold calls to us...
+{49540}{49589}Gold, gold.
+{49722}{49742}Hello, Poppet.
+{49789}{49837}- Parley|- What?
+{49854}{49924}Parley. I invoke the right of parley.
+{49944}{50022}According to the code of the brethren, set down|by the pirates Morgan and Bartholomew...
+{50025}{50050}...you have to take me to your Captain.
+{50060}{50110}I know the code.
+{50115}{50170}If an adversary demands parley you|can do them no harm until ...
+{50177}{50200}...the parley is complete.
+{50207}{50237}To blazes with the code.
+{50237}{50290}She wants to be taken to the Captain.
+{50332}{50482}And shell go without a fuss.|We must honor the code.
+{50754}{50794}Say goodbye!
+{50905}{50925}Goodbye.
+{51052}{51085}- Come on!|- Elizabeth.
+{51322}{51359}Outta my way, scum!
+{51679}{51762}My sympathies friend, youve|no manner of luck at all.
+{52314}{52352}Come on, doggy.
+{52357}{52432}Its just you and me now.|Its you and ol Jack.
+{52437}{52494}Come on. Come on.
+{52507}{52592}Good boy. Thats it.|Good boy, come on.
+{52592}{52647}Bit closer, bit closer.
+{52650}{52725}Thats it, thats it, doggy.
+{52727}{52790}Come on you filthy, slimy, mangy cad.
+{52845}{52902}No, no, no, no, no,|I didnt mean it. I didnt.
+{53092}{53129}This aint the armory.
+{53144}{53244}Well, well, well,|look what we have here Twigg?
+{53267}{53322}Capitain Jack Sparrow.
+{53354}{53517}Last time I saw you, you were all|alone on a godforsaken island.
+{53517}{53617}Shrinking into the distance.|His fortunes arent improved much.
+{53647}{53725}Worry about your own|fortunes, gentlemen.
+{53730}{53829}The deepest circle of Hell is reserved|for betrayers and mutineers.
+{53949}{53987}So there is a curse.
+{54044}{54069}That's interestin.
+{54077}{54124}You know nothing of Hell.
+{54342}{54390}Thats very interesting.
+{55287}{55322}I didnt know we were|takin on captives.
+{55347}{55422}Shes invoked the right of parley|with Captain Barbossa.
+{55429}{55514}- I am here to negotiate...|- You will speak when spoken to.
+{55547}{55647}And yell not lay a hand on those|under the protection of parley.
+{55667}{55709}Aye, sir.
+{55774}{55799}My apologies, Miss.
+{55850}{55950}Captain Barbossa, I am here to negotiate|the cessation of hostilities l ...
+{55962}{55997}...against Port Royal.
+{56010}{56110}There are a lot of long words in there, Miss,|were naught but humble pirates.
+{56145}{56242}- What is it that you want?|- I want you to leave and never come back.
+{56302}{56352}Im disinclined to acquiesce to your request...
+{56419}{56457}...means no.
+{56504}{56554}Very well.
+{56592}{56612}I'll drop it.
+{56745}{56837}Me holds are burstin' with swag and|that bit of shine matters to us?
+{56870}{56957}- Why?|- Its what youve been searching for.
+{56992}{57077}I recognized the ship. I saw it eight years|ago on the crossing from England.
+{57087}{57119}Did ya now?
+{57189}{57237}Fine.
+{57239}{57339}Well, I suppose if it is worthless then|theres no point in me keeping it.
+{57637}{57692}You have a name, Missy?
+{57715}{57780}Elizabeth... Turner
+{57815}{57865}Im a maid in the|Governors household.
+{57944}{57969}Miss Turner.
+{58042}{58062}Bootstrap.
+{58174}{58237}And how does a maid come to|own a trinket such as that?
+{58239}{58297}Family heirloom, perhaps?
+{58329}{58405}I didnt steal it if thats what you mean.
+{58405}{58505}Very well, you hand it over and well put your|town to our rudder and never return.
+{58864}{58897}Our bargain?
+{58969}{59032}Still the guns and stowem, ...The men.
+{59052}{59152}Wait! You have to take me to shore.|According to the code of the order of the brethren...
+{59152}{59250}First, your return to shore was|not part of our negotiations...
+{59250}{59307}...nor our agreement so|I must do nothing.
+{59307}{59407}And secondly, you must be a pirate for|the pirates code to apply and youre not
+{59407}{59542}And thirdly, the code is more what you'd|call "guidelines" than actual rules.
+{59542}{59634}Welcome aboard the Black Pearl,|Miss Turner.
+{60165}{60212}Theyve taken her.|Theyve taken Elizabeth.
+{60227}{60285}Mr. Murtogg, remove this man.
+{60285}{60362}We have to hunt them down,|we must save her.
+{60362}{60410}And where do you propose we start?
+{60429}{60524}If you have any information concerning|my daughter, please, share it.
+{60589}{60689}That Jack Sparrow.|He talked about the Black Pearl.
+{60692}{60749}Mentioned it, is more what he did.
+{60784}{60807}Ask him where it is.
+{60812}{60865}Make a deal with him|he could lead us to it.
+{60865}{60910}No...
+{60910}{60987}the pirates who invaded this Fort left|Sparrow locked in his cell ergo....
+{60987}{61042}...they are not his allies.
+{61042}{61112}Governor, we will establish|their most likely course...
+{61122}{61165}Thats not good enough!
+{61190}{61289}Mr. Turner, you are not a military|man, you are not a sailor.
+{61347}{61447}You are a blacksmith and this is|not the moment for rash actions.
+{61519}{61582}Do not make the mistake of thinking|you are the only man here...
+{61584}{61619}...who cares for Elizabeth.
+{61920}{61937}You!
+{61937}{61980}- Sparrow.|- Aye.
+{61980}{62035}You are familiar with that ship,|the Black Pearl?
+{62072}{62119}- Ive heard of it.|- Where does it make berth?
+{62127}{62209}Where does it make berth?|Have you not heard the stories?
+{62279}{62452}Captain Barbossa and his crew of miscreants|sailed from the dreaded Isla de Muerta.
+{62452}{62552}Its an island that cannot be found except|by those who already know where it is.
+{62590}{62622}The ships real enough.
+{62647}{62717}Therefore its anchorage must be|a real place. Where is it?
+{62740}{62822}- Why ask me?|- Because youre a pirate.
+{62827}{62887}And you want to turn pirate|yourself, is that it?
+{62927}{62949}Never.
+{63044}{63127}- They took Miss Swann .|- Oh, so it is that youve found a girl.
+{63127}{63182}I see.
+{63182}{63324}Well, if youre intending to brave all, hasten|to her rescue and so win fair ladys heart...
+{63324}{63425}...youll have to do it alone, mate.|I see no profit in it for me.
+{63452}{63532}- I can get you out of here.|- Hows that? The keys run off.
+{63537}{63625}I helped build these cells.|These are half pin-barrel hinges.
+{63672}{63740}With the right leverage and|a proper application of strength...
+{63784}{63812}...the door will lift free.
+{63877}{63957}- Whats your name?|- Will Turner.
+{63992}{64042}That will be short for William,|I imagine.
+{64042}{64142}Good, strong name. No doubt,|named for your father, aye.
+{64192}{64222}Yes.
+{64290}{64355}Aha. Well, Mr. Turner,|Ive changed me mind.
+{64375}{64445}If you spring me from this cell,|I swear on pain of death...
+{64445}{64545}...I shall take you to the Black|Pearl and your bonny lass?
+{64545}{64644}- Do we have an accord?
+{64694}{64754}- Agreed.|- Agreed, get me out.
+{64857}{64887}Hurry, someone will|have heard that.
+{64892}{64932}Not without my effects.
+{65105}{65135}Were going to steal a ship?
+{65200}{65215}That ship?
+{65215}{65315}Commandeer.|Were going to commandeer that ship.
+{65317}{65347}Nautical term.
+{65377}{65417}One question about your business boy,|or theres no use going.
+{65459}{65559}This girl, how far are you|willing to go to save her?
+{65572}{65624}- Id die for her.|- Oh, good.
+{65632}{65667}No worries, then.
+{66167}{66225}This is either madness or brilliance.
+{66245}{66327}Its remarkable how often|those two traits coincide.
+{67077}{67162}Everyone stay calm,|we are taking over the ship.
+{67162}{67217}Aye, avast!
+{67299}{67347}This ship cannot be crewed by two men.
+{67377}{67412}You'll never make it out of the bay.
+{67442}{67469}Son.
+{67489}{67590}Im Captain Jack Sparrow, savvy?
+test_5.sub
+{1}{1}25
+{360}{390}What's going on?
+{396}{483}My eye is a little itchy.
+{487}{554}Mine too. Yeah.
+{560}{635}It's really red.|You should go see my eye doctor.
+{641}{695}I'm not gonna see your ex-boyfriend.
+{701}{791}That's all I hear.|Richard, Richard, Richard.
+{797}{860}Since we've dated,|I've said his name twice.
+{866}{941}Okay. So Richard, Richard.
+{947}{1016}It's not Richard.|It's this new guy. He's good.
+{1022}{1084}I'm sorry. I'm not going|to an eye doctor.
+{1090}{1161}Oh, God. Here we go.
+{1167}{1254}Anytime anything comes close|to touching her eye or anyone else's...
+{1260}{1316}...she, like, freaks out. Watch.
+{1322}{1355}Ross, come on!
+{1361}{1483}I have a weird thing with my eye.|Can we not talk about it?
+{1514}{1601}Hey, Rach. You know that great song?|"Me, myself and eye".
+{1607}{1642}Monica! Come on!
+{1648}{1716}All those in favor|of getting lunch, say "eye".
+{1722}{1755}Ross! Stop it!
+{1762}{1830}How much did I love|{y:i}The King and "Eye"!
+{1837}{1857}Chandler!
+{1864}{1887}Me too, me too!
+{1893}{1982}Just stop it! That's enough!
+{1984}{2092}- You okay there, man?|- Yeah. I got too excited.
+{2105}{2193}The One with Joey's Big Break
+{3299}{3351}I gotta go.|I'm taking Ben to the park.
+{3357}{3436}- Give him a kiss for me.|- All right. Bye.
+{3442}{3482}Later.
+{3488}{3554}I'm so sorry you got caught|in the middle of that.
+{3561}{3688}I didn't mean to be so out there,|but I am furious with him.
+{3745}{3813}Calm down?
+{3815}{3919}I'm trying.|Man, that guy can push my buttons!
+{3919}{3956}Why are you so mad?
+{3961}{4025}- I don't wanna talk about it.|- It seems like...
+{4031}{4127}You wanna be on my list too?|Keep talking.
+{4130}{4208}Has anyone seen my list by the way?
+{4214}{4250}No. What's it look like?
+{4256}{4364}- A piece of paper and it says "Ross".|- I see.
+{4417}{4489}I just got off the phone with Estelle.|Guess what?
+{4495}{4536}I got the lead!
+{4542}{4605}You got the lead in a movie?|What's it about?
+{4611}{4689}It's called "Shutterspeed".|It's really cool.
+{4695}{4792}I meet this girl in the subway|and we fall in love in, like, a day.
+{4798}{4891}And then she disappears.|But I find out where she lives.
+{4897}{4975}This old lady answers the door.|I say, "Where's Betsy?"
+{4981}{5137}And she says, "Betsy's been dead|for ten years."
+{5164}{5187}Chilling!
+{5193}{5280}The best part is we're filming|in the desert outside of Vegas.
+{5286}{5335}- You know what that means.|- I know.
+{5341}{5439}Road trip! We can rent a car.|I have to be there by Tuesday.
+{5445}{5542}Wait! My grandmother's dead.
+{5634}{5694}We can talk about that too, Pheebs.
+{5700}{5723}No, her cab.
+{5729}{5803}She probably won't be using it.|Drive it to Las Vegas.
+{5809}{5845}All right! Thanks!
+{5851}{5921}What are we gonna do about my job?
+{5927}{5952}Not go.
+{5958}{6033}Great! Road trip, baby!
+{6035}{6055}Is this okay?
+{6061}{6144}Chandler, you don't have to ask|for my permission.
+{6150}{6200}You can go.
+{6206}{6265}Rach, we'll be late|for the eye doctor.
+{6271}{6372}All right. Let's get this over with.
+{6445}{6556}Look what I did.
+{6579}{6633}I mean, look at this mess.
+{6639}{6698}We're gonna probably have to|clean this up.
+{6704}{6786}I mean, we're gonna have to reschedule!
+{6792}{6891}If you thought that this mess|was gonna bother me, you are wrong!
+{6897}{6978}All right, let's go, Blinky.
+{7222}{7280}Hey, Joey. What's up?
+{7286}{7355}I can't decide which route|to take to Vegas.
+{7361}{7405}You've traveled a lot, right?
+{7411}{7450}Yeah, I've been around.
+{7456}{7534}Which route should I take?|The north or the south route?
+{7541}{7664}If you take the north route,|there's a man with a beard of bees.
+{7670}{7744}Great! Problem solved!
+{7750}{7868}On the south route, there's a chicken|that plays tic-tac-toe.
+{7873}{7939}Well, back to square one.
+{7945}{7991}I know a way that you can decide.
+{7997}{8097}I'll ask you a series of questions|and you answer as quickly as you can.
+{8103}{8129}Yes!
+{8134}{8199}Good. But wait.
+{8215}{8271}Here we go. I want you to relax.
+{8277}{8316}Take a deep breath.
+{8322}{8372}Clear your mind.
+{8378}{8432}- Peanut butter or egg whites?|- Peanut butter.
+{8438}{8490}- Be a fireman or a swimmer?|- Swimmer.
+{8496}{8598}- You'd sleep with Monica or Rachel?|- Monica.
+{8604}{8659}I always thought it'd be Rachel.
+{8665}{8727}- No thinking. Tie or ascot?|- Ascot.
+{8733}{8767}- North or south route?|- North.
+{8773}{8839}Bam! There you go! Huh?
+{8845}{8977}That was incredible!|Beard of bees here I come!
+{9007}{9092}This guy again.
+{9121}{9150}Hey, what's up?
+{9156}{9211}Not much. Wanna see a movie tonight?
+{9217}{9250}What do you wanna see?
+{9256}{9281}I don't know.
+{9287}{9348}I know how to decide.|Show him your game.
+{9354}{9427}No, thank you.
+{9438}{9463}What's with her?
+{9469}{9519}I don't know.|I know how we can decide.
+{9525}{9600}I'm gonna ask you questions|and you answer real quick.
+{9606}{9643}- Action or comedy?|- Action.
+{9649}{9753}Who would you rather sleep with,|Monica or Rachel?
+{9822}{9907}Dude, you are sick.
+{9945}{10061}I'm sorry. I forgot you had|that whole Rachel thing.
+{10166}{10266}Oh, my God. What does that thing do?
+{10277}{10335}- An eye removal machine.|- I'm out of here.
+{10341}{10379}I'm kidding.
+{10385}{10425}Rachel, I'm Dr. Miller.
+{10431}{10508}Monica said you were nervous.|Everything will be fine.
+{10514}{10591}- So we're done.|- Almost, but first we gotta start.
+{10597}{10700}This is a glaucoma test. Sit down.
+{10706}{10763}Put your chin here.
+{10769}{10845}Now, you'll feel a small puff of air|in each eye.
+{10851}{10889}What?
+{10895}{11007}A small puff of air.|Now, come on!
+{11012}{11050}Here we go.
+{11056}{11177}One, two, three.
+{11177}{11211}I'm sorry. All right.
+{11217}{11280}I'm gonna stay in here this time.
+{11286}{11310}Ready?
+{11316}{11386}- One, two...|- I'm sorry.
+{11392}{11453}You know what?|I'm gonna hold her head.
+{11459}{11532}That's okay.
+{11601}{11639}I'm sorry.
+{11645}{11737}You're young.|You don't have glaucoma.
+{11802}{11875}So it was very, very nice|to meet you, sir.
+{11881}{11936}What are you...|Are you crazy?
+{11942}{12027}You got a small, minor infection|in that left eye.
+{12033}{12120}Take these drops for a week|and you'll be as good as new.
+{12126}{12189}No, I don't put things in my eye.
+{12195}{12297}We'll see you here in three months.|And I'll fit you for a glass eye.
+{12303}{12379}Give me the damn drops!
+{12389}{12449}Dr. Miller?
+{12455}{12527}P-E-C-F-D.
+{12528}{12622}Very good, Monica!
+{12627}{12727}- You know where they are.|- I sure do.
+{12780}{12862}And you don't get one.
+{12936}{12994}You know, those eye drops|are a miracle.
+{13000}{13044}My eye is 100% better.
+{13050}{13141}- They're still in my coat.|- Damn!
+{13149}{13172}You ready to go?
+{13179}{13311}How cold will it be there?|Will all these sweater vests be enough?
+{13316}{13393}- What?|- I love you.
+{13415}{13482}I wish Ross was coming with us.|I'll miss him.
+{13488}{13585}Thanks. I just got|that jerk out of my mind.
+{13591}{13663}Is the movie putting us up|in a big hotel suite?
+{13669}{13719}Not really.|It's an independent film.
+{13725}{13836}We don't have a big budget.|I'll stay in your room.
+{13841}{13916}Once you get paid,|you'll be springing for a suite.
+{13922}{13969}They must be paying you a lot.
+{13976}{14047}For every dollar "Shutterspeed" makes...
+{14054}{14144}...one penny of it goes|right in Joey's pocket.
+{14150}{14216}You don't get paid unless|it makes money?
+{14222}{14304}Did you not hear the plot|of the movie?
+{14310}{14388}"She's been dead for ten years."
+{14394}{14482}I'm gonna be a millionaire!
+{14502}{14541}I wanted to say goodbye.
+{14547}{14626}And to see if you guys would|place a little bet for me.
+{14632}{14687}Twenty bucks on black 15.
+{14693}{14744}- You got it!|- All right.
+{14751}{14819}- All right. Bye-bye, now.|- Bye, you guys.
+{14826}{14890}I'll say bye at the car.
+{14896}{14947}Anyone wanna say bye to me|at the car?
+{14953}{15088}I'll say goodbye to you at the car|if you don't mind the pus.
+{15115}{15150}See you!
+{15156}{15287}But wait a minute. The pus is good.|It means it's healing.
+{15350}{15437}Hey, Pheebs. What you reading?
+{15541}{15607}Hello?
+{15750}{15777}Come on!
+{15783}{15863}Sorry, I didn't see you there.
+{15885}{15953}Pheebs, are you mad at me|or something?
+{15959}{16019}If you are, please tell me|what it is I did.
+{16026}{16090}- If you don't know, I can't help you.|- I don't know.
+{16096}{16163}Well, I can't help you.
+{16169}{16301}Well, whatever it is,|I am very, very sorry. Okay?
+{16307}{16372}Apology accepted.
+{16392}{16457}So we're good?
+{16552}{16590}I'll see you later, okay?
+{16596}{16620}Bye, fat ass.
+{16626}{16697}All right!
+{16697}{16785}Will you please tell me what it is|that made you so mad at me?
+{16791}{16881}I don't know! I don't remember!
+{16887}{16967}If you can't remember,|can't we just forget about this?
+{16973}{17051}Oh, no. I am mad at you.|I know that much.
+{17057}{17211}But I'm sorry about the "fat ass" thing|because you have a sweet, little heinie.
+{17384}{17479}I'm getting pretty tired.|You'll have to take over soon.
+{17485}{17585}We've been driving for a half-hour.|You haven't looked at the road once.
+{17591}{17687}Don't worry. It's out there.
+{17699}{17765}Maybe I just need lunch.|You wanna eat?
+{17771}{17828}My treat.
+{17834}{17917}Isn't that Ross' money?
+{17939}{17996}Ross' treat.|Where do you wanna eat?
+{18002}{18028}I don't know.
+{18034}{18074}I know how we can decide.
+{18080}{18126}I'll ask you questions.
+{18132}{18190}And then you have to answer real fast.
+{18196}{18277}So clear your mind.|Clear it right out. Clear it out.
+{18283}{18366}- Would you rather be too wet or too dry?|- Too dry.
+{18372}{18406}- Do you believe in ghosts?|- No.
+{18412}{18502}- Will this movie be my big break?|- No.
+{18502}{18570}- What?|- Yes.
+{18576}{18654}- Dude, you said, "No."|- I also said, "Yes."
+{18660}{18762}- This won't be my big break?|- No.
+{18796}{18831}I don't believe this.
+{18837}{18921}Look, I just don't want you to get|your hopes up too high.
+{18927}{18998}What are you talking about?|I'm the lead in a movie!
+{19004}{19103}They're not even paying you!|This doesn't sound like a real movie!
+{19109}{19181}I don't know why you're dumping|all over my big break.
+{19187}{19252}I don't think this is gonna be|your big break.
+{19258}{19326}Are you on this trip|to make me feel like a loser?
+{19332}{19398}- I'd rather be alone.|- You don't want me here?
+{19404}{19436}Not if you're like this.
+{19442}{19516}The next time you ask me|a question like that, I'll lie.
+{19522}{19561}I don't want you on the trip.
+{19567}{19628}Why don't you pull over?|I'll get out now.
+{19634}{19707}Fine.
+{19733}{19752}Get out.
+{19758}{19800}You can't stop on a bridge.
+{19806}{19887}- Get out!|- Fine!
+{19924}{19980}{Y:i}Wait! Wait! There's no sidewalk!
+{19986}{20082}{Y:i}Yeah. I'm gonna die here.
+{20119}{20234}Are you mad at me|because my hair gel smells?
+{20241}{20321}Because I said your handwriting|is childlike?
+{20327}{20398}No. That made me feel precious.
+{20404}{20475}Because he's always|correcting people's grammar?
+{20481}{20594}"Whom, whom." Sometimes it's "who"!
+{20594}{20676}Yeah? Sometimes it's...
+{20711}{20808}Did you beat him at a board game?|He's such a baby when he loses.
+{20814}{20845}Okay, I'm the baby.
+{20851}{20927}Hey! Stop it!
+{20941}{20980}What are you doing here?
+{20986}{21043}Joey kicked me out of the car|on the bridge.
+{21049}{21098}- Why?|- I don't know. He went crazy.
+{21104}{21188}We played that game where you|ask questions and answer fast.
+{21194}{21303}That game should not be played|without my supervision.
+{21309}{21345}I don't know what made him mad.
+{21351}{21420}All I said was that|this wouldn't be his big break...
+{21426}{21477}...that it wouldn't do|anything for him...
+{21483}{21524}...and that it didn't sound real.
+{21530}{21596}Okay, he should've|pushed me off the bridge.
+{21602}{21626}What's in the bag?
+{21632}{21671}I figured you'd be mad at me...
+{21677}{21751}...so I got gifts that I found|on the roadside.
+{21757}{21854}- Who wants the one-legged teddy bear?|- I do!
+{22054}{22137}- Not even close.|- I need help! I can't do this.
+{22143}{22186}Come on. Let's do it.
+{22192}{22312}Sit down.|All right, put your head back.
+{22315}{22417}- Now, open your eyes.|- Okay, they are.
+{22425}{22482}- How many fingers am I holding up?|- Four.
+{22488}{22518}I was thinking four.
+{22524}{22573}- Really?|- Yes!
+{22579}{22651}Why don't we start|with a practice one?
+{22657}{22721}- No drops.|- Great!
+{22727}{22847}On three. One, two, three.
+{22853}{22885}My pillow's all wet!
+{22891}{22938}Well, you said it was practice!
+{22944}{22970}Why did you move?
+{22976}{23045}I knew you were lying!
+{23066}{23111}- Come here.|- What are you doing?
+{23117}{23165}Stop it! Oh, my God!
+{23171}{23216}I am going...
+{23222}{23265}Turn it over!
+{23271}{23346}I am going to get...
+{23352}{23391}...get these drops in your eye.
+{23397}{23501}Oh, my God! You really are|freakishly strong.
+{23507}{23545}Stop! Stop!
+{23551}{23613}Stop it!
+{23619}{23666}Damn, it's empty!
+{23672}{23799}If Joey and Chandler walked in now,|we could make a fortune.
+{23926}{23985}That is definitely Chandler,|Joey or Ross.
+{23991}{24052}Or Rachel.
+{24122}{24192}It's Joey.
+{24196}{24277}Chandler told me what happened.|He's really upset.
+{24283}{24430}Not as upset as he'll be when he finds|out what I did with his sweater vests.
+{24442}{24475}What did you do to them?
+{24481}{24582}There's a well-dressed|pack of dogs in Ohio.
+{24624}{24695}I gotta ask Phoebe|something about the car.
+{24701}{24746}{Y:i}Hold on one second.
+{24752}{24800}- Hey, dude.|{y:i}- Hey, Pheebs.
+{24806}{24878}This wooden box keeps sliding out.|What is it?
+{24884}{24943}My grandma.
+{25004}{25097}And thanks.|She's having a great time.
+{25125}{25181}Is that Joey? Let me talk to him.
+{25187}{25249}Chandler's here.|He was wondering if...
+{25255}{25336}I guess he ran out of change.
+{25342}{25435}How am I gonna apologize to him|if he won't even talk to me?
+{25441}{25539}Send him something. So when he|gets there, he'll know you're sorry.
+{25545}{25677}That's a good idea. I wonder where|I could get a basket of porn?
+{25683}{25762}No, don't say I'm sorry with porn.
+{25768}{25826}You should send him|a carton of cigarettes.
+{25832}{25905}Because that way he can trade it|for protection.
+{25911}{25979}No. That's prison.
+{26037}{26095}I know how we're gonna|figure this out.
+{26101}{26129}Clear your mind...
+{26135}{26249}...and answer the first thing|that comes into your head.
+{26255}{26307}- Do you like flora or fauna?|- Fauna.
+{26313}{26351}- Simon or Garfunkel?|- Garfunkel.
+{26357}{26456}- Why are you mad?|- You said I was boring.
+{26491}{26526}When did I say that?
+{26532}{26605}Oh, my God! I remember now!|We were playing chess.
+{26611}{26681}Phoebe, you and I|have never played chess.
+{26687}{26810}Remember that time on the frozen lake?|We were playing. You said I was boring.
+{26816}{26947}Then you took off your energy mask|and you were Cameron Diaz.
+{26983}{27081}There's a chance this|may have been a dream.
+{27741}{27808}Stanley!
+{27808}{27876}Your leading man is here.|Let's get to work.
+{27882}{27916}Slight change of plans.
+{27922}{27973}We've shut down.
+{27979}{28008}What? Why?
+{28014}{28111}It's a money thing.|We don't have any.
+{28139}{28191}You're kidding, right?
+{28197}{28220}What?
+{28227}{28281}It's probably just temporary.
+{28287}{28366}We're hoping to get some money soon.|Just hang out.
+{28372}{28418}Hang out? How long?
+{28424}{28511}I don't know. A week. Maybe two.|The money'll turn up.
+{28517}{28616}People always wanna invest in movies.|You're not rich?
+{28622}{28683}Worth a shot.
+{28692}{28807}Well, Joey. Let me know|where you're staying, okay?
+{28832}{28895}Hey, pal. Are you Joey Tribbiani?
+{28902}{28936}These got left for you.
+{28942}{29005}Thanks.
+{29011}{29132}"Congratulations on your big break."
+{29870}{29932}{y:i}- Monica, it's Joey.|- Hey, Joey.
+{29938}{29995}You remember me|even though you're a star.
+{30001}{30117}{y:i}Come on. It'll be years|{y:i}before I forget you.
+{30125}{30170}What's it like on a movie set?
+{30177}{30251}Do you have a dressing room|and a chair with your name?
+{30257}{30319}{Y:i}Yeah, yeah, I got all that going on.
+{30325}{30395}{y:i}Tell Chandler he couldn't|{y:i}have been more wrong.
+{30401}{30519}{Y:i}I gotta go, Monica. My sushi's here.
+{30585}{30661}Sorry about that.|Thanks for waiting.
+{30667}{30737}Everybody smile.
+{30756}{30912}Thanks a lot. Enjoy your stay|at Caesar's. We hope it's toga-rific.
+{30929}{31012}Kill me. Kill me now.
+{31108}{31189}Rach, can you pass me the "TV Guide"?
+{31195}{31225}Go!
+{31231}{31314}What are you doing?|Get off! Oh, my God!
+{31320}{31397}Hold it open. Okay.
+{31520}{31617}We'll see you in about|three or four hours.
+test_6.sub
+{1}{1}25
+{915}{1013}{Y:i}Pragnęłam napisać powieść-
+{1018}{1150}{Y:i}- która przemówiłaby do naszych|ukrytych lęków-
+{1155}{1282}{Y:i}- i wzbudziła prawdziwe przerażenie.
+{1287}{1447}{Y:i}Która by sprawiła, że czytelnik|bałby się rozejrzeć wokół siebie.
+{1453}{1614}{Y:i}Która mroziłaby krew w żyłach i|przyspieszała bicie serca.
+{1619}{1714}{C:$cfcfcf}{F:Times New Roman}{S:30}F R A N K E N S T E I N
+{1789}{1911}Początek XIX stulecia.
+{1916}{2065}Epoka rewolucji|i odkryć naukowych -
+{2070}{2220}- które miały zmienić oblicze Świata.|Głód Wiedzy był ogromny.
+{2225}{2343}Wśród pionierów nowej ery znajdował|się kapitan Robert Walton, -
+{2347}{2464}- marzący o zdobyciu Bieguna|Północnego za Wszelką cenę.
+{2469}{2587}Podczas Wyprawy odkrył jednak coś -
+{2592}{2746}- co miało napełnić lękiem śmiałków,|ruszających W nieznane...
+{2866}{3002}{C:$ffffff}{F:Times New Roman}MORZE ARKTYCZNE. 1794
+{3166}{3324}Powiedz kapitanowi, że|trzeba opuścić topżagiel.
+{3329}{3434}Zaraz rozerwie się na strzępy.
+{3540}{3736}- Musimy zrzucić żagle!|- Wszyscy do masztów.
+{3742}{3804}Przejmij ster.
+{3940}{4074}Kapitanie, uderzyliśmy W lód.
+{4079}{4169}Przed nami góra lodowa!
+{4329}{4427}Na sterburtę!
+{5200}{5279}Pomocy!
+{5355}{5464}Trzymaj!
+{6103}{6199}Z sercem, chłopcy!
+{6224}{6345}- Dalej!|- To nie ma sensu, kapitanie.
+{6350}{6501}- Mamy się poddać i umrzeć?|- Ludzie są Wyczerpani.
+{6506}{6630}Nie dopłynąłem tak daleko,|żeby teraz rezygnować.
+{6634}{6794}Znali ryzyko. Jeśli będzie trzeba,|Wykujemy drogę aż do bieguna.
+{6798}{6898}Grozi panu|bunt załogi, kapitanie.
+{6945}{7055}- Bunt, powiadasz?|- Owszem. Sir.
+{7094}{7245}Popłyniemy na Północ...|zgodnie z planem.
+{7276}{7451}- Kosztem ludzkiego życia?|- Jeśli to nieuchronne!
+{7834}{7942}Coś tam jest.
+{8134}{8241}Cóż to. U diabła?
+{9022}{9153}- Gdzie jest kapitan?|- To ja.
+{9158}{9284}- Ktoś ty, człowieku?|- Nie mam czasu na rozmowy.
+{9289}{9389}Potrzebni mi ludzie i broń.
+{9434}{9524}- Natychmiast!|- Nie ruszaj się.
+{9529}{9638}Ja tu Wydaję rozkazy.
+{9745}{9839}Sprowadźcie psy!
+{9844}{9929}Lepiej nie.
+{9934}{10036}Już są martwe.
+{10349}{10485}Wracajcie na statek.|Wszyscy z powrotem na statek!
+{10570}{10704}- To nie jest niedźwiedź!|- Może ma ochotę na naszego gościa.
+{10709}{10795}Albo na kapitana!
+{10800}{10939}Z St. Petersburga do Archangielska|szedłem pieszo.
+{10944}{11151}Wsiadłem na statek Wielorybniczy.|Gdy utknął W lodzie, Wziąłem psy.
+{11321}{11427}Co tam się czai?
+{11518}{11666}6 lat planowałem tę Wyprawę.|Pochłonęła cały mój majątek.
+{11671}{11802}Nie zatrzymasz mnie ani ty,|ani jakiś upiór.
+{11807}{11917}Ty też jesteś szalony?
+{11922}{12056}- To nie szaleństwo.|- W takim razie. Co?
+{12106}{12244}Można zdobyć Biegun Północny.|I ja tego dokonam.
+{12249}{12435}- Kosztem ludzkiego życia?|- Ludzie rodzą się i umierają.
+{12440}{12597}Jeśli się nam powiedzie,|zdobędziemy Wieczną sławę.
+{12602}{12742}Okrzykną mnie|dobroczyńcą ludzkości.
+{12747}{12934}Mylisz się.|Ja to Wiem.
+{12938}{13019}Kim jesteś?
+{13049}{13159}Nazywam się...
+{13163}{13269}...Wiktor...
+{13275}{13388}...Frankenstein.
+{13582}{13700}{C:$ffffff}{F:Times New Roman}GENEWA. 1773
+{13807}{13969}- Mamo!|- Mój cudowny synek Wiktor!
+{13974}{14203}Jesteś najładniejszym, najmilszym,|najcudowniejszym chłopcem na ziemi!
+{14272}{14352}Madam!|Rozpieści pani synka.
+{14624}{14763}- Mogę panie na chwilę przeprosić?|- Doktorze.
+{14794}{14890}Chodźmy, Justine.
+{14894}{15054}Wiktorze, to jest Elizabeth.|Zamieszka z nami.
+{15059}{15247}Jej rodzice zmarli na|szkarlatynę.
+{15253}{15410}- Została całkiem sama.|- Traktuj ją jak siostrę.
+{15453}{15580}Opiekuj się nią i|bądź dla niej miły.
+{15663}{15766}Zawsze.
+{16113}{16300}- Jak się czuje maleństwo?|- Trochę dziś niespokojne.
+{16585}{16759}- Lubiłeś robaczki świętojańskie...|- Gdy je łapałem, umierały.
+{16764}{16891}Wtedy płakałeś. Miały|świecić u Wezgłowia twego łóżka -
+{16896}{16984}- żebyś mógł czytać W nocy.
+{16989}{17161}Byłeś strasznie żądny Wiedzy.|Bardzo poważny chłopczyk.
+{17196}{17313}Stałeś się zapalczywym|młodzieńcem.
+{17318}{17470}Te dziwne, stare księgi...
+{17515}{17613}Będziesz lepszym lekarzem|niż ojciec.
+{17687}{17841}Wiedz jednak, Wiktorze...|Że życie to nie tylko książki.
+{17846}{17956}Czeka na ciebie tyle przyjemności!
+{17990}{18069}Oddaj, mamo!
+{18339}{18422}Odbijany!
+{18427}{18549}Nie powinnaś się przemęczać,|Karolino!
+{18554}{18685}Maleństwo będzie|urodzonym tancerzem.
+{18774}{18929}Wszystkie damy i kawalerowie|będą Wam zazdrościć.
+{18934}{18996}Justine!
+{19001}{19105}Justine.|Zatańczysz ze mną?
+{19248}{19307}Madam!
+{19359}{19492}- Musi pan się zdecydować!|- Dziecko ułożyło się niewłaściwie.
+{19497}{19710}- Nie mogę...|- Ratuj dziecko, nie mnie.
+{19951}{20124}Nic jej nie będzie. Twój ojciec jest|najznakomitszym lekarzem W Genewie.
+{20383}{20475}Ojcze?
+{20596}{20689}Ojcze, jak się czuje mama?
+{20694}{20820}Zrobiłem Wszystko, co W mojej mocy.
+{20841}{20965}Mamo!
+{21556}{21743}Przywróć jej życie!|Błagam, przywróć jej życie...
+{21780}{21920}Przywróć jej życie!
+{22233}{22375}{C:$cfcfcf}{Y:b}TRZY LATA PÓŹNIEJ
+{22681}{22800}Umiłowana żona i matka|Caroline Beaufort Frankenstein.
+{22865}{22938}Och. Mamo!
+{22943}{23124}Nie powinnaś była umrzeć.|Nikt nie powinien umierać!
+{23129}{23234}Skończę z tym.
+{23239}{23405}Skończę z tym.|Przyrzekam.
+{23410}{23535}Zupełnie zwariowałeś, Wiktorze.|Co to takiego?
+{23540}{23635}Energia.|Nie znika, tylko zmienia postać.
+{23640}{23770}Dzięki tym świecom ów mechaniczny|pies zaczyna drgać.
+{23775}{23903}To Wszechstronne urządzenie.
+{23908}{24099}- Pięknie dzisiaj na dworze.|- Odejdź, jestem zajęty.
+{24205}{24290}A to co?
+{24295}{24417}Rozpylacz elektrycznych Węgorzy.
+{24422}{24506}Nie ruszaj.|Nie Wolno się tym bawić.
+{24511}{24665}To nie służy do zabawy.|Odłóż, proszę...
+{24670}{24765}Oddaj!
+{24788}{24875}Chodź!
+{25061}{25192}Powinniśmy być Wdzięczni Wiktorowi,|że rzucił swoje doświadczenia.
+{25197}{25288}Kto powiedział, że rzuciłem?
+{25293}{25427}- Jak to?|- Spójrz!
+{25432}{25600}- Wiedziałeś, że tak się stanie.|- Miałem nadzieję.
+{25605}{25675}Nie Widziałem jeszcze takiej chmury.
+{25680}{25820}- Czyż nie Wspaniała?|- Naprawdę nie powinieneś.
+{25825}{25993}- Musimy się ukryć. Pod drzewem!|- Wręcz przeciwnie.
+{25998}{26112}- A Willie?|- Co mamy robić?
+{26117}{26235}Połóżmy się na ziemi.|Elizabeth. Weź to ode mnie.
+{26256}{26354}- Szybko!|- Co to jest?
+{26358}{26473}- Wbij go W grunt.|- Co teraz?
+{26477}{26608}- Willie!|- Wszyscy na ziemię.
+{26614}{26719}Daj mi rękę.|Nic nam się nie stanie.
+{26724}{26875}- Mam nadzieję, że Wiesz, co robisz.|- Willie, nie patrz W górę!
+{26880}{27008}Zaczekajcie!|Raz, dwa, trzy...
+{27304}{27383}Teraz.
+{27826}{28014}- Jak się czujesz, Elizabeth?|- Ożywiona!
+{28920}{29054}Panie i panowie, przyjaciele!|Proszę o chwilę uwagi.
+{29058}{29216}Jak zapewne Wiecie, jutro|mój syn Wictor Wyjeżdża, -
+{29220}{29408}- aby rozpocząć karierę W zawodzie,|który nie jest mi całkiem obcy.
+{29414}{29523}Cóż za skromność!
+{29617}{29744}Żałuję jedynie, że nie ma tu...
+{29749}{29889}...jego matki i mej zmarłej żony...
+{29952}{30064}...która czułaby tę samą dumę...
+{30123}{30274}...jaka i mnie dzisiaj|przepełnia.
+{30327}{30414}Tak.
+{30568}{30736}Pragnęła, abyś to otrzymał|po Wstąpieniu na uniwersytet.
+{30741}{30845}Napisała tutaj:
+{30907}{31055}"To jest dziennik|Wiktora Frankensteina."
+{31108}{31220}Inne stronice są puste -
+{31251}{31393}- zostaną Wypełnione uczynkami|szlachetnego żywota.
+{32120}{32231}Powinniśmy Wrócić,|nim zauważą naszą nieobecność.
+{32236}{32326}Jeszcze chwilkę.
+{32376}{32495}Nie Wiem, kiedy znowu|się zobaczymy.
+{32520}{32595}Kochany Wiktorze!
+{32600}{32799}- Będzie mi brak twoich złośliwości.|- Kto będzie mnie rozśmieszał?
+{33175}{33314}Jak żegnają się|bracia i siostry?
+{33385}{33493}Może nie muszą tego robić.
+{33497}{33619}Zrobię to, co ty.
+{34027}{34141}Jesteś moją siostrą?
+{34146}{34216}Siostrą...
+{34221}{34300}...przyjaciółką...
+{34305}{34385}...ukochaną.
+{34421}{34539}- Żoną?|- Tak!
+{34544}{34644}- Jedź ze mną. Poślub mnie dzisiaj!|- Nie.
+{34649}{34868}- Więc zostanę z tobą.|- Bardzo pragnę zostać twoją żoną.
+{34873}{35010}Podczas twojej nieobecności powinnam|być jednak tutaj.
+{35015}{35199}Chcę tchnąć życie W ten dom.|Tu będą dorastać nasze dzieci.
+{35246}{35379}Musisz Wyjechać i dokonać|Wielkich rzeczy.
+{35405}{35520}Tak bardzo cię pragnę.
+{35525}{35626}Będę na ciebie czekała.
+{35631}{35764}Każdego lata, gdy przyjedziesz.
+{35884}{36012}Za to W noc poślubną...
+{36289}{36349}Dobrze Więc.
+{36541}{36686}{C:$ffffff}{F:Times New Roman}INGOLSTADT. 1793
+{37093}{37206}- Jak minęła panu podróż?|- Znośnie.
+{37211}{37402}- Jedynie strych jest Wolny...|- Tego Właśnie potrzebuję.
+{37407}{37606}Przywiozą mi tutaj|specjalistyczną aparaturę.
+{37611}{37764}Na pewno rozumie pani, jak|Ważne jest przyzwoite laboratorium.
+{37769}{37861}Putzi lubi pana.
+{38075}{38182}Doskonale.
+{38226}{38381}"Głupcy i próżniacy dowodzą swoich|racji za pomocą magicznej różdżki."
+{38386}{38511}"Wiedza daje Władzę|jedynie dzięki Bogu."
+{38516}{38679}Oto nasze motto. Niecierpliwi|młodzieńcy łatwo o nim zapominają.
+{38750}{38953}Być może najpoważniejszym błędem|naszych studentów, -
+{38958}{39069}- jest doprawdy|dziwaczne przekonanie, -
+{39074}{39262}- że W ogóle mogą Wpaść na|oryginalny lub twórczy pomysł.
+{39267}{39401}Wszyscy tak sądziliśmy|- W swoim czasie.
+{39555}{39705}Panowie, nie przybyliście tu,|aby myśleć samodzielnie.
+{39710}{39849}Macie się nauczyć, jak|myśleć za swoich pacjentów.
+{39854}{40167}Musicie pamiętać, że|światem rządzą prawa fizyki.
+{40172}{40260}Ależ, profesorze...
+{40265}{40408}- Co z poglądami filozofów?|- Filozofia?
+{40441}{40575}Które mówią o związkach Wyobraźni|oraz intelektu, jak u Paracelsusa.
+{40580}{40709}Paracelsus?|Arogancki i głupi Szwajcar.
+{40736}{40915}- Albert Wielki?|- Jego bajki obalono 500 lat temu.
+{40920}{41069}- Cornelius Agrippa?|- Czarownik. Jak się nazywasz?
+{41097}{41230}Wiktor Frankenstein.|Pochodzę z Genewy.
+{41258}{41325}Kolejny Szwajcar!
+{41345}{41490}Panie Frankenstein, na uniwersytecie|W Ingolstadt -
+{41495}{41668}- uczymy sztuki medycznej.|Chemii, biologii, fizyki...
+{41673}{41840}- Prawdziwej nauki.|- Na pewno można je połączyć...
+{41845}{42024}Nie studiujemy bełkotu|szaleńców i alchemików.
+{42029}{42290}Ich fanatyczne dociekania nie|leczą ciała ani nie ratują życia.
+{42295}{42407}Jedynie nauka to potrafi.
+{42469}{42614}Czy zgadza się pan,|abyśmy kontynuowali?
+{42716}{42904}Ładny płaszcz. Nie przejmuj się.|Krempe nie lubi się mylić.
+{42909}{43005}- Nie jestem Wariatem!|- Oczywiście, że nie.
+{43010}{43170}Tak Właśnie racjonalna osoba|przemawia do nieznajomego!
+{43175}{43281}Henry Clerval.|Jestem zupełnym Wariatem.
+{43286}{43399}- Wiktor Frankenstein.|- Z Genewy.
+{43404}{43535}Uważaj lepiej,|gdzie leziesz.
+{43540}{43631}To Schiller.|Ozdoba boiska.
+{43636}{43770}Też jest nowy. Gapi się na Wszystko|z otwartą buzią.
+{43805}{43891}Dlaczego tu przyjechałeś?
+{43896}{44029}- Prowadzić badania.|- Ja tam chcę zostać lekarzem.
+{44034}{44196}Szkoda, że dlatego trzeba leczyć|chorych. Strasznie się buntują.
+{44201}{44367}Zabawię się, zdobędę dyplom, jeśli|Wreszcie zdam anatomię, -
+{44372}{44571}- i Wtedy będę przynosił ulgę starym|damom oraz ich córkom.
+{44576}{44724}- Kto to był?|- Waldman.
+{44729}{44884}Powiadają. Że W młodości|był prawdziwym geniuszem.
+{44889}{45034}Wplątał się niestety W jakieś|nielegalne doświadczenia.
+{45039}{45126}Ciekaw jestem,|jakie?
+{45131}{45249}Cóż to mówiłeś o bogatych|damach i ich córkach?
+{45254}{45379}Życie pełne poświęceń,|ktoś to jednak musi robić.
+{45820}{45930}Centralny system nerwowy|oraz mózg -
+{45935}{46110}- są najbardziej skomplikowanym|układem, jaki można sobie Wyobrazić.
+{46115}{46241}Panie Frankenstein.|Proszę Wykonać cięcie.
+{46401}{46571}Wyśmienicie. Panie Clerval,|proszę usunąć pokrywę czaszki.
+{46696}{46802}"Henry nadal próbuje|zaliczyć anatomię."
+{46808}{46969}- To była dla mnie mordęga.|- Wiele się uczę.
+{46974}{47120}"Prof. Waldman jest niezwykły.|Niech Was Bóg błogosławi, Wiktor."
+{47125}{47241}- Bardzo pięknie.|- P.S. Zadurzyłem się.
+{47246}{47399}"Jest piękną brunetką i zawsze,|gdy mnie Widzi, merda ogonem."
+{47404}{47556}"Nazywa się Putzi i jest najbardziej|przyjaznym owczarkiem na świecie."
+{47617}{47763}"PS. Elizabeth.|Marzę o twoich lśniących Włosach...
+{47768}{47986}{Y:i}... o twych ramionach i piersiach,|i naszej nocy poślubnej. "
+{47991}{48134}- Co jeszcze pisze?|- "Ciężko pracuję i poznaję ludzi."
+{48139}{48224}Kto ma ochotę na kawę?
+{48270}{48469}Zapamiętaj sobie, Frankenstein!|Życie to życie, a śmierć to śmierć.
+{48474}{48604}- To są fakty absolutne.|- Nonsens!
+{48609}{48734}Wielokrotnie temu przeczono.|Pan również. Sir!
+{48739}{48903}Nie Wiemy, gdzie zaczyna się śmierć.|Włosy i paznokcie nadal rosną...
+{48907}{49110}Choć mózg umiera, serce|i płuca Wciąż funkcjonują.
+{49115}{49330}Ostrzegam cię - to, co mówisz,|jest nielegalne i niemoralne.
+{49335}{49414}Bzdura!
+{49431}{49616}"Kochany dzienniku, czemu nikt mnie|nie rozumie? PS. Nie jestem szalony."
+{49645}{49714}Ty!
+{49719}{49877}- Wytłumacz się.|- Pragnę poznać nową naukę.
+{49882}{50067}Połączenie Współczesnych dyscyplin|z dawną Wiedzą. Aby stworzyć...
+{50072}{50168}Co takiego?
+{50173}{50266}Możemy zmienić świat.|Pan to Wie.
+{50271}{50404}Dokonalibyśmy epokowych odkryć,|gdybyśmy stawiali Właściwe pytania.
+{50409}{50490}Proszę mi pomóc.
+{50565}{50629}Chodź.
+{50634}{50725}- Wiktor...|- Nie bój się.
+{50980}{51056}Henry.
+{51436}{51530}Zamknij drzwi.
+{51650}{51814}Przez tysiące lat|Chińczycy uważali, że, -
+{51819}{51942}- ciało jest chemiczną maszyną.|Poruszaną strumieniami energii.
+{51948}{52065}- Fascynujące! Jak?|- Nie dotykaj!
+{52104}{52264}Chińscy lekarze Wbijają W ciała|pacjentów podobne igły -
+{52269}{52409}- W różne miejsca, aby|kierować przepływem energii.
+{52414}{52595}- Elektryczność jest najważniejsza!|- Popatrz na to.
+{53026}{53135}Dalej, dotknij.
+{53219}{53282}Ciepłe.
+{53329}{53408}Jak się masz?
+{53455}{53579}- Trzeba to Wyłączyć!|- Nie działa.
+{53585}{53746}Musimy zmniejszyć polaryzację.|Ramię małpy Wygląda jak ludzkie.
+{53751}{53904}- Żadna ręka nie jest tak silna!|- To się musi udać.
+{54049}{54129}Pomogę panu, profesorze.
+{54187}{54314}Proszę dochować tajemnicy.
+{54319}{54455}I tak nikt by panu nie uwierzył.
+{54552}{54710}Najdroższy Wiktorze.|Niewiele się u nas zmieniło.
+{54715}{54873}Pani Moritz Wciąż kocha i maltretuje|Justine, jednakowo.
+{54878}{55065}Willie jest coraz bardziej dojrzały,|co raduje niezwykle twego ojca.
+{55070}{55132}Ja zaś...
+{55137}{55339}Bardzo za tobą tęsknię.|Napisz szybko, Wiktorze.
+{55353}{55438}Na przykład szczepionki.
+{55442}{55637}30 lat temu nikt o nich nie słyszał.|To jednak połowiczna odpowiedź.
+{55641}{55798}- Co masz na myśli?|- Tworząc życie, oszukamy śmierć.
+{55803}{55941}- Jest tylko jeden Bóg.|- Boga do tego nie mieszaj.
+{55946}{56090}Gdyby ktoś tobie bliski miał chore|serce, czy nie dałbyś mu innego?
+{56095}{56329}To nie jest niemożliwe. Skoro tak,|można będzie Wymienić każdą część.
+{56335}{56491}Możemy stworzyć istotę, która nie|zachoruje, nie umrze. Lepszą. -
+{56497}{56582}- mądrzejszą i bardziej cywilizowaną.
+{56587}{56692}- Za naszego życia?|- Nie!
+{56808}{56954}- Jak blisko pan dotarł?|- Zbyt blisko.
+{57022}{57113}- Błagam, by pokazał mi pan notatki.|- Nie.
+{57117}{57296}Zajmuję się teraz Wyłącznie|ochroną życia.
+{57301}{57429}- Porzuciłem inne eksperymenty.|- Dlaczego?
+{57486}{57578}Bo okazały się ohydne.
+{58176}{58335}- Nie zarazisz mnie ospą!|- Podają nam zarazki ospy?
+{58340}{58590}- To surowica przeciw ospie.|- Powiedziałeś, ospa!
+{58595}{58814}Jest nieszkodliwa. Inaczej Wprowadzą|W mieście kwarantannę.
+{58819}{58999}- Nie zrobisz mi zastrzyku.|- Zrobię. Takie jest prawo!
+{59004}{59175}- Posadźcie go.|- Nie zrobisz mi zastrzyku!
+{59264}{59339}Profesorze?
+{59492}{59588}Proszę!
+{59611}{59727}To nie ma sensu. Umarł.|Zostaw go W spokoju.
+{59732}{59862}- Nie powinno do tego dojść!|- Opanuj się.
+{59866}{60005}To się nie powinno było stać!
+{60246}{60341}Niech Was piekło pochłonie!
+{60346}{60513}Mówcie sobie. Co chcecie.|Ale lekarze to mordercy.
+{60517}{60652}Zabijacie niewinnych ludzi!|Diabły Wcielone!
+{60714}{60880}To Wy zasłużyliście na śmierć.|Bóg Was pokaże.
+{60917}{61011}Bóg Was pokaże.
+{61442}{61584}Chryste, byłeś tak blisko!|Naturalnie, energia!
+{61589}{61727}Niewłaściwe materiały.|Potrzebne dodatkowe źródła energii.
+{61732}{61846}"Eksperyment... się nie powiódł."
+{61851}{62028}"Ożywiona istota|zdeformowana i ohydna."
+{62033}{62196}"Wszystko zależy od|Wykorzystanych surowców."
+{62300}{62360}Surowce...
+{62938}{63109}- Chodź! Czego się obawiasz?|- Wszystkiego! Jeśli Władze...
+{63114}{63255}Będziemy dyskretni.|Mam dzienniki Waldmana.
+{63261}{63472}- Ukradłeś je?|- Musimy dokończyć jego dzieło.
+{63477}{63679}Gdyby to było możliwe, a ty miałbyś|prawo podjąć taką decyzję, -
+{63684}{63774}- czy cena, jaką trzeba zapłacić,|nie byłaby za Wysoka?
+{63779}{63992}Moglibyśmy pokonać śmierć i choroby,|ofiarować życie Wszystkim, -
+{63998}{64150}- aby ci, którzy się kochają.|Zawsze byli razem...
+{64154}{64279}Myślę, że Warto zaryzykować.
+{64846}{64949}Justine, daj mi spokój.|Nie chcę o tym rozmawiać.
+{64980}{65199}- Listy, które nam czytałaś...|- Ja je napisałam! Od miesięcy...
+{65204}{65345}- Elizabeth...|- Dzieje się coś okropnego.
+{65350}{65515}Musiałam ukryć to przed ojcem.|A teraz te pogłoski o cholerze.
+{65520}{65705}- Dam sobie radę. Jedź!|- Pewno znalazł sobie kogoś innego.
+{65710}{65830}Gdyby należał do mnie,|dawno bym już pojechała.
+{65835}{66036}Nie jest jednak mój.|Tylko twój, Więc musisz jechać.
+{66484}{66592}Surowce, nic Więcej.
+{66597}{66706}Tkanki do ponownego Wykorzystania.
+{66911}{66971}Najwspanialszy mózg.
+{67346}{67479}- Ależ oni zmarli na cholerę, sir.|- To bez znaczenia.
+{67700}{67853}Zgromadzone organy trzeba odżywić,|ogrzać, lecz głównie dostarczyć...
+{67858}{67999}...energii z zewnątrz.
+{68105}{68192}W sposób bardziej bezpośredni...
+{68840}{68960}Wody płodowe to główny|biogeniczny element doświadczenia.
+{68965}{69077}Igły umieszcza się W|ogniskach energetycznych ciała.
+{69082}{69199}Gdy prąd przestaje płynąć,|martwa ropucha nadal się porusza -
+{69204}{69325}- niezależnie od|zewnętrznych źródeł energii.
+{69588}{69720}Ależ tak.
+{69725}{69855}Oto Właściwa kombinacja!
+{71795}{71875}Wiktorze!
+{71880}{71980}Otwieraj!
+{71985}{72125}- Czego chcesz?|- W mieście szaleje cholera!
+{72130}{72288}Wprowadzono stan Wyjątkowy.|Słuchasz mnie?
+{72293}{72429}Wojsko zarządziło kwarantannę.|Trzeba uciekać.
+{72448}{72544}A jeśli Krempe doniesie|na ciebie Władzom?
+{72549}{72628}Do Widzenia, Henry.
+{72633}{72766}Wiktorze, to ja, Elizabeth.
+{72836}{72982}Słyszysz mnie?|Muszę cię zobaczyć.
+{73036}{73156}- Odejdź.|- Proszę cię, Wiktorze!
+{73218}{73351}Nie odejdę, dopóki|mnie nie Wpuścisz.
+{73531}{73631}Podejdź do bocznych drzwi.
+{73648}{73739}Sama!
+{74092}{74204}Co się z tobą dzieje?
+{74209}{74310}Jak możesz tak żyć?
+{74315}{74438}- I ten smród...|- Nie wchodź tam!
+{74563}{74681}- Musimy jechać, naprawdę.|- Ja zostaję.
+{74686}{74799}- Nawet, gdybyś miał umrzeć?|- Tak.
+{75156}{75346}- Pomogę ci Więc.|- To niemożliwe.
+{75443}{75571}Złożyliśmy ślub.
+{75701}{75807}Błagam cię.
+{75884}{76015}Wiem. Że trudno to|zrozumieć. -
+{76020}{76185}- lecz nie mogę porzucić|teraz swojego eksperymentu.
+{76190}{76366}Jest zbyt Ważny. Nie tylko dla mnie,|lecz dla całej ludzkości.
+{76459}{76605}Muszę dać mu pierwszeństwo.
+{76722}{76785}Nawet przed nami?
+{76924}{77008}Elizabeth...
+{77013}{77134}Bardzo cię kocham, ale...
+{77489}{77554}Żegnaj.
+{78251}{78330}Elizabeth!
+{78439}{78557}Boże drogi! Elizabeth.
+{82157}{82231}Ożyj! Ożyj!
+{82369}{82451}Tak!
+{82931}{83060}Nie...
+{83826}{83921}Żyje...
+{83951}{84060}Żyje!
+{87919}{88022}Co ja uczyniłem?
+{88146}{88249}Co ja uczyniłem?
+{88581}{88727}Rozległe uszkodzenia...
+{88732}{88882}...ogromna|siła fizyczna...
+{88887}{88949}...lecz...
+{88954}{89064}...powstała istota...
+{89069}{89194}...źle funkcjonuje...
+{89199}{89289}...budzi litość...
+{89301}{89420}...i nie żyje.
+{89525}{89685}Jutro muszę zniszczyć ten|dziennik i jego tajemnice...
+{89714}{89774}...na zawsze.
+{90161}{90250}Boże!
+{91694}{91745}Nie!
+{91750}{91884}Głupcze,|Wiktorze Frankenstein z Genewy!
+{91889}{91994}Skąd mogłeś Wiedzieć, co|Wyzwoliłeś?
+{91999}{92165}Z czego on powstał?|Z ciał złodziei i morderców...
+{92170}{92278}Zło zszyte ze złem,|ozdobione złem...
+{92283}{92444}Naprawdę myślisz, że to stworzenie|podziękuje ci za cud narodzin?
+{92449}{92556}Zło się jeszcze zemści.
+{92570}{92687}Niech Bóg chroni twoich bliskich!
+{94943}{95055}Co ty sobie Wyobrażasz?
+{95060}{95216}Jest chory!|To on roznosi zarazę!
+{96359}{96451}Łapać go!
+{96628}{96754}- Nie podchodźcie za blisko.|- Zabijcie go!
+{97240}{97342}Tędy pobiegł.
+{98751}{98890}Proszę. Spokojnie.|Odrobinę.
+{98930}{99100}- Dobrze. Odpoczywaj.|- To ty, Henry...
+{99105}{99252}Naturalnie.|Naprawdę niewiele brakowało.
+{99257}{99394}Obawiałem się, że to cholera,|ale to tylko zapalenie płuc.
+{99399}{99544}Zamieniam się W medyka.|Nawet Krempe jest zadowolony.
+{99549}{99645}W takim tempie, mógłbym|chyba zaliczyć anatomię.
+{99650}{99839}- Co z epidemią?|- Nic nie da się zrobić.
+{99844}{100032}Głodni. Bezdomni i|noworodki z pewnością poumierają.
+{100037}{100136}- Tak sądzisz?|- Niestety tak.
+{100174}{100338}- Dzięki Bogu.|- Co masz na myśli?
+{100546}{100608}Nic.
+{100711}{100846}Dobrze Więc,|koniec mojej Warty.
+{100959}{101066}Do zobaczenia.
+{102559}{102669}Elizabeth...
+{103071}{103169}Elizabeth!
+{103448}{103595}- Proszę, Wybacz mi!|- Już ci Wybaczyłam.
+{103686}{103883}Nie Wiem, nad czym pracujesz,|ale to cię omal nie zabiło.
+{103920}{104046}Skończone.|Nigdy nie powinienem był zaczynać.
+{104051}{104160}Nie żyje!
+{105804}{105949}Felix!|Nie zapomnij o łupinach.
+{105954}{106060}Nie zapomnę.
+{106066}{106163}Z drogi!
+{106243}{106346}Dalej!
+{106766}{106906}- Jak się miewają świnie?|- Są szczęśliwe, dostały jeść.
+{106910}{107066}- Co z twoimi rękami?|- Znowu krwawią.
+{107268}{107375}Już lepiej.
+{107474}{107549}Proszę.
+{107554}{107721}- Zupa gotowa.|- Siadaj, dziadku.
+{109507}{109643}Z takimi zapasami nie uda nam|się przeżyć zimy.
+{109648}{109763}- Ziemia zamarzła na kość.|- Sprzedamy kolejną świnię.
+{109768}{109908}Nie możemy.|Muszą Wpierw odwołać kwarantannę.
+{109914}{110033}To i tak niedobry pomysł.|A czynsz za ubiegły miesiąc...
+{110038}{110167}Nie martw się!|Damy sobie radę.
+{110256}{110422}Masz rację.|Musimy zdążyć przed śniegiem.
+{110631}{110710}Chodźmy!
+{111222}{111425}Twarda jak kamień. 20 chłopa|nie dałoby rady. To bez sensu!
+{111430}{111545}- Robi się późno.|- Mamy za mało jedzenia.
+{111550}{111646}Trudno.|Wracajmy już.
+{112351}{112463}Spójrz tylko!
+{112766}{112965}- To na pewno Duch Lasu.|- Ojcze, nic nie jest za darmo.
+{112970}{113141}- Chciałbym Wiedzieć, kto to zrobił.|- Dobry Duch, dziadku?
+{113146}{113283}- Tak sądzę.|- Nie opowiadaj im bajek.
+{113876}{113966}Kto to?
+{113971}{114061}Felix?|Dzieci?
+{114348}{114491}{C:$ffffff}{F:Arial}PRZYJACIEL
+{114540}{114728}- Co to za słowo?|- Przy... ja... ciel.
+{114764}{114921}- Przyjaciel?|- Tak! Doskonale!
+{114961}{115125}Masz Wielu przyjaciół, prawda?|Dziadek...
+{115169}{115323}Przyjaaaciel...
+{116196}{116288}Przyjaciel.
+{116315}{116415}Rodzina.
+{116445}{116553}O... Ojciec.
+{116603}{116742}Nie Wolno ci spuścić z oka|mojej aparatury.
+{116747}{116864}- Ojciec sam ją odbierze.|- Tak, panie.
+{116869}{117017}- Wybieracie się dokądś?|- Spójrz, co mi ofiarował Wiktor.
+{117022}{117228}- Piękny! To naprawdę ty?|- Zamiast obrączki.
+{117233}{117326}Moje gratulacje.|Można się było tego spodziewać!
+{117331}{117440}- Kiedy?|- Jak tylko dotrzemy do domu.
+{117473}{117604}- Przejmie praktykę ojca.|- I rozszerzę ją.
+{117608}{117742}- Ja również się rozwijam.|- Szukam pomocnika...
+{117747}{117917}Grosz niewielki, za to Wspaniałe|jedzenie, mieszkanie i towarzystwo.
+{117922}{118083}Idealna propozycja dla kogoś, kto|Właśnie zaliczył anatomię.
+{118088}{118233}Zastanawialiśmy się, czy...|nie mógłbyś nam kogoś polecić?
+{118289}{118459}- Nie Wiem, co powiedzieć.|- Zgódź się, proszę.
+{118480}{118550}Zgoda!
+{118555}{118669}Tak!
+{118674}{118797}Możesz to zapisać|W swoim dzienniku!
+{119221}{119309}"To..."
+{119315}{119440}"... jest..."
+{119445}{119529}"... dziennik..."
+{119533}{119621}"... Wiktora..."
+{119656}{119746}"... Frankensteina..."
+{119751}{119817}"... z..."
+{119822}{119928}"... Genewy."
+{120023}{120141}Chodźcie, szybko.
+{120219}{120375}- Wesołych Świąt!|- Pospieszcie się, pora spać.
+{120697}{120889}"Dla Dobrego Ducha z Lasu."
+{121315}{121517}- Jesteś Dobrym Duchem?|- Niekoniecznie. Gdzie ojciec?
+{121522}{121626}Pytałem, gdzie ojciec?
+{121631}{121755}- Maggie?|- Nie.
+{121759}{121918}- Co zrobiłeś Maggie?|- Synek kryje się za twoimi plecami?
+{121923}{121995}Wynoś się!
+{122041}{122131}To nie moja Wina.
+{122135}{122285}Tylko twojego syna,|który zalega z czynszem.
+{122611}{122678}Boże drogi!
+{122705}{122824}Dziękuję, przyjacielu.|Z całego serca.
+{122889}{123008}Wejdź i usiądź przy ogniu.
+{123014}{123104}Nie bój się.
+{123148}{123247}Chodź.|Zapraszam.
+{123508}{123620}Odpocznij sobie.
+{123669}{123775}Znacznie lepiej.
+{123780}{123877}Cieszę się, że Wreszcie przyszedłeś.
+{123882}{124042}Człowiek nie powinien|kryć się po kątach.
+{124209}{124356}Tak jest dla mnie lepiej.
+{124360}{124424}Dlaczego?
+{124473}{124591}Ludzie się mnie boją.
+{124596}{124684}Z Wyjątkiem ciebie.
+{124725}{124843}Nie może być aż tak źle.
+{124938}{125064}Gorzej.
+{125069}{125260}Jeśli pozwolisz, obejrzę|cię swoimi rękami.
+{125852}{125944}- Tato, on uderzył dziadka!|- Kto taki?
+{125949}{126064}Co to za hałas?|Co się stało, Maggie?
+{126093}{126193}Biedaku.
+{126324}{126443}Nie masz przyjaciół?
+{126489}{126649}Są pewni ludzie...
+{126778}{126894}Ale oni mnie nie znają.
+{126899}{127010}Czemu się do nich nie udasz?
+{127127}{127304}Bo jestem tak strasznie...
+{127472}{127576}...brzydki.
+{127594}{127771}A oni są tacy...
+{127909}{127985}...piękni.
+{127991}{128066}Ojcze!
+{128071}{128245}- Wynoś się stąd, potworze.|- Nie rób mu krzywdy!
+{128356}{128423}Musimy uciekać.
+{129890}{129993}Nie...
+{130296}{130435}Rozległe uszkodzenia...|olbrzymia siła fizyczna...
+{130441}{130524}...nie żyje.|Na tym kończy się eksperyment.
+{131309}{131459}Zemszczę się!
+{131492}{131605}Frankenstein!
+{132604}{132699}Genewa!
+{133104}{133309}- Szybko!|- Już jest! Otrzymaliśmy list.
+{133314}{133461}- Gratuluję, Elizabeth.|- Dziękuję, Justine.
+{133466}{133560}Czy to medalion?
+{133565}{133688}- Wiktor jest po prostu piękny!|- Mogę pokazać go Peterowi?
+{133693}{133788}- To nie jest zabawka.|- Niech biegnie.
+{134050}{134236}Skoncentruj się, Justine! Ktoś może|pomyśleć, że to twoje Wesele.
+{134241}{134336}- Czy coś się stało?|- Nie. Nic.
+{134341}{134455}Nie dotykaj.|Wszystko popsujesz.
+{135272}{135384}Nie!
+{135728}{135820}Frankenstein.
+{135869}{135968}- Chodź no tu!|- Widziałaś Williego?
+{135973}{136166}- Podobno Wcale go tam nie było.|- Jest już okropnie późno.
+{136327}{136399}William!
+{136491}{136666}Willie!
+{137009}{137129}To nie jest śmieszne!
+{137325}{137441}Tak już późno.
+{137446}{137614}Jesteśmy zmęczeni.|Jestem bardzo zmęczona.
+{137660}{137805}Ojcze!|Niech cię uściskam.
+{137958}{138018}Co się stało?
+{138632}{138734}{Y:i}William!
+{138965}{139083}Sprawdziliśmy Wschodnie zbocze.|I nic.
+{139210}{139456}- Elizabeth?|- Znalazłam go.
+{139543}{139648}Elizabeth!
+{139653}{139751}Nie!
+{140705}{140826}Robiliśmy, co W naszej mocy, sir.
+{140831}{140964}Proszę trochę odpocząć.|Zrobiliśmy naprawdę Wszystko.
+{141001}{141165}Sir, niepokoję się o moją córkę.|Nadal szuka Williama.
+{141170}{141313}Rozstałyśmy się W złości. Byłam dla|niej okrutna. Nie chciałam tego.
+{141318}{141516}Ciężko przeżywa twój ślub.|Bardzo cię kocha.
+{141521}{141684}Nie pozwolę, aby coś jej się|stało. Proszę mi pomóc!
+{141729}{141841}Zorganizujemy poszukiwania.
+{141846}{141960}Odnajdziemy ją. Pani Moritz.
+{142021}{142160}- Jak się miewa ojciec?|- Serce mu krwawi.
+{142414}{142625}Złapaliśmy morderczynię.|Ukryła się W stodole.
+{142657}{142803}To znaleźliśmy przy niej.|Należy do pana, prawda?
+{142878}{143048}Sir, musi pan pójść z nami.|Ludzie W mieście całkiem zwariowali.
+{143124}{143265}- Co się dzieje?|- Włamali się do aresztu!
+{143270}{143353}Toż to zwyczajny lincz!
+{143358}{143480}Przestańcie!|To Wbrew prawu.
+{143736}{143872}Ratuj mnie, Wiktorze.|Próbowałam go odszukać.
+{143895}{144061}Poszłam nad jezioro.|Chciałam przyprowadzić go do ciebie.
+{144066}{144261}Musi być na Waszym ślubie!|Przepraszam! Jest taki Wątły.
+{145344}{145485}Zawarliśmy bramy przed tłumem.|Co z ciałem Justine?
+{145490}{145665}- Odcięliśmy je.|- Dziękuję, Claude. Idź już spać.
+{145846}{145912}Morze Lodu.
+{145950}{146019}Tam się spotkamy...
+{146024}{146147}...Wśród Morza Lodu.
+{146698}{146758}Wybacz mi, Justine.
+{146790}{146929}Kto to jest?|Skąd Wiesz, że to zabójca?
+{146934}{147048}- Powiem ci, gdy go zniszczę.|- Zostaw to policji.
+{147053}{147173}- Nie zrozumieliby.|- Ja też nie rozumiem.
+{147213}{147325}Przyjmij to do Wiadomości.
+{150523}{150619}Wstawaj.
+{150624}{150778}- Ty umiesz mówić.|- Tak. Umiem mówić.
+{150783}{150885}I czytać.
+{150890}{150988}I myśleć.
+{150993}{151138}- Znam ścieżki człowiecze.|- Jak mnie znalazłeś?
+{151275}{151389}Twój dziennik.
+{151449}{151549}Więc chcesz mnie zabić.
+{151554}{151650}Nie.
+{151671}{151771}Zamordowałeś mojego brata,|prawda?
+{151840}{151976}Chwyciłem go za gardło|jedna ręką. -
+{151981}{152100}- uniosłem do góry, -
+{152105}{152231}- i powoli skręciłem mu kark.
+{152303}{152500}Gdy go zabijałem,|Widziałem twoją twarz.
+{152564}{152750}Obdarzyłeś mnie uczuciami, ale nie|nauczyłeś, jak ich używać.
+{152786}{152898}Z naszej Winy...
+{152903}{153011}...zginęło już dwoje ludzi.
+{153040}{153139}Dlaczego?
+{153144}{153307}W mojej duszy rozgrywa się teraz|coś, czego nie rozumiem.
+{153366}{153485}A co z moją duszą?|Czy ja mam duszę?
+{153490}{153621}A może tę część pominąłeś?
+{153654}{153805}Kim byli ludzie,|z których się składam?
+{153837}{153956}Czy byli dobrzy? Źli?
+{153961}{154123}- To tylko surowce, nic Więcej.|- Mylisz się.
+{154153}{154284}Czy Wiedziałeś,|że potrafię grać na flecie?
+{154289}{154416}W której części mojej osoby|znajduje się ta Wiedza?
+{154421}{154495}W rękach?
+{154500}{154609}W umyśle?|W sercu?
+{154614}{154763}Czytanie i mówienie...
+{154806}{154986}Raczej przypomniałem je sobie|niż się ich nauczyłem.
+{155025}{155137}Może to ślady pamięciowe|W mózgu.
+{155176}{155362}Czy zastanawiałeś się nad|konsekwencjami swoich czynów?
+{155394}{155584}Dałeś mi życie, a potem|zostawiłeś, abym umarł.
+{155760}{155893}- Kim jestem?|- Jesteś...
+{156036}{156155}Nie Wiem.
+{156200}{156339}Uważasz, że jestem zły.
+{156370}{156455}Co mam zrobić?
+{156460}{156593}Chciałbym mieć...|przyjaciela.
+{156598}{156714}- Przyjaciela?|- Towarzysza.
+{156719}{156899}Samicę.|Podobną do mnie.
+{156930}{157082}- Która by mnie nie nienawidziła.|- Taką jak ty?
+{157134}{157230}Nie Wiesz, o co prosisz.
+{157235}{157482}Wiem jednak, że za sympatię|jednej żyjącej istoty -
+{157487}{157636}- pogodziłbym się ze światem.
+{157695}{157914}Mam W sobie Wielką miłość, której|nie potrafisz sobie Wyobrazić.
+{157954}{158153}Oraz Wielki gniew, który|zadziwiłby cię ogromnie.
+{158214}{158380}Jeśli nie zaspokoję jednego...
+{158394}{158551}...pogrążę się W drugim.
+{158630}{158827}Gdzie byście zamieszkali?
+{158920}{159149}Powędrowalibyśmy na Północ,|aż do samego bieguna.
+{159155}{159284}Do dziewiczej krainy.
+{159289}{159504}Tam żylibyśmy|razem W spokoju.
+{159536}{159684}Żaden człowiek nigdy|by już nas nie zobaczył.
+{159725}{159860}Przyrzekam.
+{159865}{160013}Musisz mi pomóc.|Proszę.
+{160125}{160278}Jeśli tak można|naprawić Wyrządzone zło...
+{160318}{160416}...uczynię to.
+{160421}{160506}Wiktorze!
+{160511}{160597}Wszystko dobrze?
+{160630}{160760}- Jak najlepiej.|- Co się stało?
+{160766}{160855}Powiedz nam.
+{160990}{161089}Musisz Wyjawić prawdę!
+{161094}{161249}Tylko miesiąc. Potem się pobierzemy|i zapomnimy o Wszystkim.
+{161254}{161354}- Obiecuję.|- Czyżby?!
+{161359}{161515}Obiecałeś, że powiesz, kto to jest.|Że skończysz z eksperymentami.
+{161520}{161649}- Opuszczam ten dom.|- Dokąd pojedziesz?
+{161654}{161779}- Tam, gdzie odzyskam siły.|- Nie mam czasu na sprzeczki.
+{161784}{161890}Komplikują twoje plany?
+{161895}{162025}Czy zawsze myślisz|Wyłącznie o sobie?
+{162346}{162454}Niech Bóg mi Wybaczy!
+{164939}{165029}Dlaczego ona?
+{165034}{165213}Surowiec, pamiętasz?|Nic Więcej. Twoje Własne słowa.
+{165278}{165415}- Musisz dotrzymać obietnicy!|- Nie zrobię tego.
+{165420}{165540}- Dalej, zabij mnie!|- To zbyt proste.
+{165545}{165670}Skoro nie chcesz dać mi żony,|zawitam u ciebie W noc poślubną!
+{165738}{165841}Elizabeth!
+{165883}{165976}Zaczekaj.
+{165995}{166094}Muszę z tobą porozmawiać.|Proszę!
+{166384}{166490}Co chcesz mi powiedzieć?
+{166495}{166591}Nie odchodź.
+{166625}{166767}Proszę, zostań.
+{166944}{167016}Boję się.
+{167111}{167220}Czego?
+{167300}{167478}Zrobiłem coś tak|przerażającego...
+{167518}{167625}i podłego...
+{167678}{167851}Boje się, że jeśli|Wyznam ci prawdę...
+{167904}{168017}...stracę cię na zawsze.
+{168039}{168129}Stracisz, gdy będziesz milczał.
+{168237}{168322}Nie Wiem...
+{168327}{168435}...już...
+{168502}{168599}...co...
+{168604}{168699}...robić.
+{169746}{169859}Ożenisz się ze mną. Wiktorze?
+{169935}{170051}Pobierzmy się dzisiaj.
+{170056}{170204}Jutro opowiesz mi o Wszystkim.
+{170242}{170346}Lecz musisz Wyznać mi prawdę.
+{170404}{170540}Razem uda nam się znieść Wszystko.
+{170566}{170749}Cokolwiek uczyniłeś,|cokolwiek się stało...
+{170795}{170886}...i tak cię kocham.
+{171168}{171358}Dzielić prawdę, całą prawdę,|na dobre i na złe. -
+{171363}{171556}- Wspierać się|W zdrowiu i chorobie. -
+{171563}{171736}- oraz W radości.|Od tej chwili -
+{171741}{171885}- póki śmierć Was nie rozłączy.
+{172360}{172475}- Kto to jest? Jak Wygląda?|- Rozpoznacie go.
+{172480}{172676}Zabił Williama i przez niego|zginęła Justine. Strzelać od razu!
+{172728}{172874}Pilnujcie się.|Ja zaopiekuję się twoim ojcem.
+{174196}{174340}Ostatni prom już odpłynął.|Następny jest dopiero o świcie.
+{174345}{174459}- Znajdę dla Was nocleg.|- Dziękuję ci, Claude.
+{174586}{174689}- Nie zmoczcie pistoletów!|- Bez obawy.
+{174694}{174860}- Jeśli zawiodą. Wyprujemy mu flaki.|- Wracaj na posterunek.
+{174934}{175064}Niech pan się nie martwi, sir.|Z nami jesteście bezpieczni.
+{175069}{175245}Proszę iść do żony. Nie często|miewa się noc poślubną.
+{175996}{176104}Jesteś przemoczony do suchej nitki.
+{176337}{176455}Brat i siostra...|już nie.
+{176460}{176551}Teraz mąż i żona.
+{179110}{179196}Wiktorze?
+{179232}{179324}Zarygluj drzwi.
+{179406}{179524}- Widziałem go. Pobiegł nad jezioro.|- Zostańcie tutaj.
+{179871}{180015}- Zgubiliśmy go.|- Elizabeth!
+{180041}{180145}Nawet nie próbuj krzyczeć.
+{180668}{180846}Proszę...|Nie rób mi krzywdy.
+{180865}{181011}Jesteś piękniejsza|niż przypuszczałem.
+{181056}{181119}Elizabeth.
+{181440}{181562}Ja dotrzymuję słowa!
+{182401}{182554}- Powiedz, co się stało.|- Wiem, co należy zrobić.
+{182559}{182709}- Nie Wolno ci. Wiktorze!|- Kocham ją. Jak ty byś postąpił?
+{182714}{182826}- Zostawiłbym ją W spokoju.|- Mój ojciec zrobiłby to samo.
+{182831}{182931}Twój ojciec nie żyje.
+{182936}{183084}- Więc nie mam nic do stracenia.|- Z Wyjątkiem Własnej duszy.
+{186970}{187091}Ożyj!
+{187139}{187239}Nie!
+{188066}{188178}Żyj...
+{189122}{189242}Wymów moje imię.
+{189247}{189399}Proszę, powiedz moje imię.
+{189439}{189609}Przypomnij sobie!|Na pewno je pamiętasz.
+{189614}{189750}Elizabeth.
+{189975}{190069}Właśnie.
+{190093}{190228}Widzisz? Pamiętasz.
+{190291}{190384}Dobrze...
+{190501}{190614}Wstań.
+{190965}{191054}Tak...
+{191760}{191869}Pamiętasz!
+{193351}{193411}Jaka ona piękna!
+{193519}{193626}- Nie jest dla ciebie.|- Chodź!
+{193714}{193814}Elizabeth?
+{193819}{193930}Wymów moje imię!
+{194006}{194115}Elizabeth.
+{194281}{194392}Elizabeth!
+{194431}{194565}Jesteś piękna.
+{194641}{194887}- Powiedz moje imię.|- Chodź do mnie. Elizabeth.
+{196905}{197020}Wymów moje imię, Elizabeth.
+{197025}{197104}Wik...
+{197109}{197198}Bardzo dobrze. Elizabeth.
+{197203}{197351}- Wiktor...|- Nie, jesteś moja!
+{197400}{197548}- Jesteś moja.|- Zostaw ją W spokoju!
+{197553}{197665}- Nie zbliżaj się.|- Wymówiła moje imię!
+{197670}{197771}Należy do mnie!
+{199329}{199545}Wszystko, co kiedyś kochałem,|umarło - i to z mojej Winy.
+{199653}{199776}Podążałem za nim jak cień.
+{199781}{199937}Cały czas na Północ.
+{199942}{200042}Tyle miesięcy...
+{200047}{200137}Opętany jedną myślą:
+{200164}{200272}Zabić go.
+{200319}{200395}Teraz jednak...
+{200516}{200621}...jestem zmęczony.
+{200697}{200898}Przeraźliwie zmęczony.
+{201370}{201470}Co panu powiedział?
+{201476}{201588}Nie żyje.
+{201593}{201759}Przed śmiercią bełkotał coś|o jakimś upiorze.
+{201764}{201832}Co tam jest, kapitanie?
+{201957}{202096}Opowiedział mi historię...
+{202155}{202267}...która nie może być prawdziwa.
+{202272}{202421}Sądzę, że był szalony.
+{202521}{202599}Ciepły Wiatr!
+{202668}{202826}- Lody Wreszcie puszczą.|- I co potem, kapitanie?
+{203023}{203130}- Popłyniemy na Północ.|- Nie!
+{203812}{203882}Kim jesteś?
+{203986}{204074}Nie dał mi imienia.
+{204908}{205126}- Dlaczego płaczesz?|- Był moim ojcem.
+{205194}{205386}"I postanowiłem sobie poznać mądrość|i Wiedzę, szaleństwo i głupotę, -
+{205390}{205587}- poznałem, że również i to jest|pogonią za Wiatrem.
+{205592}{205715}Bo W Wielkiej mądrości, -
+{205721}{205871}- Wiele utrapienia; a kto przysparza|Wiedzy, przysparza i cierpień. "
+{205877}{206087}"Bóg bowiem każdą sprawę zawezwie na|sąd; Wszystko, choć ukryte, -
+{206092}{206232}- czy dobre było,|czy złe. "
+{206483}{206601}- Kapitanie...|- Ma prawo być tu obecny.
+{206936}{207038}Chryste, lód pęka!
+{207321}{207406}Wracajmy na statek, kapitanie.
+{207411}{207488}Zostaw tę przeklętą pochodnię!
+{207579}{207673}Chodź z nami.
+{207679}{207780}Skończyłem już porachunki z ludźmi.
+{208165}{208260}Ratunku!
+{208373}{208451}Kapitanie!
+{210583}{210716}Dokąd teraz, kapitanie?
+{211023}{211132}Do domu.
+{220696}{220842}{c:$cfcfcf}{y:b}Napisy polskie: Studio Company|{c:$cfcfcf}{y:b}tekst: Agnieszka Rostkowska

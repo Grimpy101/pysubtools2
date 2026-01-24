@@ -1,0 +1,4 @@
+{1}{1}25
+{1}{20}{P:0}{Y:b,i}{S:18}{F:arial}Just a test.
+{20}{40}{P:0}{Y:b,i}{S:18}{F:arial}Should be|the same format.
+{40}{50}{P:0}{Y:b,i,u}{S:18}{F:arial}But this should also be underline.

@@ -1,0 +1,4 @@
+{DEFAULT}{}{F:Arial}{S:18}{Y:b,i}{P:0}
+{1}{20}Just a test.
+{20}{40}Should be|the same format.
+{40}{50}{Y:u}But this should also be underline.
