@@ -39,7 +39,8 @@ class HTMLTag(Span):
 
 
 class Formatting(abc.ABC):
-    pass
+    def to_json(self) -> typing.Dict:
+        raise NotImplementedError()
 
 
 @dataclasses.dataclass()
@@ -53,6 +54,13 @@ class Bold(Formatting, HTMLTag):
 
     def get_attributes(self) -> str:
         return ""
+    
+    def to_json(self) -> typing.Dict:
+        return {
+            'type': 'bold',
+            'start': self.start,
+            'end': self.end
+        }
 
     def __str__(self) -> str:
         return f"bold[{self.start}-{self.end}]"
@@ -69,6 +77,13 @@ class Italic(Formatting, HTMLTag):
 
     def get_attributes(self) -> str:
         return ""
+    
+    def to_json(self) -> typing.Dict:
+        return {
+            'type': 'italic',
+            'start': self.start,
+            'end': self.end
+        }
 
     def __str__(self) -> str:
         return f"italic[{self.start}-{self.end}]"
@@ -85,6 +100,13 @@ class Underline(Formatting, HTMLTag):
 
     def get_attributes(self) -> str:
         return ""
+    
+    def to_json(self) -> typing.Dict:
+        return {
+            'type': 'underline',
+            'start': self.start,
+            'end': self.end
+        }
 
     def __str__(self) -> str:
         return f"underline[{self.start}-{self.end}]"
@@ -101,6 +123,13 @@ class Strikethrough(Formatting, HTMLTag):
 
     def get_attributes(self) -> str:
         return ""
+    
+    def to_json(self) -> typing.Dict:
+        return {
+            'type': 'strikethrough',
+            'start': self.start,
+            'end': self.end
+        }
 
     def __str__(self) -> str:
         return f"strikethrough[{self.start}-{self.end}]"
@@ -164,6 +193,14 @@ class Color(Formatting, HTMLTag):
         g = int(self.g * 255.0)
         b = int(self.b * 255.0)
         return f"${b:02x}{g:02x}{r:02x}"
+    
+    def to_json(self) -> typing.Dict:
+        return {
+            'type': 'color',
+            'start': self.start,
+            'end': self.end,
+            'color': [self.r, self.g, self.b, self.a]
+        }
 
     def get_html_tag(self, position: str) -> str:
         if position == "start":
@@ -192,6 +229,14 @@ class FontFace(Formatting, HTMLTag):
 
     def get_attributes(self) -> str:
         return f'face="{self.face}"'
+    
+    def to_json(self) -> typing.Dict:
+        return {
+            'type': 'fontface',
+            'start': self.start,
+            'end': self.end,
+            'font': self.face
+        }
 
     def __str__(self) -> str:
         return f"fontFace[{self.start}-{self.end}]({self.face})"
@@ -210,6 +255,14 @@ class TextSize(Formatting, HTMLTag):
 
     def get_attributes(self) -> str:
         return f"size={self.size}"
+    
+    def to_json(self) -> typing.Dict:
+        return {
+            'type': 'textsize',
+            'start': self.start,
+            'end': self.end,
+            'size': self.size
+        }
 
     def __str__(self) -> str:
         return f"textSize[{self.start}-{self.end}]({self.size})"
@@ -217,6 +270,27 @@ class TextSize(Formatting, HTMLTag):
 
 @dataclasses.dataclass()
 class Position(Formatting):
+    def to_json(self) -> typing.Dict:
+        if isinstance(self, RelativePosition):
+            return {
+                'type': 'position',
+                'kind': 'relative',
+                'position': self.classifier.value
+            }
+        elif isinstance(self, AbsolutePosition):
+            return {
+                'type': 'position',
+                'kind': 'absolute',
+                'position': {
+                    'x1': self.x1,
+                    'x2': self.x2,
+                    'y1': self.y1,
+                    'y2': self.y2
+                }
+            }
+        else:
+            raise NotImplementedError()
+    
     def __eq__(self, value: object) -> bool:
         return isinstance(value, Position)
 

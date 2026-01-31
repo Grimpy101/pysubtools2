@@ -271,21 +271,10 @@ class SubRipParser:
         milliseconds = int(ms)
         return Time.from_human_time(milliseconds, seconds, minutes, hours)
 
-    @staticmethod
-    def _parse_times(line: str) -> typing.Optional[typing.Tuple[Time, Time]]:
-        try:
-            [start_timestamp, end_timestamp] = line.split("-->", 1)
-            start = SubRipParser._parse_timestamp(start_timestamp)
-            end = SubRipParser._parse_timestamp(end_timestamp)
-            return (start, end)
-        except ValueError:
-            return None
-
-    @staticmethod
-    def _parse_absolute_position(line: str) -> typing.Optional[AbsolutePosition]:
+    def _parse_absolute_position(self, line: str) -> typing.Optional[AbsolutePosition]:
         x1 = x2 = y1 = y2 = None
-        tail = line.rsplit("  ", 1)[-1]
-        coordinates = tail.split()
+        #tail = line.rsplit("  ", 1)[-1]
+        coordinates = line.split()
         for coordinate in coordinates:
             if ":" not in coordinate:
                 continue
@@ -302,7 +291,8 @@ class SubRipParser:
 
         if None in (x1, x2, y1, y2):
             return None
-        return AbsolutePosition(x1, x2, y1, y2)  # pyright: ignore[reportArgumentType]
+        
+        self.formattings.append(AbsolutePosition(x1, x2, y1, y2))
 
     def _formatting_already_exists(self, formatting: Formatting) -> bool:
         for f in self.formattings:
@@ -361,18 +351,23 @@ class SubRipParser:
             self.temp_text += line + "\n"
 
     def _on_time_state(self, line: str):
-        times = self._parse_times(line)
-        if times is None:
+        #times = self._parse_times(line)
+        
+        timestamps = line.split("-->", 1)
+        if len(timestamps) < 2:
             return
-
-        self.start_time = times[0]
-        self.end_time = times[1]
-
-        absolute_position = self._parse_absolute_position(line)
-        if absolute_position is not None and not self._formatting_already_exists(
-            absolute_position
-        ):
-            self.formattings.append(absolute_position)
+        
+        [start_timestamp, end_timestamp] = timestamps
+        self.start_time = SubRipParser._parse_timestamp(start_timestamp)
+        self.end_time = SubRipParser._parse_timestamp(end_timestamp)
+        
+        upper_end_timestamp = end_timestamp.upper()
+        if 'X' in upper_end_timestamp:
+            absolute_position = self._parse_absolute_position(upper_end_timestamp)
+            if absolute_position is not None and not self._formatting_already_exists(
+                absolute_position
+            ):
+                self.formattings.append(absolute_position)
 
         self.state = SubRipParsingState.CONTENT
 

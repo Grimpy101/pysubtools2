@@ -1,5 +1,6 @@
 import json
 import os
+import pathlib
 import random
 import string
 import time
@@ -39,16 +40,26 @@ class TestMicroDVDParsing(unittest.TestCase):
             sub_data: typing.Mapping[str, typing.Any] = json.load(f)
 
         for file, properties in sub_data.items():
-            print(file)
+            full_filepath = os.path.join(os.path.dirname(sub_data_path), file)
+            full_filepath = pathlib.Path(full_filepath)
 
             parser = MicroDVDParser(25)
             exporter = MicroDVDExporter(25)
 
-            full_filepath = os.path.join(os.path.dirname(sub_data_path), file)
             subtitle = parser.parse_file(full_filepath)
 
-            assert len(subtitle) == properties["units"]
+            # JSON part
+            json_subtitle = subtitle.to_json()
+            json_file = full_filepath.with_suffix(".json")
+            if json_file.exists():
+                with open(json_file, "r", encoding='utf-8') as f:
+                    json_content = json.load(f)
+                assert json_content == json_subtitle
+            else:
+                with open(json_file, "w", encoding='utf-8') as f:
+                    json.dump(json_subtitle, f, ensure_ascii=False, indent=1)
 
+            
             charset = get_file_encoding(full_filepath)
             assert charset == properties["encoding"]
 

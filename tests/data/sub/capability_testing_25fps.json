@@ -1,0 +1,244 @@
+[
+ {
+  "start": 40,
+  "end": 40,
+  "text": "This is never seen.",
+  "formattings": []
+ },
+ {
+  "start": 800,
+  "end": 2000,
+  "text": "This is\nin two lines.",
+  "formattings": []
+ },
+ {
+  "start": 2800,
+  "end": 3600,
+  "text": "This is italic.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 15
+   }
+  ]
+ },
+ {
+  "start": 3600,
+  "end": 4000,
+  "text": "This is italic\nin two lines.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 28
+   }
+  ]
+ },
+ {
+  "start": 4000,
+  "end": 4400,
+  "text": "This is bold\nbut this is not.",
+  "formattings": [
+   {
+    "type": "bold",
+    "start": 0,
+    "end": 12
+   }
+  ]
+ },
+ {
+  "start": 4400,
+  "end": 4800,
+  "text": "This is not underline\nbut this is.",
+  "formattings": [
+   {
+    "type": "underline",
+    "start": 22,
+    "end": 34
+   }
+  ]
+ },
+ {
+  "start": 4800,
+  "end": 5200,
+  "text": "The same goes\nif it's anywhere in the line.",
+  "formattings": [
+   {
+    "type": "underline",
+    "start": 14,
+    "end": 43
+   }
+  ]
+ },
+ {
+  "start": 5200,
+  "end": 5600,
+  "text": "What about bold and italic!",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 27
+   },
+   {
+    "type": "bold",
+    "start": 0,
+    "end": 27
+   }
+  ]
+ },
+ {
+  "start": 5600,
+  "end": 6000,
+  "text": "Or what about ...\nitalic and underline!",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 39
+   },
+   {
+    "type": "underline",
+    "start": 0,
+    "end": 39
+   }
+  ]
+ },
+ {
+  "start": 6000,
+  "end": 6400,
+  "text": "Global\nstyle\nin\nmore\nlines.",
+  "formattings": [
+   {
+    "type": "bold",
+    "start": 0,
+    "end": 27
+   },
+   {
+    "type": "underline",
+    "start": 0,
+    "end": 27
+   }
+  ]
+ },
+ {
+  "start": 6800,
+  "end": 7200,
+  "text": "- But why?\n- Because this movie\nhas naughty language!",
+  "formattings": [
+   {
+    "type": "color",
+    "start": 0,
+    "end": 10,
+    "color": [
+     1.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "type": "color",
+    "start": 11,
+    "end": 31,
+    "color": [
+     1.0,
+     1.0,
+     0.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "start": 7200,
+  "end": 7600,
+  "text": "This next line\nshould be in Arial font.",
+  "formattings": [
+   {
+    "type": "fontface",
+    "start": 15,
+    "end": 39,
+    "font": "Arial"
+   }
+  ]
+ },
+ {
+  "start": 7600,
+  "end": 8000,
+  "text": "We can also set the size.",
+  "formattings": [
+   {
+    "type": "textsize",
+    "start": 0,
+    "end": 25,
+    "size": 10
+   }
+  ]
+ },
+ {
+  "start": 8400,
+  "end": 8800,
+  "text": "This should be\nabove the movie.",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 8
+   }
+  ]
+ },
+ {
+  "start": 8800,
+  "end": 9200,
+  "text": "This should be\nbelow the movie.",
+  "formattings": []
+ },
+ {
+  "start": 9200,
+  "end": 9600,
+  "text": "What about if\nsomeone makes a mistake?",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 8
+   }
+  ]
+ },
+ {
+  "start": 10000,
+  "end": 10400,
+  "text": "Apparently we can also\ndisplace just one line.",
+  "formattings": []
+ },
+ {
+  "start": 10400,
+  "end": 10800,
+  "text": "And now we test\ndifferent control code separators.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 50
+   },
+   {
+    "type": "bold",
+    "start": 0,
+    "end": 50
+   },
+   {
+    "type": "underline",
+    "start": 0,
+    "end": 50
+   }
+  ]
+ },
+ {
+  "start": 11200,
+  "end": 12000,
+  "text": "And finally...\nüñíç§d€čžšćđæ",
+  "formattings": []
+ }
+]

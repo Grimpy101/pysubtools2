@@ -1,0 +1,43 @@
+[
+ {
+  "start": 2501,
+  "end": 4500,
+  "text": "Tester for dots instead of commas in timestamps 1.0 by ale5000\nUse VLC 1.0.3 or higher as reference",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 63,
+    "end": 99
+   },
+   {
+    "type": "bold",
+    "start": 63,
+    "end": 99
+   }
+  ]
+ },
+ {
+  "start": 4501,
+  "end": 8500,
+  "text": "Dots instead of commas",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 8
+   }
+  ]
+ },
+ {
+  "start": 6501,
+  "end": 8500,
+  "text": "OK",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 8
+   }
+  ]
+ }
+]

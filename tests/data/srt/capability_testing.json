@@ -1,0 +1,528 @@
+[
+ {
+  "start": 0,
+  "end": 0,
+  "text": "Don't show this text it may be used to insert hidden data",
+  "formattings": []
+ },
+ {
+  "start": 1500,
+  "end": 4500,
+  "text": "SubRip subtitles capability tester 1.3o by ale5000\nUse VLC 1.1 or higher as reference for most things and MPC Home Cinema for others\nThis text should be blue\nThis text should be red\nThis text should be black\nIf you see this with the normal font, the player don't (fully) support font face",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 51,
+    "end": 132
+   },
+   {
+    "type": "bold",
+    "start": 51,
+    "end": 132
+   },
+   {
+    "type": "color",
+    "start": 133,
+    "end": 157,
+    "color": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "type": "color",
+    "start": 158,
+    "end": 181,
+    "color": [
+     1.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "type": "color",
+    "start": 182,
+    "end": 207,
+    "color": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "type": "fontface",
+    "start": 208,
+    "end": 288,
+    "font": "Webdings"
+   }
+  ]
+ },
+ {
+  "start": 4500,
+  "end": 4500,
+  "text": "Hidden",
+  "formattings": []
+ },
+ {
+  "start": 4501,
+  "end": 7500,
+  "text": "This text should be small\nThis text should be normal\nThis text should be big",
+  "formattings": [
+   {
+    "type": "textsize",
+    "start": 0,
+    "end": 25,
+    "size": 8
+   },
+   {
+    "type": "textsize",
+    "start": 53,
+    "end": 76,
+    "size": 35
+   }
+  ]
+ },
+ {
+  "start": 7501,
+  "end": 11500,
+  "text": "This should be an E with an accent: È\n日本語\nThis text should be bold, italics and underline\nThis text should be small and green\nThis text should be small and red\nThis text should be big and brown",
+  "formattings": [
+   {
+    "type": "underline",
+    "start": 42,
+    "end": 89
+   },
+   {
+    "type": "italic",
+    "start": 42,
+    "end": 89
+   },
+   {
+    "type": "bold",
+    "start": 42,
+    "end": 89
+   },
+   {
+    "type": "textsize",
+    "start": 42,
+    "end": 89,
+    "size": 30
+   },
+   {
+    "type": "textsize",
+    "start": 90,
+    "end": 125,
+    "size": 9
+   },
+   {
+    "type": "color",
+    "start": 90,
+    "end": 125,
+    "color": [
+     0.0,
+     1.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "type": "color",
+    "start": 126,
+    "end": 159,
+    "color": [
+     1.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "type": "textsize",
+    "start": 126,
+    "end": 159,
+    "size": 9
+   },
+   {
+    "type": "color",
+    "start": 160,
+    "end": 193,
+    "color": [
+     0.647,
+     0.165,
+     0.165,
+     1.0
+    ]
+   },
+   {
+    "type": "textsize",
+    "start": 160,
+    "end": 193,
+    "size": 24
+   }
+  ]
+ },
+ {
+  "start": 11501,
+  "end": 14500,
+  "text": "This line should be bold\nThis line should be italics\nThis line should be underline\nThis line should be strikethrough\nBoth lines\nshould be underline",
+  "formattings": [
+   {
+    "type": "bold",
+    "start": 0,
+    "end": 24
+   },
+   {
+    "type": "italic",
+    "start": 25,
+    "end": 52
+   },
+   {
+    "type": "underline",
+    "start": 53,
+    "end": 82
+   },
+   {
+    "type": "strikethrough",
+    "start": 83,
+    "end": 116
+   },
+   {
+    "type": "underline",
+    "start": 117,
+    "end": 147
+   }
+  ]
+ },
+ {
+  "start": 14501,
+  "end": 17500,
+  "text": ">\nIt would be a good thing to\nhide invalid html tags that are closed and show the text in them\n<invalid_tag_unclosed>but show un-closed invalid html tags\nShow not opened tags</invalid_tag_not_opened>\n<",
+  "formattings": []
+ },
+ {
+  "start": 17501,
+  "end": 20500,
+  "text": "and also\nhide invalid html tags with parameters that are closed and show the text in them\n<invalid_tag_uc par=\"5\">but show un-closed invalid html tags\nThis text should be showed underlined without problems also: 2<3,5>1,4<6\nThis shouldn't be underlined",
+  "formattings": [
+   {
+    "type": "underline",
+    "start": 151,
+    "end": 223
+   }
+  ]
+ },
+ {
+  "start": 20501,
+  "end": 21500,
+  "text": "This text should be in the normal position...",
+  "formattings": []
+ },
+ {
+  "start": 21501,
+  "end": 22500,
+  "text": "This text should NOT be in the normal position",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "absolute",
+    "position": {
+     "x1": 0,
+     "x2": 0,
+     "y1": 50,
+     "y2": 100
+    }
+   }
+  ]
+ },
+ {
+  "start": 22501,
+  "end": 24500,
+  "text": "Implementation is the same of the ASS tag\nThis text should be at the\ntop and horizontally centered",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 8
+   }
+  ]
+ },
+ {
+  "start": 22501,
+  "end": 24500,
+  "text": "This text should be at the\nmiddle and horizontally centered",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 5
+   }
+  ]
+ },
+ {
+  "start": 22501,
+  "end": 24500,
+  "text": "This text should be at the\nbottom and horizontally centered",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 2
+   }
+  ]
+ },
+ {
+  "start": 24501,
+  "end": 26500,
+  "text": "This text should be at the\ntop and horizontally at the left",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 7
+   }
+  ]
+ },
+ {
+  "start": 24501,
+  "end": 26500,
+  "text": "This text should be at the\nmiddle and horizontally at the left\n(The second position must be ignored)",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 4
+   }
+  ]
+ },
+ {
+  "start": 24501,
+  "end": 26500,
+  "text": "This text should be at the\nbottom and horizontally at the left",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 1
+   }
+  ]
+ },
+ {
+  "start": 26501,
+  "end": 28500,
+  "text": "This text should be at the\ntop and horizontally at the right",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 9
+   }
+  ]
+ },
+ {
+  "start": 26501,
+  "end": 28500,
+  "text": "This text should be at the\nmiddle and horizontally at the right",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 6
+   }
+  ]
+ },
+ {
+  "start": 26501,
+  "end": 28500,
+  "text": "This text should be at the\nbottom and horizontally at the right",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 3
+   }
+  ]
+ },
+ {
+  "start": 28501,
+  "end": 31500,
+  "text": "This could be the most difficult thing to implement",
+  "formattings": [
+   {
+    "type": "color",
+    "start": 19,
+    "end": 20,
+    "color": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "type": "textsize",
+    "start": 18,
+    "end": 22,
+    "size": 35
+   },
+   {
+    "type": "color",
+    "start": 0,
+    "end": 51,
+    "color": [
+     0.0,
+     1.0,
+     0.0,
+     1.0
+    ]
+   },
+   {
+    "type": "textsize",
+    "start": 0,
+    "end": 51,
+    "size": 6
+   }
+  ]
+ },
+ {
+  "start": 31501,
+  "end": 50500,
+  "text": "First text",
+  "formattings": []
+ },
+ {
+  "start": 33500,
+  "end": 35500,
+  "text": "Second, it shouldn't overlap first",
+  "formattings": []
+ },
+ {
+  "start": 35501,
+  "end": 37500,
+  "text": "Third, it should replace second",
+  "formattings": []
+ },
+ {
+  "start": 36501,
+  "end": 50500,
+  "text": "Fourth, it shouldn't overlap first and third",
+  "formattings": []
+ },
+ {
+  "start": 40501,
+  "end": 45500,
+  "text": "Fifth, it should replace third",
+  "formattings": []
+ },
+ {
+  "start": 45501,
+  "end": 50500,
+  "text": "Sixth, it shouldn't be\nshowed overlapped",
+  "formattings": []
+ },
+ {
+  "start": 50501,
+  "end": 52500,
+  "text": "TEXT 1 (bottom)",
+  "formattings": []
+ },
+ {
+  "start": 50501,
+  "end": 52500,
+  "text": "text 2",
+  "formattings": []
+ },
+ {
+  "start": 52501,
+  "end": 54500,
+  "text": "Hide these tags: \nalso hide these tags: \nbut show this: {normal text}",
+  "formattings": []
+ },
+ {
+  "start": 54501,
+  "end": 60500,
+  "text": "\n\\ N is a forced line break\n\\ h is a hard space\nNormal spaces at the start and at the end of the line are trimmed while hard spaces are not trimmed.\nThe\\hline\\hwill\\hnever\\hbreak\\hautomatically\\hright\\hbefore\\hor\\hafter\\ha\\hhard\\hspace.\\h:-D",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 8
+   }
+  ]
+ },
+ {
+  "start": 54501,
+  "end": 56500,
+  "text": "\n\\h\\h\\h\\h\\hA (05 hard spaces followed by a letter)\nA (Normal  spaces followed by a letter)\nA (No hard spaces followed by a letter)",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 1
+   }
+  ]
+ },
+ {
+  "start": 56501,
+  "end": 58500,
+  "text": "\\h\\h\\h\\h\\hA (05 hard spaces followed by a letter)\nA (Normal  spaces followed by a letter)\nA (No hard spaces followed by a letter)\nShow this: \\TEST and this: \\-)",
+  "formattings": []
+ },
+ {
+  "start": 58501,
+  "end": 60500,
+  "text": "\nA letter followed by 05 hard spaces: A\\h\\h\\h\\h\\h\nA letter followed by normal  spaces: A\nA letter followed by no hard spaces: A\n05 hard  spaces between letters: A\\h\\h\\h\\h\\hA\n5 normal spaces between letters: A     A\n\\N^--Forced line break",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 3
+   }
+  ]
+ },
+ {
+  "start": 60501,
+  "end": 62500,
+  "text": "Both line should be strikethrough,\nyes.\nCorrectly closed tags\nshould be hidden.",
+  "formattings": [
+   {
+    "type": "strikethrough",
+    "start": 0,
+    "end": 39
+   }
+  ]
+ },
+ {
+  "start": 62501,
+  "end": 64500,
+  "text": "It shouldn't be strikethrough,\nnot opened tag showed as text.</s>\nNot opened tag showed as text.</xxxxx>",
+  "formattings": []
+ },
+ {
+  "start": 64501,
+  "end": 66500,
+  "text": "Three lines should be strikethrough,\nyes.\n<yyyy>Not closed tags showed as text",
+  "formattings": [
+   {
+    "type": "strikethrough",
+    "start": 0,
+    "end": 78
+   }
+  ]
+ },
+ {
+  "start": 66501,
+  "end": 68500,
+  "text": "Both line should be strikethrough but\nthe wrong closing tag should be showed</b>",
+  "formattings": [
+   {
+    "type": "strikethrough",
+    "start": 0,
+    "end": 80
+   }
+  ]
+ }
+]

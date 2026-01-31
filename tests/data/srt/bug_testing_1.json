@@ -1,0 +1,55 @@
+[
+ {
+  "start": 5000,
+  "end": 60500,
+  "text": "\\h\\hPosition 2 ♪♪ €",
+  "formattings": []
+ },
+ {
+  "start": 6000,
+  "end": 60500,
+  "text": "Position 3",
+  "formattings": []
+ },
+ {
+  "start": 1000,
+  "end": 60500,
+  "text": "Position 1\n\n\nSubRip subtitles bug tester ALTERNATIVE 1.3b by ale5000",
+  "formattings": []
+ },
+ {
+  "start": 8000,
+  "end": 60500,
+  "text": "00Display this. ;)",
+  "formattings": [
+   {
+    "type": "position",
+    "kind": "absolute",
+    "position": {
+     "x1": 0,
+     "x2": 0,
+     "y1": 50,
+     "y2": 100
+    }
+   }
+  ]
+ },
+ {
+  "start": 10000,
+  "end": 60500,
+  "text": "00Display also this. 8)",
+  "formattings": []
+ },
+ {
+  "start": 11000,
+  "end": 65500,
+  "text": "00And finally this. 8)",
+  "formattings": []
+ },
+ {
+  "start": 60501,
+  "end": 65500,
+  "text": "ALargeNotBreakableLineShouldBeDisplayedCorrectlyInAnyPlayerCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "formattings": []
+ }
+]

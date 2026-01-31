@@ -1,0 +1,38 @@
+[
+ {
+  "start": 10000,
+  "end": 11200,
+  "text": "Subtitle first line,\nsubtitle second line,",
+  "formattings": []
+ },
+ {
+  "start": 15000,
+  "end": 16200,
+  "text": "position is bottom middle,\ncenter justified.",
+  "formattings": []
+ },
+ {
+  "start": 20000,
+  "end": 21200,
+  "text": "This line is italic,\nthis should be blue.",
+  "formattings": []
+ },
+ {
+  "start": 25000,
+  "end": 26200,
+  "text": "Now there is no Bold,\nand subtitles are on top of the screen.",
+  "formattings": []
+ },
+ {
+  "start": 30000,
+  "end": 31200,
+  "text": "THE END\nis in tne middle and boxed.",
+  "formattings": []
+ },
+ {
+  "start": 85899345880,
+  "end": 85899345880,
+  "text": "",
+  "formattings": []
+ }
+]

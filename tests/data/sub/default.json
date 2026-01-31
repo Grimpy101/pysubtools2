@@ -1,0 +1,109 @@
+[
+ {
+  "start": 40,
+  "end": 800,
+  "text": "Just a test.",
+  "formattings": [
+   {
+    "type": "fontface",
+    "start": 0,
+    "end": 12,
+    "font": "arial"
+   },
+   {
+    "type": "textsize",
+    "start": 0,
+    "end": 12,
+    "size": 18
+   },
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 12
+   },
+   {
+    "type": "bold",
+    "start": 0,
+    "end": 12
+   },
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 8
+   }
+  ]
+ },
+ {
+  "start": 800,
+  "end": 1600,
+  "text": "Should be\nthe same format.",
+  "formattings": [
+   {
+    "type": "fontface",
+    "start": 0,
+    "end": 26,
+    "font": "arial"
+   },
+   {
+    "type": "textsize",
+    "start": 0,
+    "end": 26,
+    "size": 18
+   },
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 26
+   },
+   {
+    "type": "bold",
+    "start": 0,
+    "end": 26
+   },
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 8
+   }
+  ]
+ },
+ {
+  "start": 1600,
+  "end": 2000,
+  "text": "But this should also be underline.",
+  "formattings": [
+   {
+    "type": "fontface",
+    "start": 0,
+    "end": 34,
+    "font": "arial"
+   },
+   {
+    "type": "textsize",
+    "start": 0,
+    "end": 34,
+    "size": 18
+   },
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 34
+   },
+   {
+    "type": "bold",
+    "start": 0,
+    "end": 34
+   },
+   {
+    "type": "position",
+    "kind": "relative",
+    "position": 8
+   },
+   {
+    "type": "underline",
+    "start": 0,
+    "end": 34
+   }
+  ]
+ }
+]

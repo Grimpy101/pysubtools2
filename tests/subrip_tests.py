@@ -1,5 +1,6 @@
 import json
 import os
+import pathlib
 import random
 import string
 import time
@@ -42,21 +43,31 @@ class TestSubRipParsing(unittest.TestCase):
             srt_data: typing.Mapping[str, typing.Any] = json.load(f)
 
         for file, properties in srt_data.items():
-            print(file)
-
+            full_filepath = os.path.join(os.path.dirname(srt_data_path), file)
+            full_filepath = pathlib.Path(full_filepath)
+            
             parser = SubRipParser()
             exporter = SubRipExporter()
-
-            full_filepath = os.path.join(os.path.dirname(srt_data_path), file)
+            
             subtitle = parser.parse_file(full_filepath)
+            
+            # JSON part
+            json_subtitle = subtitle.to_json()
+            json_file = full_filepath.with_suffix(".json")
+            if json_file.exists():
+                with open(json_file, "r", encoding='utf-8') as f:
+                    json_content = json.load(f)
+                assert json_content == json_subtitle
+            else:
+                with open(json_file, "w", encoding='utf-8') as f:
+                    json.dump(json_subtitle, f, ensure_ascii=False, indent=1)
 
-            assert len(subtitle) == properties["units"]
-
-            subrip_string = exporter.to_string(subtitle)
+            # Charset part
             charset = get_file_encoding(full_filepath)
-
             assert charset == properties["encoding"]
-
+            
+            # Check ground truth
+            subrip_string = exporter.to_string(subtitle)
             gt_path = os.path.join(
                 os.path.dirname(srt_data_path), properties["ground_truth"]
             )

@@ -1,0 +1,4780 @@
+[
+ {
+  "start": 36600,
+  "end": 40520,
+  "text": "Pragnęłam napisać powieść-",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 26
+   }
+  ]
+ },
+ {
+  "start": 40720,
+  "end": 46000,
+  "text": "- która przemówiłaby do naszych\nukrytych lęków-",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 47
+   }
+  ]
+ },
+ {
+  "start": 46200,
+  "end": 51280,
+  "text": "- i wzbudziła prawdziwe przerażenie.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 36
+   }
+  ]
+ },
+ {
+  "start": 51480,
+  "end": 57880,
+  "text": "Która by sprawiła, że czytelnik\nbałby się rozejrzeć wokół siebie.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 65
+   }
+  ]
+ },
+ {
+  "start": 58120,
+  "end": 64560,
+  "text": "Która mroziłaby krew w żyłach i\nprzyspieszała bicie serca.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 58
+   }
+  ]
+ },
+ {
+  "start": 64760,
+  "end": 68560,
+  "text": "F R A N K E N S T E I N",
+  "formattings": [
+   {
+    "type": "textsize",
+    "start": 0,
+    "end": 23,
+    "size": 30
+   },
+   {
+    "type": "fontface",
+    "start": 0,
+    "end": 23,
+    "font": "Times New Roman"
+   },
+   {
+    "type": "color",
+    "start": 0,
+    "end": 23,
+    "color": [
+     0.8117647058823529,
+     0.8117647058823529,
+     0.8117647058823529,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "start": 71560,
+  "end": 76440,
+  "text": "Początek XIX stulecia.",
+  "formattings": []
+ },
+ {
+  "start": 76640,
+  "end": 82600,
+  "text": "Epoka rewolucji\ni odkryć naukowych -",
+  "formattings": []
+ },
+ {
+  "start": 82800,
+  "end": 88800,
+  "text": "- które miały zmienić oblicze Świata.\nGłód Wiedzy był ogromny.",
+  "formattings": []
+ },
+ {
+  "start": 89000,
+  "end": 93720,
+  "text": "Wśród pionierów nowej ery znajdował\nsię kapitan Robert Walton, -",
+  "formattings": []
+ },
+ {
+  "start": 93880,
+  "end": 98560,
+  "text": "- marzący o zdobyciu Bieguna\nPółnocnego za Wszelką cenę.",
+  "formattings": []
+ },
+ {
+  "start": 98760,
+  "end": 103480,
+  "text": "Podczas Wyprawy odkrył jednak coś -",
+  "formattings": []
+ },
+ {
+  "start": 103680,
+  "end": 109840,
+  "text": "- co miało napełnić lękiem śmiałków,\nruszających W nieznane...",
+  "formattings": []
+ },
+ {
+  "start": 114640,
+  "end": 120080,
+  "text": "MORZE ARKTYCZNE. 1794",
+  "formattings": [
+   {
+    "type": "fontface",
+    "start": 0,
+    "end": 21,
+    "font": "Times New Roman"
+   },
+   {
+    "type": "color",
+    "start": 0,
+    "end": 21,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "start": 126640,
+  "end": 132960,
+  "text": "Powiedz kapitanowi, że\ntrzeba opuścić topżagiel.",
+  "formattings": []
+ },
+ {
+  "start": 133160,
+  "end": 137360,
+  "text": "Zaraz rozerwie się na strzępy.",
+  "formattings": []
+ },
+ {
+  "start": 141640,
+  "end": 149480,
+  "text": "- Musimy zrzucić żagle!\n- Wszyscy do masztów.",
+  "formattings": []
+ },
+ {
+  "start": 149680,
+  "end": 152200,
+  "text": "Przejmij ster.",
+  "formattings": []
+ },
+ {
+  "start": 157600,
+  "end": 162960,
+  "text": "Kapitanie, uderzyliśmy W lód.",
+  "formattings": []
+ },
+ {
+  "start": 163160,
+  "end": 166760,
+  "text": "Przed nami góra lodowa!",
+  "formattings": []
+ },
+ {
+  "start": 173160,
+  "end": 177080,
+  "text": "Na sterburtę!",
+  "formattings": []
+ },
+ {
+  "start": 208000,
+  "end": 211160,
+  "text": "Pomocy!",
+  "formattings": []
+ },
+ {
+  "start": 214200,
+  "end": 218560,
+  "text": "Trzymaj!",
+  "formattings": []
+ },
+ {
+  "start": 244120,
+  "end": 247960,
+  "text": "Z sercem, chłopcy!",
+  "formattings": []
+ },
+ {
+  "start": 248960,
+  "end": 253800,
+  "text": "- Dalej!\n- To nie ma sensu, kapitanie.",
+  "formattings": []
+ },
+ {
+  "start": 254000,
+  "end": 260040,
+  "text": "- Mamy się poddać i umrzeć?\n- Ludzie są Wyczerpani.",
+  "formattings": []
+ },
+ {
+  "start": 260240,
+  "end": 265200,
+  "text": "Nie dopłynąłem tak daleko,\nżeby teraz rezygnować.",
+  "formattings": []
+ },
+ {
+  "start": 265400,
+  "end": 271760,
+  "text": "Znali ryzyko. Jeśli będzie trzeba,\nWykujemy drogę aż do bieguna.",
+  "formattings": []
+ },
+ {
+  "start": 271960,
+  "end": 275960,
+  "text": "Grozi panu\nbunt załogi, kapitanie.",
+  "formattings": []
+ },
+ {
+  "start": 277800,
+  "end": 282200,
+  "text": "- Bunt, powiadasz?\n- Owszem. Sir.",
+  "formattings": []
+ },
+ {
+  "start": 283760,
+  "end": 289840,
+  "text": "Popłyniemy na Północ...\nzgodnie z planem.",
+  "formattings": []
+ },
+ {
+  "start": 291040,
+  "end": 298040,
+  "text": "- Kosztem ludzkiego życia?\n- Jeśli to nieuchronne!",
+  "formattings": []
+ },
+ {
+  "start": 313360,
+  "end": 317680,
+  "text": "Coś tam jest.",
+  "formattings": []
+ },
+ {
+  "start": 325400,
+  "end": 329640,
+  "text": "Cóż to. U diabła?",
+  "formattings": []
+ },
+ {
+  "start": 360880,
+  "end": 366120,
+  "text": "- Gdzie jest kapitan?\n- To ja.",
+  "formattings": []
+ },
+ {
+  "start": 366320,
+  "end": 371360,
+  "text": "- Ktoś ty, człowieku?\n- Nie mam czasu na rozmowy.",
+  "formattings": []
+ },
+ {
+  "start": 371560,
+  "end": 375560,
+  "text": "Potrzebni mi ludzie i broń.",
+  "formattings": []
+ },
+ {
+  "start": 377360,
+  "end": 380960,
+  "text": "- Natychmiast!\n- Nie ruszaj się.",
+  "formattings": []
+ },
+ {
+  "start": 381160,
+  "end": 385520,
+  "text": "Ja tu Wydaję rozkazy.",
+  "formattings": []
+ },
+ {
+  "start": 389800,
+  "end": 393560,
+  "text": "Sprowadźcie psy!",
+  "formattings": []
+ },
+ {
+  "start": 393760,
+  "end": 397160,
+  "text": "Lepiej nie.",
+  "formattings": []
+ },
+ {
+  "start": 397360,
+  "end": 401440,
+  "text": "Już są martwe.",
+  "formattings": []
+ },
+ {
+  "start": 413960,
+  "end": 419400,
+  "text": "Wracajcie na statek.\nWszyscy z powrotem na statek!",
+  "formattings": []
+ },
+ {
+  "start": 422800,
+  "end": 428160,
+  "text": "- To nie jest niedźwiedź!\n- Może ma ochotę na naszego gościa.",
+  "formattings": []
+ },
+ {
+  "start": 428360,
+  "end": 431800,
+  "text": "Albo na kapitana!",
+  "formattings": []
+ },
+ {
+  "start": 432000,
+  "end": 437560,
+  "text": "Z St. Petersburga do Archangielska\nszedłem pieszo.",
+  "formattings": []
+ },
+ {
+  "start": 437760,
+  "end": 446040,
+  "text": "Wsiadłem na statek Wielorybniczy.\nGdy utknął W lodzie, Wziąłem psy.",
+  "formattings": []
+ },
+ {
+  "start": 452840,
+  "end": 457080,
+  "text": "Co tam się czai?",
+  "formattings": []
+ },
+ {
+  "start": 460720,
+  "end": 466640,
+  "text": "6 lat planowałem tę Wyprawę.\nPochłonęła cały mój majątek.",
+  "formattings": []
+ },
+ {
+  "start": 466840,
+  "end": 472080,
+  "text": "Nie zatrzymasz mnie ani ty,\nani jakiś upiór.",
+  "formattings": []
+ },
+ {
+  "start": 472280,
+  "end": 476680,
+  "text": "Ty też jesteś szalony?",
+  "formattings": []
+ },
+ {
+  "start": 476880,
+  "end": 482240,
+  "text": "- To nie szaleństwo.\n- W takim razie. Co?",
+  "formattings": []
+ },
+ {
+  "start": 484240,
+  "end": 489760,
+  "text": "Można zdobyć Biegun Północny.\nI ja tego dokonam.",
+  "formattings": []
+ },
+ {
+  "start": 489960,
+  "end": 497400,
+  "text": "- Kosztem ludzkiego życia?\n- Ludzie rodzą się i umierają.",
+  "formattings": []
+ },
+ {
+  "start": 497600,
+  "end": 503880,
+  "text": "Jeśli się nam powiedzie,\nzdobędziemy Wieczną sławę.",
+  "formattings": []
+ },
+ {
+  "start": 504080,
+  "end": 509680,
+  "text": "Okrzykną mnie\ndobroczyńcą ludzkości.",
+  "formattings": []
+ },
+ {
+  "start": 509880,
+  "end": 517360,
+  "text": "Mylisz się.\nJa to Wiem.",
+  "formattings": []
+ },
+ {
+  "start": 517559,
+  "end": 520760,
+  "text": "Kim jesteś?",
+  "formattings": []
+ },
+ {
+  "start": 521960,
+  "end": 526360,
+  "text": "Nazywam się...",
+  "formattings": []
+ },
+ {
+  "start": 526560,
+  "end": 530800,
+  "text": "...Wiktor...",
+  "formattings": []
+ },
+ {
+  "start": 531000,
+  "end": 535520,
+  "text": "...Frankenstein.",
+  "formattings": []
+ },
+ {
+  "start": 543280,
+  "end": 548000,
+  "text": "GENEWA. 1773",
+  "formattings": [
+   {
+    "type": "fontface",
+    "start": 0,
+    "end": 12,
+    "font": "Times New Roman"
+   },
+   {
+    "type": "color",
+    "start": 0,
+    "end": 12,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "start": 552280,
+  "end": 558760,
+  "text": "- Mamo!\n- Mój cudowny synek Wiktor!",
+  "formattings": []
+ },
+ {
+  "start": 558960,
+  "end": 568120,
+  "text": "Jesteś najładniejszym, najmilszym,\nnajcudowniejszym chłopcem na ziemi!",
+  "formattings": []
+ },
+ {
+  "start": 570880,
+  "end": 574080,
+  "text": "Madam!\nRozpieści pani synka.",
+  "formattings": []
+ },
+ {
+  "start": 584960,
+  "end": 590560,
+  "text": "- Mogę panie na chwilę przeprosić?\n- Doktorze.",
+  "formattings": []
+ },
+ {
+  "start": 591760,
+  "end": 595600,
+  "text": "Chodźmy, Justine.",
+  "formattings": []
+ },
+ {
+  "start": 595800,
+  "end": 602160,
+  "text": "Wiktorze, to jest Elizabeth.\nZamieszka z nami.",
+  "formattings": []
+ },
+ {
+  "start": 602360,
+  "end": 609920,
+  "text": "Jej rodzice zmarli na\nszkarlatynę.",
+  "formattings": []
+ },
+ {
+  "start": 610120,
+  "end": 616400,
+  "text": "- Została całkiem sama.\n- Traktuj ją jak siostrę.",
+  "formattings": []
+ },
+ {
+  "start": 618120,
+  "end": 623200,
+  "text": "Opiekuj się nią i\nbądź dla niej miły.",
+  "formattings": []
+ },
+ {
+  "start": 626560,
+  "end": 630680,
+  "text": "Zawsze.",
+  "formattings": []
+ },
+ {
+  "start": 644520,
+  "end": 652000,
+  "text": "- Jak się czuje maleństwo?\n- Trochę dziś niespokojne.",
+  "formattings": []
+ },
+ {
+  "start": 663400,
+  "end": 670360,
+  "text": "- Lubiłeś robaczki świętojańskie...\n- Gdy je łapałem, umierały.",
+  "formattings": []
+ },
+ {
+  "start": 670560,
+  "end": 675640,
+  "text": "Wtedy płakałeś. Miały\nświecić u Wezgłowia twego łóżka -",
+  "formattings": []
+ },
+ {
+  "start": 675840,
+  "end": 679360,
+  "text": "- żebyś mógł czytać W nocy.",
+  "formattings": []
+ },
+ {
+  "start": 679560,
+  "end": 686440,
+  "text": "Byłeś strasznie żądny Wiedzy.\nBardzo poważny chłopczyk.",
+  "formattings": []
+ },
+ {
+  "start": 687840,
+  "end": 692520,
+  "text": "Stałeś się zapalczywym\nmłodzieńcem.",
+  "formattings": []
+ },
+ {
+  "start": 692720,
+  "end": 698800,
+  "text": "Te dziwne, stare księgi...",
+  "formattings": []
+ },
+ {
+  "start": 700600,
+  "end": 704520,
+  "text": "Będziesz lepszym lekarzem\nniż ojciec.",
+  "formattings": []
+ },
+ {
+  "start": 707480,
+  "end": 713640,
+  "text": "Wiedz jednak, Wiktorze...\nŻe życie to nie tylko książki.",
+  "formattings": []
+ },
+ {
+  "start": 713840,
+  "end": 718240,
+  "text": "Czeka na ciebie tyle przyjemności!",
+  "formattings": []
+ },
+ {
+  "start": 719600,
+  "end": 722760,
+  "text": "Oddaj, mamo!",
+  "formattings": []
+ },
+ {
+  "start": 733560,
+  "end": 736880,
+  "text": "Odbijany!",
+  "formattings": []
+ },
+ {
+  "start": 737080,
+  "end": 741960,
+  "text": "Nie powinnaś się przemęczać,\nKarolino!",
+  "formattings": []
+ },
+ {
+  "start": 742160,
+  "end": 747400,
+  "text": "Maleństwo będzie\nurodzonym tancerzem.",
+  "formattings": []
+ },
+ {
+  "start": 750960,
+  "end": 757160,
+  "text": "Wszystkie damy i kawalerowie\nbędą Wam zazdrościć.",
+  "formattings": []
+ },
+ {
+  "start": 757360,
+  "end": 759840,
+  "text": "Justine!",
+  "formattings": []
+ },
+ {
+  "start": 760040,
+  "end": 764200,
+  "text": "Justine.\nZatańczysz ze mną?",
+  "formattings": []
+ },
+ {
+  "start": 769920,
+  "end": 772280,
+  "text": "Madam!",
+  "formattings": []
+ },
+ {
+  "start": 774360,
+  "end": 779680,
+  "text": "- Musi pan się zdecydować!\n- Dziecko ułożyło się niewłaściwie.",
+  "formattings": []
+ },
+ {
+  "start": 779880,
+  "end": 788400,
+  "text": "- Nie mogę...\n- Ratuj dziecko, nie mnie.",
+  "formattings": []
+ },
+ {
+  "start": 798040,
+  "end": 804960,
+  "text": "Nic jej nie będzie. Twój ojciec jest\nnajznakomitszym lekarzem W Genewie.",
+  "formattings": []
+ },
+ {
+  "start": 815320,
+  "end": 819000,
+  "text": "Ojcze?",
+  "formattings": []
+ },
+ {
+  "start": 823840,
+  "end": 827560,
+  "text": "Ojcze, jak się czuje mama?",
+  "formattings": []
+ },
+ {
+  "start": 827760,
+  "end": 832800,
+  "text": "Zrobiłem Wszystko, co W mojej mocy.",
+  "formattings": []
+ },
+ {
+  "start": 833640,
+  "end": 838600,
+  "text": "Mamo!",
+  "formattings": []
+ },
+ {
+  "start": 862240,
+  "end": 869720,
+  "text": "Przywróć jej życie!\nBłagam, przywróć jej życie...",
+  "formattings": []
+ },
+ {
+  "start": 871200,
+  "end": 876800,
+  "text": "Przywróć jej życie!",
+  "formattings": []
+ },
+ {
+  "start": 889320,
+  "end": 895000,
+  "text": "TRZY LATA PÓŹNIEJ",
+  "formattings": [
+   {
+    "type": "bold",
+    "start": 0,
+    "end": 17
+   },
+   {
+    "type": "color",
+    "start": 0,
+    "end": 17,
+    "color": [
+     0.8117647058823529,
+     0.8117647058823529,
+     0.8117647058823529,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "start": 907240,
+  "end": 912000,
+  "text": "Umiłowana żona i matka\nCaroline Beaufort Frankenstein.",
+  "formattings": []
+ },
+ {
+  "start": 914600,
+  "end": 917520,
+  "text": "Och. Mamo!",
+  "formattings": []
+ },
+ {
+  "start": 917720,
+  "end": 924960,
+  "text": "Nie powinnaś była umrzeć.\nNikt nie powinien umierać!",
+  "formattings": []
+ },
+ {
+  "start": 925160,
+  "end": 929360,
+  "text": "Skończę z tym.",
+  "formattings": []
+ },
+ {
+  "start": 929560,
+  "end": 936200,
+  "text": "Skończę z tym.\nPrzyrzekam.",
+  "formattings": []
+ },
+ {
+  "start": 936400,
+  "end": 941400,
+  "text": "Zupełnie zwariowałeś, Wiktorze.\nCo to takiego?",
+  "formattings": []
+ },
+ {
+  "start": 941600,
+  "end": 945400,
+  "text": "Energia.\nNie znika, tylko zmienia postać.",
+  "formattings": []
+ },
+ {
+  "start": 945600,
+  "end": 950800,
+  "text": "Dzięki tym świecom ów mechaniczny\npies zaczyna drgać.",
+  "formattings": []
+ },
+ {
+  "start": 951000,
+  "end": 956120,
+  "text": "To Wszechstronne urządzenie.",
+  "formattings": []
+ },
+ {
+  "start": 956320,
+  "end": 963960,
+  "text": "- Pięknie dzisiaj na dworze.\n- Odejdź, jestem zajęty.",
+  "formattings": []
+ },
+ {
+  "start": 968200,
+  "end": 971600,
+  "text": "A to co?",
+  "formattings": []
+ },
+ {
+  "start": 971800,
+  "end": 976680,
+  "text": "Rozpylacz elektrycznych Węgorzy.",
+  "formattings": []
+ },
+ {
+  "start": 976880,
+  "end": 980240,
+  "text": "Nie ruszaj.\nNie Wolno się tym bawić.",
+  "formattings": []
+ },
+ {
+  "start": 980440,
+  "end": 986600,
+  "text": "To nie służy do zabawy.\nOdłóż, proszę...",
+  "formattings": []
+ },
+ {
+  "start": 986800,
+  "end": 990600,
+  "text": "Oddaj!",
+  "formattings": []
+ },
+ {
+  "start": 991520,
+  "end": 995000,
+  "text": "Chodź!",
+  "formattings": []
+ },
+ {
+  "start": 1002440,
+  "end": 1007680,
+  "text": "Powinniśmy być Wdzięczni Wiktorowi,\nże rzucił swoje doświadczenia.",
+  "formattings": []
+ },
+ {
+  "start": 1007880,
+  "end": 1011520,
+  "text": "Kto powiedział, że rzuciłem?",
+  "formattings": []
+ },
+ {
+  "start": 1011720,
+  "end": 1017080,
+  "text": "- Jak to?\n- Spójrz!",
+  "formattings": []
+ },
+ {
+  "start": 1017280,
+  "end": 1024000,
+  "text": "- Wiedziałeś, że tak się stanie.\n- Miałem nadzieję.",
+  "formattings": []
+ },
+ {
+  "start": 1024200,
+  "end": 1027000,
+  "text": "Nie Widziałem jeszcze takiej chmury.",
+  "formattings": []
+ },
+ {
+  "start": 1027200,
+  "end": 1032800,
+  "text": "- Czyż nie Wspaniała?\n- Naprawdę nie powinieneś.",
+  "formattings": []
+ },
+ {
+  "start": 1033000,
+  "end": 1039720,
+  "text": "- Musimy się ukryć. Pod drzewem!\n- Wręcz przeciwnie.",
+  "formattings": []
+ },
+ {
+  "start": 1039920,
+  "end": 1044480,
+  "text": "- A Willie?\n- Co mamy robić?",
+  "formattings": []
+ },
+ {
+  "start": 1044680,
+  "end": 1049400,
+  "text": "Połóżmy się na ziemi.\nElizabeth. Weź to ode mnie.",
+  "formattings": []
+ },
+ {
+  "start": 1050240,
+  "end": 1054160,
+  "text": "- Szybko!\n- Co to jest?",
+  "formattings": []
+ },
+ {
+  "start": 1054360,
+  "end": 1058920,
+  "text": "- Wbij go W grunt.\n- Co teraz?",
+  "formattings": []
+ },
+ {
+  "start": 1059120,
+  "end": 1064360,
+  "text": "- Willie!\n- Wszyscy na ziemię.",
+  "formattings": []
+ },
+ {
+  "start": 1064560,
+  "end": 1068760,
+  "text": "Daj mi rękę.\nNic nam się nie stanie.",
+  "formattings": []
+ },
+ {
+  "start": 1068960,
+  "end": 1075000,
+  "text": "- Mam nadzieję, że Wiesz, co robisz.\n- Willie, nie patrz W górę!",
+  "formattings": []
+ },
+ {
+  "start": 1075200,
+  "end": 1080360,
+  "text": "Zaczekajcie!\nRaz, dwa, trzy...",
+  "formattings": []
+ },
+ {
+  "start": 1092160,
+  "end": 1095360,
+  "text": "Teraz.",
+  "formattings": []
+ },
+ {
+  "start": 1113040,
+  "end": 1120560,
+  "text": "- Jak się czujesz, Elizabeth?\n- Ożywiona!",
+  "formattings": []
+ },
+ {
+  "start": 1156840,
+  "end": 1162160,
+  "text": "Panie i panowie, przyjaciele!\nProszę o chwilę uwagi.",
+  "formattings": []
+ },
+ {
+  "start": 1162360,
+  "end": 1168640,
+  "text": "Jak zapewne Wiecie, jutro\nmój syn Wictor Wyjeżdża, -",
+  "formattings": []
+ },
+ {
+  "start": 1168840,
+  "end": 1176360,
+  "text": "- aby rozpocząć karierę W zawodzie,\nktóry nie jest mi całkiem obcy.",
+  "formattings": []
+ },
+ {
+  "start": 1176560,
+  "end": 1180920,
+  "text": "Cóż za skromność!",
+  "formattings": []
+ },
+ {
+  "start": 1184680,
+  "end": 1189760,
+  "text": "Żałuję jedynie, że nie ma tu...",
+  "formattings": []
+ },
+ {
+  "start": 1189960,
+  "end": 1195560,
+  "text": "...jego matki i mej zmarłej żony...",
+  "formattings": []
+ },
+ {
+  "start": 1198120,
+  "end": 1202600,
+  "text": "...która czułaby tę samą dumę...",
+  "formattings": []
+ },
+ {
+  "start": 1204920,
+  "end": 1210960,
+  "text": "...jaka i mnie dzisiaj\nprzepełnia.",
+  "formattings": []
+ },
+ {
+  "start": 1213080,
+  "end": 1216560,
+  "text": "Tak.",
+  "formattings": []
+ },
+ {
+  "start": 1222720,
+  "end": 1229440,
+  "text": "Pragnęła, abyś to otrzymał\npo Wstąpieniu na uniwersytet.",
+  "formattings": []
+ },
+ {
+  "start": 1229640,
+  "end": 1233840,
+  "text": "Napisała tutaj:",
+  "formattings": []
+ },
+ {
+  "start": 1236280,
+  "end": 1242200,
+  "text": "\"To jest dziennik\nWiktora Frankensteina.\"",
+  "formattings": []
+ },
+ {
+  "start": 1244360,
+  "end": 1248840,
+  "text": "Inne stronice są puste -",
+  "formattings": []
+ },
+ {
+  "start": 1250040,
+  "end": 1255720,
+  "text": "- zostaną Wypełnione uczynkami\nszlachetnego żywota.",
+  "formattings": []
+ },
+ {
+  "start": 1284800,
+  "end": 1289240,
+  "text": "Powinniśmy Wrócić,\nnim zauważą naszą nieobecność.",
+  "formattings": []
+ },
+ {
+  "start": 1289440,
+  "end": 1293040,
+  "text": "Jeszcze chwilkę.",
+  "formattings": []
+ },
+ {
+  "start": 1295040,
+  "end": 1299840,
+  "text": "Nie Wiem, kiedy znowu\nsię zobaczymy.",
+  "formattings": []
+ },
+ {
+  "start": 1300800,
+  "end": 1303800,
+  "text": "Kochany Wiktorze!",
+  "formattings": []
+ },
+ {
+  "start": 1304000,
+  "end": 1311960,
+  "text": "- Będzie mi brak twoich złośliwości.\n- Kto będzie mnie rozśmieszał?",
+  "formattings": []
+ },
+ {
+  "start": 1327000,
+  "end": 1332560,
+  "text": "Jak żegnają się\nbracia i siostry?",
+  "formattings": []
+ },
+ {
+  "start": 1335400,
+  "end": 1339720,
+  "text": "Może nie muszą tego robić.",
+  "formattings": []
+ },
+ {
+  "start": 1339880,
+  "end": 1344760,
+  "text": "Zrobię to, co ty.",
+  "formattings": []
+ },
+ {
+  "start": 1361080,
+  "end": 1365640,
+  "text": "Jesteś moją siostrą?",
+  "formattings": []
+ },
+ {
+  "start": 1365840,
+  "end": 1368640,
+  "text": "Siostrą...",
+  "formattings": []
+ },
+ {
+  "start": 1368840,
+  "end": 1372000,
+  "text": "...przyjaciółką...",
+  "formattings": []
+ },
+ {
+  "start": 1372200,
+  "end": 1375400,
+  "text": "...ukochaną.",
+  "formattings": []
+ },
+ {
+  "start": 1376840,
+  "end": 1381560,
+  "text": "- Żoną?\n- Tak!",
+  "formattings": []
+ },
+ {
+  "start": 1381760,
+  "end": 1385760,
+  "text": "- Jedź ze mną. Poślub mnie dzisiaj!\n- Nie.",
+  "formattings": []
+ },
+ {
+  "start": 1385960,
+  "end": 1394720,
+  "text": "- Więc zostanę z tobą.\n- Bardzo pragnę zostać twoją żoną.",
+  "formattings": []
+ },
+ {
+  "start": 1394920,
+  "end": 1400400,
+  "text": "Podczas twojej nieobecności powinnam\nbyć jednak tutaj.",
+  "formattings": []
+ },
+ {
+  "start": 1400600,
+  "end": 1407960,
+  "text": "Chcę tchnąć życie W ten dom.\nTu będą dorastać nasze dzieci.",
+  "formattings": []
+ },
+ {
+  "start": 1409840,
+  "end": 1415160,
+  "text": "Musisz Wyjechać i dokonać\nWielkich rzeczy.",
+  "formattings": []
+ },
+ {
+  "start": 1416200,
+  "end": 1420800,
+  "text": "Tak bardzo cię pragnę.",
+  "formattings": []
+ },
+ {
+  "start": 1421000,
+  "end": 1425040,
+  "text": "Będę na ciebie czekała.",
+  "formattings": []
+ },
+ {
+  "start": 1425240,
+  "end": 1430560,
+  "text": "Każdego lata, gdy przyjedziesz.",
+  "formattings": []
+ },
+ {
+  "start": 1435360,
+  "end": 1440480,
+  "text": "Za to W noc poślubną...",
+  "formattings": []
+ },
+ {
+  "start": 1451560,
+  "end": 1453960,
+  "text": "Dobrze Więc.",
+  "formattings": []
+ },
+ {
+  "start": 1461640,
+  "end": 1467440,
+  "text": "INGOLSTADT. 1793",
+  "formattings": [
+   {
+    "type": "fontface",
+    "start": 0,
+    "end": 16,
+    "font": "Times New Roman"
+   },
+   {
+    "type": "color",
+    "start": 0,
+    "end": 16,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "start": 1483720,
+  "end": 1488240,
+  "text": "- Jak minęła panu podróż?\n- Znośnie.",
+  "formattings": []
+ },
+ {
+  "start": 1488440,
+  "end": 1496080,
+  "text": "- Jedynie strych jest Wolny...\n- Tego Właśnie potrzebuję.",
+  "formattings": []
+ },
+ {
+  "start": 1496280,
+  "end": 1504240,
+  "text": "Przywiozą mi tutaj\nspecjalistyczną aparaturę.",
+  "formattings": []
+ },
+ {
+  "start": 1504440,
+  "end": 1510560,
+  "text": "Na pewno rozumie pani, jak\nWażne jest przyzwoite laboratorium.",
+  "formattings": []
+ },
+ {
+  "start": 1510760,
+  "end": 1514440,
+  "text": "Putzi lubi pana.",
+  "formattings": []
+ },
+ {
+  "start": 1523000,
+  "end": 1527280,
+  "text": "Doskonale.",
+  "formattings": []
+ },
+ {
+  "start": 1529040,
+  "end": 1535240,
+  "text": "\"Głupcy i próżniacy dowodzą swoich\nracji za pomocą magicznej różdżki.\"",
+  "formattings": []
+ },
+ {
+  "start": 1535440,
+  "end": 1540440,
+  "text": "\"Wiedza daje Władzę\njedynie dzięki Bogu.\"",
+  "formattings": []
+ },
+ {
+  "start": 1540640,
+  "end": 1547160,
+  "text": "Oto nasze motto. Niecierpliwi\nmłodzieńcy łatwo o nim zapominają.",
+  "formattings": []
+ },
+ {
+  "start": 1550000,
+  "end": 1558120,
+  "text": "Być może najpoważniejszym błędem\nnaszych studentów, -",
+  "formattings": []
+ },
+ {
+  "start": 1558320,
+  "end": 1562760,
+  "text": "- jest doprawdy\ndziwaczne przekonanie, -",
+  "formattings": []
+ },
+ {
+  "start": 1562960,
+  "end": 1570480,
+  "text": "- że W ogóle mogą Wpaść na\noryginalny lub twórczy pomysł.",
+  "formattings": []
+ },
+ {
+  "start": 1570680,
+  "end": 1576040,
+  "text": "Wszyscy tak sądziliśmy\n- W swoim czasie.",
+  "formattings": []
+ },
+ {
+  "start": 1582200,
+  "end": 1588200,
+  "text": "Panowie, nie przybyliście tu,\naby myśleć samodzielnie.",
+  "formattings": []
+ },
+ {
+  "start": 1588400,
+  "end": 1593960,
+  "text": "Macie się nauczyć, jak\nmyśleć za swoich pacjentów.",
+  "formattings": []
+ },
+ {
+  "start": 1594160,
+  "end": 1606680,
+  "text": "Musicie pamiętać, że\nświatem rządzą prawa fizyki.",
+  "formattings": []
+ },
+ {
+  "start": 1606880,
+  "end": 1610400,
+  "text": "Ależ, profesorze...",
+  "formattings": []
+ },
+ {
+  "start": 1610600,
+  "end": 1616320,
+  "text": "- Co z poglądami filozofów?\n- Filozofia?",
+  "formattings": []
+ },
+ {
+  "start": 1617640,
+  "end": 1623000,
+  "text": "Które mówią o związkach Wyobraźni\noraz intelektu, jak u Paracelsusa.",
+  "formattings": []
+ },
+ {
+  "start": 1623200,
+  "end": 1628360,
+  "text": "Paracelsus?\nArogancki i głupi Szwajcar.",
+  "formattings": []
+ },
+ {
+  "start": 1629440,
+  "end": 1636600,
+  "text": "- Albert Wielki?\n- Jego bajki obalono 500 lat temu.",
+  "formattings": []
+ },
+ {
+  "start": 1636800,
+  "end": 1642760,
+  "text": "- Cornelius Agrippa?\n- Czarownik. Jak się nazywasz?",
+  "formattings": []
+ },
+ {
+  "start": 1643880,
+  "end": 1649200,
+  "text": "Wiktor Frankenstein.\nPochodzę z Genewy.",
+  "formattings": []
+ },
+ {
+  "start": 1650320,
+  "end": 1653000,
+  "text": "Kolejny Szwajcar!",
+  "formattings": []
+ },
+ {
+  "start": 1653800,
+  "end": 1659600,
+  "text": "Panie Frankenstein, na uniwersytecie\nW Ingolstadt -",
+  "formattings": []
+ },
+ {
+  "start": 1659800,
+  "end": 1666720,
+  "text": "- uczymy sztuki medycznej.\nChemii, biologii, fizyki...",
+  "formattings": []
+ },
+ {
+  "start": 1666920,
+  "end": 1673600,
+  "text": "- Prawdziwej nauki.\n- Na pewno można je połączyć...",
+  "formattings": []
+ },
+ {
+  "start": 1673800,
+  "end": 1680960,
+  "text": "Nie studiujemy bełkotu\nszaleńców i alchemików.",
+  "formattings": []
+ },
+ {
+  "start": 1681160,
+  "end": 1691600,
+  "text": "Ich fanatyczne dociekania nie\nleczą ciała ani nie ratują życia.",
+  "formattings": []
+ },
+ {
+  "start": 1691800,
+  "end": 1696280,
+  "text": "Jedynie nauka to potrafi.",
+  "formattings": []
+ },
+ {
+  "start": 1698760,
+  "end": 1704560,
+  "text": "Czy zgadza się pan,\nabyśmy kontynuowali?",
+  "formattings": []
+ },
+ {
+  "start": 1708640,
+  "end": 1716160,
+  "text": "Ładny płaszcz. Nie przejmuj się.\nKrempe nie lubi się mylić.",
+  "formattings": []
+ },
+ {
+  "start": 1716360,
+  "end": 1720200,
+  "text": "- Nie jestem Wariatem!\n- Oczywiście, że nie.",
+  "formattings": []
+ },
+ {
+  "start": 1720400,
+  "end": 1726800,
+  "text": "Tak Właśnie racjonalna osoba\nprzemawia do nieznajomego!",
+  "formattings": []
+ },
+ {
+  "start": 1727000,
+  "end": 1731240,
+  "text": "Henry Clerval.\nJestem zupełnym Wariatem.",
+  "formattings": []
+ },
+ {
+  "start": 1731440,
+  "end": 1735960,
+  "text": "- Wiktor Frankenstein.\n- Z Genewy.",
+  "formattings": []
+ },
+ {
+  "start": 1736160,
+  "end": 1741400,
+  "text": "Uważaj lepiej,\ngdzie leziesz.",
+  "formattings": []
+ },
+ {
+  "start": 1741600,
+  "end": 1745240,
+  "text": "To Schiller.\nOzdoba boiska.",
+  "formattings": []
+ },
+ {
+  "start": 1745440,
+  "end": 1750800,
+  "text": "Też jest nowy. Gapi się na Wszystko\nz otwartą buzią.",
+  "formattings": []
+ },
+ {
+  "start": 1752200,
+  "end": 1755640,
+  "text": "Dlaczego tu przyjechałeś?",
+  "formattings": []
+ },
+ {
+  "start": 1755840,
+  "end": 1761160,
+  "text": "- Prowadzić badania.\n- Ja tam chcę zostać lekarzem.",
+  "formattings": []
+ },
+ {
+  "start": 1761360,
+  "end": 1767840,
+  "text": "Szkoda, że dlatego trzeba leczyć\nchorych. Strasznie się buntują.",
+  "formattings": []
+ },
+ {
+  "start": 1768040,
+  "end": 1774680,
+  "text": "Zabawię się, zdobędę dyplom, jeśli\nWreszcie zdam anatomię, -",
+  "formattings": []
+ },
+ {
+  "start": 1774880,
+  "end": 1782840,
+  "text": "- i Wtedy będę przynosił ulgę starym\ndamom oraz ich córkom.",
+  "formattings": []
+ },
+ {
+  "start": 1783040,
+  "end": 1788960,
+  "text": "- Kto to był?\n- Waldman.",
+  "formattings": []
+ },
+ {
+  "start": 1789160,
+  "end": 1795360,
+  "text": "Powiadają. Że W młodości\nbył prawdziwym geniuszem.",
+  "formattings": []
+ },
+ {
+  "start": 1795560,
+  "end": 1801360,
+  "text": "Wplątał się niestety W jakieś\nnielegalne doświadczenia.",
+  "formattings": []
+ },
+ {
+  "start": 1801560,
+  "end": 1805040,
+  "text": "Ciekaw jestem,\njakie?",
+  "formattings": []
+ },
+ {
+  "start": 1805240,
+  "end": 1809960,
+  "text": "Cóż to mówiłeś o bogatych\ndamach i ich córkach?",
+  "formattings": []
+ },
+ {
+  "start": 1810160,
+  "end": 1815160,
+  "text": "Życie pełne poświęceń,\nktoś to jednak musi robić.",
+  "formattings": []
+ },
+ {
+  "start": 1832800,
+  "end": 1837200,
+  "text": "Centralny system nerwowy\noraz mózg -",
+  "formattings": []
+ },
+ {
+  "start": 1837400,
+  "end": 1844400,
+  "text": "- są najbardziej skomplikowanym\nukładem, jaki można sobie Wyobrazić.",
+  "formattings": []
+ },
+ {
+  "start": 1844600,
+  "end": 1849640,
+  "text": "Panie Frankenstein.\nProszę Wykonać cięcie.",
+  "formattings": []
+ },
+ {
+  "start": 1856040,
+  "end": 1862840,
+  "text": "Wyśmienicie. Panie Clerval,\nproszę usunąć pokrywę czaszki.",
+  "formattings": []
+ },
+ {
+  "start": 1867840,
+  "end": 1872080,
+  "text": "\"Henry nadal próbuje\nzaliczyć anatomię.\"",
+  "formattings": []
+ },
+ {
+  "start": 1872320,
+  "end": 1878760,
+  "text": "- To była dla mnie mordęga.\n- Wiele się uczę.",
+  "formattings": []
+ },
+ {
+  "start": 1878960,
+  "end": 1884800,
+  "text": "\"Prof. Waldman jest niezwykły.\nNiech Was Bóg błogosławi, Wiktor.\"",
+  "formattings": []
+ },
+ {
+  "start": 1885000,
+  "end": 1889640,
+  "text": "- Bardzo pięknie.\n- P.S. Zadurzyłem się.",
+  "formattings": []
+ },
+ {
+  "start": 1889840,
+  "end": 1895960,
+  "text": "\"Jest piękną brunetką i zawsze,\ngdy mnie Widzi, merda ogonem.\"",
+  "formattings": []
+ },
+ {
+  "start": 1896160,
+  "end": 1902240,
+  "text": "\"Nazywa się Putzi i jest najbardziej\nprzyjaznym owczarkiem na świecie.\"",
+  "formattings": []
+ },
+ {
+  "start": 1904680,
+  "end": 1910520,
+  "text": "\"PS. Elizabeth.\nMarzę o twoich lśniących Włosach...",
+  "formattings": []
+ },
+ {
+  "start": 1910720,
+  "end": 1919440,
+  "text": "... o twych ramionach i piersiach,\ni naszej nocy poślubnej. \"",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 61
+   }
+  ]
+ },
+ {
+  "start": 1919640,
+  "end": 1925360,
+  "text": "- Co jeszcze pisze?\n- \"Ciężko pracuję i poznaję ludzi.\"",
+  "formattings": []
+ },
+ {
+  "start": 1925560,
+  "end": 1928960,
+  "text": "Kto ma ochotę na kawę?",
+  "formattings": []
+ },
+ {
+  "start": 1930800,
+  "end": 1938760,
+  "text": "Zapamiętaj sobie, Frankenstein!\nŻycie to życie, a śmierć to śmierć.",
+  "formattings": []
+ },
+ {
+  "start": 1938960,
+  "end": 1944160,
+  "text": "- To są fakty absolutne.\n- Nonsens!",
+  "formattings": []
+ },
+ {
+  "start": 1944360,
+  "end": 1949360,
+  "text": "Wielokrotnie temu przeczono.\nPan również. Sir!",
+  "formattings": []
+ },
+ {
+  "start": 1949560,
+  "end": 1956120,
+  "text": "Nie Wiemy, gdzie zaczyna się śmierć.\nWłosy i paznokcie nadal rosną...",
+  "formattings": []
+ },
+ {
+  "start": 1956280,
+  "end": 1964400,
+  "text": "Choć mózg umiera, serce\ni płuca Wciąż funkcjonują.",
+  "formattings": []
+ },
+ {
+  "start": 1964600,
+  "end": 1973200,
+  "text": "Ostrzegam cię - to, co mówisz,\njest nielegalne i niemoralne.",
+  "formattings": []
+ },
+ {
+  "start": 1973400,
+  "end": 1976560,
+  "text": "Bzdura!",
+  "formattings": []
+ },
+ {
+  "start": 1977240,
+  "end": 1984640,
+  "text": "\"Kochany dzienniku, czemu nikt mnie\nnie rozumie? PS. Nie jestem szalony.\"",
+  "formattings": []
+ },
+ {
+  "start": 1985800,
+  "end": 1988560,
+  "text": "Ty!",
+  "formattings": []
+ },
+ {
+  "start": 1988760,
+  "end": 1995080,
+  "text": "- Wytłumacz się.\n- Pragnę poznać nową naukę.",
+  "formattings": []
+ },
+ {
+  "start": 1995280,
+  "end": 2002680,
+  "text": "Połączenie Współczesnych dyscyplin\nz dawną Wiedzą. Aby stworzyć...",
+  "formattings": []
+ },
+ {
+  "start": 2002880,
+  "end": 2006720,
+  "text": "Co takiego?",
+  "formattings": []
+ },
+ {
+  "start": 2006920,
+  "end": 2010640,
+  "text": "Możemy zmienić świat.\nPan to Wie.",
+  "formattings": []
+ },
+ {
+  "start": 2010840,
+  "end": 2016160,
+  "text": "Dokonalibyśmy epokowych odkryć,\ngdybyśmy stawiali Właściwe pytania.",
+  "formattings": []
+ },
+ {
+  "start": 2016360,
+  "end": 2019600,
+  "text": "Proszę mi pomóc.",
+  "formattings": []
+ },
+ {
+  "start": 2022600,
+  "end": 2025160,
+  "text": "Chodź.",
+  "formattings": []
+ },
+ {
+  "start": 2025360,
+  "end": 2029000,
+  "text": "- Wiktor...\n- Nie bój się.",
+  "formattings": []
+ },
+ {
+  "start": 2039200,
+  "end": 2042240,
+  "text": "Henry.",
+  "formattings": []
+ },
+ {
+  "start": 2057440,
+  "end": 2061239,
+  "text": "Zamknij drzwi.",
+  "formattings": []
+ },
+ {
+  "start": 2066000,
+  "end": 2072560,
+  "text": "Przez tysiące lat\nChińczycy uważali, że, -",
+  "formattings": []
+ },
+ {
+  "start": 2072760,
+  "end": 2077719,
+  "text": "- ciało jest chemiczną maszyną.\nPoruszaną strumieniami energii.",
+  "formattings": []
+ },
+ {
+  "start": 2077920,
+  "end": 2082600,
+  "text": "- Fascynujące! Jak?\n- Nie dotykaj!",
+  "formattings": []
+ },
+ {
+  "start": 2084199,
+  "end": 2090560,
+  "text": "Chińscy lekarze Wbijają W ciała\npacjentów podobne igły -",
+  "formattings": []
+ },
+ {
+  "start": 2090760,
+  "end": 2096360,
+  "text": "- W różne miejsca, aby\nkierować przepływem energii.",
+  "formattings": []
+ },
+ {
+  "start": 2096560,
+  "end": 2103800,
+  "text": "- Elektryczność jest najważniejsza!\n- Popatrz na to.",
+  "formattings": []
+ },
+ {
+  "start": 2121040,
+  "end": 2125400,
+  "text": "Dalej, dotknij.",
+  "formattings": []
+ },
+ {
+  "start": 2128760,
+  "end": 2131280,
+  "text": "Ciepłe.",
+  "formattings": []
+ },
+ {
+  "start": 2133200,
+  "end": 2136320,
+  "text": "Jak się masz?",
+  "formattings": []
+ },
+ {
+  "start": 2138240,
+  "end": 2143200,
+  "text": "- Trzeba to Wyłączyć!\n- Nie działa.",
+  "formattings": []
+ },
+ {
+  "start": 2143400,
+  "end": 2149840,
+  "text": "Musimy zmniejszyć polaryzację.\nRamię małpy Wygląda jak ludzkie.",
+  "formattings": []
+ },
+ {
+  "start": 2150040,
+  "end": 2156200,
+  "text": "- Żadna ręka nie jest tak silna!\n- To się musi udać.",
+  "formattings": []
+ },
+ {
+  "start": 2161960,
+  "end": 2165200,
+  "text": "Pomogę panu, profesorze.",
+  "formattings": []
+ },
+ {
+  "start": 2167480,
+  "end": 2172560,
+  "text": "Proszę dochować tajemnicy.",
+  "formattings": []
+ },
+ {
+  "start": 2172760,
+  "end": 2178240,
+  "text": "I tak nikt by panu nie uwierzył.",
+  "formattings": []
+ },
+ {
+  "start": 2182080,
+  "end": 2188400,
+  "text": "Najdroższy Wiktorze.\nNiewiele się u nas zmieniło.",
+  "formattings": []
+ },
+ {
+  "start": 2188600,
+  "end": 2194920,
+  "text": "Pani Moritz Wciąż kocha i maltretuje\nJustine, jednakowo.",
+  "formattings": []
+ },
+ {
+  "start": 2195120,
+  "end": 2202600,
+  "text": "Willie jest coraz bardziej dojrzały,\nco raduje niezwykle twego ojca.",
+  "formattings": []
+ },
+ {
+  "start": 2202800,
+  "end": 2205280,
+  "text": "Ja zaś...",
+  "formattings": []
+ },
+ {
+  "start": 2205480,
+  "end": 2213560,
+  "text": "Bardzo za tobą tęsknię.\nNapisz szybko, Wiktorze.",
+  "formattings": []
+ },
+ {
+  "start": 2214120,
+  "end": 2217520,
+  "text": "Na przykład szczepionki.",
+  "formattings": []
+ },
+ {
+  "start": 2217720,
+  "end": 2225480,
+  "text": "30 lat temu nikt o nich nie słyszał.\nTo jednak połowiczna odpowiedź.",
+  "formattings": []
+ },
+ {
+  "start": 2225680,
+  "end": 2231920,
+  "text": "- Co masz na myśli?\n- Tworząc życie, oszukamy śmierć.",
+  "formattings": []
+ },
+ {
+  "start": 2232120,
+  "end": 2237640,
+  "text": "- Jest tylko jeden Bóg.\n- Boga do tego nie mieszaj.",
+  "formattings": []
+ },
+ {
+  "start": 2237840,
+  "end": 2243600,
+  "text": "Gdyby ktoś tobie bliski miał chore\nserce, czy nie dałbyś mu innego?",
+  "formattings": []
+ },
+ {
+  "start": 2243800,
+  "end": 2253200,
+  "text": "To nie jest niemożliwe. Skoro tak,\nmożna będzie Wymienić każdą część.",
+  "formattings": []
+ },
+ {
+  "start": 2253400,
+  "end": 2259680,
+  "text": "Możemy stworzyć istotę, która nie\nzachoruje, nie umrze. Lepszą. -",
+  "formattings": []
+ },
+ {
+  "start": 2259880,
+  "end": 2263280,
+  "text": "- mądrzejszą i bardziej cywilizowaną.",
+  "formattings": []
+ },
+ {
+  "start": 2263480,
+  "end": 2267720,
+  "text": "- Za naszego życia?\n- Nie!",
+  "formattings": []
+ },
+ {
+  "start": 2272320,
+  "end": 2278200,
+  "text": "- Jak blisko pan dotarł?\n- Zbyt blisko.",
+  "formattings": []
+ },
+ {
+  "start": 2280880,
+  "end": 2284520,
+  "text": "- Błagam, by pokazał mi pan notatki.\n- Nie.",
+  "formattings": []
+ },
+ {
+  "start": 2284720,
+  "end": 2291840,
+  "text": "Zajmuję się teraz Wyłącznie\nochroną życia.",
+  "formattings": []
+ },
+ {
+  "start": 2292040,
+  "end": 2297200,
+  "text": "- Porzuciłem inne eksperymenty.\n- Dlaczego?",
+  "formattings": []
+ },
+ {
+  "start": 2299440,
+  "end": 2303120,
+  "text": "Bo okazały się ohydne.",
+  "formattings": []
+ },
+ {
+  "start": 2327040,
+  "end": 2333400,
+  "text": "- Nie zarazisz mnie ospą!\n- Podają nam zarazki ospy?",
+  "formattings": []
+ },
+ {
+  "start": 2333600,
+  "end": 2343600,
+  "text": "- To surowica przeciw ospie.\n- Powiedziałeś, ospa!",
+  "formattings": []
+ },
+ {
+  "start": 2343800,
+  "end": 2352560,
+  "text": "Jest nieszkodliwa. Inaczej Wprowadzą\nW mieście kwarantannę.",
+  "formattings": []
+ },
+ {
+  "start": 2352760,
+  "end": 2359960,
+  "text": "- Nie zrobisz mi zastrzyku.\n- Zrobię. Takie jest prawo!",
+  "formattings": []
+ },
+ {
+  "start": 2360160,
+  "end": 2367000,
+  "text": "- Posadźcie go.\n- Nie zrobisz mi zastrzyku!",
+  "formattings": []
+ },
+ {
+  "start": 2370560,
+  "end": 2373560,
+  "text": "Profesorze?",
+  "formattings": []
+ },
+ {
+  "start": 2379720,
+  "end": 2383520,
+  "text": "Proszę!",
+  "formattings": []
+ },
+ {
+  "start": 2384440,
+  "end": 2389080,
+  "text": "To nie ma sensu. Umarł.\nZostaw go W spokoju.",
+  "formattings": []
+ },
+ {
+  "start": 2389280,
+  "end": 2394480,
+  "text": "- Nie powinno do tego dojść!\n- Opanuj się.",
+  "formattings": []
+ },
+ {
+  "start": 2394680,
+  "end": 2400240,
+  "text": "To się nie powinno było stać!",
+  "formattings": []
+ },
+ {
+  "start": 2409840,
+  "end": 2413640,
+  "text": "Niech Was piekło pochłonie!",
+  "formattings": []
+ },
+ {
+  "start": 2413840,
+  "end": 2420520,
+  "text": "Mówcie sobie. Co chcecie.\nAle lekarze to mordercy.",
+  "formattings": []
+ },
+ {
+  "start": 2420720,
+  "end": 2426080,
+  "text": "Zabijacie niewinnych ludzi!\nDiabły Wcielone!",
+  "formattings": []
+ },
+ {
+  "start": 2428560,
+  "end": 2435240,
+  "text": "To Wy zasłużyliście na śmierć.\nBóg Was pokaże.",
+  "formattings": []
+ },
+ {
+  "start": 2436720,
+  "end": 2440440,
+  "text": "Bóg Was pokaże.",
+  "formattings": []
+ },
+ {
+  "start": 2457720,
+  "end": 2463360,
+  "text": "Chryste, byłeś tak blisko!\nNaturalnie, energia!",
+  "formattings": []
+ },
+ {
+  "start": 2463560,
+  "end": 2469080,
+  "text": "Niewłaściwe materiały.\nPotrzebne dodatkowe źródła energii.",
+  "formattings": []
+ },
+ {
+  "start": 2469280,
+  "end": 2473840,
+  "text": "\"Eksperyment... się nie powiódł.\"",
+  "formattings": []
+ },
+ {
+  "start": 2474040,
+  "end": 2481120,
+  "text": "\"Ożywiona istota\nzdeformowana i ohydna.\"",
+  "formattings": []
+ },
+ {
+  "start": 2481320,
+  "end": 2487840,
+  "text": "\"Wszystko zależy od\nWykorzystanych surowców.\"",
+  "formattings": []
+ },
+ {
+  "start": 2492000,
+  "end": 2494400,
+  "text": "Surowce...",
+  "formattings": []
+ },
+ {
+  "start": 2517520,
+  "end": 2524360,
+  "text": "- Chodź! Czego się obawiasz?\n- Wszystkiego! Jeśli Władze...",
+  "formattings": []
+ },
+ {
+  "start": 2524560,
+  "end": 2530240,
+  "text": "Będziemy dyskretni.\nMam dzienniki Waldmana.",
+  "formattings": []
+ },
+ {
+  "start": 2530440,
+  "end": 2538880,
+  "text": "- Ukradłeś je?\n- Musimy dokończyć jego dzieło.",
+  "formattings": []
+ },
+ {
+  "start": 2539080,
+  "end": 2547160,
+  "text": "Gdyby to było możliwe, a ty miałbyś\nprawo podjąć taką decyzję, -",
+  "formattings": []
+ },
+ {
+  "start": 2547360,
+  "end": 2550960,
+  "text": "- czy cena, jaką trzeba zapłacić,\nnie byłaby za Wysoka?",
+  "formattings": []
+ },
+ {
+  "start": 2551160,
+  "end": 2559720,
+  "text": "Moglibyśmy pokonać śmierć i choroby,\nofiarować życie Wszystkim, -",
+  "formattings": []
+ },
+ {
+  "start": 2559920,
+  "end": 2566000,
+  "text": "- aby ci, którzy się kochają.\nZawsze byli razem...",
+  "formattings": []
+ },
+ {
+  "start": 2566200,
+  "end": 2571200,
+  "text": "Myślę, że Warto zaryzykować.",
+  "formattings": []
+ },
+ {
+  "start": 2593840,
+  "end": 2597960,
+  "text": "Justine, daj mi spokój.\nNie chcę o tym rozmawiać.",
+  "formattings": []
+ },
+ {
+  "start": 2599240,
+  "end": 2607960,
+  "text": "- Listy, które nam czytałaś...\n- Ja je napisałam! Od miesięcy...",
+  "formattings": []
+ },
+ {
+  "start": 2608160,
+  "end": 2613800,
+  "text": "- Elizabeth...\n- Dzieje się coś okropnego.",
+  "formattings": []
+ },
+ {
+  "start": 2614000,
+  "end": 2620600,
+  "text": "Musiałam ukryć to przed ojcem.\nA teraz te pogłoski o cholerze.",
+  "formattings": []
+ },
+ {
+  "start": 2620800,
+  "end": 2628200,
+  "text": "- Dam sobie radę. Jedź!\n- Pewno znalazł sobie kogoś innego.",
+  "formattings": []
+ },
+ {
+  "start": 2628400,
+  "end": 2633200,
+  "text": "Gdyby należał do mnie,\ndawno bym już pojechała.",
+  "formattings": []
+ },
+ {
+  "start": 2633400,
+  "end": 2641440,
+  "text": "Nie jest jednak mój.\nTylko twój, Więc musisz jechać.",
+  "formattings": []
+ },
+ {
+  "start": 2659360,
+  "end": 2663680,
+  "text": "Surowce, nic Więcej.",
+  "formattings": []
+ },
+ {
+  "start": 2663880,
+  "end": 2668240,
+  "text": "Tkanki do ponownego Wykorzystania.",
+  "formattings": []
+ },
+ {
+  "start": 2676440,
+  "end": 2678840,
+  "text": "Najwspanialszy mózg.",
+  "formattings": []
+ },
+ {
+  "start": 2693840,
+  "end": 2699160,
+  "text": "- Ależ oni zmarli na cholerę, sir.\n- To bez znaczenia.",
+  "formattings": []
+ },
+ {
+  "start": 2708000,
+  "end": 2714120,
+  "text": "Zgromadzone organy trzeba odżywić,\nogrzać, lecz głównie dostarczyć...",
+  "formattings": []
+ },
+ {
+  "start": 2714320,
+  "end": 2719960,
+  "text": "...energii z zewnątrz.",
+  "formattings": []
+ },
+ {
+  "start": 2724200,
+  "end": 2727680,
+  "text": "W sposób bardziej bezpośredni...",
+  "formattings": []
+ },
+ {
+  "start": 2753600,
+  "end": 2758400,
+  "text": "Wody płodowe to główny\nbiogeniczny element doświadczenia.",
+  "formattings": []
+ },
+ {
+  "start": 2758600,
+  "end": 2763080,
+  "text": "Igły umieszcza się W\nogniskach energetycznych ciała.",
+  "formattings": []
+ },
+ {
+  "start": 2763280,
+  "end": 2767960,
+  "text": "Gdy prąd przestaje płynąć,\nmartwa ropucha nadal się porusza -",
+  "formattings": []
+ },
+ {
+  "start": 2768160,
+  "end": 2773000,
+  "text": "- niezależnie od\nzewnętrznych źródeł energii.",
+  "formattings": []
+ },
+ {
+  "start": 2783520,
+  "end": 2788800,
+  "text": "Ależ tak.",
+  "formattings": []
+ },
+ {
+  "start": 2789000,
+  "end": 2794200,
+  "text": "Oto Właściwa kombinacja!",
+  "formattings": []
+ },
+ {
+  "start": 2871800,
+  "end": 2875000,
+  "text": "Wiktorze!",
+  "formattings": []
+ },
+ {
+  "start": 2875200,
+  "end": 2879200,
+  "text": "Otwieraj!",
+  "formattings": []
+ },
+ {
+  "start": 2879400,
+  "end": 2885000,
+  "text": "- Czego chcesz?\n- W mieście szaleje cholera!",
+  "formattings": []
+ },
+ {
+  "start": 2885200,
+  "end": 2891520,
+  "text": "Wprowadzono stan Wyjątkowy.\nSłuchasz mnie?",
+  "formattings": []
+ },
+ {
+  "start": 2891720,
+  "end": 2897160,
+  "text": "Wojsko zarządziło kwarantannę.\nTrzeba uciekać.",
+  "formattings": []
+ },
+ {
+  "start": 2897920,
+  "end": 2901760,
+  "text": "A jeśli Krempe doniesie\nna ciebie Władzom?",
+  "formattings": []
+ },
+ {
+  "start": 2901960,
+  "end": 2905120,
+  "text": "Do Widzenia, Henry.",
+  "formattings": []
+ },
+ {
+  "start": 2905320,
+  "end": 2910640,
+  "text": "Wiktorze, to ja, Elizabeth.",
+  "formattings": []
+ },
+ {
+  "start": 2913440,
+  "end": 2919280,
+  "text": "Słyszysz mnie?\nMuszę cię zobaczyć.",
+  "formattings": []
+ },
+ {
+  "start": 2921440,
+  "end": 2926240,
+  "text": "- Odejdź.\n- Proszę cię, Wiktorze!",
+  "formattings": []
+ },
+ {
+  "start": 2928720,
+  "end": 2934040,
+  "text": "Nie odejdę, dopóki\nmnie nie Wpuścisz.",
+  "formattings": []
+ },
+ {
+  "start": 2941240,
+  "end": 2945240,
+  "text": "Podejdź do bocznych drzwi.",
+  "formattings": []
+ },
+ {
+  "start": 2945920,
+  "end": 2949560,
+  "text": "Sama!",
+  "formattings": []
+ },
+ {
+  "start": 2963680,
+  "end": 2968160,
+  "text": "Co się z tobą dzieje?",
+  "formattings": []
+ },
+ {
+  "start": 2968360,
+  "end": 2972400,
+  "text": "Jak możesz tak żyć?",
+  "formattings": []
+ },
+ {
+  "start": 2972600,
+  "end": 2977520,
+  "text": "- I ten smród...\n- Nie wchodź tam!",
+  "formattings": []
+ },
+ {
+  "start": 2982520,
+  "end": 2987240,
+  "text": "- Musimy jechać, naprawdę.\n- Ja zostaję.",
+  "formattings": []
+ },
+ {
+  "start": 2987440,
+  "end": 2991960,
+  "text": "- Nawet, gdybyś miał umrzeć?\n- Tak.",
+  "formattings": []
+ },
+ {
+  "start": 3006240,
+  "end": 3013840,
+  "text": "- Pomogę ci Więc.\n- To niemożliwe.",
+  "formattings": []
+ },
+ {
+  "start": 3017720,
+  "end": 3022840,
+  "text": "Złożyliśmy ślub.",
+  "formattings": []
+ },
+ {
+  "start": 3028040,
+  "end": 3032280,
+  "text": "Błagam cię.",
+  "formattings": []
+ },
+ {
+  "start": 3035360,
+  "end": 3040600,
+  "text": "Wiem. Że trudno to\nzrozumieć. -",
+  "formattings": []
+ },
+ {
+  "start": 3040800,
+  "end": 3047400,
+  "text": "- lecz nie mogę porzucić\nteraz swojego eksperymentu.",
+  "formattings": []
+ },
+ {
+  "start": 3047600,
+  "end": 3054640,
+  "text": "Jest zbyt Ważny. Nie tylko dla mnie,\nlecz dla całej ludzkości.",
+  "formattings": []
+ },
+ {
+  "start": 3058360,
+  "end": 3064200,
+  "text": "Muszę dać mu pierwszeństwo.",
+  "formattings": []
+ },
+ {
+  "start": 3068880,
+  "end": 3071400,
+  "text": "Nawet przed nami?",
+  "formattings": []
+ },
+ {
+  "start": 3076960,
+  "end": 3080320,
+  "text": "Elizabeth...",
+  "formattings": []
+ },
+ {
+  "start": 3080520,
+  "end": 3085360,
+  "text": "Bardzo cię kocham, ale...",
+  "formattings": []
+ },
+ {
+  "start": 3099560,
+  "end": 3102160,
+  "text": "Żegnaj.",
+  "formattings": []
+ },
+ {
+  "start": 3130040,
+  "end": 3133200,
+  "text": "Elizabeth!",
+  "formattings": []
+ },
+ {
+  "start": 3137560,
+  "end": 3142280,
+  "text": "Boże drogi! Elizabeth.",
+  "formattings": []
+ },
+ {
+  "start": 3286280,
+  "end": 3289240,
+  "text": "Ożyj! Ożyj!",
+  "formattings": []
+ },
+ {
+  "start": 3294760,
+  "end": 3298040,
+  "text": "Tak!",
+  "formattings": []
+ },
+ {
+  "start": 3317240,
+  "end": 3322400,
+  "text": "Nie...",
+  "formattings": []
+ },
+ {
+  "start": 3353040,
+  "end": 3356840,
+  "text": "Żyje...",
+  "formattings": []
+ },
+ {
+  "start": 3358040,
+  "end": 3362400,
+  "text": "Żyje!",
+  "formattings": []
+ },
+ {
+  "start": 3516760,
+  "end": 3520880,
+  "text": "Co ja uczyniłem?",
+  "formattings": []
+ },
+ {
+  "start": 3525840,
+  "end": 3529960,
+  "text": "Co ja uczyniłem?",
+  "formattings": []
+ },
+ {
+  "start": 3543240,
+  "end": 3549080,
+  "text": "Rozległe uszkodzenia...",
+  "formattings": []
+ },
+ {
+  "start": 3549280,
+  "end": 3555280,
+  "text": "...ogromna\nsiła fizyczna...",
+  "formattings": []
+ },
+ {
+  "start": 3555480,
+  "end": 3557960,
+  "text": "...lecz...",
+  "formattings": []
+ },
+ {
+  "start": 3558160,
+  "end": 3562560,
+  "text": "...powstała istota...",
+  "formattings": []
+ },
+ {
+  "start": 3562760,
+  "end": 3567760,
+  "text": "...źle funkcjonuje...",
+  "formattings": []
+ },
+ {
+  "start": 3567960,
+  "end": 3571560,
+  "text": "...budzi litość...",
+  "formattings": []
+ },
+ {
+  "start": 3572040,
+  "end": 3576800,
+  "text": "...i nie żyje.",
+  "formattings": []
+ },
+ {
+  "start": 3581000,
+  "end": 3587400,
+  "text": "Jutro muszę zniszczyć ten\ndziennik i jego tajemnice...",
+  "formattings": []
+ },
+ {
+  "start": 3588560,
+  "end": 3590960,
+  "text": "...na zawsze.",
+  "formattings": []
+ },
+ {
+  "start": 3606440,
+  "end": 3610000,
+  "text": "Boże!",
+  "formattings": []
+ },
+ {
+  "start": 3667760,
+  "end": 3669800,
+  "text": "Nie!",
+  "formattings": []
+ },
+ {
+  "start": 3670000,
+  "end": 3675360,
+  "text": "Głupcze,\nWiktorze Frankenstein z Genewy!",
+  "formattings": []
+ },
+ {
+  "start": 3675560,
+  "end": 3679760,
+  "text": "Skąd mogłeś Wiedzieć, co\nWyzwoliłeś?",
+  "formattings": []
+ },
+ {
+  "start": 3679960,
+  "end": 3686600,
+  "text": "Z czego on powstał?\nZ ciał złodziei i morderców...",
+  "formattings": []
+ },
+ {
+  "start": 3686800,
+  "end": 3691120,
+  "text": "Zło zszyte ze złem,\nozdobione złem...",
+  "formattings": []
+ },
+ {
+  "start": 3691320,
+  "end": 3697760,
+  "text": "Naprawdę myślisz, że to stworzenie\npodziękuje ci za cud narodzin?",
+  "formattings": []
+ },
+ {
+  "start": 3697960,
+  "end": 3702240,
+  "text": "Zło się jeszcze zemści.",
+  "formattings": []
+ },
+ {
+  "start": 3702800,
+  "end": 3707480,
+  "text": "Niech Bóg chroni twoich bliskich!",
+  "formattings": []
+ },
+ {
+  "start": 3797720,
+  "end": 3802200,
+  "text": "Co ty sobie Wyobrażasz?",
+  "formattings": []
+ },
+ {
+  "start": 3802400,
+  "end": 3808640,
+  "text": "Jest chory!\nTo on roznosi zarazę!",
+  "formattings": []
+ },
+ {
+  "start": 3854360,
+  "end": 3858040,
+  "text": "Łapać go!",
+  "formattings": []
+ },
+ {
+  "start": 3865120,
+  "end": 3870160,
+  "text": "- Nie podchodźcie za blisko.\n- Zabijcie go!",
+  "formattings": []
+ },
+ {
+  "start": 3889600,
+  "end": 3893680,
+  "text": "Tędy pobiegł.",
+  "formattings": []
+ },
+ {
+  "start": 3950040,
+  "end": 3955600,
+  "text": "Proszę. Spokojnie.\nOdrobinę.",
+  "formattings": []
+ },
+ {
+  "start": 3957200,
+  "end": 3964000,
+  "text": "- Dobrze. Odpoczywaj.\n- To ty, Henry...",
+  "formattings": []
+ },
+ {
+  "start": 3964200,
+  "end": 3970080,
+  "text": "Naturalnie.\nNaprawdę niewiele brakowało.",
+  "formattings": []
+ },
+ {
+  "start": 3970280,
+  "end": 3975760,
+  "text": "Obawiałem się, że to cholera,\nale to tylko zapalenie płuc.",
+  "formattings": []
+ },
+ {
+  "start": 3975960,
+  "end": 3981760,
+  "text": "Zamieniam się W medyka.\nNawet Krempe jest zadowolony.",
+  "formattings": []
+ },
+ {
+  "start": 3981960,
+  "end": 3985800,
+  "text": "W takim tempie, mógłbym\nchyba zaliczyć anatomię.",
+  "formattings": []
+ },
+ {
+  "start": 3986000,
+  "end": 3993560,
+  "text": "- Co z epidemią?\n- Nic nie da się zrobić.",
+  "formattings": []
+ },
+ {
+  "start": 3993760,
+  "end": 4001280,
+  "text": "Głodni. Bezdomni i\nnoworodki z pewnością poumierają.",
+  "formattings": []
+ },
+ {
+  "start": 4001480,
+  "end": 4005440,
+  "text": "- Tak sądzisz?\n- Niestety tak.",
+  "formattings": []
+ },
+ {
+  "start": 4006960,
+  "end": 4013520,
+  "text": "- Dzięki Bogu.\n- Co masz na myśli?",
+  "formattings": []
+ },
+ {
+  "start": 4021840,
+  "end": 4024320,
+  "text": "Nic.",
+  "formattings": []
+ },
+ {
+  "start": 4028440,
+  "end": 4033840,
+  "text": "Dobrze Więc,\nkoniec mojej Warty.",
+  "formattings": []
+ },
+ {
+  "start": 4038360,
+  "end": 4042640,
+  "text": "Do zobaczenia.",
+  "formattings": []
+ },
+ {
+  "start": 4102399,
+  "end": 4106760,
+  "text": "Elizabeth...",
+  "formattings": []
+ },
+ {
+  "start": 4122840,
+  "end": 4126760,
+  "text": "Elizabeth!",
+  "formattings": []
+ },
+ {
+  "start": 4137920,
+  "end": 4143800,
+  "text": "- Proszę, Wybacz mi!\n- Już ci Wybaczyłam.",
+  "formattings": []
+ },
+ {
+  "start": 4147479,
+  "end": 4155359,
+  "text": "Nie Wiem, nad czym pracujesz,\nale to cię omal nie zabiło.",
+  "formattings": []
+ },
+ {
+  "start": 4156800,
+  "end": 4161840,
+  "text": "Skończone.\nNigdy nie powinienem był zaczynać.",
+  "formattings": []
+ },
+ {
+  "start": 4162040,
+  "end": 4166439,
+  "text": "Nie żyje!",
+  "formattings": []
+ },
+ {
+  "start": 4232160,
+  "end": 4237960,
+  "text": "Felix!\nNie zapomnij o łupinach.",
+  "formattings": []
+ },
+ {
+  "start": 4238160,
+  "end": 4242440,
+  "text": "Nie zapomnę.",
+  "formattings": []
+ },
+ {
+  "start": 4242640,
+  "end": 4246520,
+  "text": "Z drogi!",
+  "formattings": []
+ },
+ {
+  "start": 4249720,
+  "end": 4253840,
+  "text": "Dalej!",
+  "formattings": []
+ },
+ {
+  "start": 4270640,
+  "end": 4276240,
+  "text": "- Jak się miewają świnie?\n- Są szczęśliwe, dostały jeść.",
+  "formattings": []
+ },
+ {
+  "start": 4276440,
+  "end": 4282640,
+  "text": "- Co z twoimi rękami?\n- Znowu krwawią.",
+  "formattings": []
+ },
+ {
+  "start": 4290720,
+  "end": 4295000,
+  "text": "Już lepiej.",
+  "formattings": []
+ },
+ {
+  "start": 4298960,
+  "end": 4301960,
+  "text": "Proszę.",
+  "formattings": []
+ },
+ {
+  "start": 4302160,
+  "end": 4308840,
+  "text": "- Zupa gotowa.\n- Siadaj, dziadku.",
+  "formattings": []
+ },
+ {
+  "start": 4380280,
+  "end": 4385720,
+  "text": "Z takimi zapasami nie uda nam\nsię przeżyć zimy.",
+  "formattings": []
+ },
+ {
+  "start": 4385920,
+  "end": 4390520,
+  "text": "- Ziemia zamarzła na kość.\n- Sprzedamy kolejną świnię.",
+  "formattings": []
+ },
+ {
+  "start": 4390720,
+  "end": 4396360,
+  "text": "Nie możemy.\nMuszą Wpierw odwołać kwarantannę.",
+  "formattings": []
+ },
+ {
+  "start": 4396560,
+  "end": 4401320,
+  "text": "To i tak niedobry pomysł.\nA czynsz za ubiegły miesiąc...",
+  "formattings": []
+ },
+ {
+  "start": 4401520,
+  "end": 4406680,
+  "text": "Nie martw się!\nDamy sobie radę.",
+  "formattings": []
+ },
+ {
+  "start": 4410240,
+  "end": 4416880,
+  "text": "Masz rację.\nMusimy zdążyć przed śniegiem.",
+  "formattings": []
+ },
+ {
+  "start": 4425240,
+  "end": 4428440,
+  "text": "Chodźmy!",
+  "formattings": []
+ },
+ {
+  "start": 4448880,
+  "end": 4457000,
+  "text": "Twarda jak kamień. 20 chłopa\nnie dałoby rady. To bez sensu!",
+  "formattings": []
+ },
+ {
+  "start": 4457200,
+  "end": 4461800,
+  "text": "- Robi się późno.\n- Mamy za mało jedzenia.",
+  "formattings": []
+ },
+ {
+  "start": 4462000,
+  "end": 4465840,
+  "text": "Trudno.\nWracajmy już.",
+  "formattings": []
+ },
+ {
+  "start": 4494040,
+  "end": 4498520,
+  "text": "Spójrz tylko!",
+  "formattings": []
+ },
+ {
+  "start": 4510640,
+  "end": 4518600,
+  "text": "- To na pewno Duch Lasu.\n- Ojcze, nic nie jest za darmo.",
+  "formattings": []
+ },
+ {
+  "start": 4518800,
+  "end": 4525640,
+  "text": "- Chciałbym Wiedzieć, kto to zrobił.\n- Dobry Duch, dziadku?",
+  "formattings": []
+ },
+ {
+  "start": 4525840,
+  "end": 4531360,
+  "text": "- Tak sądzę.\n- Nie opowiadaj im bajek.",
+  "formattings": []
+ },
+ {
+  "start": 4555040,
+  "end": 4558640,
+  "text": "Kto to?",
+  "formattings": []
+ },
+ {
+  "start": 4558840,
+  "end": 4562480,
+  "text": "Felix?\nDzieci?",
+  "formattings": []
+ },
+ {
+  "start": 4573920,
+  "end": 4579640,
+  "text": "PRZYJACIEL",
+  "formattings": [
+   {
+    "type": "fontface",
+    "start": 0,
+    "end": 10,
+    "font": "Arial"
+   },
+   {
+    "type": "color",
+    "start": 0,
+    "end": 10,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ {
+  "start": 4581600,
+  "end": 4589120,
+  "text": "- Co to za słowo?\n- Przy... ja... ciel.",
+  "formattings": []
+ },
+ {
+  "start": 4590560,
+  "end": 4596840,
+  "text": "- Przyjaciel?\n- Tak! Doskonale!",
+  "formattings": []
+ },
+ {
+  "start": 4598480,
+  "end": 4605000,
+  "text": "Masz Wielu przyjaciół, prawda?\nDziadek...",
+  "formattings": []
+ },
+ {
+  "start": 4606760,
+  "end": 4612920,
+  "text": "Przyjaaaciel...",
+  "formattings": []
+ },
+ {
+  "start": 4647840,
+  "end": 4651520,
+  "text": "Przyjaciel.",
+  "formattings": []
+ },
+ {
+  "start": 4652600,
+  "end": 4656600,
+  "text": "Rodzina.",
+  "formattings": []
+ },
+ {
+  "start": 4657800,
+  "end": 4662120,
+  "text": "O... Ojciec.",
+  "formattings": []
+ },
+ {
+  "start": 4664120,
+  "end": 4669680,
+  "text": "Nie Wolno ci spuścić z oka\nmojej aparatury.",
+  "formattings": []
+ },
+ {
+  "start": 4669880,
+  "end": 4674560,
+  "text": "- Ojciec sam ją odbierze.\n- Tak, panie.",
+  "formattings": []
+ },
+ {
+  "start": 4674760,
+  "end": 4680680,
+  "text": "- Wybieracie się dokądś?\n- Spójrz, co mi ofiarował Wiktor.",
+  "formattings": []
+ },
+ {
+  "start": 4680880,
+  "end": 4689120,
+  "text": "- Piękny! To naprawdę ty?\n- Zamiast obrączki.",
+  "formattings": []
+ },
+ {
+  "start": 4689320,
+  "end": 4693040,
+  "text": "Moje gratulacje.\nMożna się było tego spodziewać!",
+  "formattings": []
+ },
+ {
+  "start": 4693240,
+  "end": 4697600,
+  "text": "- Kiedy?\n- Jak tylko dotrzemy do domu.",
+  "formattings": []
+ },
+ {
+  "start": 4698920,
+  "end": 4704160,
+  "text": "- Przejmie praktykę ojca.\n- I rozszerzę ją.",
+  "formattings": []
+ },
+ {
+  "start": 4704360,
+  "end": 4709680,
+  "text": "- Ja również się rozwijam.\n- Szukam pomocnika...",
+  "formattings": []
+ },
+ {
+  "start": 4709880,
+  "end": 4716680,
+  "text": "Grosz niewielki, za to Wspaniałe\njedzenie, mieszkanie i towarzystwo.",
+  "formattings": []
+ },
+ {
+  "start": 4716880,
+  "end": 4723320,
+  "text": "Idealna propozycja dla kogoś, kto\nWłaśnie zaliczył anatomię.",
+  "formattings": []
+ },
+ {
+  "start": 4723520,
+  "end": 4729320,
+  "text": "Zastanawialiśmy się, czy...\nnie mógłbyś nam kogoś polecić?",
+  "formattings": []
+ },
+ {
+  "start": 4731560,
+  "end": 4738400,
+  "text": "- Nie Wiem, co powiedzieć.\n- Zgódź się, proszę.",
+  "formattings": []
+ },
+ {
+  "start": 4739200,
+  "end": 4742000,
+  "text": "Zgoda!",
+  "formattings": []
+ },
+ {
+  "start": 4742200,
+  "end": 4746760,
+  "text": "Tak!",
+  "formattings": []
+ },
+ {
+  "start": 4746960,
+  "end": 4751880,
+  "text": "Możesz to zapisać\nW swoim dzienniku!",
+  "formattings": []
+ },
+ {
+  "start": 4768840,
+  "end": 4772400,
+  "text": "\"To...\"",
+  "formattings": []
+ },
+ {
+  "start": 4772600,
+  "end": 4777600,
+  "text": "\"... jest...\"",
+  "formattings": []
+ },
+ {
+  "start": 4777800,
+  "end": 4781160,
+  "text": "\"... dziennik...\"",
+  "formattings": []
+ },
+ {
+  "start": 4781360,
+  "end": 4784840,
+  "text": "\"... Wiktora...\"",
+  "formattings": []
+ },
+ {
+  "start": 4786240,
+  "end": 4789840,
+  "text": "\"... Frankensteina...\"",
+  "formattings": []
+ },
+ {
+  "start": 4790040,
+  "end": 4792680,
+  "text": "\"... z...\"",
+  "formattings": []
+ },
+ {
+  "start": 4792880,
+  "end": 4797120,
+  "text": "\"... Genewy.\"",
+  "formattings": []
+ },
+ {
+  "start": 4800920,
+  "end": 4805640,
+  "text": "Chodźcie, szybko.",
+  "formattings": []
+ },
+ {
+  "start": 4808760,
+  "end": 4815000,
+  "text": "- Wesołych Świąt!\n- Pospieszcie się, pora spać.",
+  "formattings": []
+ },
+ {
+  "start": 4827880,
+  "end": 4835560,
+  "text": "\"Dla Dobrego Ducha z Lasu.\"",
+  "formattings": []
+ },
+ {
+  "start": 4852600,
+  "end": 4860680,
+  "text": "- Jesteś Dobrym Duchem?\n- Niekoniecznie. Gdzie ojciec?",
+  "formattings": []
+ },
+ {
+  "start": 4860880,
+  "end": 4865040,
+  "text": "Pytałem, gdzie ojciec?",
+  "formattings": []
+ },
+ {
+  "start": 4865240,
+  "end": 4870200,
+  "text": "- Maggie?\n- Nie.",
+  "formattings": []
+ },
+ {
+  "start": 4870400,
+  "end": 4876720,
+  "text": "- Co zrobiłeś Maggie?\n- Synek kryje się za twoimi plecami?",
+  "formattings": []
+ },
+ {
+  "start": 4876920,
+  "end": 4879800,
+  "text": "Wynoś się!",
+  "formattings": []
+ },
+ {
+  "start": 4881640,
+  "end": 4885240,
+  "text": "To nie moja Wina.",
+  "formattings": []
+ },
+ {
+  "start": 4885440,
+  "end": 4891440,
+  "text": "Tylko twojego syna,\nktóry zalega z czynszem.",
+  "formattings": []
+ },
+ {
+  "start": 4904480,
+  "end": 4907120,
+  "text": "Boże drogi!",
+  "formattings": []
+ },
+ {
+  "start": 4908200,
+  "end": 4912960,
+  "text": "Dziękuję, przyjacielu.\nZ całego serca.",
+  "formattings": []
+ },
+ {
+  "start": 4915560,
+  "end": 4920360,
+  "text": "Wejdź i usiądź przy ogniu.",
+  "formattings": []
+ },
+ {
+  "start": 4920560,
+  "end": 4924160,
+  "text": "Nie bój się.",
+  "formattings": []
+ },
+ {
+  "start": 4925920,
+  "end": 4929880,
+  "text": "Chodź.\nZapraszam.",
+  "formattings": []
+ },
+ {
+  "start": 4940360,
+  "end": 4944800,
+  "text": "Odpocznij sobie.",
+  "formattings": []
+ },
+ {
+  "start": 4946760,
+  "end": 4951000,
+  "text": "Znacznie lepiej.",
+  "formattings": []
+ },
+ {
+  "start": 4951200,
+  "end": 4955080,
+  "text": "Cieszę się, że Wreszcie przyszedłeś.",
+  "formattings": []
+ },
+ {
+  "start": 4955280,
+  "end": 4961680,
+  "text": "Człowiek nie powinien\nkryć się po kątach.",
+  "formattings": []
+ },
+ {
+  "start": 4968400,
+  "end": 4974240,
+  "text": "Tak jest dla mnie lepiej.",
+  "formattings": []
+ },
+ {
+  "start": 4974440,
+  "end": 4976960,
+  "text": "Dlaczego?",
+  "formattings": []
+ },
+ {
+  "start": 4978920,
+  "end": 4983640,
+  "text": "Ludzie się mnie boją.",
+  "formattings": []
+ },
+ {
+  "start": 4983840,
+  "end": 4987400,
+  "text": "Z Wyjątkiem ciebie.",
+  "formattings": []
+ },
+ {
+  "start": 4989000,
+  "end": 4993720,
+  "text": "Nie może być aż tak źle.",
+  "formattings": []
+ },
+ {
+  "start": 4997520,
+  "end": 5002560,
+  "text": "Gorzej.",
+  "formattings": []
+ },
+ {
+  "start": 5002760,
+  "end": 5010440,
+  "text": "Jeśli pozwolisz, obejrzę\ncię swoimi rękami.",
+  "formattings": []
+ },
+ {
+  "start": 5034080,
+  "end": 5037760,
+  "text": "- Tato, on uderzył dziadka!\n- Kto taki?",
+  "formattings": []
+ },
+ {
+  "start": 5037960,
+  "end": 5042560,
+  "text": "Co to za hałas?\nCo się stało, Maggie?",
+  "formattings": []
+ },
+ {
+  "start": 5043720,
+  "end": 5047720,
+  "text": "Biedaku.",
+  "formattings": []
+ },
+ {
+  "start": 5052960,
+  "end": 5057720,
+  "text": "Nie masz przyjaciół?",
+  "formattings": []
+ },
+ {
+  "start": 5059560,
+  "end": 5065960,
+  "text": "Są pewni ludzie...",
+  "formattings": []
+ },
+ {
+  "start": 5071120,
+  "end": 5075760,
+  "text": "Ale oni mnie nie znają.",
+  "formattings": []
+ },
+ {
+  "start": 5075960,
+  "end": 5080440,
+  "text": "Czemu się do nich nie udasz?",
+  "formattings": []
+ },
+ {
+  "start": 5085080,
+  "end": 5092160,
+  "text": "Bo jestem tak strasznie...",
+  "formattings": []
+ },
+ {
+  "start": 5098880,
+  "end": 5103040,
+  "text": "...brzydki.",
+  "formattings": []
+ },
+ {
+  "start": 5103760,
+  "end": 5110840,
+  "text": "A oni są tacy...",
+  "formattings": []
+ },
+ {
+  "start": 5116400,
+  "end": 5119440,
+  "text": "...piękni.",
+  "formattings": []
+ },
+ {
+  "start": 5119640,
+  "end": 5122640,
+  "text": "Ojcze!",
+  "formattings": []
+ },
+ {
+  "start": 5122840,
+  "end": 5129800,
+  "text": "- Wynoś się stąd, potworze.\n- Nie rób mu krzywdy!",
+  "formattings": []
+ },
+ {
+  "start": 5134240,
+  "end": 5136920,
+  "text": "Musimy uciekać.",
+  "formattings": []
+ },
+ {
+  "start": 5195600,
+  "end": 5199720,
+  "text": "Nie...",
+  "formattings": []
+ },
+ {
+  "start": 5211840,
+  "end": 5217440,
+  "text": "Rozległe uszkodzenia...\nolbrzymia siła fizyczna...",
+  "formattings": []
+ },
+ {
+  "start": 5217640,
+  "end": 5220960,
+  "text": "...nie żyje.\nNa tym kończy się eksperyment.",
+  "formattings": []
+ },
+ {
+  "start": 5252360,
+  "end": 5258360,
+  "text": "Zemszczę się!",
+  "formattings": []
+ },
+ {
+  "start": 5259680,
+  "end": 5264200,
+  "text": "Frankenstein!",
+  "formattings": []
+ },
+ {
+  "start": 5304160,
+  "end": 5307960,
+  "text": "Genewa!",
+  "formattings": []
+ },
+ {
+  "start": 5324160,
+  "end": 5332360,
+  "text": "- Szybko!\n- Już jest! Otrzymaliśmy list.",
+  "formattings": []
+ },
+ {
+  "start": 5332560,
+  "end": 5338440,
+  "text": "- Gratuluję, Elizabeth.\n- Dziękuję, Justine.",
+  "formattings": []
+ },
+ {
+  "start": 5338640,
+  "end": 5342400,
+  "text": "Czy to medalion?",
+  "formattings": []
+ },
+ {
+  "start": 5342600,
+  "end": 5347520,
+  "text": "- Wiktor jest po prostu piękny!\n- Mogę pokazać go Peterowi?",
+  "formattings": []
+ },
+ {
+  "start": 5347720,
+  "end": 5351520,
+  "text": "- To nie jest zabawka.\n- Niech biegnie.",
+  "formattings": []
+ },
+ {
+  "start": 5362000,
+  "end": 5369440,
+  "text": "Skoncentruj się, Justine! Ktoś może\npomyśleć, że to twoje Wesele.",
+  "formattings": []
+ },
+ {
+  "start": 5369640,
+  "end": 5373440,
+  "text": "- Czy coś się stało?\n- Nie. Nic.",
+  "formattings": []
+ },
+ {
+  "start": 5373640,
+  "end": 5378200,
+  "text": "Nie dotykaj.\nWszystko popsujesz.",
+  "formattings": []
+ },
+ {
+  "start": 5410880,
+  "end": 5415360,
+  "text": "Nie!",
+  "formattings": []
+ },
+ {
+  "start": 5429120,
+  "end": 5432800,
+  "text": "Frankenstein.",
+  "formattings": []
+ },
+ {
+  "start": 5434760,
+  "end": 5438720,
+  "text": "- Chodź no tu!\n- Widziałaś Williego?",
+  "formattings": []
+ },
+ {
+  "start": 5438920,
+  "end": 5446640,
+  "text": "- Podobno Wcale go tam nie było.\n- Jest już okropnie późno.",
+  "formattings": []
+ },
+ {
+  "start": 5453080,
+  "end": 5455960,
+  "text": "William!",
+  "formattings": []
+ },
+ {
+  "start": 5459640,
+  "end": 5466640,
+  "text": "Willie!",
+  "formattings": []
+ },
+ {
+  "start": 5480360,
+  "end": 5485160,
+  "text": "To nie jest śmieszne!",
+  "formattings": []
+ },
+ {
+  "start": 5493000,
+  "end": 5497640,
+  "text": "Tak już późno.",
+  "formattings": []
+ },
+ {
+  "start": 5497840,
+  "end": 5504560,
+  "text": "Jesteśmy zmęczeni.\nJestem bardzo zmęczona.",
+  "formattings": []
+ },
+ {
+  "start": 5506400,
+  "end": 5512200,
+  "text": "Ojcze!\nNiech cię uściskam.",
+  "formattings": []
+ },
+ {
+  "start": 5518320,
+  "end": 5520720,
+  "text": "Co się stało?",
+  "formattings": []
+ },
+ {
+  "start": 5545280,
+  "end": 5549360,
+  "text": "William!",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 8
+   }
+  ]
+ },
+ {
+  "start": 5558600,
+  "end": 5563320,
+  "text": "Sprawdziliśmy Wschodnie zbocze.\nI nic.",
+  "formattings": []
+ },
+ {
+  "start": 5568400,
+  "end": 5578240,
+  "text": "- Elizabeth?\n- Znalazłam go.",
+  "formattings": []
+ },
+ {
+  "start": 5581720,
+  "end": 5585920,
+  "text": "Elizabeth!",
+  "formattings": []
+ },
+ {
+  "start": 5586120,
+  "end": 5590040,
+  "text": "Nie!",
+  "formattings": []
+ },
+ {
+  "start": 5628200,
+  "end": 5633040,
+  "text": "Robiliśmy, co W naszej mocy, sir.",
+  "formattings": []
+ },
+ {
+  "start": 5633240,
+  "end": 5638560,
+  "text": "Proszę trochę odpocząć.\nZrobiliśmy naprawdę Wszystko.",
+  "formattings": []
+ },
+ {
+  "start": 5640040,
+  "end": 5646600,
+  "text": "Sir, niepokoję się o moją córkę.\nNadal szuka Williama.",
+  "formattings": []
+ },
+ {
+  "start": 5646800,
+  "end": 5652520,
+  "text": "Rozstałyśmy się W złości. Byłam dla\nniej okrutna. Nie chciałam tego.",
+  "formattings": []
+ },
+ {
+  "start": 5652720,
+  "end": 5660640,
+  "text": "Ciężko przeżywa twój ślub.\nBardzo cię kocha.",
+  "formattings": []
+ },
+ {
+  "start": 5660840,
+  "end": 5667360,
+  "text": "Nie pozwolę, aby coś jej się\nstało. Proszę mi pomóc!",
+  "formattings": []
+ },
+ {
+  "start": 5669160,
+  "end": 5673640,
+  "text": "Zorganizujemy poszukiwania.",
+  "formattings": []
+ },
+ {
+  "start": 5673840,
+  "end": 5678400,
+  "text": "Odnajdziemy ją. Pani Moritz.",
+  "formattings": []
+ },
+ {
+  "start": 5680840,
+  "end": 5686400,
+  "text": "- Jak się miewa ojciec?\n- Serce mu krwawi.",
+  "formattings": []
+ },
+ {
+  "start": 5696560,
+  "end": 5705000,
+  "text": "Złapaliśmy morderczynię.\nUkryła się W stodole.",
+  "formattings": []
+ },
+ {
+  "start": 5706280,
+  "end": 5712120,
+  "text": "To znaleźliśmy przy niej.\nNależy do pana, prawda?",
+  "formattings": []
+ },
+ {
+  "start": 5715120,
+  "end": 5721920,
+  "text": "Sir, musi pan pójść z nami.\nLudzie W mieście całkiem zwariowali.",
+  "formattings": []
+ },
+ {
+  "start": 5724960,
+  "end": 5730600,
+  "text": "- Co się dzieje?\n- Włamali się do aresztu!",
+  "formattings": []
+ },
+ {
+  "start": 5730800,
+  "end": 5734120,
+  "text": "Toż to zwyczajny lincz!",
+  "formattings": []
+ },
+ {
+  "start": 5734320,
+  "end": 5739200,
+  "text": "Przestańcie!\nTo Wbrew prawu.",
+  "formattings": []
+ },
+ {
+  "start": 5749440,
+  "end": 5754880,
+  "text": "Ratuj mnie, Wiktorze.\nPróbowałam go odszukać.",
+  "formattings": []
+ },
+ {
+  "start": 5755800,
+  "end": 5762440,
+  "text": "Poszłam nad jezioro.\nChciałam przyprowadzić go do ciebie.",
+  "formattings": []
+ },
+ {
+  "start": 5762640,
+  "end": 5770440,
+  "text": "Musi być na Waszym ślubie!\nPrzepraszam! Jest taki Wątły.",
+  "formattings": []
+ },
+ {
+  "start": 5813760,
+  "end": 5819400,
+  "text": "Zawarliśmy bramy przed tłumem.\nCo z ciałem Justine?",
+  "formattings": []
+ },
+ {
+  "start": 5819600,
+  "end": 5826600,
+  "text": "- Odcięliśmy je.\n- Dziękuję, Claude. Idź już spać.",
+  "formattings": []
+ },
+ {
+  "start": 5833840,
+  "end": 5836480,
+  "text": "Morze Lodu.",
+  "formattings": []
+ },
+ {
+  "start": 5838000,
+  "end": 5840760,
+  "text": "Tam się spotkamy...",
+  "formattings": []
+ },
+ {
+  "start": 5840960,
+  "end": 5845880,
+  "text": "...Wśród Morza Lodu.",
+  "formattings": []
+ },
+ {
+  "start": 5867920,
+  "end": 5870320,
+  "text": "Wybacz mi, Justine.",
+  "formattings": []
+ },
+ {
+  "start": 5871600,
+  "end": 5877160,
+  "text": "Kto to jest?\nSkąd Wiesz, że to zabójca?",
+  "formattings": []
+ },
+ {
+  "start": 5877360,
+  "end": 5881920,
+  "text": "- Powiem ci, gdy go zniszczę.\n- Zostaw to policji.",
+  "formattings": []
+ },
+ {
+  "start": 5882120,
+  "end": 5886920,
+  "text": "- Nie zrozumieliby.\n- Ja też nie rozumiem.",
+  "formattings": []
+ },
+ {
+  "start": 5888520,
+  "end": 5893000,
+  "text": "Przyjmij to do Wiadomości.",
+  "formattings": []
+ },
+ {
+  "start": 6020920,
+  "end": 6024760,
+  "text": "Wstawaj.",
+  "formattings": []
+ },
+ {
+  "start": 6024960,
+  "end": 6031120,
+  "text": "- Ty umiesz mówić.\n- Tak. Umiem mówić.",
+  "formattings": []
+ },
+ {
+  "start": 6031320,
+  "end": 6035400,
+  "text": "I czytać.",
+  "formattings": []
+ },
+ {
+  "start": 6035600,
+  "end": 6039520,
+  "text": "I myśleć.",
+  "formattings": []
+ },
+ {
+  "start": 6039720,
+  "end": 6045520,
+  "text": "- Znam ścieżki człowiecze.\n- Jak mnie znalazłeś?",
+  "formattings": []
+ },
+ {
+  "start": 6051000,
+  "end": 6055560,
+  "text": "Twój dziennik.",
+  "formattings": []
+ },
+ {
+  "start": 6057960,
+  "end": 6061960,
+  "text": "Więc chcesz mnie zabić.",
+  "formattings": []
+ },
+ {
+  "start": 6062160,
+  "end": 6066000,
+  "text": "Nie.",
+  "formattings": []
+ },
+ {
+  "start": 6066840,
+  "end": 6070840,
+  "text": "Zamordowałeś mojego brata,\nprawda?",
+  "formattings": []
+ },
+ {
+  "start": 6073600,
+  "end": 6079040,
+  "text": "Chwyciłem go za gardło\njedna ręką. -",
+  "formattings": []
+ },
+ {
+  "start": 6079240,
+  "end": 6084000,
+  "text": "- uniosłem do góry, -",
+  "formattings": []
+ },
+ {
+  "start": 6084200,
+  "end": 6089240,
+  "text": "- i powoli skręciłem mu kark.",
+  "formattings": []
+ },
+ {
+  "start": 6092120,
+  "end": 6100000,
+  "text": "Gdy go zabijałem,\nWidziałem twoją twarz.",
+  "formattings": []
+ },
+ {
+  "start": 6102560,
+  "end": 6110000,
+  "text": "Obdarzyłeś mnie uczuciami, ale nie\nnauczyłeś, jak ich używać.",
+  "formattings": []
+ },
+ {
+  "start": 6111440,
+  "end": 6115920,
+  "text": "Z naszej Winy...",
+  "formattings": []
+ },
+ {
+  "start": 6116120,
+  "end": 6120440,
+  "text": "...zginęło już dwoje ludzi.",
+  "formattings": []
+ },
+ {
+  "start": 6121600,
+  "end": 6125560,
+  "text": "Dlaczego?",
+  "formattings": []
+ },
+ {
+  "start": 6125760,
+  "end": 6132280,
+  "text": "W mojej duszy rozgrywa się teraz\ncoś, czego nie rozumiem.",
+  "formattings": []
+ },
+ {
+  "start": 6134640,
+  "end": 6139400,
+  "text": "A co z moją duszą?\nCzy ja mam duszę?",
+  "formattings": []
+ },
+ {
+  "start": 6139600,
+  "end": 6144840,
+  "text": "A może tę część pominąłeś?",
+  "formattings": []
+ },
+ {
+  "start": 6146160,
+  "end": 6152200,
+  "text": "Kim byli ludzie,\nz których się składam?",
+  "formattings": []
+ },
+ {
+  "start": 6153480,
+  "end": 6158240,
+  "text": "Czy byli dobrzy? Źli?",
+  "formattings": []
+ },
+ {
+  "start": 6158440,
+  "end": 6164920,
+  "text": "- To tylko surowce, nic Więcej.\n- Mylisz się.",
+  "formattings": []
+ },
+ {
+  "start": 6166120,
+  "end": 6171360,
+  "text": "Czy Wiedziałeś,\nże potrafię grać na flecie?",
+  "formattings": []
+ },
+ {
+  "start": 6171560,
+  "end": 6176640,
+  "text": "W której części mojej osoby\nznajduje się ta Wiedza?",
+  "formattings": []
+ },
+ {
+  "start": 6176840,
+  "end": 6179800,
+  "text": "W rękach?",
+  "formattings": []
+ },
+ {
+  "start": 6180000,
+  "end": 6184360,
+  "text": "W umyśle?\nW sercu?",
+  "formattings": []
+ },
+ {
+  "start": 6184560,
+  "end": 6190520,
+  "text": "Czytanie i mówienie...",
+  "formattings": []
+ },
+ {
+  "start": 6192240,
+  "end": 6199440,
+  "text": "Raczej przypomniałem je sobie\nniż się ich nauczyłem.",
+  "formattings": []
+ },
+ {
+  "start": 6201000,
+  "end": 6205480,
+  "text": "Może to ślady pamięciowe\nW mózgu.",
+  "formattings": []
+ },
+ {
+  "start": 6207040,
+  "end": 6214480,
+  "text": "Czy zastanawiałeś się nad\nkonsekwencjami swoich czynów?",
+  "formattings": []
+ },
+ {
+  "start": 6215760,
+  "end": 6223360,
+  "text": "Dałeś mi życie, a potem\nzostawiłeś, abym umarł.",
+  "formattings": []
+ },
+ {
+  "start": 6230400,
+  "end": 6235720,
+  "text": "- Kim jestem?\n- Jesteś...",
+  "formattings": []
+ },
+ {
+  "start": 6241440,
+  "end": 6246200,
+  "text": "Nie Wiem.",
+  "formattings": []
+ },
+ {
+  "start": 6248000,
+  "end": 6253560,
+  "text": "Uważasz, że jestem zły.",
+  "formattings": []
+ },
+ {
+  "start": 6254800,
+  "end": 6258200,
+  "text": "Co mam zrobić?",
+  "formattings": []
+ },
+ {
+  "start": 6258400,
+  "end": 6263720,
+  "text": "Chciałbym mieć...\nprzyjaciela.",
+  "formattings": []
+ },
+ {
+  "start": 6263920,
+  "end": 6268560,
+  "text": "- Przyjaciela?\n- Towarzysza.",
+  "formattings": []
+ },
+ {
+  "start": 6268760,
+  "end": 6275960,
+  "text": "Samicę.\nPodobną do mnie.",
+  "formattings": []
+ },
+ {
+  "start": 6277200,
+  "end": 6283280,
+  "text": "- Która by mnie nie nienawidziła.\n- Taką jak ty?",
+  "formattings": []
+ },
+ {
+  "start": 6285360,
+  "end": 6289200,
+  "text": "Nie Wiesz, o co prosisz.",
+  "formattings": []
+ },
+ {
+  "start": 6289400,
+  "end": 6299280,
+  "text": "Wiem jednak, że za sympatię\njednej żyjącej istoty -",
+  "formattings": []
+ },
+ {
+  "start": 6299480,
+  "end": 6305440,
+  "text": "- pogodziłbym się ze światem.",
+  "formattings": []
+ },
+ {
+  "start": 6307800,
+  "end": 6316560,
+  "text": "Mam W sobie Wielką miłość, której\nnie potrafisz sobie Wyobrazić.",
+  "formattings": []
+ },
+ {
+  "start": 6318160,
+  "end": 6326120,
+  "text": "Oraz Wielki gniew, który\nzadziwiłby cię ogromnie.",
+  "formattings": []
+ },
+ {
+  "start": 6328560,
+  "end": 6335200,
+  "text": "Jeśli nie zaspokoję jednego...",
+  "formattings": []
+ },
+ {
+  "start": 6335760,
+  "end": 6342040,
+  "text": "...pogrążę się W drugim.",
+  "formattings": []
+ },
+ {
+  "start": 6345200,
+  "end": 6353080,
+  "text": "Gdzie byście zamieszkali?",
+  "formattings": []
+ },
+ {
+  "start": 6356800,
+  "end": 6365960,
+  "text": "Powędrowalibyśmy na Północ,\naż do samego bieguna.",
+  "formattings": []
+ },
+ {
+  "start": 6366200,
+  "end": 6371360,
+  "text": "Do dziewiczej krainy.",
+  "formattings": []
+ },
+ {
+  "start": 6371560,
+  "end": 6380160,
+  "text": "Tam żylibyśmy\nrazem W spokoju.",
+  "formattings": []
+ },
+ {
+  "start": 6381440,
+  "end": 6387360,
+  "text": "Żaden człowiek nigdy\nby już nas nie zobaczył.",
+  "formattings": []
+ },
+ {
+  "start": 6389000,
+  "end": 6394400,
+  "text": "Przyrzekam.",
+  "formattings": []
+ },
+ {
+  "start": 6394600,
+  "end": 6400520,
+  "text": "Musisz mi pomóc.\nProszę.",
+  "formattings": []
+ },
+ {
+  "start": 6405000,
+  "end": 6411120,
+  "text": "Jeśli tak można\nnaprawić Wyrządzone zło...",
+  "formattings": []
+ },
+ {
+  "start": 6412720,
+  "end": 6416640,
+  "text": "...uczynię to.",
+  "formattings": []
+ },
+ {
+  "start": 6416840,
+  "end": 6420240,
+  "text": "Wiktorze!",
+  "formattings": []
+ },
+ {
+  "start": 6420440,
+  "end": 6423880,
+  "text": "Wszystko dobrze?",
+  "formattings": []
+ },
+ {
+  "start": 6425200,
+  "end": 6430400,
+  "text": "- Jak najlepiej.\n- Co się stało?",
+  "formattings": []
+ },
+ {
+  "start": 6430640,
+  "end": 6434200,
+  "text": "Powiedz nam.",
+  "formattings": []
+ },
+ {
+  "start": 6439600,
+  "end": 6443560,
+  "text": "Musisz Wyjawić prawdę!",
+  "formattings": []
+ },
+ {
+  "start": 6443760,
+  "end": 6449960,
+  "text": "Tylko miesiąc. Potem się pobierzemy\ni zapomnimy o Wszystkim.",
+  "formattings": []
+ },
+ {
+  "start": 6450160,
+  "end": 6454160,
+  "text": "- Obiecuję.\n- Czyżby?!",
+  "formattings": []
+ },
+ {
+  "start": 6454360,
+  "end": 6460600,
+  "text": "Obiecałeś, że powiesz, kto to jest.\nŻe skończysz z eksperymentami.",
+  "formattings": []
+ },
+ {
+  "start": 6460800,
+  "end": 6465960,
+  "text": "- Opuszczam ten dom.\n- Dokąd pojedziesz?",
+  "formattings": []
+ },
+ {
+  "start": 6466160,
+  "end": 6471160,
+  "text": "- Tam, gdzie odzyskam siły.\n- Nie mam czasu na sprzeczki.",
+  "formattings": []
+ },
+ {
+  "start": 6471360,
+  "end": 6475600,
+  "text": "Komplikują twoje plany?",
+  "formattings": []
+ },
+ {
+  "start": 6475800,
+  "end": 6481000,
+  "text": "Czy zawsze myślisz\nWyłącznie o sobie?",
+  "formattings": []
+ },
+ {
+  "start": 6493840,
+  "end": 6498160,
+  "text": "Niech Bóg mi Wybaczy!",
+  "formattings": []
+ },
+ {
+  "start": 6597560,
+  "end": 6601160,
+  "text": "Dlaczego ona?",
+  "formattings": []
+ },
+ {
+  "start": 6601360,
+  "end": 6608520,
+  "text": "Surowiec, pamiętasz?\nNic Więcej. Twoje Własne słowa.",
+  "formattings": []
+ },
+ {
+  "start": 6611120,
+  "end": 6616600,
+  "text": "- Musisz dotrzymać obietnicy!\n- Nie zrobię tego.",
+  "formattings": []
+ },
+ {
+  "start": 6616800,
+  "end": 6621600,
+  "text": "- Dalej, zabij mnie!\n- To zbyt proste.",
+  "formattings": []
+ },
+ {
+  "start": 6621800,
+  "end": 6626800,
+  "text": "Skoro nie chcesz dać mi żony,\nzawitam u ciebie W noc poślubną!",
+  "formattings": []
+ },
+ {
+  "start": 6629520,
+  "end": 6633640,
+  "text": "Elizabeth!",
+  "formattings": []
+ },
+ {
+  "start": 6635320,
+  "end": 6639040,
+  "text": "Zaczekaj.",
+  "formattings": []
+ },
+ {
+  "start": 6639800,
+  "end": 6643760,
+  "text": "Muszę z tobą porozmawiać.\nProszę!",
+  "formattings": []
+ },
+ {
+  "start": 6655360,
+  "end": 6659600,
+  "text": "Co chcesz mi powiedzieć?",
+  "formattings": []
+ },
+ {
+  "start": 6659800,
+  "end": 6663640,
+  "text": "Nie odchodź.",
+  "formattings": []
+ },
+ {
+  "start": 6665000,
+  "end": 6670680,
+  "text": "Proszę, zostań.",
+  "formattings": []
+ },
+ {
+  "start": 6677760,
+  "end": 6680640,
+  "text": "Boję się.",
+  "formattings": []
+ },
+ {
+  "start": 6684440,
+  "end": 6688800,
+  "text": "Czego?",
+  "formattings": []
+ },
+ {
+  "start": 6692000,
+  "end": 6699120,
+  "text": "Zrobiłem coś tak\nprzerażającego...",
+  "formattings": []
+ },
+ {
+  "start": 6700720,
+  "end": 6705000,
+  "text": "i podłego...",
+  "formattings": []
+ },
+ {
+  "start": 6707120,
+  "end": 6714040,
+  "text": "Boje się, że jeśli\nWyznam ci prawdę...",
+  "formattings": []
+ },
+ {
+  "start": 6716160,
+  "end": 6720680,
+  "text": "...stracę cię na zawsze.",
+  "formattings": []
+ },
+ {
+  "start": 6721560,
+  "end": 6725160,
+  "text": "Stracisz, gdy będziesz milczał.",
+  "formattings": []
+ },
+ {
+  "start": 6729480,
+  "end": 6732880,
+  "text": "Nie Wiem...",
+  "formattings": []
+ },
+ {
+  "start": 6733080,
+  "end": 6737400,
+  "text": "...już...",
+  "formattings": []
+ },
+ {
+  "start": 6740080,
+  "end": 6743960,
+  "text": "...co...",
+  "formattings": []
+ },
+ {
+  "start": 6744160,
+  "end": 6747960,
+  "text": "...robić.",
+  "formattings": []
+ },
+ {
+  "start": 6789840,
+  "end": 6794360,
+  "text": "Ożenisz się ze mną. Wiktorze?",
+  "formattings": []
+ },
+ {
+  "start": 6797400,
+  "end": 6802040,
+  "text": "Pobierzmy się dzisiaj.",
+  "formattings": []
+ },
+ {
+  "start": 6802240,
+  "end": 6808160,
+  "text": "Jutro opowiesz mi o Wszystkim.",
+  "formattings": []
+ },
+ {
+  "start": 6809680,
+  "end": 6813840,
+  "text": "Lecz musisz Wyznać mi prawdę.",
+  "formattings": []
+ },
+ {
+  "start": 6816160,
+  "end": 6821600,
+  "text": "Razem uda nam się znieść Wszystko.",
+  "formattings": []
+ },
+ {
+  "start": 6822640,
+  "end": 6829960,
+  "text": "Cokolwiek uczyniłeś,\ncokolwiek się stało...",
+  "formattings": []
+ },
+ {
+  "start": 6831800,
+  "end": 6835440,
+  "text": "...i tak cię kocham.",
+  "formattings": []
+ },
+ {
+  "start": 6846720,
+  "end": 6854320,
+  "text": "Dzielić prawdę, całą prawdę,\nna dobre i na złe. -",
+  "formattings": []
+ },
+ {
+  "start": 6854520,
+  "end": 6862240,
+  "text": "- Wspierać się\nW zdrowiu i chorobie. -",
+  "formattings": []
+ },
+ {
+  "start": 6862520,
+  "end": 6869440,
+  "text": "- oraz W radości.\nOd tej chwili -",
+  "formattings": []
+ },
+ {
+  "start": 6869640,
+  "end": 6875400,
+  "text": "- póki śmierć Was nie rozłączy.",
+  "formattings": []
+ },
+ {
+  "start": 6894400,
+  "end": 6899000,
+  "text": "- Kto to jest? Jak Wygląda?\n- Rozpoznacie go.",
+  "formattings": []
+ },
+ {
+  "start": 6899200,
+  "end": 6907040,
+  "text": "Zabił Williama i przez niego\nzginęła Justine. Strzelać od razu!",
+  "formattings": []
+ },
+ {
+  "start": 6909120,
+  "end": 6914960,
+  "text": "Pilnujcie się.\nJa zaopiekuję się twoim ojcem.",
+  "formattings": []
+ },
+ {
+  "start": 6967840,
+  "end": 6973600,
+  "text": "Ostatni prom już odpłynął.\nNastępny jest dopiero o świcie.",
+  "formattings": []
+ },
+ {
+  "start": 6973800,
+  "end": 6978360,
+  "text": "- Znajdę dla Was nocleg.\n- Dziękuję ci, Claude.",
+  "formattings": []
+ },
+ {
+  "start": 6983440,
+  "end": 6987560,
+  "text": "- Nie zmoczcie pistoletów!\n- Bez obawy.",
+  "formattings": []
+ },
+ {
+  "start": 6987760,
+  "end": 6994400,
+  "text": "- Jeśli zawiodą. Wyprujemy mu flaki.\n- Wracaj na posterunek.",
+  "formattings": []
+ },
+ {
+  "start": 6997360,
+  "end": 7002560,
+  "text": "Niech pan się nie martwi, sir.\nZ nami jesteście bezpieczni.",
+  "formattings": []
+ },
+ {
+  "start": 7002760,
+  "end": 7009800,
+  "text": "Proszę iść do żony. Nie często\nmiewa się noc poślubną.",
+  "formattings": []
+ },
+ {
+  "start": 7039840,
+  "end": 7044160,
+  "text": "Jesteś przemoczony do suchej nitki.",
+  "formattings": []
+ },
+ {
+  "start": 7053480,
+  "end": 7058200,
+  "text": "Brat i siostra...\njuż nie.",
+  "formattings": []
+ },
+ {
+  "start": 7058400,
+  "end": 7062040,
+  "text": "Teraz mąż i żona.",
+  "formattings": []
+ },
+ {
+  "start": 7164400,
+  "end": 7167840,
+  "text": "Wiktorze?",
+  "formattings": []
+ },
+ {
+  "start": 7169280,
+  "end": 7172960,
+  "text": "Zarygluj drzwi.",
+  "formattings": []
+ },
+ {
+  "start": 7176240,
+  "end": 7180960,
+  "text": "- Widziałem go. Pobiegł nad jezioro.\n- Zostańcie tutaj.",
+  "formattings": []
+ },
+ {
+  "start": 7194840,
+  "end": 7200600,
+  "text": "- Zgubiliśmy go.\n- Elizabeth!",
+  "formattings": []
+ },
+ {
+  "start": 7201640,
+  "end": 7205800,
+  "text": "Nawet nie próbuj krzyczeć.",
+  "formattings": []
+ },
+ {
+  "start": 7226720,
+  "end": 7233840,
+  "text": "Proszę...\nNie rób mi krzywdy.",
+  "formattings": []
+ },
+ {
+  "start": 7234600,
+  "end": 7240440,
+  "text": "Jesteś piękniejsza\nniż przypuszczałem.",
+  "formattings": []
+ },
+ {
+  "start": 7242240,
+  "end": 7244760,
+  "text": "Elizabeth.",
+  "formattings": []
+ },
+ {
+  "start": 7257600,
+  "end": 7262480,
+  "text": "Ja dotrzymuję słowa!",
+  "formattings": []
+ },
+ {
+  "start": 7296040,
+  "end": 7302160,
+  "text": "- Powiedz, co się stało.\n- Wiem, co należy zrobić.",
+  "formattings": []
+ },
+ {
+  "start": 7302360,
+  "end": 7308360,
+  "text": "- Nie Wolno ci. Wiktorze!\n- Kocham ją. Jak ty byś postąpił?",
+  "formattings": []
+ },
+ {
+  "start": 7308560,
+  "end": 7313040,
+  "text": "- Zostawiłbym ją W spokoju.\n- Mój ojciec zrobiłby to samo.",
+  "formattings": []
+ },
+ {
+  "start": 7313240,
+  "end": 7317240,
+  "text": "Twój ojciec nie żyje.",
+  "formattings": []
+ },
+ {
+  "start": 7317440,
+  "end": 7323360,
+  "text": "- Więc nie mam nic do stracenia.\n- Z Wyjątkiem Własnej duszy.",
+  "formattings": []
+ },
+ {
+  "start": 7478800,
+  "end": 7483640,
+  "text": "Ożyj!",
+  "formattings": []
+ },
+ {
+  "start": 7485560,
+  "end": 7489560,
+  "text": "Nie!",
+  "formattings": []
+ },
+ {
+  "start": 7522640,
+  "end": 7527120,
+  "text": "Żyj...",
+  "formattings": []
+ },
+ {
+  "start": 7564880,
+  "end": 7569680,
+  "text": "Wymów moje imię.",
+  "formattings": []
+ },
+ {
+  "start": 7569880,
+  "end": 7575960,
+  "text": "Proszę, powiedz moje imię.",
+  "formattings": []
+ },
+ {
+  "start": 7577560,
+  "end": 7584360,
+  "text": "Przypomnij sobie!\nNa pewno je pamiętasz.",
+  "formattings": []
+ },
+ {
+  "start": 7584560,
+  "end": 7590000,
+  "text": "Elizabeth.",
+  "formattings": []
+ },
+ {
+  "start": 7599000,
+  "end": 7602760,
+  "text": "Właśnie.",
+  "formattings": []
+ },
+ {
+  "start": 7603720,
+  "end": 7609120,
+  "text": "Widzisz? Pamiętasz.",
+  "formattings": []
+ },
+ {
+  "start": 7611640,
+  "end": 7615360,
+  "text": "Dobrze...",
+  "formattings": []
+ },
+ {
+  "start": 7620040,
+  "end": 7624560,
+  "text": "Wstań.",
+  "formattings": []
+ },
+ {
+  "start": 7638600,
+  "end": 7642160,
+  "text": "Tak...",
+  "formattings": []
+ },
+ {
+  "start": 7670400,
+  "end": 7674760,
+  "text": "Pamiętasz!",
+  "formattings": []
+ },
+ {
+  "start": 7734040,
+  "end": 7736440,
+  "text": "Jaka ona piękna!",
+  "formattings": []
+ },
+ {
+  "start": 7740760,
+  "end": 7745040,
+  "text": "- Nie jest dla ciebie.\n- Chodź!",
+  "formattings": []
+ },
+ {
+  "start": 7748560,
+  "end": 7752560,
+  "text": "Elizabeth?",
+  "formattings": []
+ },
+ {
+  "start": 7752760,
+  "end": 7757200,
+  "text": "Wymów moje imię!",
+  "formattings": []
+ },
+ {
+  "start": 7760240,
+  "end": 7764600,
+  "text": "Elizabeth.",
+  "formattings": []
+ },
+ {
+  "start": 7771240,
+  "end": 7775680,
+  "text": "Elizabeth!",
+  "formattings": []
+ },
+ {
+  "start": 7777240,
+  "end": 7782600,
+  "text": "Jesteś piękna.",
+  "formattings": []
+ },
+ {
+  "start": 7785640,
+  "end": 7795480,
+  "text": "- Powiedz moje imię.\n- Chodź do mnie. Elizabeth.",
+  "formattings": []
+ },
+ {
+  "start": 7876200,
+  "end": 7880800,
+  "text": "Wymów moje imię, Elizabeth.",
+  "formattings": []
+ },
+ {
+  "start": 7881000,
+  "end": 7884160,
+  "text": "Wik...",
+  "formattings": []
+ },
+ {
+  "start": 7884360,
+  "end": 7887920,
+  "text": "Bardzo dobrze. Elizabeth.",
+  "formattings": []
+ },
+ {
+  "start": 7888120,
+  "end": 7894040,
+  "text": "- Wiktor...\n- Nie, jesteś moja!",
+  "formattings": []
+ },
+ {
+  "start": 7896000,
+  "end": 7901920,
+  "text": "- Jesteś moja.\n- Zostaw ją W spokoju!",
+  "formattings": []
+ },
+ {
+  "start": 7902120,
+  "end": 7906600,
+  "text": "- Nie zbliżaj się.\n- Wymówiła moje imię!",
+  "formattings": []
+ },
+ {
+  "start": 7906800,
+  "end": 7910840,
+  "text": "Należy do mnie!",
+  "formattings": []
+ },
+ {
+  "start": 7973160,
+  "end": 7981800,
+  "text": "Wszystko, co kiedyś kochałem,\numarło - i to z mojej Winy.",
+  "formattings": []
+ },
+ {
+  "start": 7986120,
+  "end": 7991040,
+  "text": "Podążałem za nim jak cień.",
+  "formattings": []
+ },
+ {
+  "start": 7991240,
+  "end": 7997480,
+  "text": "Cały czas na Północ.",
+  "formattings": []
+ },
+ {
+  "start": 7997680,
+  "end": 8001680,
+  "text": "Tyle miesięcy...",
+  "formattings": []
+ },
+ {
+  "start": 8001880,
+  "end": 8005480,
+  "text": "Opętany jedną myślą:",
+  "formattings": []
+ },
+ {
+  "start": 8006560,
+  "end": 8010880,
+  "text": "Zabić go.",
+  "formattings": []
+ },
+ {
+  "start": 8012760,
+  "end": 8015800,
+  "text": "Teraz jednak...",
+  "formattings": []
+ },
+ {
+  "start": 8020640,
+  "end": 8024840,
+  "text": "...jestem zmęczony.",
+  "formattings": []
+ },
+ {
+  "start": 8027880,
+  "end": 8035920,
+  "text": "Przeraźliwie zmęczony.",
+  "formattings": []
+ },
+ {
+  "start": 8054800,
+  "end": 8058800,
+  "text": "Co panu powiedział?",
+  "formattings": []
+ },
+ {
+  "start": 8059040,
+  "end": 8063520,
+  "text": "Nie żyje.",
+  "formattings": []
+ },
+ {
+  "start": 8063720,
+  "end": 8070360,
+  "text": "Przed śmiercią bełkotał coś\no jakimś upiorze.",
+  "formattings": []
+ },
+ {
+  "start": 8070560,
+  "end": 8073280,
+  "text": "Co tam jest, kapitanie?",
+  "formattings": []
+ },
+ {
+  "start": 8078280,
+  "end": 8083840,
+  "text": "Opowiedział mi historię...",
+  "formattings": []
+ },
+ {
+  "start": 8086200,
+  "end": 8090680,
+  "text": "...która nie może być prawdziwa.",
+  "formattings": []
+ },
+ {
+  "start": 8090880,
+  "end": 8096840,
+  "text": "Sądzę, że był szalony.",
+  "formattings": []
+ },
+ {
+  "start": 8100840,
+  "end": 8103960,
+  "text": "Ciepły Wiatr!",
+  "formattings": []
+ },
+ {
+  "start": 8106720,
+  "end": 8113040,
+  "text": "- Lody Wreszcie puszczą.\n- I co potem, kapitanie?",
+  "formattings": []
+ },
+ {
+  "start": 8120920,
+  "end": 8125200,
+  "text": "- Popłyniemy na Północ.\n- Nie!",
+  "formattings": []
+ },
+ {
+  "start": 8152480,
+  "end": 8155280,
+  "text": "Kim jesteś?",
+  "formattings": []
+ },
+ {
+  "start": 8159440,
+  "end": 8162960,
+  "text": "Nie dał mi imienia.",
+  "formattings": []
+ },
+ {
+  "start": 8196320,
+  "end": 8205040,
+  "text": "- Dlaczego płaczesz?\n- Był moim ojcem.",
+  "formattings": []
+ },
+ {
+  "start": 8207799,
+  "end": 8215440,
+  "text": "\"I postanowiłem sobie poznać mądrość\ni Wiedzę, szaleństwo i głupotę, -",
+  "formattings": []
+ },
+ {
+  "start": 8215639,
+  "end": 8223480,
+  "text": "- poznałem, że również i to jest\npogonią za Wiatrem.",
+  "formattings": []
+ },
+ {
+  "start": 8223680,
+  "end": 8228639,
+  "text": "Bo W Wielkiej mądrości, -",
+  "formattings": []
+ },
+ {
+  "start": 8228840,
+  "end": 8234879,
+  "text": "- Wiele utrapienia; a kto przysparza\nWiedzy, przysparza i cierpień. \"",
+  "formattings": []
+ },
+ {
+  "start": 8235080,
+  "end": 8243480,
+  "text": "\"Bóg bowiem każdą sprawę zawezwie na\nsąd; Wszystko, choć ukryte, -",
+  "formattings": []
+ },
+ {
+  "start": 8243680,
+  "end": 8249280,
+  "text": "- czy dobre było,\nczy złe. \"",
+  "formattings": []
+ },
+ {
+  "start": 8259320,
+  "end": 8264040,
+  "text": "- Kapitanie...\n- Ma prawo być tu obecny.",
+  "formattings": []
+ },
+ {
+  "start": 8277440,
+  "end": 8281520,
+  "text": "Chryste, lód pęka!",
+  "formattings": []
+ },
+ {
+  "start": 8292879,
+  "end": 8296240,
+  "text": "Wracajmy na statek, kapitanie.",
+  "formattings": []
+ },
+ {
+  "start": 8296440,
+  "end": 8299559,
+  "text": "Zostaw tę przeklętą pochodnię!",
+  "formattings": []
+ },
+ {
+  "start": 8303160,
+  "end": 8306959,
+  "text": "Chodź z nami.",
+  "formattings": []
+ },
+ {
+  "start": 8307160,
+  "end": 8311200,
+  "text": "Skończyłem już porachunki z ludźmi.",
+  "formattings": []
+ },
+ {
+  "start": 8326600,
+  "end": 8330400,
+  "text": "Ratunku!",
+  "formattings": []
+ },
+ {
+  "start": 8334920,
+  "end": 8338040,
+  "text": "Kapitanie!",
+  "formattings": []
+ },
+ {
+  "start": 8423320,
+  "end": 8428640,
+  "text": "Dokąd teraz, kapitanie?",
+  "formattings": []
+ },
+ {
+  "start": 8440960,
+  "end": 8445280,
+  "text": "Do domu.",
+  "formattings": []
+ },
+ {
+  "start": 8827840,
+  "end": 8833680,
+  "text": "Napisy polskie: Studio Company\ntekst: Agnieszka Rostkowska",
+  "formattings": [
+   {
+    "type": "bold",
+    "start": 0,
+    "end": 30
+   },
+   {
+    "type": "color",
+    "start": 0,
+    "end": 30,
+    "color": [
+     0.8117647058823529,
+     0.8117647058823529,
+     0.8117647058823529,
+     1.0
+    ]
+   },
+   {
+    "type": "bold",
+    "start": 31,
+    "end": 58
+   },
+   {
+    "type": "color",
+    "start": 31,
+    "end": 58,
+    "color": [
+     0.8117647058823529,
+     0.8117647058823529,
+     0.8117647058823529,
+     1.0
+    ]
+   }
+  ]
+ }
+]
