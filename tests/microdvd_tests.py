@@ -14,7 +14,7 @@ from pysubtools2.utils import get_file_encoding
 
 
 def _generate_random_subtitle_test(units_count: int) -> str:
-    output = []
+    output: typing.List[str] = []
     letters = string.ascii_letters
     for i in range(units_count):
         start = Time(i * 1000 + 25)
@@ -78,7 +78,7 @@ class TestMicroDVDParsing(unittest.TestCase):
                 assert sub_string == original_string
 
     def test_parsing_speed(self) -> None:
-        subtitles = []
+        subtitles: typing.List[str] = []
         for _ in range(10):
             subtitle_str = _generate_random_subtitle_test(10000)
             subtitles.append(subtitle_str)
@@ -86,6 +86,6 @@ class TestMicroDVDParsing(unittest.TestCase):
         start = time.perf_counter()
         for subtitle_str in subtitles:
             parser = MicroDVDParser()
-            parser.parse_text(subtitle_str)
+            _ = parser.parse_text(subtitle_str)
         end = time.perf_counter()
         print(f"Took {end - start} s")

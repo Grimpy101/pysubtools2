@@ -31,7 +31,7 @@ class WebVTTParser:
         self.raw_text: str = ""
         self.temp_text: str = ""
         
-        self.html_parser = SubtitleHTMLTagParser()
+        self.html_parser: SubtitleHTMLTagParser = SubtitleHTMLTagParser()
     
     @staticmethod
     def _parse_timestamp(timestamp: str) -> typing.Optional[Time]:

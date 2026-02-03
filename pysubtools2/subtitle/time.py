@@ -1,4 +1,5 @@
 import typing
+import typing_extensions
 
 
 class HumanTime(typing.TypedDict):
@@ -12,7 +13,7 @@ class Time:
     """A class storing time information in milliseconds. Optionally also holds associated framerate for conversion from/to frames."""
 
     def __init__(self, milliseconds: int) -> None:
-        self.milliseconds = milliseconds
+        self.milliseconds: int = milliseconds
 
     @property
     def human_time(self) -> HumanTime:
@@ -54,9 +55,11 @@ class Time:
     def __unicode__(self) -> str:
         return f"Time({self.milliseconds}ms)"
 
+    @typing_extensions.override
     def __str__(self) -> str:
         return self.__unicode__()
 
+    @typing_extensions.override
     def __eq__(self, value: object) -> bool:
         if not isinstance(value, Time):
             raise ValueError(f"Value {value} is not a valid time!")
@@ -81,7 +84,7 @@ class Time:
         if not isinstance(value, Time):
             raise ValueError(f"Value {value} is not a valid time!")
         return self.milliseconds <= value.milliseconds
-
+    
     def __add__(self, other: typing.Union[int, float, "Time"]) -> "Time":
         new_milliseconds = self.milliseconds
         if isinstance(other, (int, float)):

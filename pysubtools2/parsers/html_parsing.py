@@ -1,6 +1,7 @@
 import dataclasses
 import html.parser
 import typing
+import typing_extensions
 
 from ..subtitle.formatting import (
     Bold,
@@ -44,12 +45,14 @@ class SubtitleHTMLTagParser(html.parser.HTMLParser):
         self.spans: typing.List[TagSpan] = []
         self.formattings: typing.List[Formatting] = []
 
+    @typing_extensions.override
     def handle_starttag(
         self, tag: str, attrs: typing.List[typing.Tuple[str, typing.Optional[str]]]
     ) -> None:
         tag_span = TagSpan(tag, attrs, self.position, None)
         self.stack.append(tag_span)
 
+    @typing_extensions.override
     def handle_endtag(self, tag: str) -> None:
         for i in range(len(self.stack) - 1, -1, -1):
             if self.stack[i].tag == tag:
@@ -63,10 +66,12 @@ class SubtitleHTMLTagParser(html.parser.HTMLParser):
         self.position += len(tag_str)
         self.text_parts.append(tag_str)
 
+    @typing_extensions.override
     def handle_data(self, data: str) -> None:
         self.text_parts.append(data)
         self.position += len(data)
 
+    @typing_extensions.override
     def close(self) -> None:
         super().close()
 

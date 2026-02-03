@@ -17,7 +17,8 @@ from ..subtitle.formatting import (
     RelativePosition,
 )
 from ..utils import get_file_encoding
-from ..subtitle.subtitle import Subtitle, SubtitleUnit, Time
+from ..subtitle.subtitle import Subtitle, SubtitleUnit
+from ..subtitle.time import Time
 
 
 SUB_REGEX = re.compile(r"{(?P<start>.*?)}{(?P<end>.*?)}(?P<content>.*)")
@@ -27,7 +28,7 @@ CONTROL_CODE_REGEX = re.compile(r"{(.*?)}")
 def formattings_from_control_codes(
     code: str, value: str, start: int, end: int
 ) -> typing.List[Formatting]:
-    formattings = []
+    formattings: typing.List[Formatting] = []
     code = code.lower()
 
     if code == "y":
@@ -56,12 +57,12 @@ def formattings_from_control_codes(
 class MicroDVDParser:
     def __init__(self, fps: float = 24.0) -> None:
         self.subtitle: Subtitle = Subtitle()
-        self.fps = fps
-        self._is_previous_end_empty = False
+        self.fps: float = fps
+        self._is_previous_end_empty: bool = False
         self.default_control_codes: collections.defaultdict[str, typing.Set[str]] = (
             collections.defaultdict(set)
         )
-        self.raw_text = ""
+        self.raw_text: str = ""
         self.previous_unit: typing.Optional[SubtitleUnit] = None
 
     def _parse_content(
@@ -74,7 +75,7 @@ class MicroDVDParser:
         per_line_control_codes: collections.defaultdict[
             typing.Tuple[int, str], typing.Set[str]
         ] = collections.defaultdict(set)
-        formattings = []
+        formattings: typing.List[Formatting] = []
 
         for c, v in self.default_control_codes.items():
             global_control_codes[c] = v
@@ -228,7 +229,7 @@ class MicroDVDParser:
 
     def parse_file(
         self,
-        file: typing.Union[str, os.PathLike, typing.IO],
+        file: typing.Any,
         fps_from_file: bool = True,
         encoding: typing.Optional[str] = None,
     ) -> Subtitle:

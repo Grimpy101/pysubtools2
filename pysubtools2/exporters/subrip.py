@@ -70,7 +70,7 @@ class SubRipExporter:
 
         formattings: typing.List[HTMLTag] = list(
             filter(lambda item: isinstance(item, HTMLTag), subtitle_unit.formattings)
-        )  # type: ignore
+        )
 
         font_formattings = filter(
             lambda element: isinstance(element, (Color, FontFace, TextSize)),
@@ -131,7 +131,7 @@ class SubRipExporter:
         return text
 
     def to_string(self, subtitle: Subtitle) -> str:
-        lines = []
+        lines: typing.List[str] = []
 
         subtitle.sort(key=lambda unit: unit.start)
 
@@ -148,10 +148,10 @@ class SubRipExporter:
         return output
 
     def to_file(
-        self, target: typing.IO, subtitle: Subtitle, encoding: str = "utf-8"
+        self, target: typing.Union[typing.IO[str], typing.IO[bytes]], subtitle: Subtitle, encoding: str = "utf-8"
     ) -> None:
         output = self.to_string(subtitle)
         if hasattr(target, "encoding"):
-            typing.cast(typing.TextIO, target).write(output)
+            _ = typing.cast(typing.TextIO, target).write(output)
         else:
-            typing.cast(typing.BinaryIO, target).write(output.encode(encoding))
+            _ = typing.cast(typing.BinaryIO, target).write(output.encode(encoding))

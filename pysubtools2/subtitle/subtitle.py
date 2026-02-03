@@ -1,5 +1,6 @@
 import collections
 import typing
+import typing_extensions
 
 from .formatting import Formatting, Span
 
@@ -13,10 +14,10 @@ class SubtitleUnit:
     def __init__(
         self, start: Time, end: Time, text: str, formattings: typing.List[Formatting]
     ) -> None:
-        self.start = start
-        self.end = end
-        self.text = text
-        self.formattings = formattings
+        self.start: Time = start
+        self.end: Time = end
+        self.text: str = text
+        self.formattings: typing.List[Formatting] = formattings
 
     @property
     def duration(self) -> Time:
@@ -55,7 +56,7 @@ class SubtitleUnit:
         lines = list(range(start_line, end_line + 1))
         return lines
     
-    def to_json(self) -> typing.Dict:
+    def to_json(self) -> typing.Dict[str, typing.Any]:
         return {
             'start': self.start.milliseconds,
             'end': self.end.milliseconds,
@@ -66,6 +67,7 @@ class SubtitleUnit:
     def __unicode__(self) -> str:
         return f"SubtitleUnit[{self.start}][{self.end}][{self.text}]"
 
+    @typing_extensions.override
     def __str__(self) -> str:
         return self.__unicode__()
 
@@ -77,11 +79,12 @@ else:
 
 
 class Subtitle(SubtitleList):
-    def to_json(self) -> typing.List:
+    def to_json(self) -> typing.List[typing.Dict[str, typing.Any]]:
         return [unit.to_json() for unit in self]
     
     def __unicode__(self) -> str:
         return f"Subtitle ({len(self.data)} units)"
 
+    @typing_extensions.override
     def __str__(self) -> str:
         return self.__unicode__()

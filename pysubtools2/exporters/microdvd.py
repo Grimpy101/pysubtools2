@@ -47,10 +47,10 @@ def get_control_code(formatting: Formatting):
 
 class MicroDVDExporter:
     def __init__(self, fps: float = 24.0) -> None:
-        self.fps = fps
+        self.fps: float = fps
 
     def to_string(self, subtitle: Subtitle) -> str:
-        units = []
+        units: typing.List[str] = []
 
         subtitle.sort(key=lambda unit: unit.start)
 
@@ -120,10 +120,10 @@ class MicroDVDExporter:
         return output
 
     def to_file(
-        self, target: typing.IO, subtitle: Subtitle, encoding: str = "utf-8"
+        self, target: typing.Union[typing.IO[str], typing.IO[bytes]], subtitle: Subtitle, encoding: str = "utf-8"
     ) -> None:
         output = self.to_string(subtitle)
         if hasattr(target, "encoding"):
-            typing.cast(typing.TextIO, target).write(output)
+            _ = typing.cast(typing.TextIO, target).write(output)
         else:
-            typing.cast(typing.BinaryIO, target).write(output.encode(encoding))
+            _ =typing.cast(typing.BinaryIO, target).write(output.encode(encoding))

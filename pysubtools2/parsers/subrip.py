@@ -8,7 +8,8 @@ from ..subtitle.formatting import (
     AbsolutePosition,
 )
 from ..utils import get_file_encoding
-from ..subtitle.subtitle import Subtitle, SubtitleUnit, Time
+from ..subtitle.subtitle import Subtitle, SubtitleUnit
+from ..subtitle.time import Time
 from .html_parsing import SubtitleHTMLTagParser
 from .ssa_control_code_parsing import SubtitleSSATagParser
 
@@ -37,8 +38,8 @@ class SubRipParser:
         self.raw_text: str = ""
         self.temp_text: str = ""
 
-        self.html_parser = SubtitleHTMLTagParser()
-        self.ssa_parser = SubtitleSSATagParser()
+        self.html_parser: SubtitleHTMLTagParser = SubtitleHTMLTagParser()
+        self.ssa_parser: SubtitleSSATagParser = SubtitleSSATagParser()
 
     @staticmethod
     def _parse_index(line: str) -> typing.Optional[int]:
@@ -188,7 +189,7 @@ class SubRipParser:
 
     def parse_file(
         self,
-        file: typing.Union[str, os.PathLike, typing.IO],
+        file: typing.Any,
         encoding: typing.Optional[str] = None,
     ) -> Subtitle:
         if isinstance(file, typing.BinaryIO):

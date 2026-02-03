@@ -1,4 +1,3 @@
-import os
 import typing
 import charset_normalizer
 
@@ -7,7 +6,7 @@ class EncodingException(Exception):
     pass
 
 
-def get_file_encoding(filepath: typing.Union[str, os.PathLike]) -> str:
+def get_file_encoding(filepath: typing.Any) -> str:
     matches = charset_normalizer.from_path(filepath)
     best_match = matches.best()
     if best_match is None:
