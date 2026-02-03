@@ -55,13 +55,13 @@ class SubtitleUnit:
         end_line = start_line + self.text.count("\n", start, end)
         lines = list(range(start_line, end_line + 1))
         return lines
-    
+
     def to_json(self) -> typing.Dict[str, typing.Any]:
         return {
-            'start': self.start.milliseconds,
-            'end': self.end.milliseconds,
-            'text': self.text,
-            'formattings': [formatting.to_json() for formatting in self.formattings]
+            "start": self.start.milliseconds,
+            "end": self.end.milliseconds,
+            "text": self.text,
+            "formattings": [formatting.to_json() for formatting in self.formattings],
         }
 
     def __unicode__(self) -> str:
@@ -81,7 +81,7 @@ else:
 class Subtitle(SubtitleList):
     def to_json(self) -> typing.List[typing.Dict[str, typing.Any]]:
         return [unit.to_json() for unit in self]
-    
+
     def __unicode__(self) -> str:
         return f"Subtitle ({len(self.data)} units)"
 

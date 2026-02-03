@@ -63,7 +63,7 @@ class SubRipParser:
 
     def _parse_absolute_position(self, line: str) -> typing.Optional[AbsolutePosition]:
         x1 = x2 = y1 = y2 = None
-        #tail = line.rsplit("  ", 1)[-1]
+        # tail = line.rsplit("  ", 1)[-1]
         coordinates = line.split()
         for coordinate in coordinates:
             if ":" not in coordinate:
@@ -81,7 +81,7 @@ class SubRipParser:
 
         if x1 is None or x2 is None or y1 is None or y2 is None:
             return None
-        
+
         self.formattings.append(AbsolutePosition(x1, x2, y1, y2))
 
     def _formatting_already_exists(self, formatting: Formatting) -> bool:
@@ -141,18 +141,18 @@ class SubRipParser:
             self.temp_text += line + "\n"
 
     def _on_time_state(self, line: str):
-        #times = self._parse_times(line)
-        
+        # times = self._parse_times(line)
+
         timestamps = line.split("-->", 1)
         if len(timestamps) < 2:
             return
-        
+
         [start_timestamp, end_timestamp] = timestamps
         self.start_time = SubRipParser._parse_timestamp(start_timestamp)
         self.end_time = SubRipParser._parse_timestamp(end_timestamp)
-        
+
         upper_end_timestamp = end_timestamp.upper()
-        if 'X' in upper_end_timestamp:
+        if "X" in upper_end_timestamp:
             absolute_position = self._parse_absolute_position(upper_end_timestamp)
             if absolute_position is not None and not self._formatting_already_exists(
                 absolute_position

@@ -10,7 +10,6 @@ from ..subtitle.time import Time
 from ..subtitle.subtitle import Subtitle
 
 
-
 class WebVTTParsingState(enum.Enum):
     HEADER = enum.auto()
     TIME = enum.auto()
@@ -22,30 +21,30 @@ class WebVTTParser:
     def __init__(self) -> None:
         self.subtitle: Subtitle = Subtitle()
         self.state: WebVTTParsingState = WebVTTParsingState.HEADER
-        
+
         self.start_time: typing.Optional[Time] = None
         self.end_time: typing.Optional[Time] = None
-        
+
         self.formattings: typing.List[Formatting] = []
-        
+
         self.raw_text: str = ""
         self.temp_text: str = ""
-        
+
         self.html_parser: SubtitleHTMLTagParser = SubtitleHTMLTagParser()
-    
+
     @staticmethod
     def _parse_timestamp(timestamp: str) -> typing.Optional[Time]:
         parts = timestamp.split(":", 2)
         if len(parts) < 2:
             return None
-        
+
         h, m, sms = "0", "0", "0"
         if len(parts) == 2:
             [m, sms] = parts
         else:
             [h, m, sms] = parts
         [s, ms] = sms.split(".", 1)
-        
+
         try:
             hours = int(h)
             minutes = int(m)
@@ -54,7 +53,7 @@ class WebVTTParser:
             return Time.from_human_time(milliseconds, seconds, minutes, hours)
         except ValueError:
             return None
-    
+
     def _parse_times(self, line: str) -> bool:
         parts = line.split("-->", 1)
         if len(parts) < 2:
@@ -64,11 +63,11 @@ class WebVTTParser:
         end = self._parse_timestamp(end_str.strip())
         if start is None or end is None:
             return False
-        
+
         self.start_time = start
         self.end_time = end
         return True
-    
+
     @staticmethod
     def _parse_line_position(value: str):
         value = value.strip()
@@ -86,7 +85,7 @@ class WebVTTParser:
                 return 2
         except ValueError:
             return None
-    
+
     @staticmethod
     def _parse_position_position(value: str):
         value = value.removesuffix("%")
@@ -100,25 +99,26 @@ class WebVTTParser:
                 return 2
         except ValueError:
             return None
-    
+
     def _parse_positions(self, line: str):
         parts = line.split("-->", 1)
         if len(parts) < 2:
             return
         end_str = parts[1]
         position_strings = end_str.split()[1:]
-        
-        positions: collections.defaultdict[str, typing.Optional[str]] = collections.defaultdict(None)
+
+        positions: collections.defaultdict[str, typing.Optional[str]] = (
+            collections.defaultdict(None)
+        )
         for p in position_strings:
             try:
                 [identifier, value] = p.split(":", 1)
                 positions[identifier] = value
             except ValueError:
                 pass
-        
-    
+
     def _parse_content(self, line: str):
         raise NotImplementedError()
-    
+
     def parse_text(self, vtt_text: str) -> Subtitle:
         raise NotImplementedError()

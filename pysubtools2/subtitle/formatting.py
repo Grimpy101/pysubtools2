@@ -57,14 +57,10 @@ class Bold(Formatting, HTMLTag):
     @typing_extensions.override
     def get_attributes(self) -> str:
         return ""
-    
+
     @typing_extensions.override
     def to_json(self) -> typing.Dict[str, typing.Any]:
-        return {
-            'type': 'bold',
-            'start': self.start,
-            'end': self.end
-        }
+        return {"type": "bold", "start": self.start, "end": self.end}
 
     @typing_extensions.override
     def __str__(self) -> str:
@@ -84,14 +80,10 @@ class Italic(Formatting, HTMLTag):
     @typing_extensions.override
     def get_attributes(self) -> str:
         return ""
-    
+
     @typing_extensions.override
     def to_json(self) -> typing.Dict[str, typing.Any]:
-        return {
-            'type': 'italic',
-            'start': self.start,
-            'end': self.end
-        }
+        return {"type": "italic", "start": self.start, "end": self.end}
 
     @typing_extensions.override
     def __str__(self) -> str:
@@ -111,14 +103,10 @@ class Underline(Formatting, HTMLTag):
     @typing_extensions.override
     def get_attributes(self) -> str:
         return ""
-    
+
     @typing_extensions.override
     def to_json(self) -> typing.Dict[str, typing.Any]:
-        return {
-            'type': 'underline',
-            'start': self.start,
-            'end': self.end
-        }
+        return {"type": "underline", "start": self.start, "end": self.end}
 
     @typing_extensions.override
     def __str__(self) -> str:
@@ -138,14 +126,10 @@ class Strikethrough(Formatting, HTMLTag):
     @typing_extensions.override
     def get_attributes(self) -> str:
         return ""
-    
+
     @typing_extensions.override
     def to_json(self) -> typing.Dict[str, typing.Any]:
-        return {
-            'type': 'strikethrough',
-            'start': self.start,
-            'end': self.end
-        }
+        return {"type": "strikethrough", "start": self.start, "end": self.end}
 
     @typing_extensions.override
     def __str__(self) -> str:
@@ -210,14 +194,14 @@ class Color(Formatting, HTMLTag):
         g = int(self.g * 255.0)
         b = int(self.b * 255.0)
         return f"${b:02x}{g:02x}{r:02x}"
-    
+
     @typing_extensions.override
     def to_json(self) -> typing.Dict[str, typing.Any]:
         return {
-            'type': 'color',
-            'start': self.start,
-            'end': self.end,
-            'color': [self.r, self.g, self.b, self.a]
+            "type": "color",
+            "start": self.start,
+            "end": self.end,
+            "color": [self.r, self.g, self.b, self.a],
         }
 
     @typing_extensions.override
@@ -252,14 +236,14 @@ class FontFace(Formatting, HTMLTag):
     @typing_extensions.override
     def get_attributes(self) -> str:
         return f'face="{self.face}"'
-    
+
     @typing_extensions.override
     def to_json(self) -> typing.Dict[str, typing.Any]:
         return {
-            'type': 'fontface',
-            'start': self.start,
-            'end': self.end,
-            'font': self.face
+            "type": "fontface",
+            "start": self.start,
+            "end": self.end,
+            "font": self.face,
         }
 
     @typing_extensions.override
@@ -282,14 +266,14 @@ class TextSize(Formatting, HTMLTag):
     @typing_extensions.override
     def get_attributes(self) -> str:
         return f"size={self.size}"
-    
+
     @typing_extensions.override
     def to_json(self) -> typing.Dict[str, typing.Any]:
         return {
-            'type': 'textsize',
-            'start': self.start,
-            'end': self.end,
-            'size': self.size
+            "type": "textsize",
+            "start": self.start,
+            "end": self.end,
+            "size": self.size,
         }
 
     @typing_extensions.override
@@ -303,24 +287,24 @@ class Position(Formatting):
     def to_json(self) -> typing.Dict[str, typing.Any]:
         if isinstance(self, RelativePosition):
             return {
-                'type': 'position',
-                'kind': 'relative',
-                'position': self.classifier.value
+                "type": "position",
+                "kind": "relative",
+                "position": self.classifier.value,
             }
         elif isinstance(self, AbsolutePosition):
             return {
-                'type': 'position',
-                'kind': 'absolute',
-                'position': {
-                    'x1': self.x1,
-                    'x2': self.x2,
-                    'y1': self.y1,
-                    'y2': self.y2
-                }
+                "type": "position",
+                "kind": "absolute",
+                "position": {
+                    "x1": self.x1,
+                    "x2": self.x2,
+                    "y1": self.y1,
+                    "y2": self.y2,
+                },
             }
         else:
             raise NotImplementedError()
-    
+
     @typing_extensions.override
     def __eq__(self, value: object) -> bool:
         return isinstance(value, Position)

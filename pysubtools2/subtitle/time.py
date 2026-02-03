@@ -84,7 +84,7 @@ class Time:
         if not isinstance(value, Time):
             raise ValueError(f"Value {value} is not a valid time!")
         return self.milliseconds <= value.milliseconds
-    
+
     def __add__(self, other: typing.Union[int, float, "Time"]) -> "Time":
         new_milliseconds = self.milliseconds
         if isinstance(other, (int, float)):

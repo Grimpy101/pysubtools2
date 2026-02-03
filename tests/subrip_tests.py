@@ -45,27 +45,27 @@ class TestSubRipParsing(unittest.TestCase):
         for file, properties in srt_data.items():
             full_filepath = os.path.join(os.path.dirname(srt_data_path), file)
             full_filepath = pathlib.Path(full_filepath)
-            
+
             parser = SubRipParser()
             exporter = SubRipExporter()
-            
+
             subtitle = parser.parse_file(full_filepath)
-            
+
             # JSON part
             json_subtitle = subtitle.to_json()
             json_file = full_filepath.with_suffix(".json")
             if json_file.exists():
-                with open(json_file, "r", encoding='utf-8') as f:
+                with open(json_file, "r", encoding="utf-8") as f:
                     json_content = json.load(f)
                 assert json_content == json_subtitle
             else:
-                with open(json_file, "w", encoding='utf-8') as f:
+                with open(json_file, "w", encoding="utf-8") as f:
                     json.dump(json_subtitle, f, ensure_ascii=False, indent=1)
 
             # Charset part
             charset = get_file_encoding(full_filepath)
             assert charset == properties["encoding"]
-            
+
             # Check ground truth
             subrip_string = exporter.to_string(subtitle)
             gt_path = os.path.join(
@@ -82,7 +82,7 @@ class TestSubRipParsing(unittest.TestCase):
         for _ in range(10):
             subtitle_str = _generate_random_subrip_text(10000)
             subtitles.append(subtitle_str)
-        
+
         start = time.perf_counter()
         for subtitle_str in subtitles:
             parser = SubRipParser()

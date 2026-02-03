@@ -120,10 +120,13 @@ class MicroDVDExporter:
         return output
 
     def to_file(
-        self, target: typing.Union[typing.IO[str], typing.IO[bytes]], subtitle: Subtitle, encoding: str = "utf-8"
+        self,
+        target: typing.Union[typing.IO[str], typing.IO[bytes]],
+        subtitle: Subtitle,
+        encoding: str = "utf-8",
     ) -> None:
         output = self.to_string(subtitle)
         if hasattr(target, "encoding"):
             _ = typing.cast(typing.TextIO, target).write(output)
         else:
-            _ =typing.cast(typing.BinaryIO, target).write(output.encode(encoding))
+            _ = typing.cast(typing.BinaryIO, target).write(output.encode(encoding))

@@ -52,14 +52,13 @@ class TestMicroDVDParsing(unittest.TestCase):
             json_subtitle = subtitle.to_json()
             json_file = full_filepath.with_suffix(".json")
             if json_file.exists():
-                with open(json_file, "r", encoding='utf-8') as f:
+                with open(json_file, "r", encoding="utf-8") as f:
                     json_content = json.load(f)
                 assert json_content == json_subtitle
             else:
-                with open(json_file, "w", encoding='utf-8') as f:
+                with open(json_file, "w", encoding="utf-8") as f:
                     json.dump(json_subtitle, f, ensure_ascii=False, indent=1)
 
-            
             charset = get_file_encoding(full_filepath)
             assert charset == properties["encoding"]
 
@@ -82,7 +81,7 @@ class TestMicroDVDParsing(unittest.TestCase):
         for _ in range(10):
             subtitle_str = _generate_random_subtitle_test(10000)
             subtitles.append(subtitle_str)
-            
+
         start = time.perf_counter()
         for subtitle_str in subtitles:
             parser = MicroDVDParser()

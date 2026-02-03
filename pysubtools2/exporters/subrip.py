@@ -148,7 +148,10 @@ class SubRipExporter:
         return output
 
     def to_file(
-        self, target: typing.Union[typing.IO[str], typing.IO[bytes]], subtitle: Subtitle, encoding: str = "utf-8"
+        self,
+        target: typing.Union[typing.IO[str], typing.IO[bytes]],
+        subtitle: Subtitle,
+        encoding: str = "utf-8",
     ) -> None:
         output = self.to_string(subtitle)
         if hasattr(target, "encoding"):
