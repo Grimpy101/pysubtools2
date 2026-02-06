@@ -20,44 +20,26 @@ class PositionClassifier(enum.Enum):
 
 
 @dataclasses.dataclass()
-class Span:
+class Formatting(abc.ABC):
     start: int
     end: int
 
     def encloses(self, i: int) -> bool:
         return self.start <= i <= self.end
 
-    def overlaps(self, other: "Span") -> bool:
+    def overlaps(self, other: "Formatting") -> bool:
         return self.start <= other.end and other.start <= self.end
-
-
-class HTMLTag(Span):
-    def get_html_tag(self, _position: str) -> str:
-        raise NotImplementedError
-
-    def get_attributes(self) -> str:
-        raise NotImplementedError
-
-
-class Formatting(abc.ABC):
+    
     def to_json(self) -> typing.Dict[str, typing.Any]:
+        raise NotImplementedError()
+    
+    @classmethod
+    def tp(cls) -> str:
         raise NotImplementedError()
 
 
 @dataclasses.dataclass()
-class Bold(Formatting, HTMLTag):
-    @typing_extensions.override
-    def get_html_tag(self, position: str) -> str:
-        if position == "start":
-            return "<b>"
-        elif position == "end":
-            return "</b>"
-        raise ValueError(f"Tag type not valid: {position}")
-
-    @typing_extensions.override
-    def get_attributes(self) -> str:
-        return ""
-
+class Bold(Formatting):
     @typing_extensions.override
     def to_json(self) -> typing.Dict[str, typing.Any]:
         return {"type": "bold", "start": self.start, "end": self.end}
@@ -65,22 +47,15 @@ class Bold(Formatting, HTMLTag):
     @typing_extensions.override
     def __str__(self) -> str:
         return f"bold[{self.start}-{self.end}]"
+    
+    @typing_extensions.override
+    @classmethod
+    def tp(cls) -> str:
+        return 'bold'
 
 
 @dataclasses.dataclass()
-class Italic(Formatting, HTMLTag):
-    @typing_extensions.override
-    def get_html_tag(self, position: str) -> str:
-        if position == "start":
-            return "<i>"
-        elif position == "end":
-            return "</i>"
-        raise ValueError(f"Tag type not valid: {position}")
-
-    @typing_extensions.override
-    def get_attributes(self) -> str:
-        return ""
-
+class Italic(Formatting):
     @typing_extensions.override
     def to_json(self) -> typing.Dict[str, typing.Any]:
         return {"type": "italic", "start": self.start, "end": self.end}
@@ -88,22 +63,15 @@ class Italic(Formatting, HTMLTag):
     @typing_extensions.override
     def __str__(self) -> str:
         return f"italic[{self.start}-{self.end}]"
+    
+    @typing_extensions.override
+    @classmethod
+    def tp(cls) -> str:
+        return 'italic'
 
 
 @dataclasses.dataclass()
-class Underline(Formatting, HTMLTag):
-    @typing_extensions.override
-    def get_html_tag(self, position: str) -> str:
-        if position == "start":
-            return "<u>"
-        elif position == "end":
-            return "</u>"
-        raise ValueError(f"Tag type not valid: {position}")
-
-    @typing_extensions.override
-    def get_attributes(self) -> str:
-        return ""
-
+class Underline(Formatting):
     @typing_extensions.override
     def to_json(self) -> typing.Dict[str, typing.Any]:
         return {"type": "underline", "start": self.start, "end": self.end}
@@ -111,22 +79,15 @@ class Underline(Formatting, HTMLTag):
     @typing_extensions.override
     def __str__(self) -> str:
         return f"underline[{self.start}-{self.end}]"
+    
+    @typing_extensions.override
+    @classmethod
+    def tp(cls) -> str:
+        return 'underline'
 
 
 @dataclasses.dataclass()
-class Strikethrough(Formatting, HTMLTag):
-    @typing_extensions.override
-    def get_html_tag(self, position: str) -> str:
-        if position == "start":
-            return "<s>"
-        elif position == "end":
-            return "</s>"
-        raise ValueError(f"Tag type not valid: {position}")
-
-    @typing_extensions.override
-    def get_attributes(self) -> str:
-        return ""
-
+class Strikethrough(Formatting):
     @typing_extensions.override
     def to_json(self) -> typing.Dict[str, typing.Any]:
         return {"type": "strikethrough", "start": self.start, "end": self.end}
@@ -134,10 +95,15 @@ class Strikethrough(Formatting, HTMLTag):
     @typing_extensions.override
     def __str__(self) -> str:
         return f"strikethrough[{self.start}-{self.end}]"
+    
+    @typing_extensions.override
+    @classmethod
+    def tp(cls) -> str:
+        return 'bold'
 
 
 @dataclasses.dataclass()
-class Color(Formatting, HTMLTag):
+class Color(Formatting):
     # In range 0..1
     r: float
     g: float
@@ -205,37 +171,13 @@ class Color(Formatting, HTMLTag):
         }
 
     @typing_extensions.override
-    def get_html_tag(self, position: str) -> str:
-        if position == "start":
-            return f'<font color="{self.to_hex()}">'
-        elif position == "end":
-            return "</font>"
-        raise ValueError(f"Tag type not valid: {position}")
-
-    @typing_extensions.override
-    def get_attributes(self) -> str:
-        return f'color="{self.to_hex()}"'
-
-    @typing_extensions.override
     def __str__(self) -> str:
         return f"color[{self.start}-{self.end}]({self.r},{self.g},{self.b},{self.a})"
 
 
 @dataclasses.dataclass()
-class FontFace(Formatting, HTMLTag):
+class FontFace(Formatting):
     face: str
-
-    @typing_extensions.override
-    def get_html_tag(self, position: str) -> str:
-        if position == "start":
-            return f'<font face="{self.face}">'
-        elif position == "end":
-            return "</font>"
-        raise ValueError(f"Tag type not valid: {position}")
-
-    @typing_extensions.override
-    def get_attributes(self) -> str:
-        return f'face="{self.face}"'
 
     @typing_extensions.override
     def to_json(self) -> typing.Dict[str, typing.Any]:
@@ -252,20 +194,8 @@ class FontFace(Formatting, HTMLTag):
 
 
 @dataclasses.dataclass()
-class TextSize(Formatting, HTMLTag):
+class TextSize(Formatting):
     size: int
-
-    @typing_extensions.override
-    def get_html_tag(self, position: str) -> str:
-        if position == "start":
-            return f"<font size={self.size}>"
-        elif position == "end":
-            return "</font>"
-        raise ValueError(f"Tag type not valid: {position}")
-
-    @typing_extensions.override
-    def get_attributes(self) -> str:
-        return f"size={self.size}"
 
     @typing_extensions.override
     def to_json(self) -> typing.Dict[str, typing.Any]:
@@ -287,12 +217,16 @@ class Position(Formatting):
     def to_json(self) -> typing.Dict[str, typing.Any]:
         if isinstance(self, RelativePosition):
             return {
+                "start": self.start,
+                "end": self.end,
                 "type": "position",
                 "kind": "relative",
                 "position": self.classifier.value,
             }
         elif isinstance(self, AbsolutePosition):
             return {
+                "start": self.start,
+                "end": self.end,
                 "type": "position",
                 "kind": "absolute",
                 "position": {

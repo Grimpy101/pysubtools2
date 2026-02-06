@@ -82,7 +82,7 @@ class SubRipParser:
         if x1 is None or x2 is None or y1 is None or y2 is None:
             return None
 
-        self.formattings.append(AbsolutePosition(x1, x2, y1, y2))
+        self.formattings.append(AbsolutePosition(0, 0, x1, x2, y1, y2))
 
     def _formatting_already_exists(self, formatting: Formatting) -> bool:
         for f in self.formattings:

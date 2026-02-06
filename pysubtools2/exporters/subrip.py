@@ -8,8 +8,9 @@ from ..subtitle.formatting import (
     Bold,
     Color,
     FontFace,
-    HTMLTag,
+    Formatting,
     Italic,
+    Position,
     RelativePosition,
     Strikethrough,
     TextSize,
@@ -17,7 +18,7 @@ from ..subtitle.formatting import (
 )
 
 
-FORMATTING_PRIORITIES: typing.Dict[typing.Type[HTMLTag], int] = {
+FORMATTING_PRIORITIES: typing.Dict[typing.Type[Formatting], int] = {
     TextSize: 0,
     FontFace: 1,
     Color: 2,
@@ -27,7 +28,17 @@ FORMATTING_PRIORITIES: typing.Dict[typing.Type[HTMLTag], int] = {
     Strikethrough: 6,
 }
 
-HTML_TAG_MAPS = {Bold: "b", Italic: "i", Underline: "u", Strikethrough: "s"}
+HTML_TAG_MAPS: typing.Dict[typing.Type[Formatting], str] = {Bold: "b", Italic: "i", Underline: "u", Strikethrough: "s"}
+
+FORMATTING_HTML_TAGS: typing.Dict[typing.Type[Formatting], str] = {
+    Bold: "b",
+    Italic: "i",
+    Underline: "u",
+    Strikethrough: "s",
+    TextSize: "font",
+    FontFace: "font",
+    Color: "font"
+}
 
 
 class TagSpan(typing.TypedDict):
@@ -63,13 +74,62 @@ class SubRipExporter:
         if absolute_position:
             output += f"  X1:{absolute_position.x1:03} X2:{absolute_position.x2:03} Y1:{absolute_position.y1:03} Y2:{absolute_position.y2:03}"
         return output
+    
+    @staticmethod
+    def _to_html_tag(formatting: Formatting):
+        tag = FORMATTING_HTML_TAGS.get(formatting.__class__)
+        attributes: typing.List[str] = []
+        if tag is None:
+            return None
+        
+        if isinstance(formatting, FontFace):
+            attributes.append(f'face="{formatting.face}"')
+        elif isinstance(formatting, TextSize):
+            attributes.append(f'size={formatting.size}')
+        elif isinstance(formatting, Color):
+            attributes.append(f'color="{formatting.to_hex()}"')
+        return {
+            'tag': tag,
+            'attributes': attributes,
+            'start': formatting.start,
+            'end': formatting.end
+        }
+    
+    @staticmethod
+    def _to_ass_tag(formatting: Formatting):
+        if isinstance(formatting, RelativePosition):
+            return {
+                'code': 'an',
+                'value': formatting.classifier.value
+            }
+
+    @staticmethod
+    def _a(subtitle_unit: SubtitleUnit) -> str:
+        text = subtitle_unit.text
+
+        html_tags = collections.defaultdict(set)
+        ass_tags = {}
+        
+        for formatting in subtitle_unit.formattings:
+            attribs = SubRipExporter._to_html_tag(formatting)
+            if attribs is None:
+                continue
+            html_tags[(attribs['tag'], attribs['start'], attribs['end'])].add(attribs['attributes'])
+        
+        for formatting in subtitle_unit.formattings:
+            attribs = SubRipExporter._to_ass_tag(formatting)
+            if attribs is None:
+                continue
+            ass_tags[attribs['code']] = attribs['value']
+        
+        
 
     @staticmethod
     def _construct_content_line(subtitle_unit: SubtitleUnit) -> str:
         text = subtitle_unit.text
 
-        formattings: typing.List[HTMLTag] = list(
-            filter(lambda item: isinstance(item, HTMLTag), subtitle_unit.formattings)
+        formattings: typing.List[Formatting] = list(
+            filter(lambda item: not isinstance(item, Position), subtitle_unit.formattings)
         )
 
         font_formattings = filter(
@@ -82,23 +142,27 @@ class SubRipExporter:
         )
 
         font_groups: typing.DefaultDict[
-            typing.Tuple[int, int], typing.List[HTMLTag]
+            typing.Tuple[int, int], typing.List[Formatting]
         ] = collections.defaultdict(list)
+
         for font in font_formattings:
             font_groups[(font.start, font.end)].append(font)
 
         html_tags: typing.List[TagSpan] = []
         for formatting in other_formattings:
+            if isinstance(formatting, (*HTML_TAG_MAPS.keys(),)):
+                continue
+
             html_tags.append(
                 {
-                    "tag": formatting.get_html_tag("start"),
+                    "tag": f"<{HTML_TAG_MAPS[formatting.__class__]}>",
                     "index": formatting.start,
                     "priority": FORMATTING_PRIORITIES.get(formatting.__class__, 0),
                 }
             )
             html_tags.append(
                 {
-                    "tag": formatting.get_html_tag("end"),
+                    "tag": f"</{HTML_TAG_MAPS[formatting.__class__]}>",
                     "index": formatting.end,
                     "priority": len(FORMATTING_PRIORITIES)
                     - FORMATTING_PRIORITIES.get(formatting.__class__, 0),

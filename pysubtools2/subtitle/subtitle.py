@@ -2,7 +2,7 @@ import collections
 import typing
 import typing_extensions
 
-from .formatting import Formatting, Span
+from .formatting import Formatting
 
 from .time import Time
 
@@ -48,7 +48,7 @@ class SubtitleUnit:
                 return formatting
         return None
 
-    def lines_of_formatting(self, formatting: Span) -> typing.List[int]:
+    def lines_of_formatting(self, formatting: Formatting) -> typing.List[int]:
         start = formatting.start
         end = formatting.end
         start_line = self.text.count("\n", None, start)

@@ -9,7 +9,6 @@ from ..subtitle.formatting import (
     FontFace,
     Formatting,
     Italic,
-    Span,
     Strikethrough,
     TextSize,
     Underline,
@@ -105,12 +104,11 @@ class SubtitleHTMLTagParser(html.parser.HTMLParser):
 
             # Update indices of affected formatting spans
             for formatting in self.formattings:
-                if isinstance(formatting, Span):
-                    if formatting.start >= position:
-                        formatting.start += tag_length
-                        formatting.end += tag_length
-                    elif formatting.end >= position:
-                        formatting.end += tag_length
+                if formatting.start >= position:
+                    formatting.start += tag_length
+                    formatting.end += tag_length
+                elif formatting.end >= position:
+                    formatting.end += tag_length
 
     def clear(self) -> None:
         self.position = 0

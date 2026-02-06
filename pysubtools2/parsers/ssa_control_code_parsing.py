@@ -19,7 +19,7 @@ class SubtitleSSATagParser:
             index = int(tag.replace("an", ""))
             # We always take only the first position tag
             if self.position is None:
-                self.position = RelativePosition(PositionClassifier(index))
+                self.position = RelativePosition(0, 0, PositionClassifier(index))
         except ValueError as e:
             print(e)
             pass
