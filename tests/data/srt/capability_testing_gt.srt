@@ -17,18 +17,18 @@ Hidden
 
 4
 00:00:04,501 --> 00:00:07,500
-<font size=8>This text should be small</font>
+<font size="8">This text should be small</font>
 This text should be normal
-<font size=35>This text should be big</font>
+<font size="35">This text should be big</font>
 
 5
 00:00:07,501 --> 00:00:11,500
 This should be an E with an accent: È
 日本語
-<font size=30><b><i><u>This text should be bold, italics and underline</u></i></b></font>
-<font color="#00ff00" size=9>This text should be small and green</font>
-<font color="#ff0000" size=9>This text should be small and red</font>
-<font color="#a42a2a" size=24>This text should be big and brown</font>
+<font size="30"><b><i><u>This text should be bold, italics and underline</u></i></b></font>
+<font color="#00ff00" size="9">This text should be small and green</font>
+<font color="#ff0000" size="9">This text should be small and red</font>
+<font color="#a42a2a" size="24">This text should be big and brown</font>
 
 6
 00:00:11,501 --> 00:00:14,500
@@ -113,7 +113,7 @@ bottom and horizontally at the right
 
 20
 00:00:28,501 --> 00:00:31,500
-<font color="#00ff00" size=6>This could be the <font size=35>m<font color="#000000">o</font>st</font> difficult thing to implement</font>
+<font color="#00ff00" size="6">This could be the <font size="35">m<font color="#000000">o</font>st</font> difficult thing to implement</font>
 
 21
 00:00:31,501 --> 00:00:50,500

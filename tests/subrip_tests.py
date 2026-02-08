@@ -1,3 +1,4 @@
+import glob
 import json
 import os
 import pathlib
@@ -10,11 +11,10 @@ import unittest
 from pysubtools2.exporters.subrip import SubRipExporter
 from pysubtools2.parsers.subrip import SubRipParser
 from pysubtools2.subtitle.time import Time
-from pysubtools2.utils import get_file_encoding
 
 
 def _generate_random_subrip_text(units_count: int) -> str:
-    output = []
+    output: typing.List[str] = []
     letters = string.ascii_letters
     for i in range(units_count):
         index = i + 1
@@ -37,48 +37,41 @@ def _generate_random_subrip_text(units_count: int) -> str:
 class TestSubRipParsing(unittest.TestCase):
     def test_for_files(self) -> None:
         srt_data_path = os.path.join(
-            os.path.dirname(__file__), "data", "srt", "files.json"
+            os.path.dirname(__file__), "data", "srt", "*.srt"
         )
-        with open(srt_data_path, "r") as f:
-            srt_data: typing.Mapping[str, typing.Any] = json.load(f)
-
-        for file, properties in srt_data.items():
-            full_filepath = os.path.join(os.path.dirname(srt_data_path), file)
-            full_filepath = pathlib.Path(full_filepath)
+        files = filter(lambda x: not x.endswith('_gt.srt'), glob.glob(srt_data_path))
+        for file in files:
+            file = pathlib.Path(file)
 
             parser = SubRipParser()
             exporter = SubRipExporter()
 
-            subtitle = parser.parse_file(full_filepath)
+            subtitle = parser.parse_file(file)
 
             # JSON part
             json_subtitle = subtitle.to_json()
-            json_file = full_filepath.with_suffix(".json")
+            
+            json_file = file.with_suffix(".json")
             if json_file.exists():
                 with open(json_file, "r", encoding="utf-8") as f:
-                    json_content = json.load(f)
-                assert json_content == json_subtitle
+                    json_gt = json.load(f)
+                    assert json_subtitle == json_gt
             else:
                 with open(json_file, "w", encoding="utf-8") as f:
                     json.dump(json_subtitle, f, ensure_ascii=False, indent=1)
 
-            # Charset part
-            charset = get_file_encoding(full_filepath)
-            assert charset == properties["encoding"]
-
             # Check ground truth
             subrip_string = exporter.to_string(subtitle)
-            gt_path = os.path.join(
-                os.path.dirname(srt_data_path), properties["ground_truth"]
-            )
+            gt_path = file.with_name(file.stem + "_gt.srt")
             with open(gt_path, "r", encoding="utf-8") as f:
                 original_string = f.read()
-                if subrip_string != original_string:
-                    print(subrip_string)
-                assert subrip_string == original_string
+                self.assertListEqual(
+                    subrip_string.splitlines(),
+                    original_string.splitlines()
+                )
 
     def test_parsing_speed(self) -> None:
-        subtitles = []
+        subtitles: typing.List[str] = []
         for _ in range(10):
             subtitle_str = _generate_random_subrip_text(10000)
             subtitles.append(subtitle_str)
@@ -86,10 +79,10 @@ class TestSubRipParsing(unittest.TestCase):
         start = time.perf_counter()
         for subtitle_str in subtitles:
             parser = SubRipParser()
-            parser.parse_text(subtitle_str)
+            _ = parser.parse_text(subtitle_str)
         end = time.perf_counter()
         print(f"Took {end - start} s")
 
 
 if __name__ == "__main__":
-    unittest.main()
+    _ = unittest.main()

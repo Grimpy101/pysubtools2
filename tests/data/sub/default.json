@@ -27,6 +27,8 @@
     "end": 12
    },
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 8
@@ -61,6 +63,8 @@
     "end": 26
    },
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 8
@@ -95,6 +99,8 @@
     "end": 34
    },
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 8

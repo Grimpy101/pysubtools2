@@ -227,6 +227,8 @@
   "text": "This text should NOT be in the normal position",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "absolute",
     "position": {
@@ -244,6 +246,8 @@
   "text": "Implementation is the same of the ASS tag\nThis text should be at the\ntop and horizontally centered",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 8
@@ -256,6 +260,8 @@
   "text": "This text should be at the\nmiddle and horizontally centered",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 5
@@ -268,6 +274,8 @@
   "text": "This text should be at the\nbottom and horizontally centered",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 2
@@ -280,6 +288,8 @@
   "text": "This text should be at the\ntop and horizontally at the left",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 7
@@ -292,6 +302,8 @@
   "text": "This text should be at the\nmiddle and horizontally at the left\n(The second position must be ignored)",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 4
@@ -304,6 +316,8 @@
   "text": "This text should be at the\nbottom and horizontally at the left",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 1
@@ -316,6 +330,8 @@
   "text": "This text should be at the\ntop and horizontally at the right",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 9
@@ -328,6 +344,8 @@
   "text": "This text should be at the\nmiddle and horizontally at the right",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 6
@@ -340,6 +358,8 @@
   "text": "This text should be at the\nbottom and horizontally at the right",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 3
@@ -447,6 +467,8 @@
   "text": "\n\\ N is a forced line break\n\\ h is a hard space\nNormal spaces at the start and at the end of the line are trimmed while hard spaces are not trimmed.\nThe\\hline\\hwill\\hnever\\hbreak\\hautomatically\\hright\\hbefore\\hor\\hafter\\ha\\hhard\\hspace.\\h:-D",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 8
@@ -459,6 +481,8 @@
   "text": "\n\\h\\h\\h\\h\\hA (05 hard spaces followed by a letter)\nA (Normal  spaces followed by a letter)\nA (No hard spaces followed by a letter)",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 1
@@ -477,6 +501,8 @@
   "text": "\nA letter followed by 05 hard spaces: A\\h\\h\\h\\h\\h\nA letter followed by normal  spaces: A\nA letter followed by no hard spaces: A\n05 hard  spaces between letters: A\\h\\h\\h\\h\\hA\n5 normal spaces between letters: A     A\n\\N^--Forced line break",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 3

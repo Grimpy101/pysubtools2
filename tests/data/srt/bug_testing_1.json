@@ -23,6 +23,8 @@
   "text": "00Display this. ;)",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "absolute",
     "position": {

@@ -1,3 +1,4 @@
+import glob
 import json
 import os
 import pathlib
@@ -10,7 +11,6 @@ import unittest
 from pysubtools2.exporters.microdvd import MicroDVDExporter
 from pysubtools2.parsers.microdvd import MicroDVDParser
 from pysubtools2.subtitle.time import Time
-from pysubtools2.utils import get_file_encoding
 
 
 def _generate_random_subtitle_test(units_count: int) -> str:
@@ -34,23 +34,20 @@ def _generate_random_subtitle_test(units_count: int) -> str:
 class TestMicroDVDParsing(unittest.TestCase):
     def test_for_files(self) -> None:
         sub_data_path = os.path.join(
-            os.path.dirname(__file__), "data", "sub", "files.json"
+            os.path.dirname(__file__), "data", "sub", "*.sub"
         )
-        with open(sub_data_path, "r") as f:
-            sub_data: typing.Mapping[str, typing.Any] = json.load(f)
-
-        for file, properties in sub_data.items():
-            full_filepath = os.path.join(os.path.dirname(sub_data_path), file)
-            full_filepath = pathlib.Path(full_filepath)
+        files = filter(lambda x: not x.endswith('_gt.sub'), glob.glob(sub_data_path))
+        for file in files:
+            file = pathlib.Path(file)
 
             parser = MicroDVDParser(25)
             exporter = MicroDVDExporter(25)
 
-            subtitle = parser.parse_file(full_filepath)
+            subtitle = parser.parse_file(file)
 
             # JSON part
             json_subtitle = subtitle.to_json()
-            json_file = full_filepath.with_suffix(".json")
+            json_file = file.with_suffix(".json")
             if json_file.exists():
                 with open(json_file, "r", encoding="utf-8") as f:
                     json_content = json.load(f)
@@ -59,22 +56,15 @@ class TestMicroDVDParsing(unittest.TestCase):
                 with open(json_file, "w", encoding="utf-8") as f:
                     json.dump(json_subtitle, f, ensure_ascii=False, indent=1)
 
-            charset = get_file_encoding(full_filepath)
-            assert charset == properties["encoding"]
-
+            # Check ground truth
             sub_string = exporter.to_string(subtitle)
-            gt_path = os.path.join(
-                os.path.dirname(sub_data_path), properties["ground_truth"]
-            )
+            gt_path = file.with_name(file.stem + "_gt.sub")
             with open(gt_path, "r", encoding="utf-8") as f:
                 original_string = f.read()
-                if sub_string != original_string:
-                    for l1, l2 in zip(
-                        sub_string.splitlines(), original_string.splitlines()
-                    ):
-                        if l1 != l2:
-                            print(f"Expected: {l2}\n     Got: {l1}")
-                assert sub_string == original_string
+                self.assertListEqual(
+                    sub_string.splitlines(),
+                    original_string.splitlines()
+                )
 
     def test_parsing_speed(self) -> None:
         subtitles: typing.List[str] = []

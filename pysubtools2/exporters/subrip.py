@@ -1,5 +1,6 @@
-import collections
 import typing
+
+from ..exporters.html_injection import HTMLInjector
 
 from ..subtitle.time import Time
 from ..subtitle.subtitle import Subtitle, SubtitleUnit
@@ -10,7 +11,6 @@ from ..subtitle.formatting import (
     FontFace,
     Formatting,
     Italic,
-    Position,
     RelativePosition,
     Strikethrough,
     TextSize,
@@ -48,6 +48,38 @@ class TagSpan(typing.TypedDict):
 
 
 class SubRipExporter:
+    def __init__(self) -> None:
+        self.html_injector: HTMLInjector = HTMLInjector({
+            FontFace: {
+                'tag': 'font',
+                'attribute': 'face'
+            },
+            TextSize: {
+                'tag': 'font',
+                'attribute': 'size'
+            },
+            Color: {
+                'tag': 'font',
+                'attribute': 'color'
+            },
+            Bold: {
+                'tag': 'b',
+                'attribute': None
+            },
+            Italic: {
+                'tag': 'i',
+                'attribute': None
+            },
+            Underline: {
+                'tag': 'u',
+                'attribute': None
+            },
+            Strikethrough: {
+                'tag': 's',
+                'attribute': None
+            },
+        })
+    
     @staticmethod
     def _construct_index_line(i: int) -> str:
         return str(i)
@@ -96,102 +128,23 @@ class SubRipExporter:
         }
     
     @staticmethod
-    def _to_ass_tag(formatting: Formatting):
+    def _to_ass_tag(formatting: Formatting) -> typing.Optional[str]:
         if isinstance(formatting, RelativePosition):
-            return {
-                'code': 'an',
-                'value': formatting.classifier.value
-            }
+            return '{' + '\\an' + str(formatting.classifier.value) + '}'
+        return None
 
-    @staticmethod
-    def _a(subtitle_unit: SubtitleUnit) -> str:
+    def _construct_content_line(self, subtitle_unit: SubtitleUnit) -> str:
         text = subtitle_unit.text
-
-        html_tags = collections.defaultdict(set)
-        ass_tags = {}
+        
+        self.html_injector.clear()
+        self.html_injector.add_formattings(subtitle_unit.formattings)
+        text = self.html_injector.inject(text)
         
         for formatting in subtitle_unit.formattings:
-            attribs = SubRipExporter._to_html_tag(formatting)
-            if attribs is None:
-                continue
-            html_tags[(attribs['tag'], attribs['start'], attribs['end'])].add(attribs['attributes'])
-        
-        for formatting in subtitle_unit.formattings:
-            attribs = SubRipExporter._to_ass_tag(formatting)
-            if attribs is None:
-                continue
-            ass_tags[attribs['code']] = attribs['value']
-        
-        
-
-    @staticmethod
-    def _construct_content_line(subtitle_unit: SubtitleUnit) -> str:
-        text = subtitle_unit.text
-
-        formattings: typing.List[Formatting] = list(
-            filter(lambda item: not isinstance(item, Position), subtitle_unit.formattings)
-        )
-
-        font_formattings = filter(
-            lambda element: isinstance(element, (Color, FontFace, TextSize)),
-            formattings,
-        )
-        other_formattings = filter(
-            lambda element: not isinstance(element, (Color, FontFace, TextSize)),
-            formattings,
-        )
-
-        font_groups: typing.DefaultDict[
-            typing.Tuple[int, int], typing.List[Formatting]
-        ] = collections.defaultdict(list)
-
-        for font in font_formattings:
-            font_groups[(font.start, font.end)].append(font)
-
-        html_tags: typing.List[TagSpan] = []
-        for formatting in other_formattings:
-            if isinstance(formatting, (*HTML_TAG_MAPS.keys(),)):
-                continue
-
-            html_tags.append(
-                {
-                    "tag": f"<{HTML_TAG_MAPS[formatting.__class__]}>",
-                    "index": formatting.start,
-                    "priority": FORMATTING_PRIORITIES.get(formatting.__class__, 0),
-                }
-            )
-            html_tags.append(
-                {
-                    "tag": f"</{HTML_TAG_MAPS[formatting.__class__]}>",
-                    "index": formatting.end,
-                    "priority": len(FORMATTING_PRIORITIES)
-                    - FORMATTING_PRIORITIES.get(formatting.__class__, 0),
-                }
-            )
-
-        for (start, end), group in font_groups.items():
-            group.sort(key=lambda e: e.get_attributes())
-            start_tag = "<font"
-            for element in group:
-                start_tag += " " + element.get_attributes()
-            start_tag += ">"
-
-            html_tags.append({"tag": start_tag, "index": start, "priority": 0})
-            html_tags.append(
-                {"tag": "</font>", "index": end, "priority": len(FORMATTING_PRIORITIES)}
-            )
-
-        html_tags.sort(key=lambda item: (item["index"], item["priority"]))
-
-        for tag in reversed(html_tags):
-            tag_text = tag["tag"]
-            index = tag["index"]
-            text = text[:index] + tag_text + text[index:]
-
-        position = subtitle_unit.get_formatting_by_type(RelativePosition)
-        if position:
-            position_id = position.classifier.value
-            text = f"{{\\an{position_id}}}" + text
+            tag = self._to_ass_tag(formatting)
+            if tag is not None:
+                text = tag + text
+                break        
         return text
 
     def to_string(self, subtitle: Subtitle) -> str:

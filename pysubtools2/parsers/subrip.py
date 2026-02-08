@@ -63,7 +63,6 @@ class SubRipParser:
 
     def _parse_absolute_position(self, line: str) -> typing.Optional[AbsolutePosition]:
         x1 = x2 = y1 = y2 = None
-        # tail = line.rsplit("  ", 1)[-1]
         coordinates = line.split()
         for coordinate in coordinates:
             if ":" not in coordinate:

@@ -8,46 +8,40 @@ from ..subtitle.formatting import (
     Italic,
     PositionClassifier,
     RelativePosition,
-    Span,
     TextSize,
     Underline,
 )
 from ..subtitle.subtitle import Subtitle
 
 
-def get_control_code(formatting: Formatting):
-    code = None
-    value = None
-    if isinstance(formatting, Bold):
-        code = "Y"
-        value = "b"
-    elif isinstance(formatting, Italic):
-        code = "Y"
-        value = "i"
-    elif isinstance(formatting, Underline):
-        code = "Y"
-        value = "u"
-    elif isinstance(formatting, Color):
-        code = "C"
-        value = formatting.to_bgr_hex()
-    elif isinstance(formatting, FontFace):
-        code = "F"
-        value = formatting.face
-    elif isinstance(formatting, TextSize):
-        code = "S"
-        value = str(formatting.size)
-    elif isinstance(formatting, RelativePosition):
-        code = "P"
-        if formatting.classifier == PositionClassifier.TOP_CENTER:
-            value = "0"
-        else:
-            value = "1"
-    return code, value
+def relative_position_to_identifier(f: Formatting):
+    if typing.cast(RelativePosition, f).classifier == PositionClassifier.TOP_CENTER:
+        return "0"
+    else:
+        return "1"
+
+
+CONTROL_CODE_MAPS: typing.Dict[typing.Type[Formatting], typing.Tuple[str, typing.Callable[[Formatting], str]]] = {
+    Bold: ("y", lambda _: "b"),
+    Italic: ("y", lambda _: "i"),
+    Underline: ("y", lambda _: "u"),
+    Color: ("c", lambda f: typing.cast(Color, f).to_bgr_hex()),
+    FontFace: ("f", lambda f: typing.cast(FontFace, f).face),
+    TextSize: ("s", lambda f: str(typing.cast(TextSize, f).size)),
+    RelativePosition: ("p", relative_position_to_identifier)
+}
 
 
 class MicroDVDExporter:
     def __init__(self, fps: float = 24.0) -> None:
         self.fps: float = fps
+        
+    @staticmethod
+    def get_control_code(formatting: Formatting):
+        (code, value_fn) = CONTROL_CODE_MAPS.get(formatting.__class__, (None, None))
+        if code is None or value_fn is None:
+            return None
+        return code, value_fn(formatting)
 
     def to_string(self, subtitle: Subtitle) -> str:
         units: typing.List[str] = []
@@ -74,12 +68,14 @@ class MicroDVDExporter:
             per_line_formattings: collections.defaultdict[
                 typing.Tuple[str, int], typing.Set[str]
             ] = collections.defaultdict(set)
+            
             for formatting in unit.formattings:
-                code, value = get_control_code(formatting)
-                if code is None or value is None:
+                control = MicroDVDExporter.get_control_code(formatting)
+                if control is None:
                     continue
-
-                if isinstance(formatting, Span):
+                
+                code, value = control
+                if code != "p":
                     if formatting.start > 0 or formatting.end < unit.character_count(
                         True
                     ):

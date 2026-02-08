@@ -1,0 +1,2136 @@
+[
+ {
+  "start": 40,
+  "end": 40,
+  "text": "25",
+  "formattings": []
+ },
+ {
+  "start": 14400,
+  "end": 15600,
+  "text": "What's going on?",
+  "formattings": []
+ },
+ {
+  "start": 15840,
+  "end": 19320,
+  "text": "My eye is a little itchy.",
+  "formattings": []
+ },
+ {
+  "start": 19480,
+  "end": 22160,
+  "text": "Mine too. Yeah.",
+  "formattings": []
+ },
+ {
+  "start": 22400,
+  "end": 25400,
+  "text": "It's really red.\nYou should go see my eye doctor.",
+  "formattings": []
+ },
+ {
+  "start": 25640,
+  "end": 27800,
+  "text": "I'm not gonna see your ex-boyfriend.",
+  "formattings": []
+ },
+ {
+  "start": 28040,
+  "end": 31640,
+  "text": "That's all I hear.\nRichard, Richard, Richard.",
+  "formattings": []
+ },
+ {
+  "start": 31880,
+  "end": 34400,
+  "text": "Since we've dated,\nI've said his name twice.",
+  "formattings": []
+ },
+ {
+  "start": 34640,
+  "end": 37640,
+  "text": "Okay. So Richard, Richard.",
+  "formattings": []
+ },
+ {
+  "start": 37880,
+  "end": 40640,
+  "text": "It's not Richard.\nIt's this new guy. He's good.",
+  "formattings": []
+ },
+ {
+  "start": 40880,
+  "end": 43360,
+  "text": "I'm sorry. I'm not going\nto an eye doctor.",
+  "formattings": []
+ },
+ {
+  "start": 43600,
+  "end": 46440,
+  "text": "Oh, God. Here we go.",
+  "formattings": []
+ },
+ {
+  "start": 46680,
+  "end": 50160,
+  "text": "Anytime anything comes close\nto touching her eye or anyone else's...",
+  "formattings": []
+ },
+ {
+  "start": 50400,
+  "end": 52640,
+  "text": "...she, like, freaks out. Watch.",
+  "formattings": []
+ },
+ {
+  "start": 52880,
+  "end": 54200,
+  "text": "Ross, come on!",
+  "formattings": []
+ },
+ {
+  "start": 54440,
+  "end": 59320,
+  "text": "I have a weird thing with my eye.\nCan we not talk about it?",
+  "formattings": []
+ },
+ {
+  "start": 60560,
+  "end": 64040,
+  "text": "Hey, Rach. You know that great song?\n\"Me, myself and eye\".",
+  "formattings": []
+ },
+ {
+  "start": 64280,
+  "end": 65680,
+  "text": "Monica! Come on!",
+  "formattings": []
+ },
+ {
+  "start": 65920,
+  "end": 68640,
+  "text": "All those in favor\nof getting lunch, say \"eye\".",
+  "formattings": []
+ },
+ {
+  "start": 68880,
+  "end": 70200,
+  "text": "Ross! Stop it!",
+  "formattings": []
+ },
+ {
+  "start": 70480,
+  "end": 73200,
+  "text": "How much did I love\nThe King and \"Eye\"!",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 20,
+    "end": 39
+   }
+  ]
+ },
+ {
+  "start": 73480,
+  "end": 74280,
+  "text": "Chandler!",
+  "formattings": []
+ },
+ {
+  "start": 74560,
+  "end": 75480,
+  "text": "Me too, me too!",
+  "formattings": []
+ },
+ {
+  "start": 75720,
+  "end": 79280,
+  "text": "Just stop it! That's enough!",
+  "formattings": []
+ },
+ {
+  "start": 79360,
+  "end": 83680,
+  "text": "- You okay there, man?\n- Yeah. I got too excited.",
+  "formattings": []
+ },
+ {
+  "start": 84200,
+  "end": 87720,
+  "text": "The One with Joey's Big Break",
+  "formattings": []
+ },
+ {
+  "start": 131960,
+  "end": 134040,
+  "text": "I gotta go.\nI'm taking Ben to the park.",
+  "formattings": []
+ },
+ {
+  "start": 134280,
+  "end": 137440,
+  "text": "- Give him a kiss for me.\n- All right. Bye.",
+  "formattings": []
+ },
+ {
+  "start": 137680,
+  "end": 139280,
+  "text": "Later.",
+  "formattings": []
+ },
+ {
+  "start": 139520,
+  "end": 142160,
+  "text": "I'm so sorry you got caught\nin the middle of that.",
+  "formattings": []
+ },
+ {
+  "start": 142440,
+  "end": 147520,
+  "text": "I didn't mean to be so out there,\nbut I am furious with him.",
+  "formattings": []
+ },
+ {
+  "start": 149800,
+  "end": 152520,
+  "text": "Calm down?",
+  "formattings": []
+ },
+ {
+  "start": 152600,
+  "end": 156760,
+  "text": "I'm trying.\nMan, that guy can push my buttons!",
+  "formattings": []
+ },
+ {
+  "start": 156760,
+  "end": 158240,
+  "text": "Why are you so mad?",
+  "formattings": []
+ },
+ {
+  "start": 158440,
+  "end": 161000,
+  "text": "- I don't wanna talk about it.\n- It seems like...",
+  "formattings": []
+ },
+ {
+  "start": 161240,
+  "end": 165080,
+  "text": "You wanna be on my list too?\nKeep talking.",
+  "formattings": []
+ },
+ {
+  "start": 165200,
+  "end": 168320,
+  "text": "Has anyone seen my list by the way?",
+  "formattings": []
+ },
+ {
+  "start": 168560,
+  "end": 170000,
+  "text": "No. What's it look like?",
+  "formattings": []
+ },
+ {
+  "start": 170240,
+  "end": 174560,
+  "text": "- A piece of paper and it says \"Ross\".\n- I see.",
+  "formattings": []
+ },
+ {
+  "start": 176680,
+  "end": 179560,
+  "text": "I just got off the phone with Estelle.\nGuess what?",
+  "formattings": []
+ },
+ {
+  "start": 179800,
+  "end": 181440,
+  "text": "I got the lead!",
+  "formattings": []
+ },
+ {
+  "start": 181680,
+  "end": 184200,
+  "text": "You got the lead in a movie?\nWhat's it about?",
+  "formattings": []
+ },
+ {
+  "start": 184440,
+  "end": 187560,
+  "text": "It's called \"Shutterspeed\".\nIt's really cool.",
+  "formattings": []
+ },
+ {
+  "start": 187800,
+  "end": 191680,
+  "text": "I meet this girl in the subway\nand we fall in love in, like, a day.",
+  "formattings": []
+ },
+ {
+  "start": 191920,
+  "end": 195640,
+  "text": "And then she disappears.\nBut I find out where she lives.",
+  "formattings": []
+ },
+ {
+  "start": 195880,
+  "end": 199000,
+  "text": "This old lady answers the door.\nI say, \"Where's Betsy?\"",
+  "formattings": []
+ },
+ {
+  "start": 199240,
+  "end": 205480,
+  "text": "And she says, \"Betsy's been dead\nfor ten years.\"",
+  "formattings": []
+ },
+ {
+  "start": 206560,
+  "end": 207480,
+  "text": "Chilling!",
+  "formattings": []
+ },
+ {
+  "start": 207720,
+  "end": 211200,
+  "text": "The best part is we're filming\nin the desert outside of Vegas.",
+  "formattings": []
+ },
+ {
+  "start": 211440,
+  "end": 213400,
+  "text": "- You know what that means.\n- I know.",
+  "formattings": []
+ },
+ {
+  "start": 213640,
+  "end": 217560,
+  "text": "Road trip! We can rent a car.\nI have to be there by Tuesday.",
+  "formattings": []
+ },
+ {
+  "start": 217800,
+  "end": 221680,
+  "text": "Wait! My grandmother's dead.",
+  "formattings": []
+ },
+ {
+  "start": 225360,
+  "end": 227760,
+  "text": "We can talk about that too, Pheebs.",
+  "formattings": []
+ },
+ {
+  "start": 228000,
+  "end": 228920,
+  "text": "No, her cab.",
+  "formattings": []
+ },
+ {
+  "start": 229160,
+  "end": 232120,
+  "text": "She probably won't be using it.\nDrive it to Las Vegas.",
+  "formattings": []
+ },
+ {
+  "start": 232360,
+  "end": 233800,
+  "text": "All right! Thanks!",
+  "formattings": []
+ },
+ {
+  "start": 234040,
+  "end": 236840,
+  "text": "What are we gonna do about my job?",
+  "formattings": []
+ },
+ {
+  "start": 237080,
+  "end": 238080,
+  "text": "Not go.",
+  "formattings": []
+ },
+ {
+  "start": 238320,
+  "end": 241320,
+  "text": "Great! Road trip, baby!",
+  "formattings": []
+ },
+ {
+  "start": 241400,
+  "end": 242200,
+  "text": "Is this okay?",
+  "formattings": []
+ },
+ {
+  "start": 242440,
+  "end": 245760,
+  "text": "Chandler, you don't have to ask\nfor my permission.",
+  "formattings": []
+ },
+ {
+  "start": 246000,
+  "end": 248000,
+  "text": "You can go.",
+  "formattings": []
+ },
+ {
+  "start": 248240,
+  "end": 250600,
+  "text": "Rach, we'll be late\nfor the eye doctor.",
+  "formattings": []
+ },
+ {
+  "start": 250840,
+  "end": 254880,
+  "text": "All right. Let's get this over with.",
+  "formattings": []
+ },
+ {
+  "start": 257800,
+  "end": 262240,
+  "text": "Look what I did.",
+  "formattings": []
+ },
+ {
+  "start": 263160,
+  "end": 265320,
+  "text": "I mean, look at this mess.",
+  "formattings": []
+ },
+ {
+  "start": 265560,
+  "end": 267920,
+  "text": "We're gonna probably have to\nclean this up.",
+  "formattings": []
+ },
+ {
+  "start": 268160,
+  "end": 271440,
+  "text": "I mean, we're gonna have to reschedule!",
+  "formattings": []
+ },
+ {
+  "start": 271680,
+  "end": 275640,
+  "text": "If you thought that this mess\nwas gonna bother me, you are wrong!",
+  "formattings": []
+ },
+ {
+  "start": 275880,
+  "end": 279120,
+  "text": "All right, let's go, Blinky.",
+  "formattings": []
+ },
+ {
+  "start": 288880,
+  "end": 291200,
+  "text": "Hey, Joey. What's up?",
+  "formattings": []
+ },
+ {
+  "start": 291440,
+  "end": 294200,
+  "text": "I can't decide which route\nto take to Vegas.",
+  "formattings": []
+ },
+ {
+  "start": 294440,
+  "end": 296200,
+  "text": "You've traveled a lot, right?",
+  "formattings": []
+ },
+ {
+  "start": 296440,
+  "end": 298000,
+  "text": "Yeah, I've been around.",
+  "formattings": []
+ },
+ {
+  "start": 298240,
+  "end": 301360,
+  "text": "Which route should I take?\nThe north or the south route?",
+  "formattings": []
+ },
+ {
+  "start": 301640,
+  "end": 306560,
+  "text": "If you take the north route,\nthere's a man with a beard of bees.",
+  "formattings": []
+ },
+ {
+  "start": 306800,
+  "end": 309760,
+  "text": "Great! Problem solved!",
+  "formattings": []
+ },
+ {
+  "start": 310000,
+  "end": 314720,
+  "text": "On the south route, there's a chicken\nthat plays tic-tac-toe.",
+  "formattings": []
+ },
+ {
+  "start": 314920,
+  "end": 317560,
+  "text": "Well, back to square one.",
+  "formattings": []
+ },
+ {
+  "start": 317800,
+  "end": 319640,
+  "text": "I know a way that you can decide.",
+  "formattings": []
+ },
+ {
+  "start": 319880,
+  "end": 323880,
+  "text": "I'll ask you a series of questions\nand you answer as quickly as you can.",
+  "formattings": []
+ },
+ {
+  "start": 324120,
+  "end": 325160,
+  "text": "Yes!",
+  "formattings": []
+ },
+ {
+  "start": 325360,
+  "end": 327960,
+  "text": "Good. But wait.",
+  "formattings": []
+ },
+ {
+  "start": 328600,
+  "end": 330840,
+  "text": "Here we go. I want you to relax.",
+  "formattings": []
+ },
+ {
+  "start": 331080,
+  "end": 332640,
+  "text": "Take a deep breath.",
+  "formattings": []
+ },
+ {
+  "start": 332880,
+  "end": 334880,
+  "text": "Clear your mind.",
+  "formattings": []
+ },
+ {
+  "start": 335120,
+  "end": 337280,
+  "text": "- Peanut butter or egg whites?\n- Peanut butter.",
+  "formattings": []
+ },
+ {
+  "start": 337520,
+  "end": 339600,
+  "text": "- Be a fireman or a swimmer?\n- Swimmer.",
+  "formattings": []
+ },
+ {
+  "start": 339840,
+  "end": 343920,
+  "text": "- You'd sleep with Monica or Rachel?\n- Monica.",
+  "formattings": []
+ },
+ {
+  "start": 344160,
+  "end": 346360,
+  "text": "I always thought it'd be Rachel.",
+  "formattings": []
+ },
+ {
+  "start": 346600,
+  "end": 349080,
+  "text": "- No thinking. Tie or ascot?\n- Ascot.",
+  "formattings": []
+ },
+ {
+  "start": 349320,
+  "end": 350680,
+  "text": "- North or south route?\n- North.",
+  "formattings": []
+ },
+ {
+  "start": 350920,
+  "end": 353560,
+  "text": "Bam! There you go! Huh?",
+  "formattings": []
+ },
+ {
+  "start": 353800,
+  "end": 359080,
+  "text": "That was incredible!\nBeard of bees here I come!",
+  "formattings": []
+ },
+ {
+  "start": 360280,
+  "end": 363680,
+  "text": "This guy again.",
+  "formattings": []
+ },
+ {
+  "start": 364840,
+  "end": 366000,
+  "text": "Hey, what's up?",
+  "formattings": []
+ },
+ {
+  "start": 366240,
+  "end": 368440,
+  "text": "Not much. Wanna see a movie tonight?",
+  "formattings": []
+ },
+ {
+  "start": 368680,
+  "end": 370000,
+  "text": "What do you wanna see?",
+  "formattings": []
+ },
+ {
+  "start": 370240,
+  "end": 371240,
+  "text": "I don't know.",
+  "formattings": []
+ },
+ {
+  "start": 371480,
+  "end": 373920,
+  "text": "I know how to decide.\nShow him your game.",
+  "formattings": []
+ },
+ {
+  "start": 374160,
+  "end": 377080,
+  "text": "No, thank you.",
+  "formattings": []
+ },
+ {
+  "start": 377520,
+  "end": 378520,
+  "text": "What's with her?",
+  "formattings": []
+ },
+ {
+  "start": 378760,
+  "end": 380760,
+  "text": "I don't know.\nI know how we can decide.",
+  "formattings": []
+ },
+ {
+  "start": 381000,
+  "end": 384000,
+  "text": "I'm gonna ask you questions\nand you answer real quick.",
+  "formattings": []
+ },
+ {
+  "start": 384240,
+  "end": 385720,
+  "text": "- Action or comedy?\n- Action.",
+  "formattings": []
+ },
+ {
+  "start": 385960,
+  "end": 390120,
+  "text": "Who would you rather sleep with,\nMonica or Rachel?",
+  "formattings": []
+ },
+ {
+  "start": 392880,
+  "end": 396280,
+  "text": "Dude, you are sick.",
+  "formattings": []
+ },
+ {
+  "start": 397800,
+  "end": 402440,
+  "text": "I'm sorry. I forgot you had\nthat whole Rachel thing.",
+  "formattings": []
+ },
+ {
+  "start": 406640,
+  "end": 410640,
+  "text": "Oh, my God. What does that thing do?",
+  "formattings": []
+ },
+ {
+  "start": 411080,
+  "end": 413400,
+  "text": "- An eye removal machine.\n- I'm out of here.",
+  "formattings": []
+ },
+ {
+  "start": 413640,
+  "end": 415160,
+  "text": "I'm kidding.",
+  "formattings": []
+ },
+ {
+  "start": 415400,
+  "end": 417000,
+  "text": "Rachel, I'm Dr. Miller.",
+  "formattings": []
+ },
+ {
+  "start": 417240,
+  "end": 420320,
+  "text": "Monica said you were nervous.\nEverything will be fine.",
+  "formattings": []
+ },
+ {
+  "start": 420560,
+  "end": 423640,
+  "text": "- So we're done.\n- Almost, but first we gotta start.",
+  "formattings": []
+ },
+ {
+  "start": 423880,
+  "end": 428000,
+  "text": "This is a glaucoma test. Sit down.",
+  "formattings": []
+ },
+ {
+  "start": 428240,
+  "end": 430520,
+  "text": "Put your chin here.",
+  "formattings": []
+ },
+ {
+  "start": 430760,
+  "end": 433800,
+  "text": "Now, you'll feel a small puff of air\nin each eye.",
+  "formattings": []
+ },
+ {
+  "start": 434040,
+  "end": 435560,
+  "text": "What?",
+  "formattings": []
+ },
+ {
+  "start": 435800,
+  "end": 440280,
+  "text": "A small puff of air.\nNow, come on!",
+  "formattings": []
+ },
+ {
+  "start": 440480,
+  "end": 442000,
+  "text": "Here we go.",
+  "formattings": []
+ },
+ {
+  "start": 442240,
+  "end": 447080,
+  "text": "One, two, three.",
+  "formattings": []
+ },
+ {
+  "start": 447080,
+  "end": 448440,
+  "text": "I'm sorry. All right.",
+  "formattings": []
+ },
+ {
+  "start": 448680,
+  "end": 451200,
+  "text": "I'm gonna stay in here this time.",
+  "formattings": []
+ },
+ {
+  "start": 451440,
+  "end": 452400,
+  "text": "Ready?",
+  "formattings": []
+ },
+ {
+  "start": 452640,
+  "end": 455440,
+  "text": "- One, two...\n- I'm sorry.",
+  "formattings": []
+ },
+ {
+  "start": 455680,
+  "end": 458120,
+  "text": "You know what?\nI'm gonna hold her head.",
+  "formattings": []
+ },
+ {
+  "start": 458360,
+  "end": 461280,
+  "text": "That's okay.",
+  "formattings": []
+ },
+ {
+  "start": 464040,
+  "end": 465560,
+  "text": "I'm sorry.",
+  "formattings": []
+ },
+ {
+  "start": 465800,
+  "end": 469480,
+  "text": "You're young.\nYou don't have glaucoma.",
+  "formattings": []
+ },
+ {
+  "start": 472080,
+  "end": 475000,
+  "text": "So it was very, very nice\nto meet you, sir.",
+  "formattings": []
+ },
+ {
+  "start": 475240,
+  "end": 477440,
+  "text": "What are you...\nAre you crazy?",
+  "formattings": []
+ },
+ {
+  "start": 477680,
+  "end": 481080,
+  "text": "You got a small, minor infection\nin that left eye.",
+  "formattings": []
+ },
+ {
+  "start": 481320,
+  "end": 484800,
+  "text": "Take these drops for a week\nand you'll be as good as new.",
+  "formattings": []
+ },
+ {
+  "start": 485040,
+  "end": 487560,
+  "text": "No, I don't put things in my eye.",
+  "formattings": []
+ },
+ {
+  "start": 487800,
+  "end": 491880,
+  "text": "We'll see you here in three months.\nAnd I'll fit you for a glass eye.",
+  "formattings": []
+ },
+ {
+  "start": 492120,
+  "end": 495160,
+  "text": "Give me the damn drops!",
+  "formattings": []
+ },
+ {
+  "start": 495560,
+  "end": 497960,
+  "text": "Dr. Miller?",
+  "formattings": []
+ },
+ {
+  "start": 498200,
+  "end": 501080,
+  "text": "P-E-C-F-D.",
+  "formattings": []
+ },
+ {
+  "start": 501120,
+  "end": 504880,
+  "text": "Very good, Monica!",
+  "formattings": []
+ },
+ {
+  "start": 505080,
+  "end": 509080,
+  "text": "- You know where they are.\n- I sure do.",
+  "formattings": []
+ },
+ {
+  "start": 511200,
+  "end": 514480,
+  "text": "And you don't get one.",
+  "formattings": []
+ },
+ {
+  "start": 517440,
+  "end": 519760,
+  "text": "You know, those eye drops\nare a miracle.",
+  "formattings": []
+ },
+ {
+  "start": 520000,
+  "end": 521760,
+  "text": "My eye is 100% better.",
+  "formattings": []
+ },
+ {
+  "start": 522000,
+  "end": 525640,
+  "text": "- They're still in my coat.\n- Damn!",
+  "formattings": []
+ },
+ {
+  "start": 525960,
+  "end": 526880,
+  "text": "You ready to go?",
+  "formattings": []
+ },
+ {
+  "start": 527160,
+  "end": 532440,
+  "text": "How cold will it be there?\nWill all these sweater vests be enough?",
+  "formattings": []
+ },
+ {
+  "start": 532640,
+  "end": 535720,
+  "text": "- What?\n- I love you.",
+  "formattings": []
+ },
+ {
+  "start": 536600,
+  "end": 539280,
+  "text": "I wish Ross was coming with us.\nI'll miss him.",
+  "formattings": []
+ },
+ {
+  "start": 539520,
+  "end": 543400,
+  "text": "Thanks. I just got\nthat jerk out of my mind.",
+  "formattings": []
+ },
+ {
+  "start": 543640,
+  "end": 546520,
+  "text": "Is the movie putting us up\nin a big hotel suite?",
+  "formattings": []
+ },
+ {
+  "start": 546760,
+  "end": 548760,
+  "text": "Not really.\nIt's an independent film.",
+  "formattings": []
+ },
+ {
+  "start": 549000,
+  "end": 553440,
+  "text": "We don't have a big budget.\nI'll stay in your room.",
+  "formattings": []
+ },
+ {
+  "start": 553640,
+  "end": 556640,
+  "text": "Once you get paid,\nyou'll be springing for a suite.",
+  "formattings": []
+ },
+ {
+  "start": 556880,
+  "end": 558760,
+  "text": "They must be paying you a lot.",
+  "formattings": []
+ },
+ {
+  "start": 559040,
+  "end": 561880,
+  "text": "For every dollar \"Shutterspeed\" makes...",
+  "formattings": []
+ },
+ {
+  "start": 562160,
+  "end": 565760,
+  "text": "...one penny of it goes\nright in Joey's pocket.",
+  "formattings": []
+ },
+ {
+  "start": 566000,
+  "end": 568640,
+  "text": "You don't get paid unless\nit makes money?",
+  "formattings": []
+ },
+ {
+  "start": 568880,
+  "end": 572160,
+  "text": "Did you not hear the plot\nof the movie?",
+  "formattings": []
+ },
+ {
+  "start": 572400,
+  "end": 575520,
+  "text": "\"She's been dead for ten years.\"",
+  "formattings": []
+ },
+ {
+  "start": 575760,
+  "end": 579280,
+  "text": "I'm gonna be a millionaire!",
+  "formattings": []
+ },
+ {
+  "start": 580080,
+  "end": 581640,
+  "text": "I wanted to say goodbye.",
+  "formattings": []
+ },
+ {
+  "start": 581880,
+  "end": 585040,
+  "text": "And to see if you guys would\nplace a little bet for me.",
+  "formattings": []
+ },
+ {
+  "start": 585280,
+  "end": 587480,
+  "text": "Twenty bucks on black 15.",
+  "formattings": []
+ },
+ {
+  "start": 587720,
+  "end": 589760,
+  "text": "- You got it!\n- All right.",
+  "formattings": []
+ },
+ {
+  "start": 590040,
+  "end": 592760,
+  "text": "- All right. Bye-bye, now.\n- Bye, you guys.",
+  "formattings": []
+ },
+ {
+  "start": 593040,
+  "end": 595600,
+  "text": "I'll say bye at the car.",
+  "formattings": []
+ },
+ {
+  "start": 595840,
+  "end": 597880,
+  "text": "Anyone wanna say bye to me\nat the car?",
+  "formattings": []
+ },
+ {
+  "start": 598120,
+  "end": 603520,
+  "text": "I'll say goodbye to you at the car\nif you don't mind the pus.",
+  "formattings": []
+ },
+ {
+  "start": 604600,
+  "end": 606000,
+  "text": "See you!",
+  "formattings": []
+ },
+ {
+  "start": 606240,
+  "end": 611480,
+  "text": "But wait a minute. The pus is good.\nIt means it's healing.",
+  "formattings": []
+ },
+ {
+  "start": 614000,
+  "end": 617480,
+  "text": "Hey, Pheebs. What you reading?",
+  "formattings": []
+ },
+ {
+  "start": 621640,
+  "end": 624280,
+  "text": "Hello?",
+  "formattings": []
+ },
+ {
+  "start": 630000,
+  "end": 631080,
+  "text": "Come on!",
+  "formattings": []
+ },
+ {
+  "start": 631320,
+  "end": 634520,
+  "text": "Sorry, I didn't see you there.",
+  "formattings": []
+ },
+ {
+  "start": 635400,
+  "end": 638120,
+  "text": "Pheebs, are you mad at me\nor something?",
+  "formattings": []
+ },
+ {
+  "start": 638360,
+  "end": 640760,
+  "text": "If you are, please tell me\nwhat it is I did.",
+  "formattings": []
+ },
+ {
+  "start": 641040,
+  "end": 643600,
+  "text": "- If you don't know, I can't help you.\n- I don't know.",
+  "formattings": []
+ },
+ {
+  "start": 643840,
+  "end": 646520,
+  "text": "Well, I can't help you.",
+  "formattings": []
+ },
+ {
+  "start": 646760,
+  "end": 652040,
+  "text": "Well, whatever it is,\nI am very, very sorry. Okay?",
+  "formattings": []
+ },
+ {
+  "start": 652280,
+  "end": 654880,
+  "text": "Apology accepted.",
+  "formattings": []
+ },
+ {
+  "start": 655680,
+  "end": 658280,
+  "text": "So we're good?",
+  "formattings": []
+ },
+ {
+  "start": 662080,
+  "end": 663600,
+  "text": "I'll see you later, okay?",
+  "formattings": []
+ },
+ {
+  "start": 663840,
+  "end": 664800,
+  "text": "Bye, fat ass.",
+  "formattings": []
+ },
+ {
+  "start": 665040,
+  "end": 667880,
+  "text": "All right!",
+  "formattings": []
+ },
+ {
+  "start": 667880,
+  "end": 671400,
+  "text": "Will you please tell me what it is\nthat made you so mad at me?",
+  "formattings": []
+ },
+ {
+  "start": 671640,
+  "end": 675240,
+  "text": "I don't know! I don't remember!",
+  "formattings": []
+ },
+ {
+  "start": 675480,
+  "end": 678680,
+  "text": "If you can't remember,\ncan't we just forget about this?",
+  "formattings": []
+ },
+ {
+  "start": 678920,
+  "end": 682040,
+  "text": "Oh, no. I am mad at you.\nI know that much.",
+  "formattings": []
+ },
+ {
+  "start": 682280,
+  "end": 688440,
+  "text": "But I'm sorry about the \"fat ass\" thing\nbecause you have a sweet, little heinie.",
+  "formattings": []
+ },
+ {
+  "start": 695360,
+  "end": 699160,
+  "text": "I'm getting pretty tired.\nYou'll have to take over soon.",
+  "formattings": []
+ },
+ {
+  "start": 699400,
+  "end": 703400,
+  "text": "We've been driving for a half-hour.\nYou haven't looked at the road once.",
+  "formattings": []
+ },
+ {
+  "start": 703640,
+  "end": 707480,
+  "text": "Don't worry. It's out there.",
+  "formattings": []
+ },
+ {
+  "start": 707960,
+  "end": 710600,
+  "text": "Maybe I just need lunch.\nYou wanna eat?",
+  "formattings": []
+ },
+ {
+  "start": 710840,
+  "end": 713120,
+  "text": "My treat.",
+  "formattings": []
+ },
+ {
+  "start": 713360,
+  "end": 716680,
+  "text": "Isn't that Ross' money?",
+  "formattings": []
+ },
+ {
+  "start": 717560,
+  "end": 719840,
+  "text": "Ross' treat.\nWhere do you wanna eat?",
+  "formattings": []
+ },
+ {
+  "start": 720080,
+  "end": 721120,
+  "text": "I don't know.",
+  "formattings": []
+ },
+ {
+  "start": 721360,
+  "end": 722960,
+  "text": "I know how we can decide.",
+  "formattings": []
+ },
+ {
+  "start": 723200,
+  "end": 725040,
+  "text": "I'll ask you questions.",
+  "formattings": []
+ },
+ {
+  "start": 725280,
+  "end": 727600,
+  "text": "And then you have to answer real fast.",
+  "formattings": []
+ },
+ {
+  "start": 727840,
+  "end": 731080,
+  "text": "So clear your mind.\nClear it right out. Clear it out.",
+  "formattings": []
+ },
+ {
+  "start": 731320,
+  "end": 734640,
+  "text": "- Would you rather be too wet or too dry?\n- Too dry.",
+  "formattings": []
+ },
+ {
+  "start": 734880,
+  "end": 736240,
+  "text": "- Do you believe in ghosts?\n- No.",
+  "formattings": []
+ },
+ {
+  "start": 736480,
+  "end": 740080,
+  "text": "- Will this movie be my big break?\n- No.",
+  "formattings": []
+ },
+ {
+  "start": 740080,
+  "end": 742800,
+  "text": "- What?\n- Yes.",
+  "formattings": []
+ },
+ {
+  "start": 743040,
+  "end": 746160,
+  "text": "- Dude, you said, \"No.\"\n- I also said, \"Yes.\"",
+  "formattings": []
+ },
+ {
+  "start": 746400,
+  "end": 750480,
+  "text": "- This won't be my big break?\n- No.",
+  "formattings": []
+ },
+ {
+  "start": 751840,
+  "end": 753240,
+  "text": "I don't believe this.",
+  "formattings": []
+ },
+ {
+  "start": 753480,
+  "end": 756840,
+  "text": "Look, I just don't want you to get\nyour hopes up too high.",
+  "formattings": []
+ },
+ {
+  "start": 757080,
+  "end": 759920,
+  "text": "What are you talking about?\nI'm the lead in a movie!",
+  "formattings": []
+ },
+ {
+  "start": 760160,
+  "end": 764120,
+  "text": "They're not even paying you!\nThis doesn't sound like a real movie!",
+  "formattings": []
+ },
+ {
+  "start": 764360,
+  "end": 767240,
+  "text": "I don't know why you're dumping\nall over my big break.",
+  "formattings": []
+ },
+ {
+  "start": 767480,
+  "end": 770080,
+  "text": "I don't think this is gonna be\nyour big break.",
+  "formattings": []
+ },
+ {
+  "start": 770320,
+  "end": 773040,
+  "text": "Are you on this trip\nto make me feel like a loser?",
+  "formattings": []
+ },
+ {
+  "start": 773280,
+  "end": 775920,
+  "text": "- I'd rather be alone.\n- You don't want me here?",
+  "formattings": []
+ },
+ {
+  "start": 776160,
+  "end": 777440,
+  "text": "Not if you're like this.",
+  "formattings": []
+ },
+ {
+  "start": 777680,
+  "end": 780640,
+  "text": "The next time you ask me\na question like that, I'll lie.",
+  "formattings": []
+ },
+ {
+  "start": 780880,
+  "end": 782440,
+  "text": "I don't want you on the trip.",
+  "formattings": []
+ },
+ {
+  "start": 782680,
+  "end": 785120,
+  "text": "Why don't you pull over?\nI'll get out now.",
+  "formattings": []
+ },
+ {
+  "start": 785360,
+  "end": 788280,
+  "text": "Fine.",
+  "formattings": []
+ },
+ {
+  "start": 789320,
+  "end": 790080,
+  "text": "Get out.",
+  "formattings": []
+ },
+ {
+  "start": 790320,
+  "end": 792000,
+  "text": "You can't stop on a bridge.",
+  "formattings": []
+ },
+ {
+  "start": 792240,
+  "end": 795480,
+  "text": "- Get out!\n- Fine!",
+  "formattings": []
+ },
+ {
+  "start": 796960,
+  "end": 799200,
+  "text": "Wait! Wait! There's no sidewalk!",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 32
+   }
+  ]
+ },
+ {
+  "start": 799440,
+  "end": 803280,
+  "text": "Yeah. I'm gonna die here.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 25
+   }
+  ]
+ },
+ {
+  "start": 804760,
+  "end": 809360,
+  "text": "Are you mad at me\nbecause my hair gel smells?",
+  "formattings": []
+ },
+ {
+  "start": 809640,
+  "end": 812840,
+  "text": "Because I said your handwriting\nis childlike?",
+  "formattings": []
+ },
+ {
+  "start": 813080,
+  "end": 815920,
+  "text": "No. That made me feel precious.",
+  "formattings": []
+ },
+ {
+  "start": 816160,
+  "end": 819000,
+  "text": "Because he's always\ncorrecting people's grammar?",
+  "formattings": []
+ },
+ {
+  "start": 819240,
+  "end": 823760,
+  "text": "\"Whom, whom.\" Sometimes it's \"who\"!",
+  "formattings": []
+ },
+ {
+  "start": 823760,
+  "end": 827040,
+  "text": "Yeah? Sometimes it's...",
+  "formattings": []
+ },
+ {
+  "start": 828440,
+  "end": 832320,
+  "text": "Did you beat him at a board game?\nHe's such a baby when he loses.",
+  "formattings": []
+ },
+ {
+  "start": 832560,
+  "end": 833800,
+  "text": "Okay, I'm the baby.",
+  "formattings": []
+ },
+ {
+  "start": 834040,
+  "end": 837080,
+  "text": "Hey! Stop it!",
+  "formattings": []
+ },
+ {
+  "start": 837640,
+  "end": 839200,
+  "text": "What are you doing here?",
+  "formattings": []
+ },
+ {
+  "start": 839440,
+  "end": 841720,
+  "text": "Joey kicked me out of the car\non the bridge.",
+  "formattings": []
+ },
+ {
+  "start": 841960,
+  "end": 843920,
+  "text": "- Why?\n- I don't know. He went crazy.",
+  "formattings": []
+ },
+ {
+  "start": 844160,
+  "end": 847520,
+  "text": "We played that game where you\nask questions and answer fast.",
+  "formattings": []
+ },
+ {
+  "start": 847760,
+  "end": 852120,
+  "text": "That game should not be played\nwithout my supervision.",
+  "formattings": []
+ },
+ {
+  "start": 852360,
+  "end": 853800,
+  "text": "I don't know what made him mad.",
+  "formattings": []
+ },
+ {
+  "start": 854040,
+  "end": 856800,
+  "text": "All I said was that\nthis wouldn't be his big break...",
+  "formattings": []
+ },
+ {
+  "start": 857040,
+  "end": 859080,
+  "text": "...that it wouldn't do\nanything for him...",
+  "formattings": []
+ },
+ {
+  "start": 859320,
+  "end": 860960,
+  "text": "...and that it didn't sound real.",
+  "formattings": []
+ },
+ {
+  "start": 861200,
+  "end": 863840,
+  "text": "Okay, he should've\npushed me off the bridge.",
+  "formattings": []
+ },
+ {
+  "start": 864080,
+  "end": 865040,
+  "text": "What's in the bag?",
+  "formattings": []
+ },
+ {
+  "start": 865280,
+  "end": 866840,
+  "text": "I figured you'd be mad at me...",
+  "formattings": []
+ },
+ {
+  "start": 867080,
+  "end": 870040,
+  "text": "...so I got gifts that I found\non the roadside.",
+  "formattings": []
+ },
+ {
+  "start": 870280,
+  "end": 874160,
+  "text": "- Who wants the one-legged teddy bear?\n- I do!",
+  "formattings": []
+ },
+ {
+  "start": 882160,
+  "end": 885480,
+  "text": "- Not even close.\n- I need help! I can't do this.",
+  "formattings": []
+ },
+ {
+  "start": 885720,
+  "end": 887440,
+  "text": "Come on. Let's do it.",
+  "formattings": []
+ },
+ {
+  "start": 887680,
+  "end": 892480,
+  "text": "Sit down.\nAll right, put your head back.",
+  "formattings": []
+ },
+ {
+  "start": 892600,
+  "end": 896680,
+  "text": "- Now, open your eyes.\n- Okay, they are.",
+  "formattings": []
+ },
+ {
+  "start": 897000,
+  "end": 899280,
+  "text": "- How many fingers am I holding up?\n- Four.",
+  "formattings": []
+ },
+ {
+  "start": 899520,
+  "end": 900720,
+  "text": "I was thinking four.",
+  "formattings": []
+ },
+ {
+  "start": 900960,
+  "end": 902920,
+  "text": "- Really?\n- Yes!",
+  "formattings": []
+ },
+ {
+  "start": 903160,
+  "end": 906040,
+  "text": "Why don't we start\nwith a practice one?",
+  "formattings": []
+ },
+ {
+  "start": 906280,
+  "end": 908840,
+  "text": "- No drops.\n- Great!",
+  "formattings": []
+ },
+ {
+  "start": 909080,
+  "end": 913880,
+  "text": "On three. One, two, three.",
+  "formattings": []
+ },
+ {
+  "start": 914120,
+  "end": 915400,
+  "text": "My pillow's all wet!",
+  "formattings": []
+ },
+ {
+  "start": 915640,
+  "end": 917520,
+  "text": "Well, you said it was practice!",
+  "formattings": []
+ },
+ {
+  "start": 917760,
+  "end": 918800,
+  "text": "Why did you move?",
+  "formattings": []
+ },
+ {
+  "start": 919040,
+  "end": 921800,
+  "text": "I knew you were lying!",
+  "formattings": []
+ },
+ {
+  "start": 922640,
+  "end": 924440,
+  "text": "- Come here.\n- What are you doing?",
+  "formattings": []
+ },
+ {
+  "start": 924680,
+  "end": 926600,
+  "text": "Stop it! Oh, my God!",
+  "formattings": []
+ },
+ {
+  "start": 926840,
+  "end": 928640,
+  "text": "I am going...",
+  "formattings": []
+ },
+ {
+  "start": 928880,
+  "end": 930600,
+  "text": "Turn it over!",
+  "formattings": []
+ },
+ {
+  "start": 930840,
+  "end": 933840,
+  "text": "I am going to get...",
+  "formattings": []
+ },
+ {
+  "start": 934080,
+  "end": 935640,
+  "text": "...get these drops in your eye.",
+  "formattings": []
+ },
+ {
+  "start": 935880,
+  "end": 940040,
+  "text": "Oh, my God! You really are\nfreakishly strong.",
+  "formattings": []
+ },
+ {
+  "start": 940280,
+  "end": 941800,
+  "text": "Stop! Stop!",
+  "formattings": []
+ },
+ {
+  "start": 942040,
+  "end": 944520,
+  "text": "Stop it!",
+  "formattings": []
+ },
+ {
+  "start": 944760,
+  "end": 946640,
+  "text": "Damn, it's empty!",
+  "formattings": []
+ },
+ {
+  "start": 946880,
+  "end": 951960,
+  "text": "If Joey and Chandler walked in now,\nwe could make a fortune.",
+  "formattings": []
+ },
+ {
+  "start": 957040,
+  "end": 959400,
+  "text": "That is definitely Chandler,\nJoey or Ross.",
+  "formattings": []
+ },
+ {
+  "start": 959640,
+  "end": 962080,
+  "text": "Or Rachel.",
+  "formattings": []
+ },
+ {
+  "start": 964880,
+  "end": 967680,
+  "text": "It's Joey.",
+  "formattings": []
+ },
+ {
+  "start": 967840,
+  "end": 971080,
+  "text": "Chandler told me what happened.\nHe's really upset.",
+  "formattings": []
+ },
+ {
+  "start": 971320,
+  "end": 977200,
+  "text": "Not as upset as he'll be when he finds\nout what I did with his sweater vests.",
+  "formattings": []
+ },
+ {
+  "start": 977680,
+  "end": 979000,
+  "text": "What did you do to them?",
+  "formattings": []
+ },
+ {
+  "start": 979240,
+  "end": 983280,
+  "text": "There's a well-dressed\npack of dogs in Ohio.",
+  "formattings": []
+ },
+ {
+  "start": 984960,
+  "end": 987800,
+  "text": "I gotta ask Phoebe\nsomething about the car.",
+  "formattings": []
+ },
+ {
+  "start": 988040,
+  "end": 989840,
+  "text": "Hold on one second.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 19
+   }
+  ]
+ },
+ {
+  "start": 990080,
+  "end": 992000,
+  "text": "- Hey, dude.\n- Hey, Pheebs.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 13,
+    "end": 27
+   }
+  ]
+ },
+ {
+  "start": 992240,
+  "end": 995120,
+  "text": "This wooden box keeps sliding out.\nWhat is it?",
+  "formattings": []
+ },
+ {
+  "start": 995360,
+  "end": 997720,
+  "text": "My grandma.",
+  "formattings": []
+ },
+ {
+  "start": 1000160,
+  "end": 1003880,
+  "text": "And thanks.\nShe's having a great time.",
+  "formattings": []
+ },
+ {
+  "start": 1005000,
+  "end": 1007240,
+  "text": "Is that Joey? Let me talk to him.",
+  "formattings": []
+ },
+ {
+  "start": 1007480,
+  "end": 1009960,
+  "text": "Chandler's here.\nHe was wondering if...",
+  "formattings": []
+ },
+ {
+  "start": 1010200,
+  "end": 1013440,
+  "text": "I guess he ran out of change.",
+  "formattings": []
+ },
+ {
+  "start": 1013680,
+  "end": 1017400,
+  "text": "How am I gonna apologize to him\nif he won't even talk to me?",
+  "formattings": []
+ },
+ {
+  "start": 1017640,
+  "end": 1021560,
+  "text": "Send him something. So when he\ngets there, he'll know you're sorry.",
+  "formattings": []
+ },
+ {
+  "start": 1021800,
+  "end": 1027079,
+  "text": "That's a good idea. I wonder where\nI could get a basket of porn?",
+  "formattings": []
+ },
+ {
+  "start": 1027319,
+  "end": 1030480,
+  "text": "No, don't say I'm sorry with porn.",
+  "formattings": []
+ },
+ {
+  "start": 1030720,
+  "end": 1033040,
+  "text": "You should send him\na carton of cigarettes.",
+  "formattings": []
+ },
+ {
+  "start": 1033280,
+  "end": 1036200,
+  "text": "Because that way he can trade it\nfor protection.",
+  "formattings": []
+ },
+ {
+  "start": 1036440,
+  "end": 1039160,
+  "text": "No. That's prison.",
+  "formattings": []
+ },
+ {
+  "start": 1041480,
+  "end": 1043800,
+  "text": "I know how we're gonna\nfigure this out.",
+  "formattings": []
+ },
+ {
+  "start": 1044040,
+  "end": 1045160,
+  "text": "Clear your mind...",
+  "formattings": []
+ },
+ {
+  "start": 1045400,
+  "end": 1049960,
+  "text": "...and answer the first thing\nthat comes into your head.",
+  "formattings": []
+ },
+ {
+  "start": 1050200,
+  "end": 1052280,
+  "text": "- Do you like flora or fauna?\n- Fauna.",
+  "formattings": []
+ },
+ {
+  "start": 1052520,
+  "end": 1054040,
+  "text": "- Simon or Garfunkel?\n- Garfunkel.",
+  "formattings": []
+ },
+ {
+  "start": 1054280,
+  "end": 1058240,
+  "text": "- Why are you mad?\n- You said I was boring.",
+  "formattings": []
+ },
+ {
+  "start": 1059640,
+  "end": 1061040,
+  "text": "When did I say that?",
+  "formattings": []
+ },
+ {
+  "start": 1061280,
+  "end": 1064200,
+  "text": "Oh, my God! I remember now!\nWe were playing chess.",
+  "formattings": []
+ },
+ {
+  "start": 1064440,
+  "end": 1067240,
+  "text": "Phoebe, you and I\nhave never played chess.",
+  "formattings": []
+ },
+ {
+  "start": 1067480,
+  "end": 1072400,
+  "text": "Remember that time on the frozen lake?\nWe were playing. You said I was boring.",
+  "formattings": []
+ },
+ {
+  "start": 1072640,
+  "end": 1077880,
+  "text": "Then you took off your energy mask\nand you were Cameron Diaz.",
+  "formattings": []
+ },
+ {
+  "start": 1079320,
+  "end": 1083240,
+  "text": "There's a chance this\nmay have been a dream.",
+  "formattings": []
+ },
+ {
+  "start": 1109640,
+  "end": 1112320,
+  "text": "Stanley!",
+  "formattings": []
+ },
+ {
+  "start": 1112320,
+  "end": 1115040,
+  "text": "Your leading man is here.\nLet's get to work.",
+  "formattings": []
+ },
+ {
+  "start": 1115280,
+  "end": 1116640,
+  "text": "Slight change of plans.",
+  "formattings": []
+ },
+ {
+  "start": 1116880,
+  "end": 1118920,
+  "text": "We've shut down.",
+  "formattings": []
+ },
+ {
+  "start": 1119160,
+  "end": 1120320,
+  "text": "What? Why?",
+  "formattings": []
+ },
+ {
+  "start": 1120560,
+  "end": 1124440,
+  "text": "It's a money thing.\nWe don't have any.",
+  "formattings": []
+ },
+ {
+  "start": 1125560,
+  "end": 1127640,
+  "text": "You're kidding, right?",
+  "formattings": []
+ },
+ {
+  "start": 1127880,
+  "end": 1128800,
+  "text": "What?",
+  "formattings": []
+ },
+ {
+  "start": 1129080,
+  "end": 1131240,
+  "text": "It's probably just temporary.",
+  "formattings": []
+ },
+ {
+  "start": 1131480,
+  "end": 1134640,
+  "text": "We're hoping to get some money soon.\nJust hang out.",
+  "formattings": []
+ },
+ {
+  "start": 1134880,
+  "end": 1136720,
+  "text": "Hang out? How long?",
+  "formattings": []
+ },
+ {
+  "start": 1136960,
+  "end": 1140440,
+  "text": "I don't know. A week. Maybe two.\nThe money'll turn up.",
+  "formattings": []
+ },
+ {
+  "start": 1140680,
+  "end": 1144640,
+  "text": "People always wanna invest in movies.\nYou're not rich?",
+  "formattings": []
+ },
+ {
+  "start": 1144880,
+  "end": 1147320,
+  "text": "Worth a shot.",
+  "formattings": []
+ },
+ {
+  "start": 1147680,
+  "end": 1152280,
+  "text": "Well, Joey. Let me know\nwhere you're staying, okay?",
+  "formattings": []
+ },
+ {
+  "start": 1153280,
+  "end": 1155800,
+  "text": "Hey, pal. Are you Joey Tribbiani?",
+  "formattings": []
+ },
+ {
+  "start": 1156080,
+  "end": 1157440,
+  "text": "These got left for you.",
+  "formattings": []
+ },
+ {
+  "start": 1157680,
+  "end": 1160200,
+  "text": "Thanks.",
+  "formattings": []
+ },
+ {
+  "start": 1160440,
+  "end": 1165280,
+  "text": "\"Congratulations on your big break.\"",
+  "formattings": []
+ },
+ {
+  "start": 1194800,
+  "end": 1197280,
+  "text": "- Monica, it's Joey.\n- Hey, Joey.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 20
+   }
+  ]
+ },
+ {
+  "start": 1197520,
+  "end": 1199800,
+  "text": "You remember me\neven though you're a star.",
+  "formattings": []
+ },
+ {
+  "start": 1200040,
+  "end": 1204680,
+  "text": "Come on. It'll be years\nbefore I forget you.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 23
+   },
+   {
+    "type": "italic",
+    "start": 24,
+    "end": 44
+   }
+  ]
+ },
+ {
+  "start": 1205000,
+  "end": 1206800,
+  "text": "What's it like on a movie set?",
+  "formattings": []
+ },
+ {
+  "start": 1207080,
+  "end": 1210040,
+  "text": "Do you have a dressing room\nand a chair with your name?",
+  "formattings": []
+ },
+ {
+  "start": 1210280,
+  "end": 1212760,
+  "text": "Yeah, yeah, I got all that going on.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 36
+   }
+  ]
+ },
+ {
+  "start": 1213000,
+  "end": 1215800,
+  "text": "Tell Chandler he couldn't\nhave been more wrong.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 25
+   },
+   {
+    "type": "italic",
+    "start": 26,
+    "end": 47
+   }
+  ]
+ },
+ {
+  "start": 1216040,
+  "end": 1220760,
+  "text": "I gotta go, Monica. My sushi's here.",
+  "formattings": [
+   {
+    "type": "italic",
+    "start": 0,
+    "end": 36
+   }
+  ]
+ },
+ {
+  "start": 1223400,
+  "end": 1226440,
+  "text": "Sorry about that.\nThanks for waiting.",
+  "formattings": []
+ },
+ {
+  "start": 1226680,
+  "end": 1229480,
+  "text": "Everybody smile.",
+  "formattings": []
+ },
+ {
+  "start": 1230240,
+  "end": 1236480,
+  "text": "Thanks a lot. Enjoy your stay\nat Caesar's. We hope it's toga-rific.",
+  "formattings": []
+ },
+ {
+  "start": 1237160,
+  "end": 1240480,
+  "text": "Kill me. Kill me now.",
+  "formattings": []
+ },
+ {
+  "start": 1244320,
+  "end": 1247560,
+  "text": "Rach, can you pass me the \"TV Guide\"?",
+  "formattings": []
+ },
+ {
+  "start": 1247800,
+  "end": 1249000,
+  "text": "Go!",
+  "formattings": []
+ },
+ {
+  "start": 1249240,
+  "end": 1252560,
+  "text": "What are you doing?\nGet off! Oh, my God!",
+  "formattings": []
+ },
+ {
+  "start": 1252800,
+  "end": 1255880,
+  "text": "Hold it open. Okay.",
+  "formattings": []
+ },
+ {
+  "start": 1260800,
+  "end": 1264680,
+  "text": "We'll see you in about\nthree or four hours.",
+  "formattings": []
+ }
+]

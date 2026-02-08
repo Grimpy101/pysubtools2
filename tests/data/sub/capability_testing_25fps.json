@@ -183,6 +183,8 @@
   "text": "This should be\nabove the movie.",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 8
@@ -201,6 +203,8 @@
   "text": "What about if\nsomeone makes a mistake?",
   "formattings": [
    {
+    "start": 0,
+    "end": 0,
     "type": "position",
     "kind": "relative",
     "position": 8

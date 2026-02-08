@@ -50,7 +50,7 @@ def formattings_from_control_codes(
             pass
     elif code == "p":
         if value == "0":
-            formattings.append(RelativePosition(PositionClassifier.TOP_CENTER))
+            formattings.append(RelativePosition(0, 0, PositionClassifier.TOP_CENTER))
     return formattings
 
 
